@@ -1,0 +1,32 @@
+
+state={
+	resources = {
+		food = 3
+	}
+	id=817
+	name="STATE_817"
+	history={
+		owner = MAN
+		buildings = {
+			infrastructure = 3
+		}
+
+		set_variable = { vp_value = 0 } 
+		set_variable = { highest_vp = 0 } 
+
+		#add_core_of = MAN
+		add_core_of = CHI
+		add_core_of = PRC
+		
+		victory_points = {
+			11752 3
+		}
+	}
+	provinces={
+		1551 1608 1796 4222 4612 4655 7545 7674 10372 11752 12448 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.500
+	local_supplies=0.0
+	state_category=rural
+}	

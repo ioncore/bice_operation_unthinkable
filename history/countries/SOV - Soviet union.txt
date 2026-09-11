@@ -13,21 +13,21 @@ capital = 845
     set_war_support = 0.50
 
     set_politics = {
-	ruling_party = communism
-	last_election = "1933.7.1"
-	election_frequency = 48
-	elections_allowed = no
+		ruling_party = communism
+		last_election = "1933.7.1"
+		election_frequency = 48
+		elections_allowed = no
     }
 
     recruit_character = SOV_joseph_vissarionovich_stalin
 
     set_popularities = {
-	conservatism = 1
-	liberalism = 1
-	agrarianism = 1
-	socialism = 1
-	fascism = 1
-	communism = 95
+		conservatism = 1
+		liberalism = 1
+		agrarianism = 1
+		socialism = 1
+		fascism = 1
+		communism = 95
     }
 
     # Black Sea
@@ -217,14 +217,50 @@ capital = 845
     add_to_faction = MON
     add_to_faction = TAN
     set_autonomy = {
-	target = MON
-	autonomous_state = autonomy_puppet
+		target = MON
+		autonomous_state = autonomy_puppet
     }
     set_autonomy = {
-	target = TAN
-	autonomous_state = autonomy_integrated_puppet
+		target = TAN
+		autonomous_state = autonomy_integrated_puppet
     }
     give_military_access = TAN
     give_military_access = MON
+
+	# TODO: this is a temporary hack, we should create an occupational administration with following state:
+	# GARRISON state 328 Jichang with Xinjing (Changchun) 4572 and Girin (Kirin, Jilin) 6947
+	# state 610 Jehol with Chengde (881)
+	# state 611 Xinghe with Zhangjiakou (Kalgan) 10397
+	# state 612 Eastern Xilin-Gol
+	# state Suilan 714
+	# state 715 Taochang with Liaoyuan 9831 and Tongliao 1638
+	# GARRISON state 716 Liaoshen with Shenyang (Mukden) 11771
+	# GARRISON state 717 Binjiang with Binjiang (Harbin) 10433
+	# GARRISON state 745 Kanto-Shu with Dalian 1150
+	# state 756 Yanji
+	# state 761 Hulunbuir with Hulun 4745
+	# GARRISON state 811 Dongbian with Andong (Dandong) 6981
+	# state 812 Yilan
+	# state 813 Longjiang with Longjiang 4506 (effectively Qiqihar)
+	# state 814 Heihe
+	# state 817 Eastern Xilin-Gol
+	# state 849 Chifeng with Chifeng (7633)
+	#
+	# Soviet Civil Administration
+	# state 527 Pyongan
+	# state 815 Hamgyong
+	# state 816 Hwanghae
+
+	add_to_faction = MAN	
+	set_autonomy = {
+		target = MAN
+		autonomous_state = autonomy_puppet
+    }
+
+	add_to_faction = PRK	
+	set_autonomy = {
+		target = PRK
+		autonomous_state = autonomy_puppet
+    }	
 }
 ### EOF ###

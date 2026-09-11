@@ -1,0 +1,12 @@
+﻿capital = 848
+
+1945.9.3 = {
+    history_initialisation = yes
+    set_research_slots = 2
+
+    set_stability = 0.35
+    set_war_support = 0
+
+    set_rule = { can_send_volunteers = no }
+}
+### EOF ###

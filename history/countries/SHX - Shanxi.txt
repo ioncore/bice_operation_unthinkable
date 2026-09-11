@@ -1,0 +1,134 @@
+﻿capital = 615
+
+oob = "SHX_1936"
+history_initialisation = yes
+
+set_stability = 0.7
+
+set_war_support = 0.4
+
+set_technology = {
+	early_ship_hull_light = 1
+	#early_ship_hull_submarine = 1
+}
+
+# Starting tech
+set_technology = {
+	
+	building_tech = 1
+	tech_basic_train = 1
+	################# infantry ###############
+	tech_infantry_uniforms = 1
+	infantry_weapons = 1
+	tech_Garrison = 1
+	tech_Headquarters = 1
+	mountain_equipment = 1
+	tech_mountaineers = 1
+	################## support ##################
+	tech_recon = 1
+	subtech_recon_cav_1 = 1
+	################## aircraft ##############
+	#generic_fighter = 1
+	#generic_bomber = 1
+	#generic_strategic_bomber = 1
+	early_CAS = 1
+	############### WW1 doctrines ############
+	ww1_infantry = 1
+	infantry_charge = 1
+	complex_trench_systems = 1
+	
+	ww1_artillery = 1
+	foot_runners = 1
+	
+	mobile_doctrines = 1
+	cavalry_charges = 1
+	cavalry_dismounting = 1
+	
+	ww1_battlefield_support = 1
+}
+unlock_subunit = irregulars_unit
+
+add_ideas = { 	
+	export_focus
+	tax_low
+	tariffs_average
+	
+	civilian_economy
+	press_regulated
+	key_industries
+	labor_none
+	fdi_allowed
+	
+	cons_volunteer
+	foreign_volunteers
+	mob_reserve
+	train_none
+	age_19
+	officer_train_none
+	security_minor_restrictions
+	edu_minimal
+	
+	foreign_isolationism
+	neutrality_idea
+	CHI_nine_power_treaty
+	cg_warlords
+	incompetent_industry_real
+	incompetent_industry_real_navy
+	KMT_weak_army	
+	subsistence_diet_CHI
+}
+add_ideas = {
+	PRC_government_corruption
+	CHI_ineffective_bureaucracy_warlord
+	CHI_ineffective_bureaucracy
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	monarchism = 3
+	agrarianism = 4
+	neutrality = 93
+}
+##### Country Leaders #################################
+recruit_character = SHX_fu_zuoyi
+recruit_character = SHX_yan_xishan
+recruit_character = SHX_belchurkin
+recruit_character = SHX_kernichek
+recruit_character = SHX_li_fuying
+recruit_character = SHX_peng_ziqin
+recruit_character = SHX_rudin
+recruit_character = SHX_rymakov
+recruit_character = SHX_shang_zhen
+recruit_character = SHX_shi_zibo
+recruit_character = SHX_dong_qiwu
+recruit_character = SHX_wang_jingguo
+recruit_character = SHX_streccius
+recruit_character = SHX_von_doring
+recruit_character = SHX_krolcheff
+recruit_character = SHX_hu_liliang
+recruit_character = SHX_wan_xiaoping
+recruit_character = SHX_lai_ho
+recruit_character = SHX_cheng_xiwang
+recruit_character = SHX_qiu_genzhou
+recruit_character = SHX_fang_wupen
+recruit_character = SHX_yi_genzhou
+recruit_character = SHX_zhu_ting
+recruit_character = SHX_zhang_shen
+recruit_character = SHX_wang_li_sun
+recruit_character = SHX_min_lan_tung_tin
+recruit_character = SHX_huang_peng
+recruit_character = SHX_sun_li
+recruit_character = SHX_cheng_zhao
+recruit_character = SHX_ma_tian
+recruit_character = SHX_tan_fang
+recruit_character = SHX_peng_dong
+recruit_character = SHX_kong_fang
+recruit_character = SHX_yang_lu
+
+### EOF ###

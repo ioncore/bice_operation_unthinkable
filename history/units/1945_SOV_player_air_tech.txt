@@ -2,253 +2,271 @@
 ##### SOVIET PLAYER AIR TECHS #####
 ###################################
 
+# TODO
+# - fix Yak-3k and Su-6Tk mixed up
+# - Su-2 based recon
+# - multiple Il-10 variants
+
 instant_effect = {
-	set_technology = {
-		######### aircraft############
-		soviet_air_tech = 1
-		tech_i_15_equipment_1 = 1
-		tech_i_15_equipment_2 = 1
-		tech_i_152_equipment_1 = 1
-		tech_i_153_equipment_1 = 1
-		tech_yak_1_equipment_1 = 1
-		tech_yak_7_equipment_1 = 1
-		tech_yak_9_equipment_1 = 1
-		tech_yak_9_equipment_2 = 1
-		tech_yak_9_equipment_3 = 1
-		# tech_yak_9_equipment_4 = 1  # Yak-9P
+    set_technology = {
+        ######### aircraft############
+        soviet_air_tech = 1
+        tech_i_15_equipment_1 = 1
+        tech_i_15_equipment_2 = 1
+        tech_i_152_equipment_1 = 1
+        tech_i_153_equipment_1 = 1
+        tech_yak_1_equipment_1 = 1
+        tech_yak_7_equipment_1 = 1
+        tech_yak_9_equipment_1 = 1
+        tech_yak_9_equipment_2 = 1
+        tech_yak_9_equipment_3 = 1
+        # tech_yak_9_equipment_4 = 1  # Yak-9P
 
-		tech_i_16_equipment_1 = 1
-		tech_i_16_equipment_2 = 1
-		tech_i_16_equipment_3 = 1
-		tech_i_16_equipment_4 = 1
-		tech_lagg_1_equipment_1 = 1
-		tech_lagg_3_equipment_1 = 1
-		tech_lagg_5_equipment_1 = 1
-		tech_lagg_5_equipment_2 = 1
-		tech_lagg_7_equipment_1 = 1
-		# tech_lagg_9_equipment_1 = 1 # La-9
+        tech_i_16_equipment_1 = 1
+        tech_i_16_equipment_2 = 1
+        tech_i_16_equipment_3 = 1
+        tech_i_16_equipment_4 = 1
+        tech_lagg_1_equipment_1 = 1
+        tech_lagg_3_equipment_1 = 1
+        tech_lagg_5_equipment_1 = 1
+        tech_lagg_5_equipment_2 = 1
+        tech_lagg_7_equipment_1 = 1
+        # tech_lagg_9_equipment_1 = 1 # La-9
 
-		tech_i_16_equipment_5 = 1
-		tech_i_180_equipment_1 = 1
-		tech_i_180_equipment_2 = 1
-		tech_lagg_3_equipment_2 = 1
-		tech_i_185_equipment_1 = 1
+        tech_i_16_equipment_5 = 1
+        tech_i_180_equipment_1 = 1
+        tech_i_180_equipment_2 = 1
+        tech_lagg_3_equipment_2 = 1
+        tech_i_185_equipment_1 = 1
 
-		tech_mig_1_equipment_1 = 1
-		tech_mig_3_equipment_1 = 1
-		tech_yak_3_equipment_1 = 1
-		# tech_i_211_equipment_1 = 1 # I-211
-		# tech_yak_3_equipment_2 = 1 # Yak-3P
+        tech_mig_1_equipment_1 = 1
+        tech_mig_3_equipment_1 = 1
+        tech_yak_3_equipment_1 = 1
+        # tech_i_211_equipment_1 = 1 # I-211
+        # tech_yak_3_equipment_2 = 1 # Yak-3P
 
-		tech_i_14_fighter_equipment_1 = 1
-		tech_ip_1_fighter_equipment_1 = 1
-		tech_pe_1_fighter_equipment_1 = 1
-		tech_pe_3_fighter_equipment_1 = 1
-		tech_pe_3_fighter_equipment_2 = 1
-		tech_mig_5_fighter_equipment_1 = 1
+        tech_i_14_fighter_equipment_1 = 1
+        tech_ip_1_fighter_equipment_1 = 1
+        tech_pe_1_fighter_equipment_1 = 1
+        tech_pe_3_fighter_equipment_1 = 1
+        tech_pe_3_fighter_equipment_2 = 1
+        tech_mig_5_fighter_equipment_1 = 1
 
-		tech_r_5_bomber_equipment_2 = 1
-		tech_r_5_bomber_equipment_3 = 1
-		tech_r_10_bomber_equipment_1 = 1
-		tech_su_2_equipment_1 = 1
-		tech_su_2_equipment_2 = 1
-		tech_su_6_equipment_1 = 1
-		tech_il_2_equipment_1 = 1
-		tech_il_2_equipment_2 = 1
-		# tech_il_10_equipment_1 = 1
+        tech_r_5_bomber_equipment_2 = 1
+        tech_r_5_bomber_equipment_3 = 1
+        tech_r_10_bomber_equipment_1 = 1
+        tech_su_2_equipment_1 = 1
+        tech_su_2_equipment_2 = 1
+        tech_su_6_equipment_1 = 1
+        tech_il_2_equipment_1 = 1
+        tech_il_2_equipment_2 = 1
+        # tech_il_10_equipment_1 = 1
 
-		tech_po_2_bomber_equipment_1 = 1
-		tech_sb_2m_bomber_equipment_1 = 1
-		tech_sb_2m_bomber_equipment_2 = 1
-		tech_ar_2_bomber_equipment_1 = 1
-		tech_pe_2_bomber_equipment_1 = 1
-		tech_pe_2_bomber_equipment_2 = 1
+        tech_po_2_bomber_equipment_1 = 1
+        tech_sb_2m_bomber_equipment_1 = 1
+        tech_sb_2m_bomber_equipment_2 = 1
+        tech_ar_2_bomber_equipment_1 = 1
+        tech_pe_2_bomber_equipment_1 = 1
+        tech_pe_2_bomber_equipment_2 = 1
 
-		tech_yak_2_bomber_equipment_1 = 1
-		tech_yak_4_bomber_equipment_1 = 1
-		tech_tu_2_bomber_equipment_1 = 1
-		tech_tu_2_bomber_equipment_2 = 1
+        tech_yak_2_bomber_equipment_1 = 1
+        tech_yak_4_bomber_equipment_1 = 1
+        tech_tu_2_bomber_equipment_1 = 1
+        tech_tu_2_bomber_equipment_2 = 1
 
-		tech_db_3_bomber_equipment_1 = 1
-		tech_db_3_bomber_equipment_2 = 1
-		tech_il_4_bomber_equipment_1 = 1
+        tech_db_3_bomber_equipment_1 = 1
+        tech_db_3_bomber_equipment_2 = 1
+        tech_il_4_bomber_equipment_1 = 1
 
-		tech_yer_2_bomber_equipment_1 = 1
-		tech_yer_2_bomber_equipment_2 = 1
+        tech_yer_2_bomber_equipment_1 = 1
+        tech_yer_2_bomber_equipment_2 = 1
 
-		tech_tb_3_bomber_equipment_1 = 1
-		tech_tb_3_bomber_equipment_3 = 1
-		tech_pe_8_bomber_equipment_1 = 1
-		tech_pe_8_bomber_equipment_2 = 1
+        tech_tb_3_bomber_equipment_1 = 1
+        tech_tb_3_bomber_equipment_3 = 1
+        tech_pe_8_bomber_equipment_1 = 1
+        tech_pe_8_bomber_equipment_2 = 1
 
-		tech_db_3t_bomber_equipment_1 = 1
-		tech_il_4t_bomber_equipment_1 = 1
-		# tech_tu_2t_bomber_equipment_1 = 1
+        tech_db_3t_bomber_equipment_1 = 1
+        tech_il_4t_bomber_equipment_1 = 1
+        # tech_tu_2t_bomber_equipment_1 = 1
 
-		tech_beriev_mbr_2_equipment_2 = 1
-		tech_tupolev_mdr_4_equipment_1 = 1
-		tech_chetverikov_mdr_6_equipment_1 = 1
+        tech_beriev_mbr_2_equipment_2 = 1
+        tech_tupolev_mdr_4_equipment_1 = 1
+        tech_chetverikov_mdr_6_equipment_1 = 1
 
-		tech_i_15_cv_fighter_equipment_1 = 1
-		tech_i_15_cv_fighter_equipment_2 = 1
-		tech_yak_cv_fighter_equipment_1 = 1
-		tech_yak_cv_fighter_equipment_2 = 1
+        tech_i_15_cv_fighter_equipment_1 = 1
+        tech_i_15_cv_fighter_equipment_2 = 1
+        tech_yak_cv_fighter_equipment_1 = 1
+        tech_yak_cv_fighter_equipment_2 = 1
 
-		tech_r_5_nav_bomber_equipment_1 = 1
-		tech_soviet_cvnav_0 = 1
-		tech_soviet_cvnav_1 = 1
-		# tech_soviet_cvnav_2 = 1 # Yak-3K
+        tech_r_5_nav_bomber_equipment_1 = 1
+        tech_soviet_cvnav_0 = 1
+        tech_soviet_cvnav_1 = 1
+        # tech_soviet_cvnav_2 = 1 # Yak-3K
 
-		tech_tb_3_transport_equipment_1 = 1
-		tech_li_2_transport_equipment_1 = 1
-		tech_pe_8_transport_equipment_1 = 1
-		# tech_il_12_transport_equipment_1 = 1
+        tech_tb_3_transport_equipment_1 = 1
+        tech_li_2_transport_equipment_1 = 1
+        tech_pe_8_transport_equipment_1 = 1
+        # tech_il_12_transport_equipment_1 = 1
 
-		# tech_mig_9_fighter_equipment_1 = 1
+        # tech_mig_9_fighter_equipment_1 = 1
 
-                # Lend-Lease (do we need it?)
-                tech_bell_p63_equipment_1 = 1
-	}
-	# Air Recon for LaR only
-	if = {
-		limit = { has_dlc = "La Resistance" }
-		set_technology = {
-			tech_r_6_scout_equipment_1 = 1
-			tech_r_5_scout_equipment_1 = 1
-			tech_r_5_scout_equipment_2 = 1
-			tech_r_10_scout_equipment_1 = 1
-			tech_pe_2_scout_equipment_1 = 1
-			tech_tu_2_scout_equipment_1 = 1
-			tech_tu_2_scout_equipment_2 = 1
-		}
-	}
+        # Lend-Lease (do we even need it here?)
+        tech_bell_p63_equipment_1 = 1
+    }
+    # Air Recon for LaR only
+    if = {
+        limit = { has_dlc = "La Resistance" }
+        set_technology = {
+            tech_r_6_scout_equipment_1 = 1
+            tech_r_5_scout_equipment_1 = 1
+            tech_r_5_scout_equipment_2 = 1
+            tech_r_10_scout_equipment_1 = 1
+            tech_pe_2_scout_equipment_1 = 1
+            tech_tu_2_scout_equipment_1 = 1
+            tech_tu_2_scout_equipment_2 = 1
+        }
+    }
 
 enable_equipments = {
-		i_5_equipment_1
-		i_7_equipment_1
-		di_6_equipment_1
-		i_15_equipment_1
-		i_15_equipment_2
-		i_152_equipment_1
-		i_153_equipment_1
-		yak_1_equipment_1
-		yak_7_equipment_1
-		yak_9_equipment_1 # Yak-9
-		yak_9_equipment_2 # Yak-9T
-		yak_9_equipment_3 # Yak-9U
-		# yak_9_equipment_4 # Yak-9P
+        # Light Fighters
+        i_5_equipment_1
+        i_7_equipment_1
+        di_6_equipment_1
+        i_15_equipment_1
+        i_15_equipment_2
+        i_152_equipment_1
+        i_153_equipment_1
+        yak_1_equipment_1
+        yak_7_equipment_1
+        yak_9_equipment_1 # Yak-9
+        yak_9_equipment_2 # Yak-9T
+        yak_9_equipment_3 # Yak-9U
+        # yak_9_equipment_4 # Yak-9P
 
-		i_16_equipment_1
-		i_16_equipment_2
-		i_16_equipment_3
-		i_16_equipment_4
-		lagg_1_equipment_1
-		lagg_3_equipment_1
-		lagg_3_equipment_2
-		lagg_5_equipment_1
-		lagg_5_equipment_2
-		lagg_7_equipment_1
-		# lagg_9_equipment_1 # La-9
+        # Fighters
+        i_16_equipment_1
+        i_16_equipment_2
+        i_16_equipment_3
+        i_16_equipment_4
+        lagg_1_equipment_1
+        lagg_3_equipment_1
+        lagg_5_equipment_1
+        lagg_5_equipment_2
+        lagg_7_equipment_1
+        # lagg_9_equipment_1 # La-9
 
-		mig_1_equipment_1
-		mig_3_equipment_1
-		# i_211_equipment_1 # I-211
-		i_16_equipment_5
-		i_180_equipment_1
-		i_180_equipment_2
-		i_185_equipment_1
-		yak_3_equipment_1 # Yak-3
-		# yak_3_equipment_2 # Yak-3P
-		
-		r_6_fighter_equipment_1
-		i_z_equipment_1
-		i_14_fighter_equipment_1
-		ip_1_fighter_equipment_1
-		pe_1_fighter_equipment_1
-		pe_3_fighter_equipment_1
-		pe_3_fighter_equipment_2
-		mig_5_fighter_equipment_1
+        # Interceptors
+        mig_1_equipment_1
+        mig_3_equipment_1
+        # i_211_equipment_1 # I-211
+        yak_3_equipment_1 # Yak-3
+        # yak_3_equipment_2 # Yak-3P        
 
-		r_5_bomber_equipment_1
-		r_5_bomber_equipment_2
-		r_5_bomber_equipment_3
-		r_10_bomber_equipment_1
-		su_2_equipment_1
-		su_2_equipment_2
-		su_6_equipment_1
-		il_2_equipment_1
-		il_2_equipment_2
-		# il_10_equipment_1
+        # Multi-Role
+        i_16_equipment_5
+        i_180_equipment_1
+        i_180_equipment_2
+        i_185_equipment_1
+        lagg_3_equipment_2 # LaGG-3-66
+        
 
-		po_2_equipment_1
-		po_2_equipment_2
-		sb_2m_bomber_equipment_1
-		sb_2m_bomber_equipment_2		
-		ar_2_bomber_equipment_1
-		pe_2_bomber_equipment_1
-		pe_2_bomber_equipment_2
-		yak_2_bomber_equipment_1
-		yak_2_bomber_equipment_2
-		tu_2_bomber_equipment_1
-		tu_2_bomber_equipment_2
+        # Heavy Fighters
+        r_6_fighter_equipment_1
+        i_z_equipment_1
+        i_14_fighter_equipment_1
+        ip_1_fighter_equipment_1
+        pe_1_fighter_equipment_1
+        pe_3_fighter_equipment_1
+        pe_3_fighter_equipment_2
+        mig_5_fighter_equipment_1
 
-		db_3_bomber_equipment_1
-		db_3_bomber_equipment_2
-		il_4_bomber_equipment_1
-		yer_2_bomber_equipment_1
-		yer_2_bomber_equipment_2
+        # CAS
+        r_5_bomber_equipment_1
+        r_5_bomber_equipment_2
+        r_5_bomber_equipment_3
+        r_10_bomber_equipment_1
+        su_2_equipment_1
+        su_2_equipment_2
+        su_6_equipment_1
+        il_2_equipment_1
+        il_2_equipment_2
+        il_10_equipment_1
 
-		tb_3_bomber_equipment_1
-		tb_3_bomber_equipment_2
-		tb_3_bomber_equipment_3
-		tb_3_bomber_equipment_4
-		tb_3_bomber_equipment_5
-		pe_8_bomber_equipment_1
-		pe_8_bomber_equipment_2
+        # Light Bombers
+        po_2_equipment_1
+        po_2_equipment_2
+        sb_2m_bomber_equipment_1
+        sb_2m_bomber_equipment_2		
+        ar_2_bomber_equipment_1
+        pe_2_bomber_equipment_1
+        pe_2_bomber_equipment_2 # Pe-2 (Late)
 
-		r_6_naval_bomber_equipment_1
-		db_3t_bomber_equipment_1
-		il_4t_bomber_equipment_1
-		# tu_2t_bomber_equipment_1
+        # Fast Bombers
+        yak_2_bomber_equipment_1 # Yak-2
+        yak_2_bomber_equipment_2 # Yak-4
+        tu_2_bomber_equipment_1 # Tu-2
+        tu_2_bomber_equipment_2 # Tu-2S
 
-		beriev_mbr_2_equipment_1
-		beriev_mbr_2_equipment_2
-		tupolev_mdr_4_equipment_1
-		chetverikov_mdr_6_equipment_1
-		
-		i_15_cv_fighter_equipment_1
-		i_15_cv_fighter_equipment_2
-		yak_cv_fighter_equipment_1
-		yak_cv_fighter_equipment_2
-		
-		r_5_nav_bomber_equipment_1
-		soviet_cvnav_equipment_1
-		# soviet_cvnav_equipment_2
+        # Medium Bombers
+        db_3_bomber_equipment_1
+        db_3_bomber_equipment_2
+        il_4_bomber_equipment_1
+        yer_2_bomber_equipment_1 # Yer-2
+        yer_2_bomber_equipment_2 # Yer-2 ACh-30B
 
-		tb_1_transport_equipment_1
-		ant_9_transport_equipment_1
-		tb_3_transport_equipment_1
-		li_2_transport_equipment_1
-		pe_8_transport_equipment_1
-		# il_12_transport_equipment_1
-		
-		# mig_9_fighter_equipment_1
+        # Heavy Bombers
+        tb_3_bomber_equipment_1
+        tb_3_bomber_equipment_2
+        tb_3_bomber_equipment_3
+        tb_3_bomber_equipment_4
+        tb_3_bomber_equipment_5
+        pe_8_bomber_equipment_1 # Pe-8
+        pe_8_bomber_equipment_2 # Pe-8 ASh-82
+
+        r_6_naval_bomber_equipment_1
+        db_3t_bomber_equipment_1
+        il_4t_bomber_equipment_1
+        # tu_2t_bomber_equipment_1
+
+        beriev_mbr_2_equipment_1
+        beriev_mbr_2_equipment_2
+        tupolev_mdr_4_equipment_1
+        chetverikov_mdr_6_equipment_1
+        
+        i_15_cv_fighter_equipment_1 # I-15k
+        i_15_cv_fighter_equipment_2 # I-153k
+        yak_cv_fighter_equipment_1 # Yak-1k
+        yak_cv_fighter_equipment_2 # Yak-3k
+        
+        r_5_nav_bomber_equipment_1
+        soviet_cvnav_equipment_1
+        # soviet_cvnav_equipment_2
+
+        tb_1_transport_equipment_1
+        ant_9_transport_equipment_1
+        tb_3_transport_equipment_1
+        li_2_transport_equipment_1
+        pe_8_transport_equipment_1
+        # il_12_transport_equipment_1
+        
+        # mig_9_fighter_equipment_1
 
         # Lend-Lease
         bell_p63_equipment_1
 }
 
 if = {
-	limit = { has_dlc = "La Resistance" }
-	enable_equipments = {
-		r_6_scout_equipment_1
-		r_5_scout_equipment_1
-		r_5_scout_equipment_2
-		r_10_scout_equipment_1
-		pe_2_scout_equipment_1
-		tu_2_scout_equipment_1
-		tu_2_scout_equipment_2
-	}
+    limit = { has_dlc = "La Resistance" }
+    enable_equipments = {
+        r_6_scout_equipment_1
+        r_5_scout_equipment_1
+        r_5_scout_equipment_2
+        r_10_scout_equipment_1
+        pe_2_scout_equipment_1 # Pe-2R
+        tu_2_scout_equipment_1 # Tu-2F
+        tu_2_scout_equipment_2 # Tu-2R
+    }
 }
 
 create_equipment_license = {

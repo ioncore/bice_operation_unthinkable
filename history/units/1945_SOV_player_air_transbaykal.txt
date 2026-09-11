@@ -77,117 +77,457 @@
         #
 
 air_wings = {
+
 #	860 = { 
 #		bell_p63_equipment_1 = {
 #			owner = "SOV" 
 #			amount = 100
 #		}
-#               creator = USA
 #		name="190-ya IAD"
 #		start_experience_factor = 0.16
 #	}
-	860 = { 
-		bell_p63_equipment_1 = {
-			owner = "SOV" 
-			amount = 32
-		}
-                creator = USA
-		name="17-y IAP"
-		start_experience_factor = 0.16
-	}
-	860 = { 
-		bell_p63_equipment_1 = {
-			owner = "SOV" 
-			amount = 32
-		}
-                creator = USA
-		name="494-y IAP"
-		start_experience_factor = 0.16
-	}
-	860 = { 
-		bell_p63_equipment_1 = {
-			owner = "SOV" 
-			amount = 32
-		}
-		name="821-y IAP"
-		start_experience_factor = 0.16
-	}
+    860 = { 
+        bell_p63_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="17-y IAP"
+        start_experience_factor = 0.16
+    }
+    860 = { 
+        bell_p63_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="494-y IAP"
+        start_experience_factor = 0.16
+    }
+    860 = { 
+        bell_p63_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="821-y IAP"
+        start_experience_factor = 0.16
+    }
+
 #	716 = { 
 #		yak_9_equipment_1 = {
 #			owner = "SOV" 
 #			amount = 100
 #		}
-#               creator = USA
 #		name="245-ya IAD"
 #		start_experience_factor = 0.16
 #	}
-	716 = { 
-		yak_3_equipment_1 = {
-			owner = "SOV" 
-			amount = 32
-		}
-                creator = USA
-		name="351-y IAP"
-		start_experience_factor = 0.16
-	}
-	716 = { 
-		yak_9_equipment_1 = {
-			owner = "SOV" 
-			amount = 32
-		}
-                creator = USA
-		name="718-y IAP"
-		start_experience_factor = 0.16
-	}
-	716 = { 
-		yak_9_equipment_1 = {
-			owner = "SOV" 
-			amount = 32
-		}
-		name="940-y IAP"
-		start_experience_factor = 0.16
-	}
+    716 = { 
+        yak_3_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="351-y IAP"
+        start_experience_factor = 0.16
+    }
+    716 = { 
+        yak_9_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="718-y IAP"
+        start_experience_factor = 0.16
+    }
+    716 = { 
+        yak_9_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="940-y IAP"
+        start_experience_factor = 0.16
+    }
+
 #	860 = { 
 #		yak_9_equipment_1 = {
 #			owner = "SOV" 
 #			amount = 100
 #		}
-#               creator = USA
 #		name="246-ya IAD"
 #		start_experience_factor = 0.16
 #	}
-	860 = { 
-		lagg_7_equipment_1 = {
-			owner = "SOV" 
-			amount = 32
-		}
-                creator = USA
-		name="22-y IAP"
-		start_experience_factor = 0.16
-	}
-	860 = { 
-		lagg_7_equipment_1 = {
-			owner = "SOV" 
-			amount = 32
-		}
-                creator = USA
-		name="350-y IAP"
-		start_experience_factor = 0.16
-	}
-	860 = { 
-		yak_3_equipment_1 = {
-			owner = "SOV" 
-			amount = 32
-		}
-		name="356-y IAP"
-		start_experience_factor = 0.16
-	}
+    860 = { 
+        lagg_7_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="22-y IAP"
+        start_experience_factor = 0.16
+    }
+    860 = { 
+        lagg_7_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="350-y IAP"
+        start_experience_factor = 0.16
+    }
+    860 = { 
+        yak_3_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="356-y IAP"
+        start_experience_factor = 0.16
+    }
         860 = { 
-		yak_9_equipment_1 = {
-			owner = "SOV" 
-			amount = 32
-		}
-		name="847-y IAP"
-		start_experience_factor = 0.16
-	}                 
+        yak_9_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="847-y IAP"
+        start_experience_factor = 0.16
+    }                 
+
+#	716 = { 
+#		il_2_equipment_2 = {
+#			owner = "SOV" 
+#			amount = 100
+#		}
+#		name="248-ya ShAD"
+#		start_experience_factor = 0.16
+#	}
+    716 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="78-y ShAP"
+        start_experience_factor = 0.16
+    }
+    716 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="258-y ShAP"
+        start_experience_factor = 0.16
+    }
+    716 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="291-y ShAP"
+        start_experience_factor = 0.16
+    }
+
+#	716 = { 
+#		il_2_equipment_2 = {
+#			owner = "SOV" 
+#			amount = 100
+#		}
+#		name="316-ya ShAD"
+#		start_experience_factor = 0.16
+#	}
+    716 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="365-y ShAP"
+        start_experience_factor = 0.16
+    }
+    716 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="921-y ShAP"
+        start_experience_factor = 0.16
+    }
+    716 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="967-y ShAP"
+        start_experience_factor = 0.16
+    }        
+        716 = { 
+        lagg_5_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="361-y IAP"
+        start_experience_factor = 0.16
+    }
+
+#	860 = { 
+#		pe_2_bomber_equipment_2 = {
+#			owner = "SOV" 
+#			amount = 100
+#		}
+#		name="30-ya BAD"
+#		start_experience_factor = 0.16
+#	}
+    860 = { 
+        pe_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="49-y BAP"
+        start_experience_factor = 0.16
+    }
+    860 = { 
+        pe_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="456-y BAP"
+        start_experience_factor = 0.16
+    }
+    860 = { 
+        pe_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="457-y BAP"
+        start_experience_factor = 0.16
+    }  
+
+#	860 = { 
+#		tu_2_bomber_equipment_2 = {
+#			owner = "SOV" 
+#			amount = 100
+#		}
+#		name="113-ya BAD"
+#		start_experience_factor = 0.16
+#	}
+    860 = { 
+        tu_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="55-y BAP"
+        start_experience_factor = 0.16
+    }
+    860 = { 
+        tu_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="815-y BAP"
+        start_experience_factor = 0.16
+    }
+    860 = { 
+        tu_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="836-y BAP"
+        start_experience_factor = 0.16
+        }
+
+#	563 = { 
+#		tu_2_bomber_equipment_2 = {
+#			owner = "SOV" 
+#			amount = 100
+#		}
+#		name="179-ya BAD"
+#		start_experience_factor = 0.16
+#	}
+    563 = { 
+        tu_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="10-y BAP"
+        start_experience_factor = 0.16
+    }
+    563 = { 
+        tu_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="114-y BAP"
+        start_experience_factor = 0.16
+    }
+    563 = { 
+        tu_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="860-y BAP"
+        start_experience_factor = 0.16        
+        }
+
+#	860 = { 
+#		pe_2_bomber_equipment_2 = {
+#			owner = "SOV" 
+#			amount = 100
+#		}
+#		name="247-ya BAD"
+#		start_experience_factor = 0.16
+#	}
+    860 = { 
+        pe_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="56-y BAP"
+        start_experience_factor = 0.16
+    }
+    860 = { 
+        pe_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="455-y BAP"
+        start_experience_factor = 0.16
+    }
+    860 = { 
+        pe_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="541-y BAP"
+        start_experience_factor = 0.16
+    }
+        860 = { 
+        pe_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="581-y BAP"
+        start_experience_factor = 0.16
+    }          
+
+#	860 = { 
+#		tu_2_bomber_equipment_2 = {
+#			owner = "SOV" 
+#			amount = 100
+#		}
+#		name="326-ya BAD"
+#		start_experience_factor = 0.16
+#	}
+    860 = { 
+        tu_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="6-y BAP"
+        start_experience_factor = 0.16
+    }
+    860 = { 
+        tu_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="445-y BAP"
+        start_experience_factor = 0.16
+    }
+    860 = { 
+        tu_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="840-y BAP"
+        start_experience_factor = 0.16   
+        }
+
+#	563 = { 
+#		tu_2_bomber_equipment_2 = {
+#			owner = "SOV" 
+#			amount = 100
+#		}
+#		name="334-ya BAD"
+#		start_experience_factor = 0.16
+#	}
+    563 = { 
+        tu_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="12-y BAP"
+        start_experience_factor = 0.16
+    }
+    563 = { 
+        tu_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="132-y BAP"
+        start_experience_factor = 0.16
+    }
+    563 = { 
+        tu_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="454-y BAP"
+        start_experience_factor = 0.16           
+        }
+
+#	563 = { 
+#		li_2_transport_equipment_1 = {
+#			owner = "SOV" 
+#			amount = 100
+#		}
+#		name="54-ya AD"
+#		start_experience_factor = 0.16
+#	}
+    563 = { 
+        li_2_transport_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="7-y Gv.AP"
+        start_experience_factor = 0.16
+    }
+    563 = { 
+        li_2_transport_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="29-y Gv.AP"
+        start_experience_factor = 0.16
+    }
+    563 = { 
+        li_2_transport_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="340-y AP"
+        start_experience_factor = 0.16           
+        }
+
+#	563 = { 
+#		li_2_transport_equipment_1 = {
+#			owner = "SOV" 
+#			amount = 100
+#		}
+#		name="21-ya Gv.AD"
+#		start_experience_factor = 0.16
+#	}
+    563 = { 
+        li_2_transport_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="49-y Gv.AP"
+        start_experience_factor = 0.16
+    }
+    563 = { 
+        li_2_transport_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="50-y Gv.AP"
+        start_experience_factor = 0.16
+    }
+    563 = { 
+        li_2_transport_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="51-y Gv.AP"
+        start_experience_factor = 0.16           
+        }
 }

@@ -1,4 +1,4 @@
-﻿#################################
+#################################
 ##### OPERATION UNTHINKABLE #####
 #################################
 capital = 847
@@ -30,10 +30,6 @@ capital = 847
 	socialism = 1
 	fascism = 1
 	communism = 2
-    }
-
-    enable_equipments = {
-        bell_p63_equipment_1
     }
 }
 ### EOF ###

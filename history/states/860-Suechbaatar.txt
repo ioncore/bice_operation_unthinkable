@@ -11,7 +11,7 @@ state={
 		owner = MON
 		buildings = {
 			infrastructure = 2
-			air_base = 3
+			air_base = 7
 		}
 
 		set_variable = { vp_value = 0 } 

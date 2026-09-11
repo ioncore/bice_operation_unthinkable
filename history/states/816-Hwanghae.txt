@@ -1,0 +1,34 @@
+state = {
+	resources = {
+		food = 60
+	}
+	id=816
+	name="STATE_816"
+
+	local_supplies=0.0
+	state_category=rural
+	manpower=2000000
+	
+	history = {
+		owner = PRK
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+
+		set_variable = { vp_value = 5 } 
+		set_variable = { highest_vp = 5 } 
+
+		victory_points = {
+			1003 5 
+		}
+		add_core_of = KOR
+                add_core_of = PRK
+	}
+
+	provinces = {
+		1003 4107 7070 7155 11915 12040 
+	}
+	
+	buildings_max_level_factor=1.500
+}

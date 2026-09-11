@@ -1,0 +1,210 @@
+﻿capital = 328
+
+set_war_support = 0.25
+
+oob = "MAN_1936"
+history_initialisation = yes
+
+set_convoys = 25
+
+set_research_slots = 2
+
+set_stability = 0.6
+
+set_country_flag = JAP_air
+set_country_flag = MAN_northern_bandits
+set_country_flag = MAN_eastern_bandits
+set_country_flag = MAN_western_bandits
+set_country_flag = MAN_NW_bandits
+set_country_flag = MAN_far_north_bandits
+
+set_variable = { border_cost_increase = 8 }
+
+set_technology = {
+	early_ship_hull_light = 1
+	nrm_battery_basic = 1
+	basic_depth_charges = 1
+	early_engine = 1
+	nrm_early_antiair = 1
+	basic_torpedo = 1
+}
+set_naval_oob = "MAN_1936_naval"
+
+set_technology = {
+	
+	building_tech = 1
+	tech_basic_train = 1
+	tech_infantry_uniforms = 1
+	infantry_weapons = 1
+	tech_Garrison = 1
+	tech_Headquarters = 1
+	tech_support = 1
+	tech_recon = 1
+	subtech_recon_cav_1 = 1
+	tech_liaison_cars = 1
+	gw_artillery = 1
+	ww1_infantry = 1
+	infantry_charge = 1
+	small_unit_raids = 1
+	night_patrols = 1
+	dispersed_infantry_attacks = 1
+	complex_trench_systems = 1
+	offensive_trenches = 1
+	defensive_trenches = 1
+	ww1_artillery = 1
+	artillery_concentration = 1
+	barbed_wire = 1
+	pillboxes = 1
+	sniper_pits = 1
+	basic_MG_defences = 1
+	multiple_MG_nests = 1
+	foot_runners = 1
+	
+	mobile_doctrines = 1
+	cavalry_charges = 1
+	cavalry_dismounting = 1
+	armored_car_recon = 1
+	motorcycle_liaison = 1
+	staff_officer_vehicles = 1
+	armor_support = 1
+	ww1_battlefield_support = 1
+	terrain_mapping = 1
+	first_aid_stations = 1
+	WW1_air_power = 1
+	WW1_air_survey = 1
+	WW1_air_control = 1
+	nrm_pre_ww1_naval_doctrine = 1
+	nrm_jeune_ecole_concepts = 1
+	nrm_destroyer_support = 1
+	############## economy ################
+	environmental_recognition = 1
+	polymerization_theories = 1
+}
+unlock_subunit = irregulars_unit
+
+add_ideas = { 	
+	kantogun_administration
+	MCK_dongbei_partisan
+	MCK_reliant_idea
+	MCK_opium_plantation
+	MAN_border_bonus
+	
+	export_focus		
+	tax_low
+	tariffs_average
+	
+	civilian_economy
+	press_censored
+	key_industries
+	labor_none
+	fdi_encouraged
+	
+	cons_two
+	foreign_volunteers
+	mob_standing
+	train_none
+	age_17
+	security_minor_restrictions
+	officer_train_none
+	edu_minimal
+	foreign_cooperative
+	neutrality_idea
+	subsistence_diet
+}
+
+diplomatic_relation = {
+	relation = military_access
+	country = MEN
+	active = yes
+}
+
+MEN = {
+	diplomatic_relation = {
+		relation = military_access
+		country = EHA
+		active = yes
+	}
+}
+
+
+set_politics = {
+	ruling_party = monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	monarchism = 63
+	fascism = 37
+	neutrality = 0
+}
+#################################################################
+recruit_character = MAN_zhang_jinghui
+recruit_character = MAN_emperor_puyi
+recruit_character = MAN_zhang_haipeng
+recruit_character = MAN_aisin_gioro_xiqia
+recruit_character = MAN_yoshiko_kawashima
+recruit_character = MAN_feng_hanqing
+recruit_character = MAN_zang_shiyi
+recruit_character = MAN_zhang_yanqing
+recruit_character = MAN_zhang_huanxiang
+recruit_character = MAN_daisaku_komoto
+recruit_character = MAN_sun_qichang
+recruit_character = MAN_lo_yu
+recruit_character = MAN_jiang_xiwang
+recruit_character = MAN_megata_toshiro
+recruit_character = MAN_nalan_kang_an
+recruit_character = MAN_lu_ronghuan
+recruit_character = MAN_songgotu_zhanshan
+recruit_character = MAN_yoshisuke_aikawa
+recruit_character = MAN_naoki_hoshino
+recruit_character = MAN_zheng_xiaoxu
+recruit_character = MAN_pujie
+recruit_character = MAN_lu_yiwen
+recruit_character = MCK_itagaki_seishiro
+recruit_character = MAN_deng_linge
+recruit_character = MAN_genrikh_lyushkov
+recruit_character = MAN_xi_qia
+recruit_character = MAN_xie_jieshi
+recruit_character = MAN_yuan_jinkai
+recruit_character = MAN_ding_jianxiu
+recruit_character = MAN_ruan_zhenduo
+recruit_character = MAN_guan_xingde
+recruit_character = MAN_yonimitsu_kasahara
+recruit_character = MAN_hesehn_tiemei
+recruit_character = MAN_kyoiji_tomonaga
+recruit_character = MAN_yu_zishan
+recruit_character = MAN_ma_zhanshan
+
+activate_advisor = MAN_emperor_puyi_head_of_state
+
+### Ship Variants ###
+  # Destroyers #
+  create_equipment_variant = {
+      name = "Momo Class"
+      type = nrm_ship_hull_destroyer_1
+      #name_group = MAN_DD_HISTORICAL
+      parent_version = 0
+show_position = no
+role_icon_index = 39
+      modules = {
+	fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_1
+	fixed_ship_engine_slot = nrm_destroyer_engine_S1_008
+	fixed_ship_sonar_slot = empty
+	fixed_ship_battery_slot = nrm_destroyer_battery_5_1_x3
+	fixed_ship_subdivision_slot = nrm_subdivision_1
+	fixed_ship_damagecontrol_slot = nrm_damagecontrol_1
+	fixed_ship_range_slot = nrm_range_destroyer_1
+	fixed_ship_radar_slot = empty
+	fixed_ship_fire_control_system_slot = nrm_fire_control_2
+	fixed_ship_fire_control_system_aa_slot = empty
+	custom_slot_1 = nrm_support_destroyer_ASW_1
+	custom_slot_2 = empty
+	custom_slot_3 = empty
+	custom_slot_4 = nrm_support_destroyer_AA_1
+	custom_slot_5 = empty
+	custom_slot_6 = empty
+      }
+  }
+### EOF ###

@@ -26,120 +26,111 @@ air_wings = {
 #			owner = "SOV" 
 #			amount = 100
 #		}
-#               creator = USA
 #		name="147-ya IAD PVO"
 #		start_experience_factor = 0.16
 #	}
-	408 = { 
-		lagg_7_equipment_1 = {
-			owner = "SOV" 
-			amount = 32
-		}
-                creator = USA
-		name="34-y IAP PVO"
-		start_experience_factor = 0.16
-	}
-	408 = { 
-		yak_9_equipment_1 = {
-			owner = "SOV" 
-			amount = 32
-		}
-                creator = USA
-		name="404-y IAP PVO"
-		start_experience_factor = 0.16
-	}
-	408 = { 
-		yak_9_equipment_1 = {
-			owner = "SOV" 
-			amount = 32
-		}
-		name="429-y IAP PVO"
-		start_experience_factor = 0.16
-	}
+    408 = { 
+        lagg_7_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="34-y IAP PVO"
+        start_experience_factor = 0.16
+    }
+    408 = { 
+        yak_9_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="404-y IAP PVO"
+        start_experience_factor = 0.16
+    }
+    408 = { 
+        yak_9_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="429-y IAP PVO"
+        start_experience_factor = 0.16
+    }
         408 = { 
-		lagg_7_equipment_1 = {
-			owner = "SOV" 
-			amount = 32
-		}
-		name="564-y IAP PVO"
-		start_experience_factor = 0.16
-	}
+        lagg_7_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="564-y IAP PVO"
+        start_experience_factor = 0.16
+    }
 #	408 = { 
 #		yak_9_equipment_1 = {
 #			owner = "SOV" 
 #			amount = 100
 #		}
-#               creator = USA
 #		name="149-ya IAD PVO"
 #		start_experience_factor = 0.16
 #	}
-	408 = { 
-		lagg_7_equipment_1 = {
-			owner = "SOV" 
-			amount = 32
-		}
-                creator = USA
-		name="3-y IAP PVO"
-		start_experience_factor = 0.16
-	}
-	408 = { 
-		yak_9_equipment_1 = {
-			owner = "SOV" 
-			amount = 32
-		}
-                creator = USA
-		name="18-y IAP PVO"
-		start_experience_factor = 0.16
-	}
-	657 = { 
-		yak_9_equipment_1 = {
-			owner = "SOV" 
-			amount = 32
-		}
-		name="60-y IAP PVO"
-		start_experience_factor = 0.16
-	}
+    408 = { 
+        lagg_7_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="3-y IAP PVO"
+        start_experience_factor = 0.16
+    }
+    408 = { 
+        yak_9_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="18-y IAP PVO"
+        start_experience_factor = 0.16
+    }
+    657 = { 
+        yak_9_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="60-y IAP PVO"
+        start_experience_factor = 0.16
+    }
         408 = { 
-		lagg_7_equipment_1 = {
-			owner = "SOV" 
-			amount = 32
-		}
-		name="400-y IAP PVO"
-		start_experience_factor = 0.16
-	}
+        lagg_7_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="400-y IAP PVO"
+        start_experience_factor = 0.16
+    }
 #	408 = { 
 #		yak_9_equipment_1 = {
 #			owner = "SOV" 
 #			amount = 100
 #		}
-#               creator = USA
 #		name="147-ya IAD PVO"
 #		start_experience_factor = 0.16
 #	}
-	40 = { 
-		yak_9_equipment_1 = {
-			owner = "SOV" 
-			amount = 32
-		}
-                creator = USA
-		name="401-y IAP PVO"
-		start_experience_factor = 0.16
-	}
-	583 = { 
-		yak_9_equipment_1 = {
-			owner = "SOV" 
-			amount = 32
-		}
-                creator = USA
-		name="938-y IAP PVO"
-		start_experience_factor = 0.16
-	}
+    40 = { 
+        yak_9_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="401-y IAP PVO"
+        start_experience_factor = 0.16
+    }
+    583 = { 
+        yak_9_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="938-y IAP PVO"
+        start_experience_factor = 0.16
+    }
         583 = { 
-		lagg_7_equipment_1 = {
-			owner = "SOV" 
-			amount = 32
-		}
-		name="939-y IAP PVO"
-		start_experience_factor = 0.16
-	}                
+        lagg_7_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="939-y IAP PVO"
+        start_experience_factor = 0.16
+    }                
 }

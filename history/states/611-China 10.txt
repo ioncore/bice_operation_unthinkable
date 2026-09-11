@@ -1,0 +1,36 @@
+
+state={
+	resources = {
+		food = 5
+	}
+
+
+	id=611
+	name="STATE_611"
+	history={
+		owner = MAN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+			steel_refinery = 2
+		}
+
+		set_variable = { vp_value = 2 } 
+		set_variable = { highest_vp = 2 } 
+
+		add_core_of = MAN
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points = {
+			10397 2 
+		}
+	}
+	provinces={
+		828 952 1489 4495 10397 
+	}
+	manpower=1500000
+	buildings_max_level_factor=1.500
+	local_supplies=0.0
+	state_category=pastoral
+}

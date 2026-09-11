@@ -1,0 +1,15 @@
+characters = {
+	PRK_terentiy_shtykov={
+		name = PRK_terentiy_shtykov
+		portraits={
+			civilian={
+				large="gfx/leaders/PRK/Portrait_prk_Terentiy_Shtykov_156_210.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JOSEPH_STALIN_DESC"
+			ideology=stalinism
+			traits={ }
+		}
+	}
+}
