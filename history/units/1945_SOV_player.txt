@@ -1,0 +1,1256 @@
+#############################
+##### SOVIET PLAYER OOB #####
+#############################
+
+        # ========================================================
+        # Guards Tank Divisions & Tank Divisions
+        # ========================================================
+        #
+        # 1st Batch (Directives from Summer 1945) 24 ex-TC + 2 TD:
+        # - 1st Guards Tank Division       - Neuruppin (375)
+        # - 1st Tank Division              - Kaliningrad (6332)
+        # - 2nd Guards Tank Division       - Pskov (11202)
+        # - 3rd Guards Tank Division       - Breslau (9570)
+        # - 4th Guards Tank Division       - Naro-Fominsk (3327)
+        # - 5th Guards Tank Division       - Dalian (1150)???, 6 GTA
+        # - 5th Tank Division              - Bialystok (11301)
+        # - 6th Guards Tank Division       - Pardubitz (583), 3rd GTA
+        # - 7th Guards Tank Division       - Pardubitz (583), 3rd GTA
+        # - 8th Guards Tank Division       - Osipovichi (3350)
+        # - 9th Guards Tank Division       - Neustrelitz (375)
+        # - 9th Tank Division              - Risa (514)
+        # - 10th Guards Tank Division      - Szombathely (11627), 4th GTA
+        # - 10th Tank Division             - Lodz (9508)
+        # - 11th Guards Tank Division      - Dresden (514)
+        # - 11th Tank Division             - Gusev (266)
+        # - 12th Guards Tank Division      - Neuruppin (375)
+        # - 18th Tank Division             - Gaisin (6480)
+        # - 19th Tank Division             - Ploesti (3663)
+        # - 20th Tank Division             - Swientoszow (6595)
+        # - 23rd Tank Division             - Ovruch (9568)
+        # - 25th Tank Division             - Szombathely (11627), 4th GTA
+        # - 29th Tank Division             - Slutsk (360)
+        # - 31st Tank Division             - Proskurov (476)
+        # - 61st Tank Division             - Andong (6981)???, 39 A
+        # - 111th Tank Division            - Qiqihar (4572)???, ZabF
+        #
+        # 2nd Batch (directives from Oct-Nov 1945):
+        # - 2nd Tank Division              - (ex 66th RD) PrimVO
+        #
+        # 3rd Batch (directives from Apr 1946):
+        # - 3rd Tank Division              - (ex 300th RD) PrimVO
+
+# Tank Regiment 010/571        - 3x Med Tank Bn (65), 1x Aslt Inf Bn, 1x AAMG Coy
+# Heavy Tank Regiment 010/572  - 3x Hvy Tank Bn (65), 1x Aslt Inf Bn, 1x Recon AC Coy, 1x AAA Coy
+# Motorized Regiment 010/573   - 3x Mot Rfl Bn, 1x Mortar Bn (12 82, 6 120), 1x Arty Bn (12 76), 1x Recon Coy, 1x SMG Coy, 1x AAMG Coy, 1x Eng Coy
+# Howitzer Regiment 010/574    - 2x Art Bn (24 122)
+# Mortar Regiment 010/575      - 2x Art Bn (36 120)
+# Mechanized Regiment 010/593  - 3x Mot Rfl Bn, 1x Tank Bn (35), 1x Mortar Bn (12 82, 6 120), 1x Arty Bn (12 76), 1x Recon Coy, 1x AAMG Coy
+
+division_template = {
+	name = "Guards Tank Division 1945"
+        priority = 2
+	template_counter = 242
+	division_names_group = SOV_GTD_01
+
+	regiments = {
+		trm_medium_cs_armor = { x = 0 y = 0 }
+		trm_medium_cs_armor = { x = 0 y = 1 }
+                trm_heavy_cs_armor = { x = 0 y = 2 }
+
+		trm_medium_cs_armor = { x = 1 y = 0 }
+		trm_medium_cs_armor = { x = 1 y = 1 }
+                trm_heavy_cs_armor = { x = 1 y = 2 }
+
+		trm_medium_cs_armor = { x = 2 y = 0 }
+		trm_medium_cs_armor = { x = 2 y = 1 }
+                trm_heavy_cs_armor = { x = 2 y = 2 }
+
+		motorized = { x = 3 y = 0 }
+                motorized = { x = 3 y = 1 }
+                motorized = { x = 3 y = 2 }
+
+                artillery_brigade_mot_med = { x = 4 y = 0 }
+                artillery_brigade_mot_med = { x = 4 y = 1 }
+                motorized_rocket_brigade = { x = 4 y = 2 }
+                trm_heavy_assault_gun = { x = 4 y = 3 }
+                trm_heavy_tank_destroyer = { x = 4 y = 4 }
+	}
+	support = {
+		DIV_HQ_car = { x = 0 y = 0 }
+		engineer_mot = { x = 0 y = 1 }
+		recon_mot = { x = 0 y = 2 }
+
+		anti_air_car = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Tank Division 1945"
+	template_counter = 242
+	division_names_group = SOV_TD_01
+
+	regiments = {
+		trm_medium_cs_armor = { x = 0 y = 0 }
+		trm_medium_cs_armor = { x = 0 y = 1 }
+                trm_heavy_cs_armor = { x = 0 y = 2 }
+
+		trm_medium_cs_armor = { x = 1 y = 0 }
+		trm_medium_cs_armor = { x = 1 y = 1 }
+                trm_heavy_cs_armor = { x = 1 y = 2 }
+
+		trm_medium_cs_armor = { x = 2 y = 0 }
+		trm_medium_cs_armor = { x = 2 y = 1 }
+                trm_heavy_cs_armor = { x = 2 y = 2 }
+
+		motorized = { x = 3 y = 0 }
+                motorized = { x = 3 y = 1 }
+                motorized = { x = 3 y = 2 }
+                
+                artillery_brigade_mot_med = { x = 4 y = 0 }
+                artillery_brigade_mot_med = { x = 4 y = 1 }
+                motorized_rocket_brigade = { x = 4 y = 2 }
+                trm_heavy_assault_gun = { x = 4 y = 3 }
+                trm_heavy_tank_destroyer = { x = 4 y = 4 }
+	}
+	support = {
+		DIV_HQ_car = { x = 0 y = 0 }
+		engineer_mot = { x = 0 y = 1 }
+		recon_mot = { x = 0 y = 2 }
+
+		anti_air_car = { x = 1 y = 0 }
+	}
+}
+
+
+units = {
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 1
+        }
+        location = 375
+        division_template = "Guards Tank Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 1
+        }
+        location = 6332
+        division_template = "Tank Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 2
+        }
+        location = 11202
+        division_template = "Guards Tank Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 3
+        }
+        location = 9570
+        division_template = "Guards Tank Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 4
+        }
+        location = 3327
+        division_template = "Guards Tank Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 5
+        }
+        location = 1150
+        division_template = "Guards Tank Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 5
+        }
+        location = 11301
+        division_template = "Tank Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 6
+        }
+        location = 583
+        division_template = "Guards Tank Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 7
+        }
+        location = 583
+        division_template = "Guards Tank Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 8
+        }
+        location = 3350
+        division_template = "Guards Tank Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 9
+        }
+        location = 375
+        division_template = "Guards Tank Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 9
+        }
+        location = 514
+        division_template = "Tank Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 10
+        }
+        location = 11627
+        division_template = "Guards Tank Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 9
+        }
+        location = 9508
+        division_template = "Tank Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 11
+        }
+        location = 514
+        division_template = "Guards Tank Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 11
+        }
+        location = 266
+        division_template = "Tank Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 12
+        }
+        location = 375
+        division_template = "Guards Tank Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 18
+        }
+        location = 6480
+        division_template = "Tank Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 19
+        }
+        location = 3663
+        division_template = "Tank Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 20
+        }
+        location = 6595
+        division_template = "Tank Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 23
+        }
+        location = 9568
+        division_template = "Tank Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 25
+        }
+        location = 11627
+        division_template = "Tank Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 29
+        }
+        location = 360
+        division_template = "Tank Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 31
+        }
+        location = 476
+        division_template = "Tank Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 61
+        }
+        location = 6981
+        division_template = "Tank Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 111
+        }
+        location = 4572
+        division_template = "Tank Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+}
+
+        # ========================================================
+        # Guards Mech Divisions & Mech Divisions
+        # ========================================================
+        #
+        # 1st Batch (Directives from Summer 1945) 14 ex-MC + 7 ex-RD/CD
+        # - 1st Guards Mech Division       - Merage (4609)
+        # - 1st Mech Division              - Krampnitz (3499)
+        # - 2nd Guards Mech Division       - Craiowa (6652)
+        # - 3rd Guards Mech Division       - Shanhaiguan (3900), ZabF
+        # - 4th Guards Mech Division       - Sofia (949)
+        # - 5th Guards Mech Division       - Eberswalde (13259)
+        # - 6th Guards Mech Division       - Szombathely (11627), 4th GTA
+        # - 7th Guards Mech Division       - Tabor (9569), 4th GTA
+        # - 7th Mech Division              - Dalian (1150), 6 GTA
+        # - 8th Guards Mech Division       - Forst Zinna (3499)
+        # - 8th Mech Division              - Slonim (9236)
+        # - 9th Guards Mech Division       - Dalian (1150), 6 GTA
+        # - 9th Mech Division              - Pardubitz (583), 3rd GTA
+        # - 10th Guards Mech Division      - (ex 8th GCD) - PrikVO (462)
+        # - 10th Mech Division             - Girin (6947), 1 DVF
+        # - 11th Guards Mech Division      - (ex 13th GCD) - PrikVO (462)
+        # - 11th Mech Division             - (ex 30th CD) - PrikVO (9548)
+        # - 12th Guards Mech Division      - (ex 15th GCD) - PrikVO (462)
+        # - 12th Mech Division             - (ex 63rd CD) - PrikVO (9548)
+        # - 13rd Guards Mech Division      - (ex 13th GRD) - Wien (11666)
+        # - 13th Mech Division             - (ex 8th CD) - PrikVO (9548)
+        #
+        # 2nd Batch (directives from Oct-Nov 1945):
+        # - 14th Guards Mech Division      - (ex 116th GRD)
+        # - 14th Mech Division             - (ex 284th RD)
+        # - 15th Guards Mech Division      - (ex 6th GRD)
+        # - 15th Mech Division             - (ex 364th RD)
+        # - 16th Guards Mech Division      - (ex 80th GRD)
+        # - 16th Mech Division             - (ex 171st RD)
+        # - 17th Guards Mech Division      - (ex 40th GRD)
+        # - 17th Mech Division             - (ex 230th RD)
+        # - 18th Guards Mech Division      - (ex 41st GRD)
+        # - 18th Mech Division             - (ex 416th RD)
+        # - 19th Guards Mech Division      - (ex 47th GRD)
+        # - 19th Mech Division             - (ex 244th RD)
+        # - 20th Guards Mech Division      - (ex 79th GRD)
+        # - 20th Mech Division             - (ex 21st RD)
+        # - 21st Guards Mech Division      - (ex 27th GRD)
+        # - 21st Mech Division             - (ex 223rd RD)
+        # - 22nd Guards Mech Division      - (ex 52th GRD)
+        # - 22nd Mech Division             - (ex 193th RD)
+        # - 23rd Guards Mech Division      - (ex 89th GRD)
+        # - 23rd Mech Division             - (ex 183rd RD)
+        # - 24th Guards Mech Division      - (ex 36th GRD)
+        # - 24th Mech Division             - (ex 161st RD)
+        # - 25th Guards Mech Division      - (ex 20th GRD)
+        # - 25th Mech Division             - (ex 163rd RD)
+        # - 26th Guards Mech Division      - (ex 90th GRD)
+        # - 26th Mech Division             - (ex 15th RD)
+        # - 27th Guards Mech Division      - (ex 37th GRD)
+        # - 28th Guards Mech Division      - (ex 2nd GCC)
+        # - 29th Guards Mech Division      - (ex 31st GRD)
+        # - 30th Guards Mech Division      - (ex 18th GRD)
+        # - 31st Guards Mech Division      - (ex 7th GCC)
+        # - 32nd Guards Mech Division      - (ex 117th GRD)
+        # - 33rd Guards Mech Division      - (ex 49th GRD)
+        # - 34th Guards Mech Division      - (ex 92nd GRD)
+        # - 35th Guards Mech Division      - (ex 93rd GRD)
+        #
+        # 3rd Batch (directives from July 1946):
+        # - 27th Mech Division             - (ex 254th RD)
+        # - 28th Mech Division             - (ex 126th RD)
+        # - 36th Guards Mech Division      - (ex 29th GRD)
+        # - 37th Guards Mech Division      - (ex 63rd GRD)
+
+division_template = {
+	name = "Guards Mech Division 1945"
+        priority = 2
+	template_counter = 178
+	division_names_group = SOV_GMD_01
+
+	regiments = {
+		trm_medium_cs_armor = { x = 0 y = 0 }
+		trm_medium_cs_armor = { x = 0 y = 1 }
+                trm_heavy_cs_armor = { x = 0 y = 2 }
+
+                trm_medium_armor = { x = 1 y = 0 }
+                trm_medium_armor = { x = 1 y = 1 }
+                trm_medium_armor = { x = 1 y = 2 }
+
+		motorized = { x = 2 y = 0 }
+                motorized = { x = 2 y = 1 }
+                motorized = { x = 2 y = 2 }
+                motorized = { x = 2 y = 3 }
+                motorized = { x = 2 y = 4 }
+
+		motorized = { x = 3 y = 0 }
+                motorized = { x = 3 y = 1 }
+                motorized = { x = 3 y = 2 }
+                motorized = { x = 3 y = 3 }
+                motorized_assault = { x = 3 y = 4 }
+                
+                artillery_brigade_mot_med = { x = 4 y = 0 }
+                artillery_brigade_mot_med = { x = 4 y = 1 }
+                motorized_rocket_brigade = { x = 4 y = 2 }
+                trm_medium_tank_destroyer = { x = 4 y = 3 }
+                trm_medium_tank_destroyer = { x = 4 y = 4 }
+	}
+	support = {
+		DIV_HQ_car = { x = 0 y = 0 }
+		engineer_mot = { x = 0 y = 1 }
+		recon_mot = { x = 0 y = 2 }
+
+		anti_air_car = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Mech Division 1945"
+	template_counter = 178
+	division_names_group = SOV_MD_01
+
+	regiments = {
+		trm_medium_cs_armor = { x = 0 y = 0 }
+		trm_medium_cs_armor = { x = 0 y = 1 }
+                trm_heavy_cs_armor = { x = 0 y = 2 }
+
+                trm_medium_armor = { x = 1 y = 0 }
+                trm_medium_armor = { x = 1 y = 1 }
+                trm_medium_armor = { x = 1 y = 2 }
+
+		motorized = { x = 2 y = 0 }
+                motorized = { x = 2 y = 1 }
+                motorized = { x = 2 y = 2 }
+                motorized = { x = 2 y = 3 }
+                motorized = { x = 2 y = 4 }
+
+		motorized = { x = 3 y = 0 }
+                motorized = { x = 3 y = 1 }
+                motorized = { x = 3 y = 2 }
+                motorized = { x = 3 y = 3 }
+                motorized_assault = { x = 3 y = 4 }
+                
+                artillery_brigade_mot_med = { x = 4 y = 0 }
+                artillery_brigade_mot_med = { x = 4 y = 1 }
+                motorized_rocket_brigade = { x = 4 y = 2 }
+                trm_medium_tank_destroyer = { x = 4 y = 3 }
+                trm_medium_tank_destroyer = { x = 4 y = 4 }
+	}
+	support = {
+		DIV_HQ_car = { x = 0 y = 0 }
+		engineer_mot = { x = 0 y = 1 }
+		recon_mot = { x = 0 y = 2 }
+
+		anti_air_car = { x = 1 y = 0 }
+	}
+}
+
+units = {
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 1
+        }
+        location = 4609
+        division_template = "Guards Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 1
+        }
+        location = 3499
+        division_template = "Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 2
+        }
+        location = 6652
+        division_template = "Guards Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 3
+        }
+        location = 3900
+        division_template = "Guards Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 4
+        }
+        location = 949
+        division_template = "Guards Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 5
+        }
+        location = 13259
+        division_template = "Guards Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 6
+        }
+        location = 11627
+        division_template = "Guards Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 7
+        }
+        location = 9569
+        division_template = "Guards Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 7
+        }
+        location = 1150
+        division_template = "Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 8
+        }
+        location = 3499
+        division_template = "Guards Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 8
+        }
+        location = 9236
+        division_template = "Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 9
+        }
+        location = 1150
+        division_template = "Guards Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 9
+        }
+        location = 583
+        division_template = "Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 10
+        }
+        location = 462
+        division_template = "Guards Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 10
+        }
+        location = 6947
+        division_template = "Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 11
+        }
+        location = 462
+        division_template = "Guards Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 11
+        }
+        location = 9548
+        division_template = "Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 12
+        }
+        location = 462
+        division_template = "Guards Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 12
+        }
+        location = 9548
+        division_template = "Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 13
+        }
+        location = 11666
+        division_template = "Guards Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 13
+        }
+        location = 9548
+        division_template = "Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+}
+
+        # ========================================================
+        # Guards Cav Divisions & Cav Divisions
+        # ========================================================
+        #
+        # 17 CD
+        # - 1st Guards Cav Division       - Kecskem�t (684)
+        # - 2nd Guards Cav Division       - Kecskem�t (684)
+        # - 3rd Guards Cav Division       - GOSVG (3535)
+        # - 5th Guards Cav Division       - Lublin (11399)
+        # - 6th Guards Cav Division       - Lublin (11399)
+        # - 9th Guards Cav Division       - LvVO (11479)
+        # - 10th Guards Cav Division      - LvVO (11479)
+        # - 11th Guards Cav Division      - Ploesti (3663)
+        # - 12th Guards Cav Division      - Ploesti (3663)
+        # - 14th Guards Cav Division      - Brest (3392)
+        # - 16th Guards Cav Division      - Brest (3392)
+        # - 17th Guards Cav Division      - GOSVG (3535)
+        # - 1st Cav Division              - Iran (10837)
+        # - 23rd Cav Division             - Iran (10837)
+        # - 39th Cav Division             - Iran (10837)
+        # - 59th Cav Division             - Mongolia? (4801)
+        # - 84th Cav Division             - Voroshilov? (6989)
+        #
+
+
+division_template = {
+	name = "Guards Cavalry Division 1945"
+        priority = 2
+	template_counter = 210
+	division_names_group = SOV_GCD_01
+
+	regiments = {
+		trm_medium_armor = { x = 0 y = 0 }
+
+		cavalry = { x = 1 y = 0 }
+                cavalry = { x = 1 y = 1 }
+
+		cavalry = { x = 2 y = 0 }
+                cavalry = { x = 2 y = 1 }
+
+		cavalry = { x = 3 y = 0 }
+                cavalry = { x = 3 y = 1 }
+                
+                artillery_brigade = { x = 4 y = 0 }
+                artillery_brigade_med = { x = 4 y = 1 }
+                rocket_brigade = { x = 4 y = 2 }
+	}
+	support = {
+		DIV_HQ = { x = 0 y = 0 }
+
+		anti_air = { x = 1 y = 0 }
+                anti_tank = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Cavalry Division 1945"
+	template_counter = 210
+	division_names_group = SOV_CD_01
+
+	regiments = {
+		trm_medium_armor = { x = 0 y = 0 }
+
+		cavalry = { x = 1 y = 0 }
+                cavalry = { x = 1 y = 1 }
+
+		cavalry = { x = 2 y = 0 }
+                cavalry = { x = 2 y = 1 }
+
+		cavalry = { x = 3 y = 0 }
+                cavalry = { x = 3 y = 1 }
+                
+                artillery_brigade = { x = 4 y = 0 }
+                artillery_brigade_med = { x = 4 y = 1 }
+                rocket_brigade = { x = 4 y = 2 }
+	}
+	support = {
+		DIV_HQ = { x = 0 y = 0 }
+
+		anti_air = { x = 1 y = 0 }
+                anti_tank = { x = 1 y = 1 }
+	}
+}
+
+units = {
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 1
+        }
+        location = 684
+        division_template = "Guards Cavalry Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 2
+        }
+        location = 684
+        division_template = "Guards Cavalry Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 3
+        }
+        location = 3535
+        division_template = "Guards Cavalry Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 5
+        }
+        location = 11399
+        division_template = "Guards Cavalry Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 6
+        }
+        location = 11399
+        division_template = "Guards Cavalry Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 9
+        }
+        location = 11479
+        division_template = "Guards Cavalry Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 10
+        }
+        location = 11479
+        division_template = "Guards Cavalry Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 11
+        }
+        location = 3663
+        division_template = "Guards Cavalry Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 12
+        }
+        location = 3663
+        division_template = "Guards Cavalry Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 14
+        }
+        location = 3392
+        division_template = "Guards Cavalry Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 16
+        }
+        location = 3392
+        division_template = "Guards Cavalry Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 17
+        }
+        location = 3535
+        division_template = "Guards Cavalry Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 1
+        }
+        location = 10837
+        division_template = "Cavalry Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 23
+        }
+        location = 10837
+        division_template = "Cavalry Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 39
+        }
+        location = 10837
+        division_template = "Cavalry Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 59
+        }
+        location = 4801
+        division_template = "Cavalry Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 84
+        }
+        location = 6989
+        division_template = "Cavalry Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+}
+
+        # ========================================================
+        # Marine Troops
+        # ========================================================
+        #
+        # 1 Marine Division + 4 Marine Brigades
+        # - 1st Marine Division              - Porkkala-Udd (11105), should be Hanko (11211) for exclave reasons
+        # - 12th Marine Brigade              - Petsamo? (9116)
+        # - 13th Guards Marine Brigade       - Kurils? (1399)
+        # - 63rd Marine Brigade              - Petsamo? (9116)
+        # - 260th Marine Brigade             - Sevastopol (3686)
+        #
+        # Directives from 11.1945 - 1.1946 3 MBr:
+        # - 14th Marine Brigade              - Kamchatka
+        # - 15th Marine Brigade              - Sakhalin
+        # - 16th Marine Brigade              - Dalian
+
+division_template = {
+	name = "Naval Infantry Division 1945"
+	template_counter = 970
+	division_names_group = SOV_NID_01
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+
+		marine = { x = 2 y = 0 }
+		marine = { x = 2 y = 1 }
+		marine = { x = 2 y = 2 }
+
+		trm_medium_armor = { x = 3 y = 0 }
+                
+                artillery_brigade = { x = 4 y = 0 }
+                artillery_brigade = { x = 4 y = 1 }
+                artillery_brigade_med = { x = 4 y = 2 }
+                anti_tank_brigade_med = { x = 4 y = 3 }
+	}
+	support = {
+		DIV_HQ = { x = 0 y = 0 }
+
+		anti_air = { x = 1 y = 0 }
+		recon = { x = 1 y = 0 }
+                anti_tank = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Naval Infantry Brigade 1945"
+	template_counter = 969
+	division_names_group = SOV_NIBR_01
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+                
+                artillery_brigade = { x = 1 y = 0 }
+	}
+	support = {
+		DIV_HQ = { x = 0 y = 0 }
+
+		anti_air = { x = 1 y = 0 }
+		recon = { x = 1 y = 0 }
+                anti_tank = { x = 1 y = 1 }
+	}
+}
+
+units = {
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 1
+        }
+        location = 11211
+        division_template = "Naval Infantry Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 12
+        }
+        location = 9116
+        division_template = "Naval Infantry Brigade 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        name = "13-ya Gv.BrMP"
+        location = 1399
+        division_template = "Naval Infantry Brigade 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 63
+        }
+        location = 9116
+        division_template = "Naval Infantry Brigade 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 260
+        }
+        location = 3686
+        division_template = "Naval Infantry Brigade 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+}
+
+        # ========================================================
+        # Airborne Troops
+        # ========================================================
+        #
+        # 4 Airborne Brigades
+        # - 5th Guards Airborne Brigade       - Maryina Gorka (3378)
+        # - 8th Guards Airborne Brigade       - Bykhov (3378)
+        # - 24th Guards Airborne Brigade      - Teikovo (11205)
+        # - 7th Airborne Brigade              - ZabF (4832)
+        #
+        # Directive #0010 from 10.06.1946 10 AD:
+        # - 76th Guards Airborne Division - Krechevitsy
+        # - 98th Guards Airborne Division - Pokrovka
+        # - 99th Guards Airborne Division - Manzovka
+        # - 100th Guards Airborne Division - Belaya Tserkov
+        # - 103rd Guards Airborne Division - Polotsk
+        # - 104th Guards Airborne Division - Narva
+        # - 105th Guards Airborne Division - Kostroma
+        # - 106th Guards Airborne Division - Tula
+        # - 107th Guards Airborne Division - Kiev
+        # - 114th Guards Airborne Division - Borovukha
+        #
+        # Directive from 15.10.1948 5 AD:
+        # - 7th Guards Airborne Division - Kaunas
+        # - 11th Guards Airborne Division - Ryazan
+        # - 13th Guards Airborne Division - Svobodnyi
+        # - 21st Guards Airborne Division - Valga
+        # - 31st Guards Airborne Division - Novograd
+        #
+
+division_template = {
+	name = "Guards Airborne Brigade 1945"
+        priority = 2
+	template_counter = 3012
+	division_names_group = SOV_GABR_01
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 0 y = 3 }
+                
+                airborne_anti_tank_brigade = { x = 1 y = 0 }
+	}
+	support = {
+		DIV_HQ_airborne = { x = 0 y = 0 }
+
+		anti_air_car = { x = 1 y = 0 }
+		recon = { x = 1 y = 0 }
+	}
+}
+
+#division_template = {
+#	name = "Guards Airborne Division 1946"
+#       priority = 2
+#	template_counter = 3012
+#	division_names_group = SOV_GAD_01
+#
+#	regiments = {
+#		paratrooper = { x = 0 y = 0 }
+#		paratrooper = { x = 0 y = 1 }
+#		paratrooper = { x = 0 y = 2 }
+#
+#		paratrooper = { x = 1 y = 0 }
+#		paratrooper = { x = 1 y = 1 }
+#		paratrooper = { x = 1 y = 2 }
+#                
+#               airborne_artillery_brigade = { x = 2 y = 0 }
+#               airborne_artillery_brigade = { x = 2 y = 1 }
+#               airborne_anti_tank_brigade = { x = 2 y = 2 }
+#               trm_airborne_tank_destroyer = { x = 2 y = 3 }
+#	}
+#	support = {
+#		DIV_HQ_airborne = { x = 0 y = 0 }
+#
+#		anti_air_car = { x = 1 y = 0 }
+#		eng_abn = { x = 1 y = 1 }
+#		recon = { x = 1 y = 2 }
+#	}
+#}
+
+units = {
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 5
+        }
+        location = 3378
+        division_template = "Guards Airborne Brigade 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 8
+        }
+        location = 3378
+        division_template = "Guards Airborne Brigade 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 24
+        }
+        location = 11205
+        division_template = "Guards Airborne Brigade 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+
+    division = {
+        name = "7-ya VDBr"
+        location = 4832
+        division_template = "Guards Airborne Brigade 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+    }
+}
+### EOF ###

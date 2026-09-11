@@ -1,0 +1,64 @@
+instant_effect = {
+	set_country_flag = placed_research_centre
+
+	add_research_slot = 1
+	830 = { state_add_research_centre = yes }
+	SLOT:industry_folder = yes
+	SLOT:electronics_folder = yes
+
+	add_research_slot = 1
+	221 = { state_add_research_centre = yes }
+	SLOT:infantry_folder = yes
+	SLOT:support_folder = yes
+	SLOT:artillery_folder = yes
+
+	add_research_slot = 1
+	260 = { state_add_research_centre = yes }
+	SLOT:air_techs_folder = yes
+	SLOT:air_doctrine_folder = yes
+
+	add_research_slot = 1
+	570 = { state_add_research_centre = yes }
+	SLOT:tank_techs_folder = yes
+	SLOT:armor_folder = yes
+	SLOT:ww1_land_doctrine_folder = yes
+	SLOT:land_doctrine_folder = yes
+	add_tech_bonus = {
+		name = SOV_mortar_prototype
+		bonus = 1.25
+		uses = 1
+		technology = mortars
+	}
+######################################################
+##### 	  PLAYER AND AI HAVE SEPERATE  OOBS 	 #####
+######################################################
+#	if = {
+#		limit = {
+#			SOV = { is_ai = yes }
+#		}
+#		SOV = {
+#			#set_country_flag = SOV_AI
+#			load_oob = "1945_SOV_AI"
+#		}
+#	}
+	if = {
+		limit = {
+			SOV = { is_ai = no }
+		}
+		SOV = {
+                    load_oob = "1945_SOV_player"
+
+					load_oob = "1945_SOV_player_armor_tech"
+
+                    load_oob = "1945_SOV_player_air_tech"
+                    load_oob = "1945_SOV_player_air_transbaykal"
+                    load_oob = "1945_SOV_player_air_pvo"
+                }
+	}
+#	if = {
+#		limit = { has_dlc = "La Resistance" }
+#		SOV = { load_oob = "1945_SOV_air_scouts" }
+#	}
+}
+
+### EOF ###

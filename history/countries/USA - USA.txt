@@ -1,0 +1,39 @@
+﻿#################################
+##### OPERATION UNTHINKABLE #####
+#################################
+capital = 847
+
+1945.9.3 = {
+    history_initialisation = yes
+    set_research_slots = 2
+    set_cosmetic_tag = USA_48
+
+    set_stability = 0.35
+    set_war_support = 0
+
+    set_convoys = 980
+    set_rule = { can_send_volunteers = no }
+
+    recruit_character = USA_harry_truman
+
+    set_politics = {
+        ruling_party = liberalism
+        last_election = "1944.11.7"
+        election_frequency = 48
+        elections_allowed = no
+    }
+
+    set_popularities = {
+	conservatism = 43
+	liberalism = 52
+	agrarianism = 1
+	socialism = 1
+	fascism = 1
+	communism = 2
+    }
+
+    enable_equipments = {
+        bell_p63_equipment_1
+    }
+}
+### EOF ###

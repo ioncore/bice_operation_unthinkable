@@ -1,0 +1,409 @@
+# VVS Regiment
+# 1945
+# - 40 F, 40 C, 32 B, 30 HB
+# 1955
+# - 40 F, 40 C, 32 B, 30 HB
+# 1965
+# - 40 F, 40 FB, 32 B, 20-25 HB
+# VVS Division
+# 1945
+# - 120-125 F, 120-125 C, 96 B
+# 1955
+# - 110-120 F, 120 C, 100 B
+# 1965
+# - 75-120 F, 75-120 FB, 60-96 B, 40-65 HB
+#
+#
+# USAF Squadron
+# 1945
+# - 25 F, 25 FB, 15 B, 15 HB
+# 1955
+# - 18 I, 25 F, 25 FB, 15 B, 10 HB
+# 1965
+# - 18 I, 25 F, 24 FB, 10-15 B/HB
+#
+# USAF Group/Wing
+# 1945
+# - 75 F/FB, 64-72 HB, 45 VHB
+# 1955
+# - 75 F/FB, 45 B, 30 VHB
+# 1965
+# - 75 F/FB, 30-45 HB
+
+sub_units = {
+	fighter = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = fighter
+		need = { fighter_equipment = 1	}
+		categories = { category_fighter category_all_air }
+		land_air_wing_size = 32 # 50
+		#mega_carrier_air_wing_size = 10
+	}
+	
+	fighter_alt = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = fighter
+		need = { fighter_alt_equipment = 1	}
+		categories = { category_fighter category_all_air }
+		land_air_wing_size = 32 # 50
+		#mega_carrier_air_wing_size = 10
+	}
+	
+	interceptor = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = fighter
+		need = { interceptor_equipment = 1	}
+		categories = { category_fighter category_interceptor category_all_air }
+		land_air_wing_size = 32 # 50
+		#mega_carrier_air_wing_size = 10
+	}
+	
+	interceptor_navy = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = fighter
+		need = { interceptor_navy_equipment = 1	}
+		categories = { category_fighter category_interceptor category_all_air }
+		land_air_wing_size = 32 # 50
+		#mega_carrier_air_wing_size = 10
+	}
+	
+	fighter_navy = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = fighter
+		need = { fighter_navy_equipment = 1	}
+		categories = { category_fighter category_all_air }
+		land_air_wing_size = 32 # 50
+		#mega_carrier_air_wing_size = 10
+	}
+	
+	mr_fighter = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = fighter
+		need = { mr_fighter_equipment = 1	}
+		categories = { category_fighter category_mr_fighter category_all_air }
+		land_air_wing_size = 32 # 50
+		#mega_carrier_air_wing_size = 10
+	}
+	
+	cv_fighter = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = fighter
+		need = { cv_fighter_equipment = 1 }
+		categories = { category_fighter category_all_air }
+		land_air_wing_size = 32 # 50
+		carrier_air_wing_size = 5
+		#mega_carrier_air_wing_size = 10
+	}
+	
+	cv_mr_fighter = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = fighter
+		need = { cv_mr_fighter_equipment = 1	}
+		categories = { category_fighter category_mr_fighter category_all_air }
+		land_air_wing_size = 32 # 50
+		carrier_air_wing_size = 5
+		#mega_carrier_air_wing_size = 10
+	}
+
+	jet_fighter = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = fighter
+		need = { jet_fighter_equipment = 1 }
+		categories = { category_fighter category_jet category_all_air }
+		land_air_wing_size = 32 # 50
+		#mega_carrier_air_wing_size = 10
+	}
+	
+	jet_mr_fighter = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = fighter
+		need = { jet_mr_fighter_equipment = 1 }
+		categories = { category_fighter category_jet category_all_air }
+		land_air_wing_size = 32 # 50
+		#mega_carrier_air_wing_size = 10
+	}
+	
+	cas = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = cas
+		need = { CAS_equipment = 1 }
+		categories = { category_cas category_all_air }
+		land_air_wing_size = 32 # 50
+		#mega_carrier_air_wing_size = 10
+	}
+
+	twin_cas = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = cas
+		need = { twin_cas_equipment = 1 }
+		categories = { category_cas category_all_air }
+		land_air_wing_size = 32 # 50
+		#mega_carrier_air_wing_size = 10
+	}
+	
+	jet_cas = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = cas
+		need = { jet_cas_equipment = 1 }
+		categories = { category_cas category_jet category_all_air }
+		land_air_wing_size = 32 # 50
+		#mega_carrier_air_wing_size = 10
+	}
+	
+	cv_cas = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = cas
+		need = { cv_CAS_equipment = 1 }
+		categories = { category_cas category_all_air }
+		land_air_wing_size = 32 # 50
+		carrier_air_wing_size = 5
+		#mega_carrier_air_wing_size = 10
+	}
+
+	cv_nav_bomber = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = naval_bomber
+		need = { cv_nav_bomber_equipment = 1 }
+		categories = { category_nav_bomber category_all_air }
+		land_air_wing_size = 32 # 50
+		carrier_air_wing_size = 5
+		#mega_carrier_air_wing_size = 10
+	}
+
+	nav_bomber = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = naval_bomber
+		need = { nav_bomber_equipment = 1 }
+		categories = { category_nav_bomber category_all_air }
+		land_air_wing_size = 32 # 50
+		#mega_carrier_air_wing_size = 10
+	}
+	
+	heavy_nav_bomber = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = naval_bomber
+		need = { heavy_nav_bomber_equipment = 1 }
+		categories = { category_nav_bomber category_all_air }
+		land_air_wing_size = 32 # 50
+		#mega_carrier_air_wing_size = 10
+	}
+	
+	nav_bomber_gb = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = naval_bomber
+		need = { nav_bomber_gb_equipment = 1 }
+		categories = { category_nav_bomber category_all_air }
+		land_air_wing_size = 32 # 50
+		#mega_carrier_air_wing_size = 10
+	}
+	
+	flying_boat = {
+		sprite = medium_plane
+		priority = 1
+		active = yes
+		type = maritime_patrol_plane
+		need = { flying_boat_equipment = 1 }
+		categories = { category_nav_bomber category_all_air }
+		land_air_wing_size = 25
+		#mega_carrier_air_wing_size = 10
+	}
+	
+	rocket_interceptor = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = interceptor
+		need = { rocket_interceptor_equipment = 1 }
+		categories = { category_all_air category_rock_air }
+		land_air_wing_size = 32 # 50
+		#mega_carrier_air_wing_size = 10
+	}
+
+	suicide_craft = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = suicide
+		need = { suicide_craft_equipment = 1 }
+		categories = { category_all_air }
+		land_air_wing_size = 25
+		#mega_carrier_air_wing_size = 10
+	}
+	
+	light_bomber = {
+		sprite = medium_plane
+		priority = 1
+		active = yes
+		type = tactical_bomber
+		need = { light_bomber_equipment = 1 }
+		categories = { category_tac_bomber category_all_air }
+		land_air_wing_size = 32 # 50
+		#mega_carrier_air_wing_size = 10
+	}
+	
+	fast_bomber = {
+		sprite = medium_plane
+		priority = 1
+		active = yes
+		type = tactical_bomber
+		need = { fast_bomber_equipment = 1 }
+		categories = { category_tac_bomber category_all_air }
+		land_air_wing_size = 32 # 50
+		#mega_carrier_air_wing_size = 10
+	}
+	
+	tac_bomber = {
+		sprite = medium_plane
+		priority = 1
+		active = yes
+		type = tactical_bomber
+		need = { tac_bomber_equipment = 1 }
+		categories = { category_tac_bomber category_all_air }
+		land_air_wing_size = 32 # 50
+		#mega_carrier_air_wing_size = 10
+	}
+	
+	jet_tac_bomber = {
+		sprite = medium_plane
+		priority = 1
+		active = yes
+		type = tactical_bomber
+		need = { jet_tac_bomber_equipment = 1 }
+		categories = { category_jet category_tac_bomber category_all_air }
+		land_air_wing_size = 32 # 50
+		#mega_carrier_air_wing_size = 10
+	}
+	
+	heavy_fighter = {
+		sprite = medium_plane
+		priority = 1
+		active = yes
+		type = fighter
+		need = { heavy_fighter_equipment = 1 }
+		categories = { category_heavy_fighter category_all_air }
+		land_air_wing_size = 32 # 50
+		#mega_carrier_air_wing_size = 10
+	}
+	
+	night_fighter = {
+		sprite = medium_plane
+		priority = 1
+		active = yes
+		type = fighter
+		need = { night_fighter_equipment = 1 }
+		categories = { category_heavy_fighter category_all_air }
+		land_air_wing_size = 32 # 50
+		#mega_carrier_air_wing_size = 10
+	}
+
+	strat_bomber = {
+		sprite = heavy_plane
+		priority = 1
+		active = yes
+		type = strategic_bomber
+		need = { quad_engine_bomber_equipment = 1 }
+		categories = { category_strat_bomber category_all_air }
+		land_air_wing_size = 32 # 50
+		#mega_carrier_air_wing_size = 10
+	}
+
+	jet_strat_bomber = {
+		sprite = heavy_plane
+		priority = 1
+		active = yes
+		type = strategic_bomber
+		need = { jet_strat_bomber_equipment = 1 }
+		categories = { category_jet category_strat_bomber category_all_air }
+		land_air_wing_size = 32 # 50
+		#mega_carrier_air_wing_size = 10
+	}
+	
+	scout_plane = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = scout_plane
+		need = { scout_plane_equipment = 1 }
+		categories = { category_scout_plane }
+		land_air_wing_size = 25
+		#mega_carrier_air_wing_size = 10
+	}
+	
+	transport_plane = {
+		sprite = heavy_plane
+		priority = 1
+		active = yes
+		type = air_transport
+		need = { transport_plane_equipment = 1 }
+		categories = { category_all_air }
+		land_air_wing_size = 25
+		#mega_carrier_air_wing_size = 10
+	}
+	
+	guided_missile = {
+		sprite = missile_default
+		priority = 1
+		active = yes
+		type = missile
+		need = { guided_missile_equipment = 1 }
+		categories = { category_missile }
+		land_air_wing_size = 50
+		#mega_carrier_air_wing_size = 10
+	}
+	
+	ballistic_missile = {
+		sprite = missile_default
+		priority = 8
+		active = yes
+		type = ballistic_missile
+		need = { ballistic_missile_equipment = 1 }
+		categories = { category_missile }
+		land_air_wing_size = 50
+	}
+	
+	explosive_ammo = {
+		sprite = missile_default
+		priority = 8
+		active = yes
+		type = emplacement_gun_ammo
+		need = { explosive_ammo_equipment = 1 }
+		land_air_wing_size = 1
+	}
+	
+}

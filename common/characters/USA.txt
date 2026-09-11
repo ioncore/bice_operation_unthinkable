@@ -1,0 +1,88 @@
+characters={
+	### COUNTRYLEADERS ###
+	USA_franklin_delano_roosevelt = {
+		name = USA_franklin_delano_roosevelt
+		country_leader = {
+			desc = POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC
+			ideology = dem_party_us
+			traits = {
+				dislikes_germany
+				liberal
+				charismatic
+			}
+		}
+		advisor = {
+			slot = head_of_state
+			idea_token = USA_franklin_delano_roosevelt_head_of_state
+			on_add = {
+				set_temp_variable = { character = token:USA_franklin_delano_roosevelt}
+
+				head_of_state_on_add_effect = yes
+			} 
+			on_remove = {
+				set_temp_variable = { character = token:USA_franklin_delano_roosevelt}
+
+				head_of_state_on_remove_effect = yes
+			} 
+			allowed = {
+				original_tag = USA
+			}
+			available = {
+				has_government = liberalism
+			}
+			traits = {
+				liberal
+			}
+		}
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_USA_Franklin_Roosevelt.dds"
+			}
+			army = {
+				small = "gfx/interface/ideas/ministers/idea_USA_franklin_roosevelt.dds"
+			}
+		}
+	}
+	USA_harry_truman={
+		name = USA_harry_truman
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_USA_Harry_Truman_156_210.dds"
+			}
+			army={
+				small = "gfx/interface/ideas/ministers/idea_USA_harry_truman_65_67.dds"
+			}
+		}
+		country_leader = {
+			desc = POLITICS_HARRY_TRUMAN_DESC
+			ideology = dem_party_us
+			traits = {
+				dislikes_germany
+				liberal
+				charismatic
+			}
+		}
+		advisor = {
+			slot = head_of_state
+			idea_token = USA_harry_truman_head_of_state
+			on_add = {
+				set_temp_variable = { character = token:USA_harry_truman}
+				head_of_state_on_add_effect = yes
+			} 
+			on_remove = {
+				set_temp_variable = { character = token:USA_harry_truman}
+				head_of_state_on_remove_effect = yes
+			} 
+			allowed = {
+				original_tag = USA
+			}
+			available = {
+				has_government = liberalism
+			}
+			traits = {
+				liberal
+			}
+		}
+	}
+}
+### EOF ###

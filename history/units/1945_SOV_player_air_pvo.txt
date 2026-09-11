@@ -1,0 +1,145 @@
+#####################################
+##### SOVIET PLAYER AIR PVO OOB #####
+#####################################
+
+        # ========================================================
+        # PVO 03.09.45
+        #
+        # - 34/147th Interceptor Rgt (La-7) - Spassk (408)
+        # - 404/147th Interceptor Rgt (Yak-9M) - Spassk (408)
+        # - 429/147th Interceptor Rgt (Yak-9M) - Kommuna Lenina (408)
+        # - 564/147th Interceptor Rgt (La-7) - Spassk (408)
+        #
+        # - 3/149th Interceptor Rgt (Yak-9M) - Nikolaevka (408)
+        # - 18/149th Interceptor Rgt (Yak-9) - Nikolaevka (408)
+        # - 60/149th Interceptor Rgt (Yak-9) - Dzemgi (657)
+        # - 400/149th Interceptor Rgt (La-7) - Nikolaevka (408)
+        #
+        # - 401/297th Interceptor Rgt (La-7) - Barnaul (40)
+        # - 938/297th Interceptor Rgt (Yak-9) - Domna (563)
+        # - 939/297th Interceptor Rgt (Yak-9) - Domna (563)
+        #
+
+air_wings = {
+#	408 = { 
+#		yak_9_equipment_1 = {
+#			owner = "SOV" 
+#			amount = 100
+#		}
+#               creator = USA
+#		name="147-ya IAD PVO"
+#		start_experience_factor = 0.16
+#	}
+	408 = { 
+		lagg_7_equipment_1 = {
+			owner = "SOV" 
+			amount = 32
+		}
+                creator = USA
+		name="34-y IAP PVO"
+		start_experience_factor = 0.16
+	}
+	408 = { 
+		yak_9_equipment_1 = {
+			owner = "SOV" 
+			amount = 32
+		}
+                creator = USA
+		name="404-y IAP PVO"
+		start_experience_factor = 0.16
+	}
+	408 = { 
+		yak_9_equipment_1 = {
+			owner = "SOV" 
+			amount = 32
+		}
+		name="429-y IAP PVO"
+		start_experience_factor = 0.16
+	}
+        408 = { 
+		lagg_7_equipment_1 = {
+			owner = "SOV" 
+			amount = 32
+		}
+		name="564-y IAP PVO"
+		start_experience_factor = 0.16
+	}
+#	408 = { 
+#		yak_9_equipment_1 = {
+#			owner = "SOV" 
+#			amount = 100
+#		}
+#               creator = USA
+#		name="149-ya IAD PVO"
+#		start_experience_factor = 0.16
+#	}
+	408 = { 
+		lagg_7_equipment_1 = {
+			owner = "SOV" 
+			amount = 32
+		}
+                creator = USA
+		name="3-y IAP PVO"
+		start_experience_factor = 0.16
+	}
+	408 = { 
+		yak_9_equipment_1 = {
+			owner = "SOV" 
+			amount = 32
+		}
+                creator = USA
+		name="18-y IAP PVO"
+		start_experience_factor = 0.16
+	}
+	657 = { 
+		yak_9_equipment_1 = {
+			owner = "SOV" 
+			amount = 32
+		}
+		name="60-y IAP PVO"
+		start_experience_factor = 0.16
+	}
+        408 = { 
+		lagg_7_equipment_1 = {
+			owner = "SOV" 
+			amount = 32
+		}
+		name="400-y IAP PVO"
+		start_experience_factor = 0.16
+	}
+#	408 = { 
+#		yak_9_equipment_1 = {
+#			owner = "SOV" 
+#			amount = 100
+#		}
+#               creator = USA
+#		name="147-ya IAD PVO"
+#		start_experience_factor = 0.16
+#	}
+	40 = { 
+		yak_9_equipment_1 = {
+			owner = "SOV" 
+			amount = 32
+		}
+                creator = USA
+		name="401-y IAP PVO"
+		start_experience_factor = 0.16
+	}
+	583 = { 
+		yak_9_equipment_1 = {
+			owner = "SOV" 
+			amount = 32
+		}
+                creator = USA
+		name="938-y IAP PVO"
+		start_experience_factor = 0.16
+	}
+        583 = { 
+		lagg_7_equipment_1 = {
+			owner = "SOV" 
+			amount = 32
+		}
+		name="939-y IAP PVO"
+		start_experience_factor = 0.16
+	}                
+}

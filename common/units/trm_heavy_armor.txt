@@ -1,0 +1,370 @@
+sub_units = {
+
+	trm_heavy_armor = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 2507
+		active = yes
+		#cavalry = yes
+		type = {
+			armor
+		}
+		
+		group = armor
+		
+		categories = {
+			category_tanks
+			category_front_line
+			category_all_armor
+			category_army
+			category_heavy_armor
+		}
+
+		combat_width = 2
+
+		need = {
+			trm_heavy_tank_chassis = 25
+			#recon_equipment = 60
+		}
+		manpower = 500
+		max_organisation = 0
+		default_morale = 0.1
+		training_time = 210
+		max_strength = 12
+		weight = 6
+		supply_consumption = 0.6
+		own_equipment_fuel_consumption_mult = 2.0 #Fuel use standardized for 25 Tanks, plus some extra for mobility
+		fuel_capacity = 0.6
+		
+		#transport = trm_heavy_tank_chassis
+		
+		suppression = 0.8
+
+		#Tanks are awesome
+		soft_attack = 0.5
+		hard_attack = 0.5
+		defense = 0.5
+		breakthrough = 0.5
+
+	}
+
+	trm_heavy_cs_armor = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 2517
+		active = yes
+		#cavalry = yes
+		type = {
+			armor
+		}
+		
+		group = armor
+		
+		categories = {
+			category_tanks
+			category_front_line
+			category_all_armor
+			category_army
+			category_heavy_armor
+		}
+
+		combat_width = 2
+
+		need = {
+			trm_heavy_tank_cs_chassis = 25
+			#recon_equipment = 60
+		}
+		manpower = 500
+		max_organisation = 0
+		default_morale = 0.1
+		training_time = 210
+		max_strength = 12
+		weight = 6
+		supply_consumption = 0.6
+		own_equipment_fuel_consumption_mult = 2.0 #Fuel use standardized for 25 Tanks, plus some extra for mobility
+		fuel_capacity = 0.6
+		
+		#transport = trm_heavy_tank_cs_chassis
+		
+		suppression = 0.8
+
+		#Tanks are awesome
+		soft_attack = 0.5
+		hard_attack = 0.5
+		defense = 0.5
+		breakthrough = 0.5
+
+	}
+	
+	trm_heavy_assault_gun = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 2527
+		active = yes
+		
+		type = {
+			armor
+			artillery
+		}
+		
+		group = artillery
+		
+		categories = {
+			category_front_line
+			category_all_armor
+			category_army
+			category_heavy_armor
+			category_heavy_tank_destroyer
+			category_all_tank_destroyer
+		}
+
+		combat_width = 1.5
+
+		need = {
+			trm_heavy_tank_assault_gun_chassis = 25
+		}
+		manpower = 300
+		max_organisation = 0
+		default_morale = 0.1
+		max_strength = 7.2
+		training_time = 210
+		weight = 3.6
+		supply_consumption = 0.36
+		
+		armor_value = -0.1
+		
+		#transport = trm_heavy_tank_assault_gun_chassis
+		
+		suppression = 0.4
+		
+		jungle = {
+			attack = 0.05
+			defence = 0.05
+		}
+		forest = {
+			attack = 0.05
+			defence = 0.05
+		}
+		urban = {
+			attack = 0.1
+			defence = 0.1
+		}
+		densecity = {
+			attack = 0.1
+			defence = 0.1
+		}
+		capital = {
+			attack = 0.1
+			defence = 0.1
+		}
+	}
+
+	trm_heavy_tank_destroyer = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 2537
+		active = yes
+		
+		type = {
+			armor
+			anti_tank
+		}
+		
+		group = artillery
+		
+		categories = {
+			category_front_line
+			category_all_armor
+			category_army
+			category_heavy_armor
+			category_heavy_tank_destroyer
+			category_all_tank_destroyer
+		}
+
+		combat_width = 1.5
+
+		need = {
+			trm_heavy_tank_destroyer_chassis = 25
+		}
+		manpower = 300
+		max_organisation = 0
+		default_morale = 0.1
+		max_strength = 7.2
+		training_time = 210
+		weight = 3.6
+		supply_consumption = 0.36
+		
+		armor_value = -0.1
+		
+		#transport = trm_heavy_tank_destroyer_chassis
+		
+		suppression = 0.4
+	}
+	
+	trm_heavy_sp_artillery = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 2547
+		active = yes
+		
+		type = {
+			armor
+			artillery
+		}
+		
+		group = artillery
+		
+		categories = {
+			category_all_armor
+			category_army
+			category_heavy_armor
+			category_heavy_tank_artillery
+			category_all_sp_artillery
+		}
+
+		combat_width = 1.5
+
+		need = {
+			trm_heavy_tank_artillery_chassis = 25
+		}
+		manpower = 300
+		max_organisation = -2
+		default_morale = 0.1
+		max_strength = 4.8
+		training_time = 210
+		weight = 3.6
+		supply_consumption = 0.6
+		
+		armor_value = -0.1
+		
+		#transport = trm_heavy_tank_artillery_chassis
+		
+		suppression = 0.4
+	}
+	
+	trm_heavy_sp_anti_air_support = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 2557
+		active = yes
+		affects_speed = yes
+		
+		type = {
+			support
+			anti_air
+		}
+		
+		group = support
+		same_support_type = trm_cavalry_sp_anti_air_support
+		
+		categories = {
+			category_all_support_armor
+			category_army
+			category_heavy_tank_anti_air
+			category_all_tank_anti_air
+		}
+
+		need = {
+			trm_heavy_tank_aa_chassis = 20
+		}
+		manpower = 300
+		max_organisation = 0
+		default_morale = 0.1
+		max_strength = 4.8
+		training_time = 150
+		weight = 3
+		supply_consumption = 0.24
+		
+		##COMBAT stats
+		soft_attack = -0.2
+		hard_attack = -0.2
+		defense = -0.2
+		armor_value = -0.4
+		breakthrough = -0.2
+		combat_width = 0
+		
+		#transport = trm_heavy_tank_aa_chassis
+		
+		desert = {
+			movement = -0.01
+		}
+		forest = {
+			movement = -0.01
+		}
+		hills = {
+			movement = -0.01
+		}
+		mountain = 	{
+			movement = -0.01
+		}
+		jungle = {
+			movement = -0.01
+		}
+		marsh = {
+			movement = -0.01
+		}
+		river = { 
+			movement = -0.02
+		}
+		amphibious = { 
+			movement = -0.06
+			attack = -0.1
+		}
+	}
+	
+	trm_heavy_amphibious_armor = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 2564
+		active = yes
+		#cavalry = yes
+		type = {
+			armor
+		}
+		
+		group = armor
+		
+		categories = {
+			category_tanks
+			category_front_line
+			category_all_armor
+			category_army
+			category_heavy_armor
+		}
+
+		combat_width = 2
+
+		need = {
+			trm_heavy_tank_amphibious_chassis = 40
+			#recon_equipment = 60
+		}
+		manpower = 500
+		max_organisation = 0
+		default_morale = 0.1
+		training_time = 210
+		max_strength = 12
+		weight = 6
+		supply_consumption = 0.6
+		own_equipment_fuel_consumption_mult = 2.0 #Fuel use standardized for 25 Tanks, plus some extra for mobility
+		fuel_capacity = 0.6
+		
+		#transport = trm_heavy_tank_amphibious_chassis
+		
+		suppression = 0.8
+
+		#Tanks are awesome
+		soft_attack = 0.5
+		hard_attack = 0.5
+		defense = 0.5
+		breakthrough = 0.5
+
+		river = { 
+			attack = 0.1
+			movement = 0.1
+		}
+		amphibious = { 
+			attack = 0.6
+			movement = 0.1
+		}
+	}
+}

@@ -1,0 +1,31 @@
+
+state={
+	resources = {
+		food = 49
+	}
+	id=40
+	name="STATE_40" # Barnaul
+	manpower = 2107451
+	
+	local_supplies=0.0
+	state_category = large_town
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			air_base = 1
+		}
+
+		set_variable = { vp_value = 1 } 
+		set_variable = { highest_vp = 1 } 
+
+		victory_points = { 1297 1 }
+		add_core_of = SOV
+	}
+
+	provinces={
+		1297 1779 1794 1797 4803 7680 10537 10546 11410 12515 12528 12613 
+	}
+}
