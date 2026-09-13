@@ -1,3 +1,22 @@
+SOV_GINF_01 = {
+	name = "Guards Rifle Division"
+
+	for_countries = { SOV }
+
+	division_types = { "infantry" "infantry_assault" "light_infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SOV_INF_01 }
+
+	fallback_name = "%d-ya Gv.SD"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d-ya 'Moskovskaya Proletarskaya' SD" }
+	}
+}
+
 SOV_INF_01 = {
 	name = "Rifle Division"
 
@@ -13,113 +32,7 @@ SOV_INF_01 = {
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered = {
-		1 = { "%d-ya 'Moskovskaya Proletarskaya' SD" }
-		2 = { "%d-ya 'Belorusskaya im.Frunze' SD" }
-		3 = { "%d-ya 'Krymskaya im.TsIK KrymASSR' SD" }
-		4 = { "%d-ya 'Smolenskaya' SD" }
-		5 = { "%d-ya 'Vitebskaya' SD" }
-		6 = { "%d-ya 'Orlovskaya' SD" }
-		7 = { "%d-ya 'Chernigovskaya im.Frunze' SD" }
-		8 = { "%d-ya 'Minskaya im.Dzershinskogo' SD" }
-		9 = { "%d-ya 'Donskaya' SD" }
-		10 = { "%d-ya 'Severnogo Kraya' SD" }
-		#11
-		12 = { "%d-ya 'im.Sibirskogo Revkoma' SD" }
-		13 = { "%d-ya 'Dagestanskaya' SD" }
-		14 = { "%d-ya 'Krivorozhskaya' SD" }
-		15 = { "%d-ya 'Sivashskaya' SD" }
-		16 = { "%d-ya 'Ul'yanovskaya im.Kikvidze' SD" }
-		17 = { "%d-ya 'Gor'kovskaya im.TsIK BSSR' SD" }
-		18 = { "%d-ya 'Yaroslavskaya' SD" }
-		19 = { "%d-ya 'Voronezhskaya' SD" }
-		#20 - Mtn Rifle only
-		21 = { "%d-ya 'Permskaya im.Kameneva' SD" }
-		22 = { "%d-ya 'Krasnodarskaya' SD" }
-		23 = { "%d-ya 'Har'kovskaya' SD" }
-		24 = { "%d-ya 'Samaro-Ul'yanovskaya' SD" }
-		25 = { "%d-ya 'Chapaevskaya' SD" }
-		26 = { "%d-ya 'Stalinskaya' SD" }
-		27 = { "%d-ya 'Omskaya' SD" }
-		#28 - Mtn Rifle only
-		29 = { "%d-ya 'im.Finlandskogo Proletariata' SD" }
-		30 = { "%d-ya 'Irkutskaya im.VTsIK' SD" }
-		31 = { "%d-ya 'Stalingradskaya' SD" }
-		32 = { "%d-ya 'Saratovskaya' SD" }
-		33 = { "%d-ya 'Belorusskaya' SD" }
-		34 = { "%d-ya 'Srednevolzhskaya' SD" }
-		35 = { "%d-ya 'Sibirskaya' SD" }
-		36 = { "%d-ya 'Zabaykal'skaya' SD" }
-		37 = { "%d-ya 'Novocherkasskaya im.Egorova' SD" }
-		38 = { "%d-ya 'Donskaya im.Mikoyana' SD" }
-		39 = { "%d-ya 'Tikhookeanskaya' SD" }
-		40 = { "%d-ya 'Bogucharskaya' SD" }
-		41 = { "%d-ya 'Krivorozhskaya' SD" }
-		#42
-		#43
-		44 = { "%d-ya 'Kievskaya' SD" }
-		45 = { "%d-ya 'Volynskaya' SD" }
-		46 = { "%d-ya 'Dnepropetrovskaya' SD" }
-		#47 - Mtn Rifle only
-		48 = { "%d-ya 'im.Kalinina' SD" }
-		#49
-		50 = { "%d-ya 'Tamanskaya' SD" }
-		51 = { "%d-ya 'Perekopskaya im.Mossoveta' SD" }
-		#52
-		#53
-		54 = { "%d-ya 'Murmanskaya' SD" }
-		55 = { "%d-ya 'Kurskaya im.Voroshilova' SD" }
-		56 = { "%d-ya 'Moskovskaya' SD" }
-		57 = { "%d-ya 'Ural'skaya' SD" }
-		#58
-		#59
-		60 = { "%d-ya 'Kavkazskaya im.Stepina' SD" }
-		61 = { "%d-ya 'Turkestanskaya' SD" }
-		62 = { "%d-ya 'Turkestanskaya' SD" }
-		63 = { "%d-ya 'Gruzinskaya im.Frunze' SD" }
-		#64
-		#65
-		#66
-		67 = { "%d-ya 'im.Leningradskogo Oblsoveta' SD" }
-		#68 - Mtn Rifle only
-		#69
-		#70
-		71 = { "%d-ya 'im.Proletariata Kuzbassa' SD" }
-		72 = { "%d-ya 'Turkestanskaya' SD" }
-		#73
-		74 = { "%d-ya 'Tamanskaya' SD" }
-		#75
-		#76 - Mtn Rifle only
-		#77 - Mtn Rifle only
-		#78
-		79 = { "%d-ya 'Sakhalinskaya' SD" }
-		80 = { "%d-ya 'im.Proletariata Donbassa' SD" }
-		81 = { "%d-ya 'Kaluzhskaya' SD" }
-		#82
-		#83 - Mtn Rifle only
-		84 = { "%d-ya 'im.Tul'skogo Proletariata' SD" }
-		#85
-		86 = { "%d-ya 'Kazanskaya im.TsIK TatASSR' SD" }
-		#87
-		#88
-		#89
-		#90
-		#91
-		#92
-		93 = { "%d-ya 'Vostochno-Sibirskaya' SD" }
-		#94
-		95 = { "%d-ya 'Moldavskaya' SD" }
-		96 = { "%d-ya 'Vinnitskaya im.Fabritsiusa' SD" }
-		#97
-		#98
-		#99
-		#100
-		101 = { "%d-ya 'Kamchatskaya' SD" }
-		#102
-		#103
-		#104
-		#105
-		196 = { "%d-ya 'Dnepropetrovskaya' SD" }
-		197 = { "%d-ya 'Kievskaya' SD" }
+		1 = { "%d-ya SD" }
 	}
 }
 

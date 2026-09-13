@@ -1,0 +1,185 @@
+# 1.Улан-Батор - Командование МНРА, ордена Красного Знамени Главная военная школа, школа офицеров им Сухэ-Батора, 9-й учебн КП, отд учебн КП, отд учебн артдив-он, отд учебн д-он связи, отд саперная рота, авиационная дивизия МНРА (Сонгино)
+# 2.Кобдо - 25-й отд (казахский) КП
+# 3.Улясутай (река) - 4-й отд КП
+# 4.Уенч-сомон - 6-я отд КБр
+# 5.Улясутай (город) - 11-й учебн КП
+# 6.Цэцэрлэг - 12-й учебн КП
+# 7.Сайншанд - 7-я мотобронебригада, 3-й Артполк, отд полк связи
+# 8.Байшинт - 7-я КД
+# 9.Ундурхан - 3-й отдТП
+# 10.Тамцак-Булак - 6-я КД
+# 11.Матад-сомон - 8-я КД
+# 12.Чойбалсан - 5-я КД
+# 
+# Поставки БТТ в годы ВОВ
+# От Забайкальского фронта в 1943 - 10 БТ-7
+# От Мин Обороны СССР
+# в 1944 - 7 БА легк, 8 БА ср, 25 БТ-7
+# в 1945 - 3 Т-34
+# По приказу № 068 от 9 июня 1943 была сформирована отдТР, которая согласно приказу № 078 от 25 мая 1944 развертывалась в отдТП 3-х ротного состава. На вооружении БТ-7
+
+instant_effect = {
+	#if = {
+	#	limit = {
+	#		is_ai = yes
+	#	}
+	#	set_research_slots = 0
+	#	country_event = { id = AI_techs.1 days = 50 random_days = 7 }
+	#}
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "MON"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 100
+	}
+	add_equipment_to_stockpile = {
+		type = horse_equipment_0
+		amount = 15000
+		producer = MON
+	}
+    add_equipment_to_stockpile = {
+		type = motorized_AC_equipment_06
+		amount = 30
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = motorized_lia_equipment_01
+		amount = 100
+		producer = SOV
+	}
+    add_equipment_to_stockpile = {
+		type = trm_cavalry_tank_chassis_sov_bt7_1
+        variant_name = "BT-7M"
+		amount = 50
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = trm_medium_tank_chassis_sov_t34_4
+        variant_name = "T-34 Mod.43"
+		amount = 3
+		producer = SOV
+	}
+	# 76mm Regimental Artillery
+	add_equipment_to_stockpile = {
+		type = infantrygun_equipment_0
+		amount = 20
+		producer = SOV
+	}
+	# 76mm Divisional Artillery
+	add_equipment_to_stockpile = {
+		type = artillery_equipment_0
+		amount = 20
+		producer = SOV
+	}
+}	
+division_template = {
+	name = "Morit Diviz"	
+	division_names_group = MON_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+
+		artillery_brigade = { x = 3 y = 0 }
+	}
+	support = {
+		DIV_HQ = { x = 0 y = 0 }
+		recon_ac = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Motohuyagt Brigad"	
+	division_names_group = MON_MBR_01
+
+	regiments = {
+		armored_car = { x = 0 y = 0 }
+		armored_car = { x = 0 y = 1 }
+		
+		trm_cavalry_armor = { x = 1 y = 0 }
+	}
+	support = {
+		DIV_HQ_car = { x = 0 y = 0 }
+		recon_ac = { x = 0 y = 1 }
+	}
+}
+
+units = {
+    division = {
+        division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+        location = 4612
+        division_template = "Morit Diviz"
+        force_equipment_variants = {
+            motorized_AC_equipment_07 = { owner = "SOV" }
+			artillery_equipment_0  = { owner = "SOV"}
+			artyhorse_equipment_0  = { owner = "SOV"}
+        }		
+    }
+    division = {
+        division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+        location = 828
+        division_template = "Morit Diviz"
+        force_equipment_variants = {
+            motorized_AC_equipment_07 = { owner = "SOV" }
+			artillery_equipment_0  = { owner = "SOV"}
+			artyhorse_equipment_0  = { owner = "SOV"}
+        }		
+    }
+    division = {
+        division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+        location = 10397
+        division_template = "Morit Diviz"
+        force_equipment_variants = {
+            motorized_AC_equipment_07 = { owner = "SOV" }
+			artillery_equipment_0  = { owner = "SOV"}
+			artyhorse_equipment_0  = { owner = "SOV"}
+        }		
+    }
+    division = {
+        division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+        location = 952
+        division_template = "Morit Diviz"
+        force_equipment_variants = {
+			motorized_AC_equipment_07 = { owner = "SOV" }
+			artillery_equipment_0  = { owner = "SOV"}
+			artyhorse_equipment_0  = { owner = "SOV"}
+        }
+    }
+    division = {
+        division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+        location = 9768
+        division_template = "Motohuyagt Brigad"
+        force_equipment_variants = {
+            trm_cavalry_tank_chassis_sov_bt7_1 = { owner = "SOV" version_name = "BT-7M" }
+            motorized_AC_equipment_07 = { owner = "SOV" }
+			motorized_lia_equipment_01 = { owner = "SOV"}
+        }
+    }
+}
+
+##### No notable air force (only about 6 aircraft in 1936) #####

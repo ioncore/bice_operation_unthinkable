@@ -117,7 +117,7 @@ air_wings = {
         name="401-y IAP PVO"
         start_experience_factor = 0.16
     }
-    583 = { 
+    563 = { 
         yak_9_equipment_1 = {
             owner = "SOV" 
             amount = 32
@@ -125,7 +125,7 @@ air_wings = {
         name="938-y IAP PVO"
         start_experience_factor = 0.16
     }
-        583 = { 
+    563 = { 
         lagg_7_equipment_1 = {
             owner = "SOV" 
             amount = 32

@@ -10,7 +10,7 @@ sub_units = {
 			armor
 		}
 		
-		group = armor
+		group = combined_arms
 		
 		categories = {
 			category_tanks
@@ -47,7 +47,7 @@ sub_units = {
 		breakthrough = 0.5
 
 	}
-
+	
 	trm_heavy_cs_armor = {
 		sprite = heavy_armor
 		map_icon_category = armored

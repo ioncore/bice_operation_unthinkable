@@ -1,0 +1,993 @@
+﻿# Names are based on subunits
+# Generic are used for countries that are not scripted in.
+
+# Prefix is always appended at the begin of each generated name.
+# Unique - only one unit can carry it at a time.
+# Generic - are used when all unique are used. Those have numbers appended at the end.
+
+generic = {
+	# Ships
+	support_ship = {
+		prefix = ""
+		generic = { "Support Ship" }
+		unique = {}
+	}
+	repair_ship = {
+		prefix = ""
+		generic = { "Repair Ship" }
+		unique = {}
+	}
+	lr_submarine = {
+		prefix = ""
+		generic = { "Cruiser Submarine" }
+		unique = {}
+	}
+	patrol_submarine = {
+		prefix = ""
+		generic = { "Patrol Submarine" }
+		unique = {}
+	}
+	coastal_submarine = {
+		prefix = ""
+		generic = { "Coastal Submarine" }
+		unique = {}
+	}
+	destroyer = {
+		prefix = ""
+		generic = { "Destroyer" }
+		unique = {}
+	}
+	destroyer_escort = {
+		prefix = ""
+		generic = { "Destroyer Escort" }
+		unique = {}
+	}
+	torpedo_boat = {
+		prefix = ""
+		generic = { "Torpedo Boat" }
+		unique = {}
+	}
+	escort = {
+		prefix = ""
+		generic = { "Escort" }
+		unique = {}
+	}
+	light_cruiser = {
+		prefix = ""
+		generic = { "Light Cruiser" }
+		unique = {}
+	}
+	heavy_cruiser = {
+		prefix = ""
+		generic = { "Heavy Cruiser" }
+		unique = {}
+	}
+	pocket_battleship = {
+		prefix = ""
+		generic = { "Pocket Battleship" }
+		unique = {}
+	}
+	predreadnought = {
+		prefix = ""
+		generic = { "Predreadnought" }
+		unique = {}
+	}
+	large_cruiser = {
+		prefix = ""
+		generic = { "Large Cruiser" }
+		unique = {}
+	}
+	battle_cruiser = {
+		prefix = ""
+		generic = { "Battle Cruiser" }
+		unique = {}
+	}
+	battleship = {
+		prefix = ""
+		generic = { "Battleship" }
+		unique = {}
+	}
+	escort_carrier = {
+		prefix = ""
+		generic = { "Escort Carrier" }
+		unique = {}
+	}
+	light_carrier = {
+		prefix = ""
+		generic = { "Light Carrier" }
+		unique = {}
+	}
+	fleet_carrier = {
+		prefix = ""
+		generic = { "Fleet Carrier" }
+		unique = {}
+	}
+	armored_carrier = {
+		prefix = ""
+		generic = { "Armored Carrier" }
+		unique = {}
+	}
+	super_carrier = {
+		prefix = ""
+		generic = { "Large Carrier" }
+		unique = {}
+	}
+	
+	# Land units
+	infantry = {
+		prefix = ""
+		generic = { "Infantry Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	infantry_assault = {
+		prefix = ""
+		generic = { "Assault Infantry Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	light_infantry = {
+		prefix = ""
+		generic = { "Light Infantry Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	garrison = {
+		prefix = ""
+		generic = { "Garrison Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	partisan = {
+		prefix = ""
+		generic = { "Partisan Formation" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	conscripts = {
+		prefix = ""
+		generic = { "Conscripts Formation" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	militia = {
+		prefix = ""
+		generic = { "Militia Formation" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	irregulars_unit = {
+		prefix = ""
+		generic = { "Irregulars Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	luftwaffe_infantry = {
+		prefix = ""
+		generic = { "Luftwaffe Infantry Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	
+	marine = {
+		prefix = ""
+		generic = { "Marines Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	marine_assault = {
+		prefix = ""
+		generic = { "Assault Marines Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	gurkha = {
+		prefix = ""
+		generic = { "Gurkha Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	mountaineers = {
+		prefix = ""
+		generic = { "Mountaineers Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	paratrooper = {
+		prefix = ""
+		generic = { "Paratroopers Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	
+	cavalry = {
+		prefix = ""
+		generic = { "Cavalry Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	semi_motorized = {
+		prefix = ""
+		generic = { "Semi-Motorized Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	semi_motorized_assault = {
+		prefix = ""
+		generic = { "Assault Semi-Motorized Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	motorized = {
+		prefix = ""
+		generic = { "Motorized Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	motorized_assault = {
+		prefix = ""
+		generic = { "Assault Motorized Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	motorized_assault_armor = {
+		prefix = ""
+		generic = { "Assault Motorized Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	motorcycle_infantry = {
+		prefix = ""
+		generic = { "Motorcycle Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	mechanized = {
+		prefix = ""
+		generic = { "Mechanized Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	mechanized_assault = {
+		prefix = ""
+		generic = { "Assault Mechanized Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	amphibious_mechanized = {
+		prefix = ""
+		generic = { "Amphibious Mechanized Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	armored_car = {
+		prefix = ""
+		generic = { "Armored Car Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	
+	anti_tank_brigade = {
+		prefix = ""
+		generic = { "Anti Tank Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	anti_tank_brigade_mot = {
+		prefix = ""
+		generic = { "Motorized Anti Tank Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	airborne_anti_tank_brigade = {
+		prefix = ""
+		generic = { "Airborne Anti Tank Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	anti_tank_brigade_med = {
+		prefix = ""
+		generic = { "Medium Anti Tank Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	anti_tank_brigade_mot_med = {
+		prefix = ""
+		generic = { "Motorized Medium Anti Tank Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	artillery_brigade = {
+		prefix = ""
+		generic = { "Artillery Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	artillery_brigade_med = {
+		prefix = ""
+		generic = { "Medium Artillery Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	artillery_brigade_mot = {
+		prefix = ""
+		generic = { "Motorized Artillery Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	artillery_brigade_mot_med = {
+		prefix = ""
+		generic = { "Motorized Medium Artillery Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	mountain_artillery_brigade = {
+		prefix = ""
+		generic = { "Mountain Artillery Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	mountain_artillery_brigade_mot = {
+		prefix = ""
+		generic = { "Motorized Mountain Artillery Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	airborne_artillery_brigade = {
+		prefix = ""
+		generic = { "Airborne Artillery Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	rocket_artillery_brigade = {
+		prefix = ""
+		generic = { "Rocket Artillery Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	motorized_rocket_brigade = {
+		prefix = ""
+		generic = { "Motorized Rocket Artillery Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	
+	trm_amphibious_armor = {
+		prefix = ""
+		generic = { "Amphibious Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_cavalry_armor = {
+		prefix = ""
+		generic = { "Cavalry Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_cavalry_cs_armor = {
+		prefix = ""
+		generic = { "Cavalry CS Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_cavalry_amphibious_armor = {
+		prefix = ""
+		generic = { "Amphibious Cavalry Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_heavy_armor = {
+		prefix = ""
+		generic = { "Heavy Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_heavy_cs_armor = {
+		prefix = ""
+		generic = { "Heavy CS Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_heavy_amphibious_armor = {
+		prefix = ""
+		generic = { "Amphibious Heavy Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_infantry_armor = {
+		prefix = ""
+		generic = { "Infantry Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_infantry_cs_armor = {
+		prefix = ""
+		generic = { "Infantry CS Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_infantry_amphibious_armor = {
+		prefix = ""
+		generic = { "Amphibious Infantry Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_light_armor = {
+		prefix = ""
+		generic = { "Light Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_light_cs_armor = {
+		prefix = ""
+		generic = { "Light CS Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_light_amphibious_armor = {
+		prefix = ""
+		generic = { "Amphibious Light Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_medium_advanced_armor = {
+		prefix = ""
+		generic = { "Advanced Medium Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_medium_advanced_armor_mobile = {
+		prefix = ""
+		generic = { "Advanced Medium Armor Mobile Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_medium_advanced_cs_armor = {
+		prefix = ""
+		generic = { "Advanced Medium CS Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_medium_advanced_amphibious_armor = {
+		prefix = ""
+		generic = { "Amphibious Advanced Medium Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_medium_armor = {
+		prefix = ""
+		generic = { "Medium Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_medium_armor_mobile = {
+		prefix = ""
+		generic = { "Medium Armor Mobile Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_medium_cs_armor = {
+		prefix = ""
+		generic = { "Medium CS Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_medium_amphibious_armor = {
+		prefix = ""
+		generic = { "Amphibious Medium Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_para_armor = {
+		prefix = ""
+		generic = { "Airborne Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_para_airborne_armor = {
+		prefix = ""
+		generic = { "Airborne Glider Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_superheavy_armor = {
+		prefix = ""
+		generic = { "Superheavy Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_superheavy_cs_armor = {
+		prefix = ""
+		generic = { "Superheavy CS Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_tankette_armor = {
+		prefix = ""
+		generic = { "Tankette Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_tankette_cs_armor = {
+		prefix = ""
+		generic = { "Tankette CS Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_tankette_amphibious_armor = {
+		prefix = ""
+		generic = { "Amphibious Tankette Armor Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_heavy_assault_gun = {
+		prefix = ""
+		generic = { "Heavy Assault Gun Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_heavy_tank_destroyer = {
+		prefix = ""
+		generic = { "Heavy Tank Destroyer Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_heavy_sp_artillery = {
+		prefix = ""
+		generic = { "Heavy SP Artillery Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_infantry_assault_gun = {
+		prefix = ""
+		generic = { "Infantry Assault Gun Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_infantry_tank_destroyer = {
+		prefix = ""
+		generic = { "Infantry Tank Destroyer Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_infantry_sp_artillery = {
+		prefix = ""
+		generic = { "Infantry SP Artillery Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_light_assault_gun = {
+		prefix = ""
+		generic = { "Light Assault Gun Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_light_tank_destroyer = {
+		prefix = ""
+		generic = { "Light Tank Destroyer Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_light_sp_artillery = {
+		prefix = ""
+		generic = { "Light SP Artillery Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_medium_advanced_assault_gun = {
+		prefix = ""
+		generic = { "Advanced Medium Assault Gun Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_medium_advanced_tank_destroyer = {
+		prefix = ""
+		generic = { "Advanced Tank Destroyer Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_medium_advanced_sp_artillery = {
+		prefix = ""
+		generic = { "Advanced SP Artillery Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_medium_assault_gun = {
+		prefix = ""
+		generic = { "Medium Assault Gun Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_medium_tank_destroyer = {
+		prefix = ""
+		generic = { "Medium Tank Destroyer Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_medium_sp_artillery = {
+		prefix = ""
+		generic = { "Medium SP Artillery Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_superheavy_assault_gun = {
+		prefix = ""
+		generic = { "Superheavy Assault Gun Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_superheavy_tank_destroyer = {
+		prefix = ""
+		generic = { "Superheavy Tank Destroyer Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_superheavy_sp_artillery = {
+		prefix = ""
+		generic = { "Superheavy SP Artillery Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_tankette_assault_gun = {
+		prefix = ""
+		generic = { "Tankette Assault Gun Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_tankette_tank_destroyer = {
+		prefix = ""
+		generic = { "Tankette Tank Destroyer Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	trm_tankette_sp_artillery = {
+		prefix = ""
+		generic = { "Tankette SP Artillery Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	
+	# Operative code names
+	codename = {
+		prefix = ""
+		generic = { "Agent" }
+		generic_pattern = "OPERATIVE_GENERIC_CODENAME_PATTERN"
+		unique = { "Agent 007" }
+	}
+}
+
+# Country specific names. Due to MTG integration naval names are handled via namelists
+AST = {
+	air_wing_names_template = AIR_WING_NAME_AST_FALLBACK
+}
+
+CAN = {
+	air_wing_names_template = AIR_WING_NAME_CAN_FALLBACK
+}
+
+RAJ = {
+	air_wing_names_template = AIR_WING_NAME_RAJ_FALLBACK
+}
+
+SAF = {
+	air_wing_names_template = AIR_WING_NAME_SAF_FALLBACK
+}
+
+NZL = {
+	air_wing_names_template = AIR_WING_NAME_NZL_FALLBACK
+}
+
+ROM = {
+	air_wing_names_template = AIR_WING_NAME_ROM_FALLBACK
+
+	#Air wings can only be named through archetype
+	fighter_equipment = {
+		prefix = ""
+		generic = { "Grup de Vânătoare" }
+		generic_pattern = AIR_WING_NAME_ROM_GENERIC
+		unique = {
+			"Grupul 1 Vânătoare" "Grupul 2 Vânătoare" "Grupul 3 Vânătoare" "Grupul 4 Vânătoare" "Grupul 5 Vânătoare" 
+			"Grupul 6 Vânătoare" "Grupul 7 Vânătoare" "Grupul 8 Vânătoare" "Grupul 9 Vânătoare" "Grupul 10 Vânătoare" 
+			"Grupul 11 Vânătoare" "Grupul 12 Vânătoare" "Grupul 13 Vânătoare" "Grupul 14 Vânătoare" "Grupul 15 Vânătoare" 
+			"Grupul 16 Vânătoare" "Grupul 17 Vânătoare" "Grupul 18 Vânătoare" "Grupul 19 Vânătoare" "Grupul 20 Vânătoare" 
+			"Grupul 21 Vânătoare" "Grupul 22 Vânătoare" "Grupul 23 Vânătoare" "Grupul 24 Vânătoare" "Grupul 25 Vânătoare" 
+			"Grupul 26 Vânătoare" "Grupul 27 Vânătoare" "Grupul 28 Vânătoare" "Grupul 29 Vânătoare" "Grupul 30 Vânătoare" 
+			"Grupul 31 Vânătoare" "Grupul 32 Vânătoare" "Grupul 33 Vânătoare" "Grupul 34 Vânătoare" "Grupul 35 Vânătoare" 
+			"Grupul 36 Vânătoare" "Grupul 37 Vânătoare" "Grupul 38 Vânătoare" "Grupul 39 Vânătoare" "Grupul 40 Vânătoare" 
+			"Grupul 41 Vânătoare" "Grupul 42 Vânătoare" "Grupul 43 Vânătoare" "Grupul 44 Vânătoare" "Grupul 45 Vânătoare" 
+			"Grupul 46 Vânătoare" "Grupul 47 Vânătoare" "Grupul 48 Vânătoare" "Grupul 49 Vânătoare" "Grupul 50 Vânătoare" 
+			"Grupul 51 Vânătoare" "Grupul 52 Vânătoare" "Grupul 53 Vânătoare" "Grupul 54 Vânătoare" "Grupul 55 Vânătoare" 
+			"Grupul 56 Vânătoare" "Grupul 57 Vânătoare" "Grupul 58 Vânătoare" "Grupul 59 Vânătoare" "Grupul 60 Vânătoare" 
+			"Grupul 61 Vânătoare" "Grupul 62 Vânătoare" "Grupul 63 Vânătoare" "Grupul 64 Vânătoare" "Grupul 65 Vânătoare" 
+			"Grupul 66 Vânătoare" "Grupul 67 Vânătoare" "Grupul 68 Vânătoare" "Grupul 69 Vânătoare" "Grupul 70 Vânătoare" 
+			"Grupul 71 Vânătoare" "Grupul 72 Vânătoare" "Grupul 73 Vânătoare" "Grupul 74 Vânătoare" "Grupul 75 Vânătoare" 
+			"Grupul 76 Vânătoare" "Grupul 77 Vânătoare" "Grupul 78 Vânătoare" "Grupul 79 Vânătoare" "Grupul 80 Vânătoare" 
+			"Grupul 81 Vânătoare" "Grupul 82 Vânătoare" "Grupul 83 Vânătoare" "Grupul 84 Vânătoare" "Grupul 85 Vânătoare" 
+			"Grupul 86 Vânătoare" "Grupul 87 Vânătoare" "Grupul 88 Vânătoare" "Grupul 89 Vânătoare" "Grupul 90 Vânătoare" 
+			"Grupul 91 Vânătoare" "Grupul 92 Vânătoare" "Grupul 93 Vânătoare" "Grupul 94 Vânătoare" "Grupul 95 Vânătoare" 
+			"Grupul 96 Vânătoare" "Grupul 97 Vânătoare" "Grupul 98 Vânătoare" "Grupul 99 Vânătoare" "Grupul 100 Vânătoare" 
+		}	
+	}
+
+	jet_fighter_equipment = {
+		prefix = ""
+		generic = { "Grup de Vânătoare" }
+		generic_pattern = AIR_WING_NAME_ROM_GENERIC
+		unique = {
+			"Grupul 1 Vânătoare" "Grupul 2 Vânătoare" "Grupul 3 Vânătoare" "Grupul 4 Vânătoare" "Grupul 5 Vânătoare" 
+			"Grupul 6 Vânătoare" "Grupul 7 Vânătoare" "Grupul 8 Vânătoare" "Grupul 9 Vânătoare" "Grupul 10 Vânătoare" 
+			"Grupul 11 Vânătoare" "Grupul 12 Vânătoare" "Grupul 13 Vânătoare" "Grupul 14 Vânătoare" "Grupul 15 Vânătoare" 
+			"Grupul 16 Vânătoare" "Grupul 17 Vânătoare" "Grupul 18 Vânătoare" "Grupul 19 Vânătoare" "Grupul 20 Vânătoare" 
+			"Grupul 21 Vânătoare" "Grupul 22 Vânătoare" "Grupul 23 Vânătoare" "Grupul 24 Vânătoare" "Grupul 25 Vânătoare" 
+			"Grupul 26 Vânătoare" "Grupul 27 Vânătoare" "Grupul 28 Vânătoare" "Grupul 29 Vânătoare" "Grupul 30 Vânătoare" 
+			"Grupul 31 Vânătoare" "Grupul 32 Vânătoare" "Grupul 33 Vânătoare" "Grupul 34 Vânătoare" "Grupul 35 Vânătoare" 
+			"Grupul 36 Vânătoare" "Grupul 37 Vânătoare" "Grupul 38 Vânătoare" "Grupul 39 Vânătoare" "Grupul 40 Vânătoare" 
+			"Grupul 41 Vânătoare" "Grupul 42 Vânătoare" "Grupul 43 Vânătoare" "Grupul 44 Vânătoare" "Grupul 45 Vânătoare" 
+			"Grupul 46 Vânătoare" "Grupul 47 Vânătoare" "Grupul 48 Vânătoare" "Grupul 49 Vânătoare" "Grupul 50 Vânătoare" 
+			"Grupul 51 Vânătoare" "Grupul 52 Vânătoare" "Grupul 53 Vânătoare" "Grupul 54 Vânătoare" "Grupul 55 Vânătoare" 
+			"Grupul 56 Vânătoare" "Grupul 57 Vânătoare" "Grupul 58 Vânătoare" "Grupul 59 Vânătoare" "Grupul 60 Vânătoare" 
+			"Grupul 61 Vânătoare" "Grupul 62 Vânătoare" "Grupul 63 Vânătoare" "Grupul 64 Vânătoare" "Grupul 65 Vânătoare" 
+			"Grupul 66 Vânătoare" "Grupul 67 Vânătoare" "Grupul 68 Vânătoare" "Grupul 69 Vânătoare" "Grupul 70 Vânătoare" 
+			"Grupul 71 Vânătoare" "Grupul 72 Vânătoare" "Grupul 73 Vânătoare" "Grupul 74 Vânătoare" "Grupul 75 Vânătoare" 
+			"Grupul 76 Vânătoare" "Grupul 77 Vânătoare" "Grupul 78 Vânătoare" "Grupul 79 Vânătoare" "Grupul 80 Vânătoare" 
+			"Grupul 81 Vânătoare" "Grupul 82 Vânătoare" "Grupul 83 Vânătoare" "Grupul 84 Vânătoare" "Grupul 85 Vânătoare" 
+			"Grupul 86 Vânătoare" "Grupul 87 Vânătoare" "Grupul 88 Vânătoare" "Grupul 89 Vânătoare" "Grupul 90 Vânătoare" 
+			"Grupul 91 Vânătoare" "Grupul 92 Vânătoare" "Grupul 93 Vânătoare" "Grupul 94 Vânătoare" "Grupul 95 Vânătoare" 
+			"Grupul 96 Vânătoare" "Grupul 97 Vânătoare" "Grupul 98 Vânătoare" "Grupul 99 Vânătoare" "Grupul 100 Vânătoare" 
+		}	
+	}
+
+	heavy_fighter_equipment = {
+		prefix = ""
+		generic = { "Grup de Asalt" }
+		generic_pattern = AIR_WING_NAME_ROM_GENERIC
+		unique = {
+			"Grupul 1 Asalt" "Grupul 2 Asalt" "Grupul 3 Asalt" "Grupul 4 Asalt" "Grupul 5 Asalt" 
+			"Grupul 6 Asalt" "Grupul 7 Asalt" "Grupul 8 Asalt" "Grupul 9 Asalt" "Grupul 10 Asalt" 
+			"Grupul 11 Asalt" "Grupul 12 Asalt" "Grupul 13 Asalt" "Grupul 14 Asalt" "Grupul 15 Asalt" 
+			"Grupul 16 Asalt" "Grupul 17 Asalt" "Grupul 18 Asalt" "Grupul 19 Asalt" "Grupul 20 Asalt" 
+			"Grupul 21 Asalt" "Grupul 22 Asalt" "Grupul 23 Asalt" "Grupul 24 Asalt" "Grupul 25 Asalt" 
+			"Grupul 26 Asalt" "Grupul 27 Asalt" "Grupul 28 Asalt" "Grupul 29 Asalt" "Grupul 30 Asalt" 
+			"Grupul 31 Asalt" "Grupul 32 Asalt" "Grupul 33 Asalt" "Grupul 34 Asalt" "Grupul 35 Asalt" 
+			"Grupul 36 Asalt" "Grupul 37 Asalt" "Grupul 38 Asalt" "Grupul 39 Asalt" "Grupul 40 Asalt" 
+			"Grupul 41 Asalt" "Grupul 42 Asalt" "Grupul 43 Asalt" "Grupul 44 Asalt" "Grupul 45 Asalt" 
+			"Grupul 46 Asalt" "Grupul 47 Asalt" "Grupul 48 Asalt" "Grupul 49 Asalt" "Grupul 50 Asalt" 
+			"Grupul 51 Asalt" "Grupul 52 Asalt" "Grupul 53 Asalt" "Grupul 54 Asalt" "Grupul 55 Asalt" 
+			"Grupul 56 Asalt" "Grupul 57 Asalt" "Grupul 58 Asalt" "Grupul 59 Asalt" "Grupul 60 Asalt" 
+			"Grupul 61 Asalt" "Grupul 62 Asalt" "Grupul 63 Asalt" "Grupul 64 Asalt" "Grupul 65 Asalt" 
+			"Grupul 66 Asalt" "Grupul 67 Asalt" "Grupul 68 Asalt" "Grupul 69 Asalt" "Grupul 70 Asalt" 
+			"Grupul 71 Asalt" "Grupul 72 Asalt" "Grupul 73 Asalt" "Grupul 74 Asalt" "Grupul 75 Asalt" 
+			"Grupul 76 Asalt" "Grupul 77 Asalt" "Grupul 78 Asalt" "Grupul 79 Asalt" "Grupul 80 Asalt" 
+			"Grupul 81 Asalt" "Grupul 82 Asalt" "Grupul 83 Asalt" "Grupul 84 Asalt" "Grupul 85 Asalt" 
+			"Grupul 86 Asalt" "Grupul 87 Asalt" "Grupul 88 Asalt" "Grupul 89 Asalt" "Grupul 90 Asalt" 
+			"Grupul 91 Asalt" "Grupul 92 Asalt" "Grupul 93 Asalt" "Grupul 94 Asalt" "Grupul 95 Asalt" 
+			"Grupul 96 Asalt" "Grupul 97 Asalt" "Grupul 98 Asalt" "Grupul 99 Asalt" "Grupul 100 Asalt" 
+		}	
+	}
+
+	CAS_equipment = {
+		prefix = ""
+		generic = { "Grup de Asalt" }
+		generic_pattern = AIR_WING_NAME_ROM_GENERIC
+		unique = {
+			"Grupul 1 Asalt" "Grupul 2 Asalt" "Grupul 3 Asalt" "Grupul 4 Asalt" "Grupul 5 Asalt" 
+			"Grupul 6 Asalt" "Grupul 7 Asalt" "Grupul 8 Asalt" "Grupul 9 Asalt" "Grupul 10 Asalt" 
+			"Grupul 11 Asalt" "Grupul 12 Asalt" "Grupul 13 Asalt" "Grupul 14 Asalt" "Grupul 15 Asalt" 
+			"Grupul 16 Asalt" "Grupul 17 Asalt" "Grupul 18 Asalt" "Grupul 19 Asalt" "Grupul 20 Asalt" 
+			"Grupul 21 Asalt" "Grupul 22 Asalt" "Grupul 23 Asalt" "Grupul 24 Asalt" "Grupul 25 Asalt" 
+			"Grupul 26 Asalt" "Grupul 27 Asalt" "Grupul 28 Asalt" "Grupul 29 Asalt" "Grupul 30 Asalt" 
+			"Grupul 31 Asalt" "Grupul 32 Asalt" "Grupul 33 Asalt" "Grupul 34 Asalt" "Grupul 35 Asalt" 
+			"Grupul 36 Asalt" "Grupul 37 Asalt" "Grupul 38 Asalt" "Grupul 39 Asalt" "Grupul 40 Asalt" 
+			"Grupul 41 Asalt" "Grupul 42 Asalt" "Grupul 43 Asalt" "Grupul 44 Asalt" "Grupul 45 Asalt" 
+			"Grupul 46 Asalt" "Grupul 47 Asalt" "Grupul 48 Asalt" "Grupul 49 Asalt" "Grupul 50 Asalt" 
+			"Grupul 51 Asalt" "Grupul 52 Asalt" "Grupul 53 Asalt" "Grupul 54 Asalt" "Grupul 55 Asalt" 
+			"Grupul 56 Asalt" "Grupul 57 Asalt" "Grupul 58 Asalt" "Grupul 59 Asalt" "Grupul 60 Asalt" 
+			"Grupul 61 Asalt" "Grupul 62 Asalt" "Grupul 63 Asalt" "Grupul 64 Asalt" "Grupul 65 Asalt" 
+			"Grupul 66 Asalt" "Grupul 67 Asalt" "Grupul 68 Asalt" "Grupul 69 Asalt" "Grupul 70 Asalt" 
+			"Grupul 71 Asalt" "Grupul 72 Asalt" "Grupul 73 Asalt" "Grupul 74 Asalt" "Grupul 75 Asalt" 
+			"Grupul 76 Asalt" "Grupul 77 Asalt" "Grupul 78 Asalt" "Grupul 79 Asalt" "Grupul 80 Asalt" 
+			"Grupul 81 Asalt" "Grupul 82 Asalt" "Grupul 83 Asalt" "Grupul 84 Asalt" "Grupul 85 Asalt" 
+			"Grupul 86 Asalt" "Grupul 87 Asalt" "Grupul 88 Asalt" "Grupul 89 Asalt" "Grupul 90 Asalt" 
+			"Grupul 91 Asalt" "Grupul 92 Asalt" "Grupul 93 Asalt" "Grupul 94 Asalt" "Grupul 95 Asalt" 
+			"Grupul 96 Asalt" "Grupul 97 Asalt" "Grupul 98 Asalt" "Grupul 99 Asalt" "Grupul 100 Asalt" 
+		}	
+	}
+
+	cv_fighter_equipment = {
+		prefix = ""
+		generic = { "Escadrilă de Vânătoare" }
+		generic_pattern = AIR_WING_NAME_ROM_GENERIC
+		unique = {
+			"Escadrila 1 Vânătoare" "Escadrila 2 Vânătoare" "Escadrila 3 Vânătoare" "Escadrila 4 Vânătoare" "Escadrila 5 Vânătoare" 
+			"Escadrila 6 Vânătoare" "Escadrila 7 Vânătoare" "Escadrila 8 Vânătoare" "Escadrila 9 Vânătoare" "Escadrila 10 Vânătoare" 
+			"Escadrila 11 Vânătoare" "Escadrila 12 Vânătoare" "Escadrila 13 Vânătoare" "Escadrila 14 Vânătoare" "Escadrila 15 Vânătoare" 
+			"Escadrila 16 Vânătoare" "Escadrila 17 Vânătoare" "Escadrila 18 Vânătoare" "Escadrila 19 Vânătoare" "Escadrila 20 Vânătoare" 
+			"Escadrila 21 Vânătoare" "Escadrila 22 Vânătoare" "Escadrila 23 Vânătoare" "Escadrila 24 Vânătoare" "Escadrila 25 Vânătoare" 
+			"Escadrila 26 Vânătoare" "Escadrila 27 Vânătoare" "Escadrila 28 Vânătoare" "Escadrila 29 Vânătoare" "Escadrila 30 Vânătoare" 
+			"Escadrila 31 Vânătoare" "Escadrila 32 Vânătoare" "Escadrila 33 Vânătoare" "Escadrila 34 Vânătoare" "Escadrila 35 Vânătoare" 
+			"Escadrila 36 Vânătoare" "Escadrila 37 Vânătoare" "Escadrila 38 Vânătoare" "Escadrila 39 Vânătoare" "Escadrila 40 Vânătoare" 
+			"Escadrila 41 Vânătoare" "Escadrila 42 Vânătoare" "Escadrila 43 Vânătoare" "Escadrila 44 Vânătoare" "Escadrila 45 Vânătoare" 
+			"Escadrila 46 Vânătoare" "Escadrila 47 Vânătoare" "Escadrila 48 Vânătoare" "Escadrila 49 Vânătoare" "Escadrila 50 Vânătoare" 
+			"Escadrila 51 Vânătoare" "Escadrila 52 Vânătoare" "Escadrila 53 Vânătoare" "Escadrila 54 Vânătoare" "Escadrila 55 Vânătoare" 
+			"Escadrila 56 Vânătoare" "Escadrila 57 Vânătoare" "Escadrila 58 Vânătoare" "Escadrila 59 Vânătoare" "Escadrila 60 Vânătoare" 
+			"Escadrila 61 Vânătoare" "Escadrila 62 Vânătoare" "Escadrila 63 Vânătoare" "Escadrila 64 Vânătoare" "Escadrila 65 Vânătoare" 
+			"Escadrila 66 Vânătoare" "Escadrila 67 Vânătoare" "Escadrila 68 Vânătoare" "Escadrila 69 Vânătoare" "Escadrila 70 Vânătoare" 
+			"Escadrila 71 Vânătoare" "Escadrila 72 Vânătoare" "Escadrila 73 Vânătoare" "Escadrila 74 Vânătoare" "Escadrila 75 Vânătoare" 
+			"Escadrila 76 Vânătoare" "Escadrila 77 Vânătoare" "Escadrila 78 Vânătoare" "Escadrila 79 Vânătoare" "Escadrila 80 Vânătoare" 
+			"Escadrila 81 Vânătoare" "Escadrila 82 Vânătoare" "Escadrila 83 Vânătoare" "Escadrila 84 Vânătoare" "Escadrila 85 Vânătoare" 
+			"Escadrila 86 Vânătoare" "Escadrila 87 Vânătoare" "Escadrila 88 Vânătoare" "Escadrila 89 Vânătoare" "Escadrila 90 Vânătoare" 
+			"Escadrila 91 Vânătoare" "Escadrila 92 Vânătoare" "Escadrila 93 Vânătoare" "Escadrila 94 Vânătoare" "Escadrila 95 Vânătoare" 
+			"Escadrila 96 Vânătoare" "Escadrila 97 Vânătoare" "Escadrila 98 Vânătoare" "Escadrila 99 Vânătoare" "Escadrila 100 Vânătoare" 
+		}	
+	}
+
+	cv_CAS_equipment = {
+		prefix = ""
+		generic = { "Escadrilă de Asalt" }
+		generic_pattern = AIR_WING_NAME_ROM_GENERIC
+		unique = {
+			"Escadrila 1 Asalt" "Escadrila 2 Asalt" "Escadrila 3 Asalt" "Escadrila 4 Asalt" "Escadrila 5 Asalt" 
+			"Escadrila 6 Asalt" "Escadrila 7 Asalt" "Escadrila 8 Asalt" "Escadrila 9 Asalt" "Escadrila 10 Asalt" 
+			"Escadrila 11 Asalt" "Escadrila 12 Asalt" "Escadrila 13 Asalt" "Escadrila 14 Asalt" "Escadrila 15 Asalt" 
+			"Escadrila 16 Asalt" "Escadrila 17 Asalt" "Escadrila 18 Asalt" "Escadrila 19 Asalt" "Escadrila 20 Asalt" 
+			"Escadrila 21 Asalt" "Escadrila 22 Asalt" "Escadrila 23 Asalt" "Escadrila 24 Asalt" "Escadrila 25 Asalt" 
+			"Escadrila 26 Asalt" "Escadrila 27 Asalt" "Escadrila 28 Asalt" "Escadrila 29 Asalt" "Escadrila 30 Asalt" 
+			"Escadrila 31 Asalt" "Escadrila 32 Asalt" "Escadrila 33 Asalt" "Escadrila 34 Asalt" "Escadrila 35 Asalt" 
+			"Escadrila 36 Asalt" "Escadrila 37 Asalt" "Escadrila 38 Asalt" "Escadrila 39 Asalt" "Escadrila 40 Asalt" 
+			"Escadrila 41 Asalt" "Escadrila 42 Asalt" "Escadrila 43 Asalt" "Escadrila 44 Asalt" "Escadrila 45 Asalt" 
+			"Escadrila 46 Asalt" "Escadrila 47 Asalt" "Escadrila 48 Asalt" "Escadrila 49 Asalt" "Escadrila 50 Asalt" 
+			"Escadrila 51 Asalt" "Escadrila 52 Asalt" "Escadrila 53 Asalt" "Escadrila 54 Asalt" "Escadrila 55 Asalt" 
+			"Escadrila 56 Asalt" "Escadrila 57 Asalt" "Escadrila 58 Asalt" "Escadrila 59 Asalt" "Escadrila 60 Asalt" 
+			"Escadrila 61 Asalt" "Escadrila 62 Asalt" "Escadrila 63 Asalt" "Escadrila 64 Asalt" "Escadrila 65 Asalt" 
+			"Escadrila 66 Asalt" "Escadrila 67 Asalt" "Escadrila 68 Asalt" "Escadrila 69 Asalt" "Escadrila 70 Asalt" 
+			"Escadrila 71 Asalt" "Escadrila 72 Asalt" "Escadrila 73 Asalt" "Escadrila 74 Asalt" "Escadrila 75 Asalt" 
+			"Escadrila 76 Asalt" "Escadrila 77 Asalt" "Escadrila 78 Asalt" "Escadrila 79 Asalt" "Escadrila 80 Asalt" 
+			"Escadrila 81 Asalt" "Escadrila 82 Asalt" "Escadrila 83 Asalt" "Escadrila 84 Asalt" "Escadrila 85 Asalt" 
+			"Escadrila 86 Asalt" "Escadrila 87 Asalt" "Escadrila 88 Asalt" "Escadrila 89 Asalt" "Escadrila 90 Asalt" 
+			"Escadrila 91 Asalt" "Escadrila 92 Asalt" "Escadrila 93 Asalt" "Escadrila 94 Asalt" "Escadrila 95 Asalt" 
+			"Escadrila 96 Asalt" "Escadrila 97 Asalt" "Escadrila 98 Asalt" "Escadrila 99 Asalt" "Escadrila 100 Asalt" 
+		}	
+	}
+	cv_nav_bomber_equipment = {
+		prefix = ""
+		#generic = { "Escadrilă de Avioane Torpilă" }
+		generic = { "Escadrilă de Hidroavioane" }
+		generic_pattern = AIR_WING_NAME_ROM_GENERIC
+		unique = {
+			"Escadrila 101 Hidro-Patrulare" "Escadrila 102 Hidro-Informaţie" "Escadrila 103 Hidroavioane" "Escadrila 104 Hidroavioane"
+		}	
+	}
+
+	tac_bomber_equipment = {
+		prefix = ""
+		generic = { "Grup de Bombardament în Picaj" }
+		generic_pattern = AIR_WING_NAME_ROM_GENERIC
+		unique = {
+			"Grupul 1 Bombardament în Picaj" "Grupul 2 Bombardament în Picaj" "Grupul 3 Bombardament în Picaj" "Grupul 4 Bombardament în Picaj" "Grupul 5 Bombardament în Picaj" 
+			"Grupul 6 Bombardament în Picaj" "Grupul 7 Bombardament în Picaj" "Grupul 8 Bombardament în Picaj" "Grupul 9 Bombardament în Picaj" "Grupul 10 Bombardament în Picaj" 
+			"Grupul 11 Bombardament în Picaj" "Grupul 12 Bombardament în Picaj" "Grupul 13 Bombardament în Picaj" "Grupul 14 Bombardament în Picaj" "Grupul 15 Bombardament în Picaj" 
+			"Grupul 16 Bombardament în Picaj" "Grupul 17 Bombardament în Picaj" "Grupul 18 Bombardament în Picaj" "Grupul 19 Bombardament în Picaj" "Grupul 20 Bombardament în Picaj" 
+			"Grupul 21 Bombardament în Picaj" "Grupul 22 Bombardament în Picaj" "Grupul 23 Bombardament în Picaj" "Grupul 24 Bombardament în Picaj" "Grupul 25 Bombardament în Picaj" 
+			"Grupul 26 Bombardament în Picaj" "Grupul 27 Bombardament în Picaj" "Grupul 28 Bombardament în Picaj" "Grupul 29 Bombardament în Picaj" "Grupul 30 Bombardament în Picaj" 
+			"Grupul 31 Bombardament în Picaj" "Grupul 32 Bombardament în Picaj" "Grupul 33 Bombardament în Picaj" "Grupul 34 Bombardament în Picaj" "Grupul 35 Bombardament în Picaj" 
+			"Grupul 36 Bombardament în Picaj" "Grupul 37 Bombardament în Picaj" "Grupul 38 Bombardament în Picaj" "Grupul 39 Bombardament în Picaj" "Grupul 40 Bombardament în Picaj" 
+			"Grupul 41 Bombardament în Picaj" "Grupul 42 Bombardament în Picaj" "Grupul 43 Bombardament în Picaj" "Grupul 44 Bombardament în Picaj" "Grupul 45 Bombardament în Picaj" 
+			"Grupul 46 Bombardament în Picaj" "Grupul 47 Bombardament în Picaj" "Grupul 48 Bombardament în Picaj" "Grupul 49 Bombardament în Picaj" "Grupul 50 Bombardament în Picaj" 
+			"Grupul 51 Bombardament în Picaj" "Grupul 52 Bombardament în Picaj" "Grupul 53 Bombardament în Picaj" "Grupul 54 Bombardament în Picaj" "Grupul 55 Bombardament în Picaj" 
+			"Grupul 56 Bombardament în Picaj" "Grupul 57 Bombardament în Picaj" "Grupul 58 Bombardament în Picaj" "Grupul 59 Bombardament în Picaj" "Grupul 60 Bombardament în Picaj" 
+			"Grupul 61 Bombardament în Picaj" "Grupul 62 Bombardament în Picaj" "Grupul 63 Bombardament în Picaj" "Grupul 64 Bombardament în Picaj" "Grupul 65 Bombardament în Picaj" 
+			"Grupul 66 Bombardament în Picaj" "Grupul 67 Bombardament în Picaj" "Grupul 68 Bombardament în Picaj" "Grupul 69 Bombardament în Picaj" "Grupul 70 Bombardament în Picaj" 
+			"Grupul 71 Bombardament în Picaj" "Grupul 72 Bombardament în Picaj" "Grupul 73 Bombardament în Picaj" "Grupul 74 Bombardament în Picaj" "Grupul 75 Bombardament în Picaj" 
+			"Grupul 76 Bombardament în Picaj" "Grupul 77 Bombardament în Picaj" "Grupul 78 Bombardament în Picaj" "Grupul 79 Bombardament în Picaj" "Grupul 80 Bombardament în Picaj" 
+			"Grupul 81 Bombardament în Picaj" "Grupul 82 Bombardament în Picaj" "Grupul 83 Bombardament în Picaj" "Grupul 84 Bombardament în Picaj" "Grupul 85 Bombardament în Picaj" 
+			"Grupul 86 Bombardament în Picaj" "Grupul 87 Bombardament în Picaj" "Grupul 88 Bombardament în Picaj" "Grupul 89 Bombardament în Picaj" "Grupul 90 Bombardament în Picaj" 
+			"Grupul 91 Bombardament în Picaj" "Grupul 92 Bombardament în Picaj" "Grupul 93 Bombardament în Picaj" "Grupul 94 Bombardament în Picaj" "Grupul 95 Bombardament în Picaj" 
+			"Grupul 96 Bombardament în Picaj" "Grupul 97 Bombardament în Picaj" "Grupul 98 Bombardament în Picaj" "Grupul 99 Bombardament în Picaj" "Grupul 100 Bombardament în Picaj" 
+			#NOTE: "picaj" means dive and refers to dive-bombing. the only plane in the romanian air force that did that was the ju87 stuka, which romania apparently doesn't get in-game but got irl
+			#there should be another list below this one that takes all the "picaj" names and applies them only to the stuka (ju87_bomber_equipment?)
+		}	
+	}
+
+	jet_tac_bomber_equipment = {
+		prefix = ""
+		generic = { "Grup de Bombardament" }
+		generic_pattern = AIR_WING_NAME_ROM_GENERIC
+		unique = {
+			"Grupul 1 Bombardament" "Grupul 2 Bombardament" "Grupul 3 Bombardament" "Grupul 4 Bombardament" "Grupul 5 Bombardament" 
+			"Grupul 6 Bombardament" "Grupul 7 Bombardament" "Grupul 8 Bombardament" "Grupul 9 Bombardament" "Grupul 10 Bombardament" 
+			"Grupul 11 Bombardament" "Grupul 12 Bombardament" "Grupul 13 Bombardament" "Grupul 14 Bombardament" "Grupul 15 Bombardament" 
+			"Grupul 16 Bombardament" "Grupul 17 Bombardament" "Grupul 18 Bombardament" "Grupul 19 Bombardament" "Grupul 20 Bombardament" 
+			"Grupul 21 Bombardament" "Grupul 22 Bombardament" "Grupul 23 Bombardament" "Grupul 24 Bombardament" "Grupul 25 Bombardament" 
+			"Grupul 26 Bombardament" "Grupul 27 Bombardament" "Grupul 28 Bombardament" "Grupul 29 Bombardament" "Grupul 30 Bombardament" 
+			"Grupul 31 Bombardament" "Grupul 32 Bombardament" "Grupul 33 Bombardament" "Grupul 34 Bombardament" "Grupul 35 Bombardament" 
+			"Grupul 36 Bombardament" "Grupul 37 Bombardament" "Grupul 38 Bombardament" "Grupul 39 Bombardament" "Grupul 40 Bombardament" 
+			"Grupul 41 Bombardament" "Grupul 42 Bombardament" "Grupul 43 Bombardament" "Grupul 44 Bombardament" "Grupul 45 Bombardament" 
+			"Grupul 46 Bombardament" "Grupul 47 Bombardament" "Grupul 48 Bombardament" "Grupul 49 Bombardament" "Grupul 50 Bombardament" 
+			"Grupul 51 Bombardament" "Grupul 52 Bombardament" "Grupul 53 Bombardament" "Grupul 54 Bombardament" "Grupul 55 Bombardament" 
+			"Grupul 56 Bombardament" "Grupul 57 Bombardament" "Grupul 58 Bombardament" "Grupul 59 Bombardament" "Grupul 60 Bombardament" 
+			"Grupul 61 Bombardament" "Grupul 62 Bombardament" "Grupul 63 Bombardament" "Grupul 64 Bombardament" "Grupul 65 Bombardament" 
+			"Grupul 66 Bombardament" "Grupul 67 Bombardament" "Grupul 68 Bombardament" "Grupul 69 Bombardament" "Grupul 70 Bombardament" 
+			"Grupul 71 Bombardament" "Grupul 72 Bombardament" "Grupul 73 Bombardament" "Grupul 74 Bombardament" "Grupul 75 Bombardament" 
+			"Grupul 76 Bombardament" "Grupul 77 Bombardament" "Grupul 78 Bombardament" "Grupul 79 Bombardament" "Grupul 80 Bombardament" 
+			"Grupul 81 Bombardament" "Grupul 82 Bombardament" "Grupul 83 Bombardament" "Grupul 84 Bombardament" "Grupul 85 Bombardament" 
+			"Grupul 86 Bombardament" "Grupul 87 Bombardament" "Grupul 88 Bombardament" "Grupul 89 Bombardament" "Grupul 90 Bombardament" 
+			"Grupul 91 Bombardament" "Grupul 92 Bombardament" "Grupul 93 Bombardament" "Grupul 94 Bombardament" "Grupul 95 Bombardament" 
+			"Grupul 96 Bombardament" "Grupul 97 Bombardament" "Grupul 98 Bombardament" "Grupul 99 Bombardament" "Grupul 100 Bombardament" 
+		}	
+	}
+
+	nav_bomber_equipment = {
+		prefix = ""
+		#generic = { "Grup Hidroavioane" "Grup Avion Torpilă" }
+		generic = { "Escadrilă de Hidroavioane" }
+		generic_pattern = AIR_WING_NAME_ROM_GENERIC
+		unique = {
+			"Escadrila 101 Hidro-Patrulare" "Escadrila 102 Hidro-Informaţie" "Escadrila 103 Hidroavioane" "Escadrila 104 Hidroavioane"
+		}	
+	}
+
+	quad_engine_bomber_equipment = {
+		prefix = ""
+		generic = { "Grup de Bombardament" }
+		generic_pattern = AIR_WING_NAME_ROM_GENERIC
+		unique = {
+			"Grupul 1 Bombardament" "Grupul 2 Bombardament" "Grupul 3 Bombardament" "Grupul 4 Bombardament" "Grupul 5 Bombardament" 
+			"Grupul 6 Bombardament" "Grupul 7 Bombardament" "Grupul 8 Bombardament" "Grupul 9 Bombardament" "Grupul 10 Bombardament" 
+			"Grupul 11 Bombardament" "Grupul 12 Bombardament" "Grupul 13 Bombardament" "Grupul 14 Bombardament" "Grupul 15 Bombardament" 
+			"Grupul 16 Bombardament" "Grupul 17 Bombardament" "Grupul 18 Bombardament" "Grupul 19 Bombardament" "Grupul 20 Bombardament" 
+			"Grupul 21 Bombardament" "Grupul 22 Bombardament" "Grupul 23 Bombardament" "Grupul 24 Bombardament" "Grupul 25 Bombardament" 
+			"Grupul 26 Bombardament" "Grupul 27 Bombardament" "Grupul 28 Bombardament" "Grupul 29 Bombardament" "Grupul 30 Bombardament" 
+			"Grupul 31 Bombardament" "Grupul 32 Bombardament" "Grupul 33 Bombardament" "Grupul 34 Bombardament" "Grupul 35 Bombardament" 
+			"Grupul 36 Bombardament" "Grupul 37 Bombardament" "Grupul 38 Bombardament" "Grupul 39 Bombardament" "Grupul 40 Bombardament" 
+			"Grupul 41 Bombardament" "Grupul 42 Bombardament" "Grupul 43 Bombardament" "Grupul 44 Bombardament" "Grupul 45 Bombardament" 
+			"Grupul 46 Bombardament" "Grupul 47 Bombardament" "Grupul 48 Bombardament" "Grupul 49 Bombardament" "Grupul 50 Bombardament" 
+			"Grupul 51 Bombardament" "Grupul 52 Bombardament" "Grupul 53 Bombardament" "Grupul 54 Bombardament" "Grupul 55 Bombardament" 
+			"Grupul 56 Bombardament" "Grupul 57 Bombardament" "Grupul 58 Bombardament" "Grupul 59 Bombardament" "Grupul 60 Bombardament" 
+			"Grupul 61 Bombardament" "Grupul 62 Bombardament" "Grupul 63 Bombardament" "Grupul 64 Bombardament" "Grupul 65 Bombardament" 
+			"Grupul 66 Bombardament" "Grupul 67 Bombardament" "Grupul 68 Bombardament" "Grupul 69 Bombardament" "Grupul 70 Bombardament" 
+			"Grupul 71 Bombardament" "Grupul 72 Bombardament" "Grupul 73 Bombardament" "Grupul 74 Bombardament" "Grupul 75 Bombardament" 
+			"Grupul 76 Bombardament" "Grupul 77 Bombardament" "Grupul 78 Bombardament" "Grupul 79 Bombardament" "Grupul 80 Bombardament" 
+			"Grupul 81 Bombardament" "Grupul 82 Bombardament" "Grupul 83 Bombardament" "Grupul 84 Bombardament" "Grupul 85 Bombardament" 
+			"Grupul 86 Bombardament" "Grupul 87 Bombardament" "Grupul 88 Bombardament" "Grupul 89 Bombardament" "Grupul 90 Bombardament" 
+			"Grupul 91 Bombardament" "Grupul 92 Bombardament" "Grupul 93 Bombardament" "Grupul 94 Bombardament" "Grupul 95 Bombardament" 
+			"Grupul 96 Bombardament" "Grupul 97 Bombardament" "Grupul 98 Bombardament" "Grupul 99 Bombardament" "Grupul 100 Bombardament" 
+		}	
+	}
+
+	jet_strat_bomber_equipment = {
+		prefix = ""
+		generic = { "Grup de Bombardament" }
+		generic_pattern = AIR_WING_NAME_ROM_GENERIC
+		unique = {
+			"Grupul 1 Bombardament" "Grupul 2 Bombardament" "Grupul 3 Bombardament" "Grupul 4 Bombardament" "Grupul 5 Bombardament" 
+			"Grupul 6 Bombardament" "Grupul 7 Bombardament" "Grupul 8 Bombardament" "Grupul 9 Bombardament" "Grupul 10 Bombardament" 
+			"Grupul 11 Bombardament" "Grupul 12 Bombardament" "Grupul 13 Bombardament" "Grupul 14 Bombardament" "Grupul 15 Bombardament" 
+			"Grupul 16 Bombardament" "Grupul 17 Bombardament" "Grupul 18 Bombardament" "Grupul 19 Bombardament" "Grupul 20 Bombardament" 
+			"Grupul 21 Bombardament" "Grupul 22 Bombardament" "Grupul 23 Bombardament" "Grupul 24 Bombardament" "Grupul 25 Bombardament" 
+			"Grupul 26 Bombardament" "Grupul 27 Bombardament" "Grupul 28 Bombardament" "Grupul 29 Bombardament" "Grupul 30 Bombardament" 
+			"Grupul 31 Bombardament" "Grupul 32 Bombardament" "Grupul 33 Bombardament" "Grupul 34 Bombardament" "Grupul 35 Bombardament" 
+			"Grupul 36 Bombardament" "Grupul 37 Bombardament" "Grupul 38 Bombardament" "Grupul 39 Bombardament" "Grupul 40 Bombardament" 
+			"Grupul 41 Bombardament" "Grupul 42 Bombardament" "Grupul 43 Bombardament" "Grupul 44 Bombardament" "Grupul 45 Bombardament" 
+			"Grupul 46 Bombardament" "Grupul 47 Bombardament" "Grupul 48 Bombardament" "Grupul 49 Bombardament" "Grupul 50 Bombardament" 
+			"Grupul 51 Bombardament" "Grupul 52 Bombardament" "Grupul 53 Bombardament" "Grupul 54 Bombardament" "Grupul 55 Bombardament" 
+			"Grupul 56 Bombardament" "Grupul 57 Bombardament" "Grupul 58 Bombardament" "Grupul 59 Bombardament" "Grupul 60 Bombardament" 
+			"Grupul 61 Bombardament" "Grupul 62 Bombardament" "Grupul 63 Bombardament" "Grupul 64 Bombardament" "Grupul 65 Bombardament" 
+			"Grupul 66 Bombardament" "Grupul 67 Bombardament" "Grupul 68 Bombardament" "Grupul 69 Bombardament" "Grupul 70 Bombardament" 
+			"Grupul 71 Bombardament" "Grupul 72 Bombardament" "Grupul 73 Bombardament" "Grupul 74 Bombardament" "Grupul 75 Bombardament" 
+			"Grupul 76 Bombardament" "Grupul 77 Bombardament" "Grupul 78 Bombardament" "Grupul 79 Bombardament" "Grupul 80 Bombardament" 
+			"Grupul 81 Bombardament" "Grupul 82 Bombardament" "Grupul 83 Bombardament" "Grupul 84 Bombardament" "Grupul 85 Bombardament" 
+			"Grupul 86 Bombardament" "Grupul 87 Bombardament" "Grupul 88 Bombardament" "Grupul 89 Bombardament" "Grupul 90 Bombardament" 
+			"Grupul 91 Bombardament" "Grupul 92 Bombardament" "Grupul 93 Bombardament" "Grupul 94 Bombardament" "Grupul 95 Bombardament" 
+			"Grupul 96 Bombardament" "Grupul 97 Bombardament" "Grupul 98 Bombardament" "Grupul 99 Bombardament" "Grupul 100 Bombardament" 
+		}	
+	}
+
+	transport_plane_equipment = {
+		prefix = ""
+		generic = { "Escadrilă de Transport" }
+		generic_pattern = AIR_WING_NAME_ROM_GENERIC
+		unique = {
+			"Escadrila 105 Transport Greu" "Escadrila 106 Transport Greu" "Escadrila 107 Transport Greu" #"Escadrila 108 Transport Uşor" #"Escadrila 109 Transport Planor" 
+		}	
+	}
+}

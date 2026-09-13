@@ -10,7 +10,7 @@ sub_units = {
 			armor
 		}
 		
-		group = armor
+		group = combined_arms
 		
 		categories = {
 			category_tanks
@@ -23,7 +23,7 @@ sub_units = {
 		combat_width = 2
 
 		need = {
-			trm_medium_tank_chassis = 35
+			trm_medium_tank_chassis = 40
 			#recon_equipment = 60
 		}
 		manpower = 500
@@ -71,7 +71,7 @@ sub_units = {
 		combat_width = 2
 
 		need = {
-			trm_medium_tank_cs_chassis = 35
+			trm_medium_tank_cs_chassis = 40
 			#recon_equipment = 60
 		}
 		manpower = 500

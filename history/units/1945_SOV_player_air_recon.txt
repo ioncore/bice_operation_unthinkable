@@ -1,6 +1,17 @@
 #############################################
 ##### SOVIET PLAYER AIR TRANSBAYKAL OOB #####
 #############################################
+instant_effect = {
+    enable_equipments = {
+        r_6_scout_equipment_1
+        r_5_scout_equipment_1
+        r_5_scout_equipment_2
+        r_10_scout_equipment_1
+        pe_2_scout_equipment_1 # Pe-2R
+        tu_2_scout_equipment_1 # Tu-2F
+        tu_2_scout_equipment_2 # Tu-2R
+    }
+}
 
         # ========================================================
         # Transbaykal Front 03.09.45
@@ -30,3 +41,4 @@ air_wings = {
         start_experience_factor = 0.16           
         }
 }
+

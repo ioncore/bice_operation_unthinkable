@@ -23,12 +23,25 @@ instant_effect = {
     SLOT:armor_folder = yes
     SLOT:ww1_land_doctrine_folder = yes
     SLOT:land_doctrine_folder = yes
+    
     add_tech_bonus = {
         name = SOV_mortar_prototype
         bonus = 1.25
         uses = 1
         technology = mortars
     }
+
+	add_equipment_to_stockpile = {
+		type = mechanized_equipment_1
+		amount = 1000
+		producer = ENG
+	}
+	add_equipment_to_stockpile = {
+		type = mechanized_equipment_1
+		amount = 1000
+		producer = USA
+	}  
+
 ######################################################
 ##### 	  PLAYER AND AI HAVE SEPERATE  OOBS 	 #####
 ######################################################
@@ -41,24 +54,30 @@ instant_effect = {
 #			load_oob = "1945_SOV_AI"
 #		}
 #	}
-    if = {
-        limit = {
-            SOV = { is_ai = no }
-        }
+#    if = {
+#        limit = {
+#            SOV = { is_ai = no }
+#        }
         SOV = {
-                    load_oob = "1945_SOV_player"
+            load_oob = "1945_SOV_player_tech"                
+            load_oob = "1945_SOV_player_armor_tech"            
+            load_oob = "1945_SOV_player_air_tech"
 
-                    load_oob = "1945_SOV_player_armor_tech"
+            load_oob = "1945_SOV_player_units_tank"
+            load_oob = "1945_SOV_player_units_mech"
+            load_oob = "1945_SOV_player_units_cav"
+            load_oob = "1945_SOV_player_units_abn"
+            load_oob = "1945_SOV_player_units_ninf"
+            load_oob = "1945_SOV_player_units_rifle"
 
-                    load_oob = "1945_SOV_player_air_tech"
-                    load_oob = "1945_SOV_player_air_transbaykal"
-                    load_oob = "1945_SOV_player_air_pvo"
-                }
-    }
-    if = {
-        limit = { has_dlc = "La Resistance" }
-        SOV = { load_oob = "1945_SOV_player_air_recon" }
-    }
+            load_oob = "1945_SOV_player_air_transbaykal"
+            load_oob = "1945_SOV_player_air_pvo"
+        }
+#    }
+#    if = {
+#        limit = { has_dlc = "La Resistance" }
+#        SOV = { load_oob = "1945_SOV_player_air_recon" }
+#    }  
 }
 
 ### EOF ###

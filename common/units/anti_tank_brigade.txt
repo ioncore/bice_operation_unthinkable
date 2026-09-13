@@ -1,0 +1,447 @@
+### Line unit ###
+sub_units = {
+	anti_tank_brigade = {
+		sprite = anti_tank
+		map_icon_category = infantry
+		priority = 200
+		ai_priority = 100
+		active = no
+		
+		type = {
+			infantry
+			anti_tank
+		}
+		
+		group = combined_arms
+		
+		categories = {
+			category_front_line
+			category_army
+			category_line_artillery
+			category_all_light_anti_tank
+		}		
+		
+		##BASE stats
+		max_strength = 2
+		max_organisation = -5
+		default_morale = 0
+		weight = 0.5
+		supply_consumption = 0.08
+		
+		##COMBAT stats
+		combat_width = 1
+		
+		##OTHER
+		training_time = 105
+		manpower = 600
+		
+		transport = artyhorse_equipment
+		
+		need = {
+			anti_tank_equipment = 24
+			infantry_uniforms = 60
+			artyhorse_equipment = 24
+			#officer_equipment = 16
+		}
+		
+		desert = {
+			movement = -0.03
+		}
+		forest = {
+			attack = -0.01
+			movement = -0.02
+		}
+		hills = {
+			attack = -0.02
+			movement = -0.02
+		}
+		mountain = 	{
+			attack = -0.04
+			movement = -0.04
+		}
+		jungle = {
+			attack = -0.04
+			movement = -0.04
+		}
+		marsh = {
+			movement = -0.04
+		}
+		urban = {
+			attack = -0.02
+			defence = 0.05
+		}
+		densecity = {
+			attack = -0.02
+			defence = 0.05
+		}
+		capital = {
+			attack = -0.02
+			defence = 0.05
+		}
+		fort = {
+			defence = 0.05
+		}
+		river = { 
+			attack = -0.02
+			movement = -0.05
+		}
+		amphibious = { 
+			attack = -0.03
+			movement = -0.03
+		}
+	}
+
+	anti_tank_brigade_mot = {
+		sprite = anti_tank
+		map_icon_category = infantry
+		priority = 1197
+		active = no
+		
+		
+		type = {
+			motorized
+			anti_tank
+		}
+		
+		group = combined_arms
+		
+		categories = {
+			category_front_line
+			category_army
+			category_line_artillery
+			category_all_light_anti_tank
+		}		
+		
+		soft_attack = 0.2
+		hard_attack = 0.2
+		defense = 0.15
+		breakthrough = 0.2
+		combat_width = 1
+		
+		transport = motorized_lia_equipment
+
+		need = {
+			anti_tank_equipment = 24
+			infantry_uniforms = 60
+			motorized_lia_equipment = 24  #car pulled
+		}
+		
+		own_equipment_fuel_consumption_mult = 1.2
+		
+		manpower = 600
+		max_organisation = -3
+		default_morale = 0
+		max_strength = 2
+		training_time = 105
+		weight = 0.8
+		supply_consumption = 0.13
+
+		forest = {
+			attack = -0.01
+			movement = -0.04
+		}
+		hills = {
+			attack = -0.02
+			movement = -0.05
+		}
+		mountain = 	{
+			attack = -0.04
+			movement = -0.07
+		}
+		jungle = {
+			attack = -0.04
+			movement = -0.07
+		}
+		marsh = {
+			movement = -0.07
+		}
+		urban = {
+			defence = 0.03
+		}
+		densecity = {
+			defence = 0.03
+		}
+		capital = {
+			defence = 0.03
+		}
+		fort = {
+			defence = 0.03
+		}
+		river = { 
+			attack = -0.02
+			movement = -0.05
+		}
+		amphibious = { 
+			attack = -0.03
+			movement = -0.05
+		}
+	}
+	
+	airborne_anti_tank_brigade = {
+		sprite = anti_tank
+		map_icon_category = infantry
+		priority = 1197
+		active = no
+		
+		can_be_parachuted = yes
+		
+		type = {
+			motorized
+			anti_tank
+		}
+		
+		group = combined_arms
+		
+		categories = {
+			category_front_line
+			category_army
+			category_line_artillery
+			category_all_light_anti_tank
+		}		
+		
+		combat_width = 1
+		
+		transport = anti_tank_equipment
+
+		need = {
+			anti_tank_equipment = 24
+			infantry_uniforms = 80
+			para_equipment = 40
+		}
+		
+		manpower = 800
+		max_organisation = -5
+		default_morale = 0
+		max_strength = 2
+		training_time = 180
+		weight = 0.9
+		supply_consumption = 0.12
+
+		forest = {
+			attack = -0.01
+			movement = -0.04
+		}
+		hills = {
+			attack = -0.02
+			movement = -0.05
+		}
+		mountain = 	{
+			attack = -0.04
+			movement = -0.07
+		}
+		jungle = {
+			attack = -0.04
+			movement = -0.07
+		}
+		marsh = {
+			movement = -0.07
+		}
+		urban = {
+			defence = 0.03
+		}
+		densecity = {
+			defence = 0.03
+		}
+		capital = {
+			defence = 0.03
+		}
+		fort = {
+			defence = 0.03
+		}
+		river = { 
+			attack = -0.02
+			movement = -0.05
+		}
+		amphibious = { 
+			attack = -0.03
+			movement = -0.05
+		}
+	}
+	
+	anti_tank_brigade_med = {
+		sprite = anti_tank
+		map_icon_category = infantry
+		priority = 200
+		ai_priority = 100
+		active = no
+		
+		type = {
+			infantry
+			anti_tank
+		}
+		
+		group = combined_arms
+		
+		categories = {
+			category_front_line
+			category_army
+			category_line_artillery
+			category_all_light_anti_tank
+		}		
+		
+		##BASE stats
+		max_strength = 2
+		max_organisation = -5
+		default_morale = 0
+		weight = 0.8
+		supply_consumption = 0.1
+		
+		##COMBAT stats
+		combat_width = 1
+		
+		##OTHER
+		training_time = 120
+		manpower = 800
+		
+		transport = artyhorse_equipment
+		
+		need = {
+			medanti_tank_equipment = 24
+			infantry_uniforms = 80
+			artyhorse_equipment = 24
+			#officer_equipment = 16
+		}
+		
+		plains = {
+			defence = 0.03
+		}
+		desert = {
+			defence = 0.03
+			movement = -0.05
+		}
+		forest = {
+			attack = -0.03
+			movement = -0.05
+		}
+		hills = {
+			attack = -0.05
+			movement = -0.08
+		}
+		mountain = 	{
+			attack = -0.1
+			movement = -0.15
+		}
+		jungle = {
+			attack = -0.1
+			movement = -0.12
+		}
+		marsh = {
+			movement = -0.12
+		}
+		urban = {
+			attack = -0.05
+			defence = 0.05
+		}
+		densecity = {
+			attack = -0.05
+			defence = 0.05
+		}
+		capital = {
+			attack = -0.05
+			defence = 0.05
+		}
+		fort = {
+			defence = 0.05
+		}
+		river = { 
+			attack = -0.05
+			movement = -0.1
+		}
+		amphibious = { 
+			attack = -0.05
+			movement = -0.07
+		}
+	}
+
+	anti_tank_brigade_mot_med = {
+		sprite = anti_tank
+		map_icon_category = infantry
+		priority = 1197
+		active = no
+		
+		
+		type = {
+			motorized
+			anti_tank
+		}
+		
+		group = combined_arms
+		
+		categories = {
+			category_front_line
+			category_army
+			category_line_artillery
+			category_all_light_anti_tank
+		}		
+		
+		soft_attack = 0.2
+		hard_attack = 0.2
+		defense = 0.15
+		breakthrough = 0.2
+		combat_width = 1
+		
+		transport = artytruck_equipment
+
+		need = {
+			medanti_tank_equipment = 24
+			infantry_uniforms = 80
+			artytruck_equipment = 24  #truck pulled
+		}
+		
+		own_equipment_fuel_consumption_mult = 1.2
+		
+		manpower = 800
+		max_organisation = -3
+		default_morale = 0
+		max_strength = 2
+		training_time = 120
+		weight = 1.2
+		supply_consumption = 0.15
+
+		plains = {
+			defence = 0.03
+		}
+		desert = {
+			defence = 0.03
+		}
+		forest = {
+			attack = -0.03
+			movement = -0.07
+		}
+		hills = {
+			attack = -0.05
+			movement = -0.10
+		}
+		mountain = 	{
+			attack = -0.1
+			movement = -0.18
+		}
+		jungle = {
+			attack = -0.1
+			movement = -0.15
+		}
+		marsh = {
+			movement = -0.15
+		}
+		urban = {
+			defence = 0.03
+		}
+		densecity = {
+			defence = 0.03
+		}
+		capital = {
+			defence = 0.03
+		}
+		fort = {
+			defence = 0.05
+		}
+		river = { 
+			attack = -0.05
+			movement = -0.1
+		}
+		amphibious = { 
+			attack = -0.05
+			movement = -0.1
+		}
+	}
+}

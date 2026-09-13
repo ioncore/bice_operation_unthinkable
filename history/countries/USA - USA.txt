@@ -23,6 +23,10 @@ capital = 847
         elections_allowed = no
     }
 
+    set_technology = {
+        tech_bell_p63_equipment_1 = 1
+    }    
+
     set_popularities = {
 	conservatism = 43
 	liberalism = 52

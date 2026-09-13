@@ -80,7 +80,7 @@ air_wings = {
 
 #	860 = { 
 #		bell_p63_equipment_1 = {
-#			owner = "SOV" 
+#			owner = "USA" 
 #			amount = 100
 #		}
 #		name="190-ya IAD"
@@ -88,7 +88,7 @@ air_wings = {
 #	}
     860 = { 
         bell_p63_equipment_1 = {
-            owner = "SOV" 
+            owner = "USA" 
             amount = 32
         }
         name="17-y IAP"
@@ -96,7 +96,7 @@ air_wings = {
     }
     860 = { 
         bell_p63_equipment_1 = {
-            owner = "SOV" 
+            owner = "USA" 
             amount = 32
         }
         name="494-y IAP"
@@ -104,7 +104,7 @@ air_wings = {
     }
     860 = { 
         bell_p63_equipment_1 = {
-            owner = "SOV" 
+            owner = "USA" 
             amount = 32
         }
         name="821-y IAP"

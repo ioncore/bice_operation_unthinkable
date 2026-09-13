@@ -60,7 +60,7 @@ instant_effect = {
         tech_su_6_equipment_1 = 1
         tech_il_2_equipment_1 = 1
         tech_il_2_equipment_2 = 1
-        # tech_il_10_equipment_1 = 1
+        tech_il_10_equipment_1 = 1
 
         tech_po_2_bomber_equipment_1 = 1
         tech_sb_2m_bomber_equipment_1 = 1
@@ -94,14 +94,14 @@ instant_effect = {
         tech_tupolev_mdr_4_equipment_1 = 1
         tech_chetverikov_mdr_6_equipment_1 = 1
 
-        tech_i_15_cv_fighter_equipment_1 = 1
-        tech_i_15_cv_fighter_equipment_2 = 1
-        tech_yak_cv_fighter_equipment_1 = 1
-        tech_yak_cv_fighter_equipment_2 = 1
+        # tech_i_15_cv_fighter_equipment_1 = 1
+        # tech_i_15_cv_fighter_equipment_2 = 1
+        # tech_yak_cv_fighter_equipment_1 = 1
+        # tech_yak_cv_fighter_equipment_2 = 1
 
         tech_r_5_nav_bomber_equipment_1 = 1
-        tech_soviet_cvnav_0 = 1
-        tech_soviet_cvnav_1 = 1
+        # tech_soviet_cvnav_0 = 1
+        # tech_soviet_cvnav_1 = 1
         # tech_soviet_cvnav_2 = 1 # Yak-3K
 
         tech_tb_3_transport_equipment_1 = 1
@@ -112,7 +112,7 @@ instant_effect = {
         # tech_mig_9_fighter_equipment_1 = 1
 
         # Lend-Lease (do we even need it here?)
-        tech_bell_p63_equipment_1 = 1
+        # tech_bell_p63_equipment_1 = 1
     }
     # Air Recon for LaR only
     if = {
@@ -128,7 +128,7 @@ instant_effect = {
         }
     }
 
-enable_equipments = {
+    enable_equipments = {
         # Light Fighters
         i_5_equipment_1
         i_7_equipment_1
@@ -252,30 +252,28 @@ enable_equipments = {
         
         # mig_9_fighter_equipment_1
 
+        # NOT NEEDED FOR LL!
         # Lend-Lease
-        bell_p63_equipment_1
-}
-
-if = {
-    limit = { has_dlc = "La Resistance" }
-    enable_equipments = {
-        r_6_scout_equipment_1
-        r_5_scout_equipment_1
-        r_5_scout_equipment_2
-        r_10_scout_equipment_1
-        pe_2_scout_equipment_1 # Pe-2R
-        tu_2_scout_equipment_1 # Tu-2F
-        tu_2_scout_equipment_2 # Tu-2R
+        # bell_p63_equipment_1
     }
-}
 
-create_equipment_license = {
-    target = USA # The country that originally designed the equipment
-    requested_archetype = interceptor_equipment
-    equipment = bell_p63_equipment_1
-    version_number = 0
-}
+    # NOT NEEDED FOR LL!
+    #create_equipment_license = {
+    #    target = USA # The country that originally designed the equipment
+    #    requested_archetype = interceptor_equipment
+    #    equipment = bell_p63_equipment_1
+    #    version_number = 0
+    #}
 
+    #add_equipment_to_stockpile = {
+	#	type = bell_p63_equipment_1
+	#	amount = 1
+	#	producer = USA
+	#}
+    #add_equipment_to_stockpile = {
+	#	type = yak_3_equipment_1
+	#	amount = 500
+	#}
 }
 
 ### EOF ###

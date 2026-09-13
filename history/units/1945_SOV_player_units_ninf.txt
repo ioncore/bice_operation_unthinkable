@@ -1,0 +1,131 @@
+#############################
+##### SOVIET PLAYER OOB #####
+#############################
+
+        # ========================================================
+        # Marine Troops
+        # ========================================================
+        #
+        # 1 Marine Division + 4 Marine Brigades
+        # - 1st Marine Division              - Porkkala-Udd (11105), should be Hanko (11211) for exclave reasons
+        # - 12th Marine Brigade              - Petsamo? (9116)
+        # - 13th Guards Marine Brigade       - Kurils? (1399)
+        # - 63rd Marine Brigade              - Petsamo? (9116)
+        # - 260th Marine Brigade             - Sevastopol (3686)
+        #
+        # Directives from 11.1945 - 1.1946 3 MBr:
+        # - 14th Marine Brigade              - Kamchatka
+        # - 15th Marine Brigade              - Sakhalin
+        # - 16th Marine Brigade              - Dalian
+
+division_template = {
+    name = "Naval Infantry Division 1945"
+    template_counter = 970
+    division_names_group = SOV_NID_01
+
+    regiments = {
+        marine = { x = 0 y = 0 }
+        marine = { x = 0 y = 1 }
+        marine = { x = 0 y = 2 }
+
+        marine = { x = 1 y = 0 }
+        marine = { x = 1 y = 1 }
+        marine = { x = 1 y = 2 }
+
+        marine = { x = 2 y = 0 }
+        marine = { x = 2 y = 1 }
+        marine = { x = 2 y = 2 }
+
+        trm_medium_armor = { x = 3 y = 0 }
+                
+        artillery_brigade = { x = 4 y = 0 }
+        artillery_brigade = { x = 4 y = 1 }
+        artillery_brigade_med = { x = 4 y = 2 }
+        anti_tank_brigade_med = { x = 4 y = 3 }
+    }
+    support = {
+        DIV_HQ = { x = 0 y = 0 }
+
+        anti_air = { x = 1 y = 0 }
+        recon = { x = 1 y = 0 }
+        anti_tank = { x = 1 y = 1 }
+    }
+}
+
+division_template = {
+    name = "Naval Infantry Brigade 1945"
+    template_counter = 969
+    division_names_group = SOV_NIBR_01
+
+    regiments = {
+        marine = { x = 0 y = 0 }
+        marine = { x = 0 y = 1 }
+        marine = { x = 0 y = 2 }
+                
+        artillery_brigade = { x = 1 y = 0 }
+    }
+    support = {
+        DIV_HQ = { x = 0 y = 0 }
+
+        anti_air = { x = 1 y = 0 }
+        recon = { x = 1 y = 0 }
+        anti_tank = { x = 1 y = 1 }
+    }
+}
+
+units = {
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+        location = 11211
+        division_template = "Naval Infantry Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 12
+        }
+        location = 9116
+        division_template = "Naval Infantry Brigade 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        name = "13-ya Gv.BrMP"
+        location = 1399
+        division_template = "Naval Infantry Brigade 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 63
+        }
+        location = 9116
+        division_template = "Naval Infantry Brigade 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 260
+        }
+        location = 3686
+        division_template = "Naval Infantry Brigade 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+}
+
+### EOF ###

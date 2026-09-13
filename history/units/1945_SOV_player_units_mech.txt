@@ -1,0 +1,398 @@
+#############################
+##### SOVIET PLAYER OOB #####
+#############################
+        # ========================================================
+        # Guards Mech Divisions & Mech Divisions
+        # ========================================================
+        #
+        # 1st Batch (Directives from Summer 1945) 14 ex-MC + 7 ex-RD/CD
+        # - 1st Guards Mech Division       - Merage (4609)
+        # - 1st Mech Division              - Krampnitz (3499)
+        # - 2nd Guards Mech Division       - Craiowa (6652)
+        # - 3rd Guards Mech Division       - Yingkou (11764), ZabF
+        # - 4th Guards Mech Division       - Sofia (949)
+        # - 5th Guards Mech Division       - Eberswalde (13259)
+        # - 6th Guards Mech Division       - Szombathely (11627), 4th GTA
+        # - 7th Guards Mech Division       - Tabor (9569), 4th GTA
+        # - 7th Mech Division              - Dalian (1150), 6 GTA
+        # - 8th Guards Mech Division       - Forst Zinna (3499)
+        # - 8th Mech Division              - Slonim (9236)
+        # - 9th Guards Mech Division       - Dalian (1150), 6 GTA
+        # - 9th Mech Division              - Pardubitz (583), 3rd GTA
+        # - 10th Guards Mech Division      - (ex 8th GCD) - PrikVO (462)
+        # - 10th Mech Division             - Girin (6947), 1 DVF
+        # - 11th Guards Mech Division      - (ex 13th GCD) - PrikVO (462)
+        # - 11th Mech Division             - (ex 30th CD) - PrikVO (9548)
+        # - 12th Guards Mech Division      - (ex 15th GCD) - PrikVO (462)
+        # - 12th Mech Division             - (ex 63rd CD) - PrikVO (9548)
+        # - 13rd Guards Mech Division      - (ex 13th GRD) - Wien (11666)
+        # - 13th Mech Division             - (ex 8th CD) - PrikVO (9548)
+        #
+        # 2nd Batch (directives from Oct-Nov 1945):
+        # - 14th Guards Mech Division      - (ex 116th GRD)
+        # - 14th Mech Division             - (ex 284th RD)
+        # - 15th Guards Mech Division      - (ex 6th GRD)
+        # - 15th Mech Division             - (ex 364th RD)
+        # - 16th Guards Mech Division      - (ex 80th GRD)
+        # - 16th Mech Division             - (ex 171st RD)
+        # - 17th Guards Mech Division      - (ex 40th GRD)
+        # - 17th Mech Division             - (ex 230th RD)
+        # - 18th Guards Mech Division      - (ex 41st GRD)
+        # - 18th Mech Division             - (ex 416th RD)
+        # - 19th Guards Mech Division      - (ex 47th GRD)
+        # - 19th Mech Division             - (ex 244th RD)
+        # - 20th Guards Mech Division      - (ex 79th GRD)
+        # - 20th Mech Division             - (ex 21st RD)
+        # - 21st Guards Mech Division      - (ex 27th GRD)
+        # - 21st Mech Division             - (ex 223rd RD)
+        # - 22nd Guards Mech Division      - (ex 52th GRD)
+        # - 22nd Mech Division             - (ex 193th RD)
+        # - 23rd Guards Mech Division      - (ex 89th GRD)
+        # - 23rd Mech Division             - (ex 183rd RD)
+        # - 24th Guards Mech Division      - (ex 36th GRD)
+        # - 24th Mech Division             - (ex 161st RD)
+        # - 25th Guards Mech Division      - (ex 20th GRD)
+        # - 25th Mech Division             - (ex 163rd RD)
+        # - 26th Guards Mech Division      - (ex 90th GRD)
+        # - 26th Mech Division             - (ex 15th RD)
+        # - 27th Guards Mech Division      - (ex 37th GRD)
+        # - 28th Guards Mech Division      - (ex 2nd GCC)
+        # - 29th Guards Mech Division      - (ex 31st GRD)
+        # - 30th Guards Mech Division      - (ex 18th GRD)
+        # - 31st Guards Mech Division      - (ex 7th GCC)
+        # - 32nd Guards Mech Division      - (ex 117th GRD)
+        # - 33rd Guards Mech Division      - (ex 49th GRD)
+        # - 34th Guards Mech Division      - (ex 92nd GRD)
+        # - 35th Guards Mech Division      - (ex 93rd GRD)
+        #
+        # 3rd Batch (directives from July 1946):
+        # - 27th Mech Division             - (ex 254th RD)
+        # - 28th Mech Division             - (ex 126th RD)
+        # - 36th Guards Mech Division      - (ex 29th GRD)
+        # - 37th Guards Mech Division      - (ex 63rd GRD)
+
+division_template = {
+    name = "Guards Mech Division 1945"
+        priority = 2
+    template_counter = 178
+    division_names_group = SOV_GMD_01
+
+    regiments = {
+        trm_medium_armor = { x = 0 y = 0 }
+        trm_medium_armor = { x = 0 y = 1 }
+        trm_heavy_armor = { x = 0 y = 2 }
+        motorized_assault = { x = 0 y = 3 }
+        motorized_assault = { x = 0 y = 4 }
+
+        motorized = { x = 1 y = 0 }
+        motorized = { x = 1 y = 1 }
+        motorized = { x = 1 y = 2 }
+        trm_medium_armor = { x = 1 y = 3 }
+        artillery_brigade_mot = { x = 1 y = 4 }
+
+        motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+        motorized = { x = 2 y = 2 }
+        trm_medium_armor = { x = 2 y = 3 }
+        artillery_brigade_mot = { x = 2 y = 4 }        
+
+        motorized = { x = 3 y = 0 }
+        motorized = { x = 3 y = 1 }
+        motorized = { x = 3 y = 2 }
+        trm_medium_armor = { x = 3 y = 3 }        
+        artillery_brigade_mot = { x = 3 y = 4 }
+               
+        artillery_brigade_mot_med = { x = 4 y = 0 }
+        artillery_brigade_mot_med = { x = 4 y = 1 }
+        motorized_rocket_brigade = { x = 4 y = 2 }
+        trm_medium_tank_destroyer = { x = 4 y = 3 }
+        trm_medium_tank_destroyer = { x = 4 y = 4 }
+    }
+    support = {
+        DIV_HQ_mech = { x = 0 y = 0 }
+        engineer_mot = { x = 0 y = 1 }
+        recon_mot = { x = 0 y = 2 }
+
+        anti_air_car = { x = 1 y = 0 }
+    }
+}
+
+division_template = {
+    name = "Mech Division 1945"
+    template_counter = 178
+    division_names_group = SOV_MD_01
+
+    regiments = {
+        trm_medium_armor = { x = 0 y = 0 }
+        trm_medium_armor = { x = 0 y = 1 }
+        trm_heavy_armor = { x = 0 y = 2 }
+        motorized_assault = { x = 0 y = 3 }
+        motorized_assault = { x = 0 y = 4 }
+
+        motorized = { x = 1 y = 0 }
+        motorized = { x = 1 y = 1 }
+        motorized = { x = 1 y = 2 }
+        trm_medium_armor = { x = 1 y = 3 }
+        artillery_brigade_mot = { x = 1 y = 4 }
+
+        motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+        motorized = { x = 2 y = 2 }
+        trm_medium_armor = { x = 2 y = 3 }
+        artillery_brigade_mot = { x = 2 y = 4 }        
+
+        motorized = { x = 3 y = 0 }
+        motorized = { x = 3 y = 1 }
+        motorized = { x = 3 y = 2 }
+        trm_medium_armor = { x = 3 y = 3 }        
+        artillery_brigade_mot = { x = 3 y = 4 }
+                
+        artillery_brigade_mot_med = { x = 4 y = 0 }
+        artillery_brigade_mot_med = { x = 4 y = 1 }
+        motorized_rocket_brigade = { x = 4 y = 2 }
+        trm_medium_tank_destroyer = { x = 4 y = 3 }
+        trm_medium_tank_destroyer = { x = 4 y = 4 }
+    }
+    support = {
+        DIV_HQ_mech = { x = 0 y = 0 }
+        engineer_mot = { x = 0 y = 1 }
+        recon_mot = { x = 0 y = 2 }
+
+        anti_air_car = { x = 1 y = 0 }
+    }
+}
+
+units = {
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 1
+        }
+        location = 4609
+        division_template = "Guards Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 1
+        }
+        location = 3499
+        division_template = "Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 2
+        }
+        location = 6652
+        division_template = "Guards Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 3
+        }
+        location = 11764
+        division_template = "Guards Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 4
+        }
+        location = 949
+        division_template = "Guards Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 5
+        }
+        location = 13259
+        division_template = "Guards Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 6
+        }
+        location = 11627
+        division_template = "Guards Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 7
+        }
+        location = 9569
+        division_template = "Guards Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 7
+        }
+        location = 1150
+        division_template = "Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 8
+        }
+        location = 3499
+        division_template = "Guards Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 8
+        }
+        location = 9236
+        division_template = "Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 9
+        }
+        location = 1150
+        division_template = "Guards Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 9
+        }
+        location = 583
+        division_template = "Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 10
+        }
+        location = 462
+        division_template = "Guards Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 10
+        }
+        location = 6947
+        division_template = "Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 11
+        }
+        location = 462
+        division_template = "Guards Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 11
+        }
+        location = 9548
+        division_template = "Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 12
+        }
+        location = 462
+        division_template = "Guards Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 12
+        }
+        location = 9548
+        division_template = "Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 13
+        }
+        location = 11666
+        division_template = "Guards Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 13
+        }
+        location = 9548
+        division_template = "Mech Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+}
+### EOF ###
