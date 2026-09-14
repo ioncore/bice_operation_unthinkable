@@ -32,14 +32,16 @@ instant_effect = {
     }
 
 	add_equipment_to_stockpile = {
-		type = mechanized_equipment_1
+		type = "mechanized_equipment"
 		amount = 1000
 		producer = ENG
+        owner = ENG
 	}
 	add_equipment_to_stockpile = {
-		type = mechanized_equipment_1
+		type = "mechanized_equipment"
 		amount = 1000
 		producer = USA
+        owner = USA
 	}  
 
 ######################################################
@@ -60,15 +62,17 @@ instant_effect = {
 #        }
         SOV = {
             load_oob = "1945_SOV_player_tech"                
-            load_oob = "1945_SOV_player_armor_tech"            
-            load_oob = "1945_SOV_player_air_tech"
+            load_oob = "1945_SOV_player_tech_armor"
+            load_oob = "1945_SOV_player_tech_air"
 
+            load_oob = "1945_SOV_player_units_templates"
             load_oob = "1945_SOV_player_units_tank"
             load_oob = "1945_SOV_player_units_mech"
             load_oob = "1945_SOV_player_units_cav"
             load_oob = "1945_SOV_player_units_abn"
             load_oob = "1945_SOV_player_units_ninf"
-            load_oob = "1945_SOV_player_units_rifle"
+            load_oob = "1945_SOV_player_units_aslt"
+            load_oob = "1945_SOV_player_units_far_east"
 
             load_oob = "1945_SOV_player_air_transbaykal"
             load_oob = "1945_SOV_player_air_pvo"

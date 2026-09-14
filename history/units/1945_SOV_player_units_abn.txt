@@ -31,57 +31,6 @@
         # - 31st Guards Airborne Division - Novograd
         #
 
-division_template = {
-    name = "Guards Airborne Brigade 1945"
-        priority = 2
-    template_counter = 3012
-    division_names_group = SOV_GABR_01
-
-    regiments = {
-        paratrooper = { x = 0 y = 0 }
-        paratrooper = { x = 0 y = 1 }
-        paratrooper = { x = 0 y = 2 }
-        paratrooper = { x = 0 y = 3 }
-                
-                airborne_anti_tank_brigade = { x = 1 y = 0 }
-    }
-    support = {
-        DIV_HQ_airborne = { x = 0 y = 0 }
-
-        anti_air_car = { x = 1 y = 0 }
-        recon = { x = 1 y = 0 }
-    }
-}
-
-#division_template = {
-#	name = "Guards Airborne Division 1946"
-#       priority = 2
-#	template_counter = 3012
-#	division_names_group = SOV_GAD_01
-#
-#	regiments = {
-#		paratrooper = { x = 0 y = 0 }
-#		paratrooper = { x = 0 y = 1 }
-#		paratrooper = { x = 0 y = 2 }
-#
-#		paratrooper = { x = 1 y = 0 }
-#		paratrooper = { x = 1 y = 1 }
-#		paratrooper = { x = 1 y = 2 }
-#                
-#               airborne_artillery_brigade = { x = 2 y = 0 }
-#               airborne_artillery_brigade = { x = 2 y = 1 }
-#               airborne_anti_tank_brigade = { x = 2 y = 2 }
-#               trm_airborne_tank_destroyer = { x = 2 y = 3 }
-#	}
-#	support = {
-#		DIV_HQ_airborne = { x = 0 y = 0 }
-#
-#		anti_air_car = { x = 1 y = 0 }
-#		eng_abn = { x = 1 y = 1 }
-#		recon = { x = 1 y = 2 }
-#	}
-#}
-
 units = {
     division = {
         division_name = {

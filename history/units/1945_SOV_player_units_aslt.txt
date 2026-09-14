@@ -1,0 +1,103 @@
+#############################
+##### SOVIET PLAYER OOB #####
+#############################
+
+        # ========================================================
+        # Assault-Engineer Troops
+        # ========================================================
+        #
+        # Assault Engineer Brigades
+        # - 1st Guards Assault-Engineer Brigade                     -
+        # - 1st Assault-Engineer Brigade                            -
+        # - 2nd Assault-Engineer Brigade                            -
+        # - 3rd Assault-Engineer Brigade                            -
+        # - 5th Assault-Engineer Brigade (Transbaykal Front)        - Yingkou (11764)
+        # - 9th Assault-Engineer Brigade (39th Army)                - Liaoyuan (846)
+        # - 10th Assault-Engineer Brigade                           -
+        # - 11th Assault-Engineer Brigade                           -
+        # - 12th Assault-Engineer Brigade                           -
+        # - 13th Assault-Engineer Brigade (Transbaykal Front)       - Dalian (1150)
+        # - 14th Assault-Engineer Brigade                           -
+        # - 15th Assault-Engineer Brigade                           -
+        # - 16th Assault-Engineer Brigade                           -
+        # - 17th Assault-Engineer Brigade                           -
+        # - 19th Assault-Engineer Brigade                           -
+        #
+        # Motorized Assault Engineer Brigades
+        # - 2nd Guards Mot Assault-Engineer Brigade                 -
+        # - 7th Mot Assault-Engineer Brigade                        - Moscow (6380)
+        # - 20th Mot Assault-Engineer Brigade (5th Army)            - Kirin (6947)
+        # - 21st Mot Assault-Engineer Brigade (15th Army)           - Harbin (7652)
+        # - 22nd Guards Mot Assault-Engineer Brigade                -
+        # - 23rd Mot Assault-Engineer Brigade                       -
+
+units = {
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 5
+        }
+        location = 11764
+        division_template = "Assault Engineer Brigade 1944"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 9
+        }
+        location = 846
+        division_template = "Assault Engineer Brigade 1944"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 13
+        }
+        location = 1150
+        division_template = "Assault Engineer Brigade 1944"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 7
+        }
+        location = 6380
+        division_template = "Mot Assault Engineer Brigade 1944"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 20
+        }
+        location = 6947
+        division_template = "Mot Assault Engineer Brigade 1944"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 21
+        }
+        location = 7652
+        division_template = "Mot Assault Engineer Brigade 1944"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+}
+
+### EOF ###

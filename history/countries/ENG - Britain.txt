@@ -1,0 +1,1490 @@
+﻿capital = 126
+
+oob = "ENG_1936"
+history_initialisation = yes
+
+set_research_slots = 2
+
+set_stability = 0.60
+
+set_war_support = 0.1
+
+set_country_flag = ENG_armor
+set_country_flag = ENG_armor_techs
+set_country_flag = ENG_armor_actual
+
+set_country_flag = ENG_air
+# United Kingdom starts out as the country responsible for curbing Hungary's expansion
+set_country_flag = HUN_policing_expansion_of_hungary
+
+set_convoys = 1760 #Reduce from 1895
+set_country_flag = league_member
+set_country_flag = olympic_attendee
+news_event = { id = britain.11 days = 334 } #Crystal palace burns
+news_event = { id = news.2248 days = 610 }
+news_event = { id = britain.14 days = 367 }
+#country_event = { id = BICE_britain.12 days = 365 random_days = 150 } #test cricket
+country_event = { id = BICE_britain.16 days = 1476 } #The Altmark Incident
+country_event = { id = BICE_britain.17 days = 1572 } #britain_bice.txt
+country_event = { id = BICE_britain.23 days = 1924 } #britain_bice.txt
+country_event = { id = BICE_britain.26 days = 2021 } #atlantic charter
+country_event = { id = BICE_britain.46 days = 2496 } #britain_bice.txt
+country_event = { id = britain.12 days = 238 } #Anglo Egyptian trade treaty
+country_event = { id = britain.10 days = 2079 random_days = 30 } #
+country_event = { id = britain.27 days = 135 random_days = 14 } #James Thomas Scandal
+country_event = { id = britain.28 days = 213 random_days = 10 } #Explosion at Wharncliffe Woodmoor Colliery
+country_event = { id = britain.29 days = 91 random_days = 30 } #Retriangulation of Great Britain Begins
+country_event = { id = britain.31 days = 380 random_days = 12 } #Explosion at Markham Colliery
+country_event = { id = britain.32 days = 1260 random_days = 87 } #Tientsin incident, #TODO would be ideal to expand
+country_event = { id = britain.33 days = 1325 random_days = 14 } #1939 Coventry bombing #TODO maybe better intel on IRE makes this avoidable?
+country_event = { id = britain.34 days = 1035 random_days = 30 } #The Halifax Slasher Panic Grips Yorkshire
+country_event = { id = britain.35 days = 517 random_days = 30 } #Carl Friedrich Goerdeler Offers Policy Counsel to London
+country_event = { id = britain.36 days = 562 } #Assassination Attempt on Edward VIII!
+country_event = { id = britain.37 days = 251 } #Penyberth Bombing School Targeted by Nationalists
+country_event = { id = britain.38 days = 273 } #Pinewood Studios
+country_event = { id = britain.39 days = 340 random_days = 6} #KLM Croydon accident
+country_event = { id = britain.40 days = 243 } #Elizabeth Cowell
+country_event = { id = britain.41 days = 540 random_days = 12 } #Britain Launches the 999 Emergency Telephone Service
+country_event = { id = britain.42 days = 574 } #Assassination attempt on King George VI
+country_event = { id = britain.43 days = 550 random_days = 62 } #British Graham Land Expedition 
+country_event = { id = britain.46 days = 950 random_days = 10 } #Ewald von Kleist-Schmenzin arrives in London
+country_event = { id = britain.47 days = 1100 random_days = 36 } #Dutch War Scare
+country_event = { id = britain.48 days = 1060 random_days = 6 } #First Kindertransport
+country_event = { id = britain.49 days = 1500 random_days = 66 } #Assassination of Sir Michael O'Dwyer
+country_event = { id = britain.50 days = 1120 random_days = 18 } #IRA bombs in Central London
+country_event = { id = britain.51 days = 1500 random_days = 46 } #RMS Queen Elizabeth
+country_event = { id = britain.53 days = 90 random_days = 2 } #Girl Pat
+country_event = { id = britain.56 days = 185 } #Wimbledon 36
+country_event = { id = BICE_britain.72 days = 380 } #check if to remove resource rights from ARG
+country_event = { id = britain.16 days = 20 }
+country_event = { id = BICE_britain.69 days = 274 }
+					
+set_variable = { PLAN_training_time = 84 }
+set_variable = { PLAN_accident_rate = 0.04 }
+set_variable = { PLAN_level_1 = 5000 }
+set_variable = { PLAN_level_2 = 10000 }
+set_variable = { PLAN_level_3 = 20000 }
+set_variable = { PLAN_level_4 = 50000 }
+set_variable = { PLAN_level_5 = 100000 }
+set_variable = { PLAN_level_6 = 150000 }
+
+set_variable = { british_political_cost = 0.75 }
+set_variable = { british_trade_factor = 0.25 }
+set_variable = { british_consumer_goods = -0.10 }
+set_variable = { british_stability = 0.01 }
+set_variable = { anger_modifier = 5 }
+
+country_event = { id = BICE_britain.42 days = 941 } #Argus
+#
+#EGY territories
+853 = {
+	start_resistance = yes
+	set_compliance = 5
+	set_resistance = 0
+	set_garrison_strength = 1.0
+}
+551 = {
+	start_resistance = yes
+	set_compliance = 10
+	set_resistance = 0
+	set_garrison_strength = 0.5
+}
+#andaman island, mostly a prison colony
+773 = {
+	set_compliance = 10
+}
+set_variable = { var = eng_gateway_to_europe_influence value = 0 }
+
+add_breakthrough_progress = {
+	specialization = specialization_land
+	value = 0.2
+}
+
+add_breakthrough_progress = {
+	specialization = specialization_air
+	value = 0.3
+}
+
+add_breakthrough_progress = {
+	specialization = specialization_naval
+	value = 0.2
+}
+
+add_breakthrough_progress = {
+	specialization = specialization_electronics
+	value = 0.8
+}
+
+add_ideas = tank_design_tech
+add_equipment_bonus = {
+	name = tank_design_tech
+		
+	bonus = {
+		armor = {
+			build_cost_ic = -0.01 instant = yes
+		}
+	}
+}
+
+set_technology = {
+	basic_naval_mines = 1
+	submarine_mine_laying = 1
+	early_ship_hull_light = 1
+	basic_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	basic_ship_hull_submarine = 1
+	early_ship_hull_cruiser = 1
+	basic_ship_hull_cruiser = 1
+	improved_ship_hull_cruiser = 1
+	basic_cruiser_armor_scheme = 1
+	improved_cruiser_armor_scheme = 1
+	early_ship_hull_heavy = 1
+	basic_ship_hull_heavy = 1
+	improved_ship_hull_heavy = 1
+	basic_heavy_armor_scheme = 1
+	improved_heavy_armor_scheme = 1
+	early_ship_hull_carrier = 1
+	basic_ship_hull_carrier = 1
+	improved_ship_hull_carrier = 1
+	basic_carrier_armor_scheme = 1
+	improved_carrier_armor_scheme = 1
+	armoured_hangar = 1
+	nrm_battery_basic = 1
+	nrm_battery_early_5h = 1
+	nrm_battery_early_6 = 1
+	nrm_battery_early_8 = 1
+	nrm_battery_early_11 = 1
+	nrm_battery_early_12 = 1
+	nrm_battery_early_13 = 1
+	nrm_battery_early_14 = 1
+	nrm_battery_early_15 = 1
+	nrm_battery_early_16 = 1
+	nrm_battery_improved_4 = 1
+	nrm_battery_improved_dp_4 = 1
+	nrm_battery_improved_5 = 1
+	nrm_battery_improved_5h = 1
+	nrm_battery_improved_dp_5h = 1
+	nrm_battery_improved_6 = 1
+	nrm_battery_improved_8 = 1
+	nrm_battery_improved_12 = 1
+	nrm_battery_improved_13 = 1
+	nrm_battery_improved_14 = 1
+	nrm_battery_advanced_6 = 1
+	nrm_early_antiair = 1
+	nrm_basic_antiair = 1
+	nrm_early_heavy_antiair = 1
+	nrm_basic_heavy_antiair = 1
+	basic_torpedo = 1
+	airplane_launcher = 1
+	improved_ship_torpedo_launcher = 1
+	improved_sub_torpedo_launcher = 1
+	advanced_ship_torpedo_launcher = 1
+	advanced_sub_torpedo_launcher = 1
+	sonar = 1
+	improved_sonar = 1
+	improved_sonar_2 = 1
+	early_engine = 1
+	improved_engine = 1
+	early_diesel = 1
+	early_sub_diesel = 1
+	smoke_generator = 1
+	basic_depth_charges = 1
+	improved_depth_charges = 1
+	mtg_transport = 1
+	mtg_transport_improved = 1
+	early_fire_control_system = 1
+	basic_fire_control_system = 1
+	improved_fire_control_system = 1
+	damage_control_1 = 1
+	damage_control_2 = 1
+	fire_control_methods_1 = 1
+	fire_control_methods_2 = 1
+	basic_light_shell = 1
+	basic_heavy_shell = 1
+	improved_heavy_shell = 1
+	#early_ship_hull_coastal_submarine = 1
+	#basic_ship_hull_coastal_submarine = 1
+	#basic_ship_hull_lr_submarine = 1
+
+	mechanised_infantry = 1
+	mechanised_infantry2 = 1
+	mechanised_infantry3 = 1
+}
+set_naval_oob = "ENG_1936_Naval"
+add_ideas = MTG_naval_treaty_adherent
+add_to_array = { global.MTG_naval_treaty = ENG.id }
+set_global_flag = MTG_second_london_conference
+set_global_flag = { flag = MTG_naval_treaty_signatories value = 5 }
+add_opinion_modifier = {
+	target = AST
+	modifier = the_london_naval_treaty
+}
+add_opinion_modifier = {
+	target = CAN
+	modifier = the_london_naval_treaty
+}
+add_opinion_modifier = {
+	target = FRA
+	modifier = the_london_naval_treaty
+}
+add_opinion_modifier = {
+	target = ITA
+	modifier = the_london_naval_treaty
+}
+add_opinion_modifier = {
+	target = NZL
+	modifier = the_london_naval_treaty
+}
+add_opinion_modifier = {
+	target = RAJ
+	modifier = the_london_naval_treaty
+}
+add_opinion_modifier = {
+	target = SAF
+	modifier = the_london_naval_treaty
+}
+add_opinion_modifier = {
+	target = USA
+	modifier = the_london_naval_treaty
+}
+
+add_tech_bonus = {
+	name = tech_trm_special_smoke_discharger
+	ahead_reduction = 2
+	uses = 1
+	technology = tech_trm_special_smoke_discharger
+}
+add_tech_bonus = {
+	name = tech_trm_special_stabilizer
+	ahead_reduction = 2
+	uses = 1
+	technology = tech_trm_special_stabilizer
+}
+add_tech_bonus = {
+	name = tank_radio
+	ahead_reduction = 2
+	uses = 1
+	technology = tank_radio
+}
+add_tech_bonus = {
+	name = tank_radio2
+	ahead_reduction = 2
+	uses = 1
+	technology = tank_radio2
+}
+
+# Starting tech
+set_technology = {
+	
+	building_tech = 1
+	tech_basic_train = 1
+	################# infantry #############
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	semi_motorised_infantry = 1
+	motorcycle_infantry_unit = 1
+	motorised_infantry = 1
+	SMG_team = 1
+	hmg = 1
+	HMG_equipment_infantry_group_tech = 1
+	HMG_equipment_mobile_group_tech = 1
+	HMG_equipment_special_forces_group_tech = 1
+	mortars = 1
+	mortar_equipment_infantry_group_tech = 1
+	mortar_equipment_mobile_group_tech = 1
+	mortar_equipment_special_forces_group_tech = 1
+	marines = 1
+	tech_infantry_uniforms = 1
+	tech_Garrison = 1
+	tech_Headquarters = 1
+	##################### support #################
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	subtech_recon_cav_1 = 1
+	subtech_recon_mot_1 = 1
+	tech_military_police = 1
+	tech_maintenance_company = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	desert_equipment = 1
+	tech_trm_tank_recon_early = 1
+	################ artillery ################
+	gw_artillery = 1
+	interwar_artillery = 1
+	interwar_medartillery = 1
+	interwar_Hvartillery = 1
+	interwar_antiair = 1
+	interwar_antitank = 1
+	artillery1 = 1
+	medartillery1 = 1
+	#superartillery1 = 1
+	################ armor-techs ##############
+	#tech_Tankettes = 1
+	tech_liaison_cars = 1
+	tech_ac_recon = 1
+	
+	tech_trm_tank_design = 1
+	tech_trm_armour_basic = 1
+	tech_trm_armour_interwar = 1
+	tech_trm_engine_gasoline_basic_eng = 1
+	tech_trm_engine_gasoline_interwar_eng = 1
+	tech_trm_engine_diesel_basic_eng = 1
+	################ armor ##############
+	tech_trm_british_armour = 1
+	tech_trm_light_tank_chassis_eng_vickers_e_1 = 1
+	tech_trm_amph_tank_chassis_eng_vickers_l1e2_1 = 1
+	tech_trm_amph_tank_chassis_eng_vickers_l1e3_1 = 1
+	tech_trm_light_tank_chassis_eng_vickers_light_1 = 1
+	tech_trm_light_tank_chassis_eng_vickers_light_2 = 1
+	tech_trm_light_tank_chassis_eng_vickers_light_3 = 1
+	tech_trm_infantry_tank_chassis_eng_vickers_medium_1 = 1
+	tech_trm_heavy_tank_chassis_eng_independent_1 = 1
+	tech_trm_weapon_c_eng_40_2pdr = 1
+	############### economy ##################
+	basic_machine_tools = 1
+	ship_industry = 1
+	infra_works = 1
+	rail_infra = 1
+	rail_infra2 = 1
+	road_infra = 1
+	air_infra = 1
+	port_infra = 1
+	port_infra2 = 1
+	civ_works = 1
+	housing_work = 1
+	hospital_work = 1
+	schools_work = 1
+	fuel_silos = 1
+	environmental_recognition = 1
+	early_tractors = 1
+	polymerization_theories = 1
+	improved_glass_optics = 1
+	modern_microscopes = 1
+	industral_farms_i = 1
+	excavation1 = 1
+	direct_chill_casting = 1
+	############### WW1 doctrines ##################
+	ww1_infantry = 1
+	infantry_charge = 1
+	small_unit_raids = 1
+	night_patrols = 1
+	dispersed_infantry_attacks = 1
+	infiltration_attacks = 1
+	complex_trench_systems = 1
+	offensive_trenches = 1
+	defensive_trenches = 1
+	reserve_trenches = 1
+	communication_trenches = 1
+	logistics_trenches = 1
+	barbed_wire = 1
+	pillboxes = 1
+	sniper_pits = 1
+	nomans_land_saps = 1
+	tunnel_mines = 1
+	basic_MG_defences = 1
+	multiple_MG_nests = 1
+	enfilade_MG_fire_fields = 1
+	infantry_MG_coordination = 1
+	MG_support_infantry_doctrine = 1
+
+	ww1_artillery = 1
+	artillery_concentration = 1
+	offensive_prep_fire = 1
+	continuous_fire = 1
+	harassment_fire = 1
+	rear_area_bombardment = 1
+	dummy_barrage = 1
+	standing_barrage = 1
+	box_barrage = 1
+	block_barrage = 1
+	creeping_barrage = 1
+	rolling_barrage = 1
+	artillery_observers = 1
+	balloon_observers = 1
+	aircraft_observers = 1
+	foot_runners = 1
+	carrier_pidgeons = 1
+	telephone_communications = 1
+
+	mobile_doctrines = 1
+	cavalry_charges = 1
+	cavalry_dismounting = 1
+	cavalry_exploitation = 1
+	armor_support = 1
+	infantry_tank_coordination = 1
+	armored_car_recon = 1
+	motorcycle_liaison = 1
+	staff_officer_vehicles = 1
+
+	ww1_battlefield_support = 1
+	battlefield_commissions = 1
+	weather_reporting = 1
+	terrain_mapping = 1
+	AA_positions = 1
+	camouflage_positions = 1
+	first_aid_stations = 1
+
+	WW1_air_power = 1
+	WW1_air_survey = 1
+	WW1_air_control = 1
+	WW1_air_bomb = 1
+	WW1_air_ground = 1
+	WW1_air_naval = 1
+	############### doctrines ##################
+	defence_in_depth = 1
+	############### naval doctrines ##################
+	nrm_pre_ww1_naval_doctrine = 1
+	nrm_mahanian_concepts = 1
+	nrm_jeune_ecole_concepts = 1
+	nrm_commerce_warfare = 1
+	nrm_battlefleet_concentration = 1
+	nrm_scouting_force = 1
+	nrm_fleet_formation = 1
+	nrm_fleet_coordination = 1
+	nrm_cruiser_warfare = 1
+	nrm_cruiser_battleline_support = 1
+	nrm_cruiser_flotilla_leader = 1
+	nrm_independent_cruiser_operation = 1
+	nrm_cruiser_patrols = 1
+	nrm_destroyer_support = 1
+	nrm_destroyer_screen = 1
+	nrm_destroyer_torpedo_tactics = 1
+	nrm_independent_destroyer_operation = 1
+	nrm_destroyer_patrol_operations = 1
+	nrm_destroyer_screen_improved = 1
+	nrm_trade_protection = 1
+	nrm_escort_patrols = 1
+	nrm_submarine_tactics_early = 1
+	nrm_submarine_raiding = 1
+	nrm_submarine_torpedo_tactics = 1
+	nrm_submarine_fleet_operations = 1
+	nrm_submarine_scouting = 1
+	nrm_fleet_in_being = 1
+	nrm_mine_warfare = 1
+	nrm_fleet_train = 1
+	nrm_naval_aviation = 1
+	nrm_carrier_experiments = 1
+	nrm_carrier_integrated = 1
+	nrm_carrier_development = 1
+	############### Electronic mechanical engineering ##################
+	electronic_mechanical_engineering = 1
+	HQ_communications = 1
+	radio_technology = 1
+	radio_equipment_infantry_group_tech = 1
+	#tech_air_engine_early = 1
+	#early_turbojet_theories = 1
+}
+
+add_ideas = {
+	ENG_the_war_to_end_all_wars
+	IRE_trade_war_eng
+	ENG_stagnant_aviation_industry
+	#politicians
+
+	#laws
+	export_focus
+	tax_average
+	tariffs_average
+
+	civilian_economy
+	press_free
+	key_industries
+	labor_allowed
+	fdi_allowed
+
+	cons_volunteer
+	foreign_volunteers
+	mob_reserve
+	train_medium
+	officer_train_high
+	age_19
+	security_liberty_first
+	edu_high
+	foreign_cooperative
+	
+	modern_diet
+}
+add_timed_idea = {
+	idea = ENG_roca_runciman_treaty
+	days = 380
+}
+add_dynamic_modifier = {
+	modifier = ENG_the_colonies
+}
+#set_country_flag = const_monarchy
+
+# DIPLOMACY
+
+set_autonomy = {
+	target = MAL
+	autonomous_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+	target = RAJ
+	autonomous_state = autonomy_colony
+	freedom_level = 0.35
+}
+set_autonomy = {
+	target = CAN
+	autonomous_state = autonomy_dominion
+	freedom_level = 0.45
+}
+set_autonomy = {
+	target = SAF
+	autonomous_state = autonomy_dominion
+	freedom_level = 0.4
+}
+set_autonomy = {
+	target = AST
+	autonomous_state = autonomy_dominion
+	freedom_level = 0.2
+}
+set_autonomy = {
+	target = EGY
+	autonomous_state = autonomy_colony
+	freedom_level = 0.1
+}
+set_autonomy = {
+	target = OMA
+	autonomous_state = autonomy_colony
+	freedom_level = 0.05
+}
+set_autonomy = {
+	target = BHU
+	autonomous_state = autonomy_dominion
+	freedom_level = 0.15
+}
+set_autonomy = {
+	target = BMP
+	autonomous_state = autonomy_puppet
+	freedom_level = 0.25
+}
+set_autonomy = {
+	target = JOR
+	autonomous_state = autonomy_puppet
+	freedom_level = 0.35
+}
+set_autonomy = {
+	target = NZL
+	autonomous_state = autonomy_dominion
+	freedom_level = 0.2
+}
+set_autonomy = {
+	## do not puppet if no TFV it would not make sense
+	target = IRE
+	autonomous_state = autonomy_dominion
+	freedom_level = 0.77
+}
+
+add_to_tech_sharing_group = commonwealth_research
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = yes ##suspended through duration of war, which is handled via event
+}
+
+set_popularities = {
+	conservatism = 48
+	liberalism = 10
+	socialism = 29.7
+	fascism = 5
+	agrarianism = 0.3
+	communism = 7
+}
+
+create_faction_from_template = faction_template_allies
+add_to_faction = ENG
+add_to_faction = CAN
+add_to_faction = AST
+add_to_faction = NZL
+add_to_faction = SAF
+add_to_faction = RAJ
+add_to_faction = MAL
+add_to_faction = BUR
+add_to_faction = EGY
+add_to_faction = JOR
+add_to_faction = BMP
+add_to_faction = OMA
+add_to_faction = BHU
+
+
+add_opinion_modifier = {
+	target = ARG
+	modifier = trade_partner
+}
+add_opinion_modifier = {
+	target = ARG
+	modifier = old_friend
+}
+add_opinion_modifier = {
+    target = ITA
+    modifier = stresa_front
+}
+add_opinion_modifier = {
+    target = ITA
+    modifier = abyssinia_crisis
+}
+
+add_manpower = 50000
+
+#give_guarantee = CZE
+##### Intel Agency #####
+if = {
+	limit = { has_dlc = "La Resistance" }
+	create_intelligence_agency = yes
+	upgrade_intelligence_agency = upgrade_form_operations
+	upgrade_intelligence_agency = upgrade_economy_civilian
+	upgrade_intelligence_agency = upgrade_army_department
+	upgrade_intelligence_agency = upgrade_naval_department
+	upgrade_intelligence_agency = upgrade_airforce_department
+	upgrade_intelligence_agency = upgrade_form_department
+	upgrade_intelligence_agency = upgrade_decryption_boost
+	upgrade_intelligence_agency = upgrade_diplo_training
+	add_intel = {
+		target = GER
+		civilian_intel = 5
+		army_intel = 2
+	}
+	create_operative_leader = {
+		name = "Nancy Wake"
+		GFX = GFX_portrait_nancy_wake
+		traits = { operative_escape_artist }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ENG NZL }
+		skill = 2
+	}
+
+	create_operative_leader = {
+		name = "Diana Rowden"
+		GFX = GFX_portrait_diana_rowden
+		traits = { }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ENG }
+		skill = 2
+	}
+
+	create_operative_leader = {
+		name = "Juan Pujol"
+		GFX = GFX_portrait_juan_pujol
+		traits = { operative_double_agent }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ENG GER }
+		skill = 2
+	}
+
+	create_operative_leader = {
+		name = "Dusko Popov"
+		GFX = GFX_portrait_dusko_popov
+		traits = { operative_double_agent }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ENG GER YUG }
+		skill = 2
+	}
+}
+### COUNTRYLEADERS ###
+recruit_character = ENG_stanley_baldwin
+recruit_character = ENG_winston_churchill
+recruit_character = ENG_oswald_mosley
+recruit_character = ENG_rajani_palme_dutt
+recruit_character = ENG_clement_attlee
+recruit_character = ENG_george_v
+recruit_character = ENG_george_vi
+### POLITICIANS ###
+### HOS
+recruit_character = ENG_edward_viii
+recruit_character = ENG_arthur_greenwood
+### INTERIOR
+recruit_character = ENG_herbert_morrison
+recruit_character = ENG_sir_samuel_hoare
+### INTEL
+recruit_character = ENG_stewart_menzies
+recruit_character = ENG_hugh_sinclair
+recruit_character = ENG_alexander_cadogan
+recruit_character = ENG_Vernon_kell
+recruit_character = ENG_jasper_harker
+recruit_character = ENG_alan_turing
+### FOREIGN
+recruit_character = ENG_nevile_henderson
+recruit_character = ENG_anthony_eden
+recruit_character = ENG_lord_halifax
+### ECONOMIC
+recruit_character = ENG_neville_chamberlain
+recruit_character = ENG_maxwell_aitken
+recruit_character = ENG_leslie_hore_belisha
+recruit_character = ENG_ernest_bevin
+recruit_character = ENG_sir_john_anderson
+recruit_character = ENG_sir_john_simon
+recruit_character = ENG_sir_kingsley_wood
+recruit_character = ENG_harold_wilson
+recruit_character = ENG_harry_pollitt
+### DOMESTIC
+recruit_character = ENG_James_Thomas
+recruit_character = ENG_george_hall
+recruit_character = ENG_euan_wallace
+recruit_character = ENG_robert_boothby
+recruit_character = ENG_george_tryon
+recruit_character = ENG_f_macquisten
+recruit_character = ENG_walter_elliot
+recruit_character = ENG_chuter_ede
+recruit_character = ENG_herbrand_sackville
+recruit_character = ENG_stephen_furness
+recruit_character = ENG_david_freeman
+### INFLUENCE
+
+### POLITICAL ADVISOR
+recruit_character = ENG_philip_kerr
+recruit_character = ENG_george_orwell
+recruit_character = ENG_john_beckett
+### SUPREME COMMANDERS ###
+recruit_character = ENG_bernard_montgomery
+recruit_character = ENG_alexander_harold
+### CHIEFS ###
+### ARMY
+recruit_character = ENG_cyril_deverell
+recruit_character = ENG_edmund_ironside
+recruit_character = ENG_john_dill
+recruit_character = ENG_brooke_alan
+recruit_character = ENG_lord_gort_john_vereker
+### AIR
+recruit_character = ENG_cyril_newall
+recruit_character = ENG_charles_portal
+recruit_character = ENG_edward_ellington
+### NAVY
+recruit_character = ENG_ernle_chatfield
+recruit_character = ENG_dudley_pound
+recruit_character = ENG_andrew_cunningham
+recruit_character = ENG_roger_backhouse
+### HIGH COMMAND ###
+### ARMY
+recruit_character = ENG_claude_auchinleck
+recruit_character = ENG_kenneth_anderson
+recruit_character = ENG_david_stirling
+recruit_character = ENG_wavell_archibald
+### AIR
+recruit_character = ENG_sholto_douglas
+recruit_character = ENG_trafford_leigh_mallory
+### NAVY
+recruit_character = ENG_frederick_bowhill
+recruit_character = ENG_louis_mountbatten
+recruit_character = ENG_somerville_james_fownes
+recruit_character = ENG_harwood_henry
+recruit_character = ENG_fraser_bruce
+recruit_character = ENG_tovey_john
+recruit_character = ENG_horton_max
+### THEORIST ###
+### ARMY
+recruit_character = ENG_jfc_fuller
+recruit_character = ENG_william_slim
+recruit_character = ENG_browning_frederick
+recruit_character = ENG_harding_john
+### CIV
+recruit_character = ENG_james_chadwick
+recruit_character = ENG_frank_whittle
+### AIR
+recruit_character = ENG_arthur_harris
+recruit_character = ENG_hugh_dowding
+### NAVY
+recruit_character = ENG_tom_phillips
+### COMMANDERS ###
+### CORPS
+recruit_character = ENG_ritchie_neil
+recruit_character = ENG_giffard_le_quesne_martel
+recruit_character = ENG_cunningham_alan
+recruit_character = ENG_oconnor_richard
+recruit_character = ENG_platt_william
+recruit_character = ENG_giffard_george
+recruit_character = ENG_smyth_jackie
+recruit_character = ENG_hutton_thomas_jacomb
+recruit_character = ENG_percival_arthur
+recruit_character = ENG_beckwithsmith_merton
+recruit_character = ENG_pownall_henry
+recruit_character = ENG_wilson_henry
+recruit_character = ENG_gott_william
+recruit_character = ENG_campbell_jock
+recruit_character = ENG_leese_oliver
+recruit_character = ENG_dempsey_miles
+recruit_character = ENG_horrocks_brian
+recruit_character = ENG_herbert_lumsden
+recruit_character = ENG_alan_bourne
+#recruit_character = ENG_barker_evelyn
+recruit_character = ENG_cassels_jim
+recruit_character = ENG_combe_john
+recruit_character = ENG_darcy_john
+#recruit_character = ENG_erskine_bobby
+recruit_character = ENG_evelegh_vyvyan
+recruit_character = ENG_frost_johnny
+recruit_character = ENG_gairdner_charles
+recruit_character = ENG_stockwell_hugh
+#recruit_character = ENG_keightley_charles
+recruit_character = ENG_laycock_edward
+recruit_character = ENG_loewen_charles
+recruit_character = ENG_loyd_henry
+#recruit_character = ENG_mansergh_eric
+#recruit_character = ENG_Alexander_Galloway
+recruit_character = ENG_mccreery_richard
+recruit_character = ENG_guy_williams
+recruit_character = ENG_james_gammell
+recruit_character = ENG_arthur_smith
+recruit_character = ENG_william_dobbie
+recruit_character = ENG_robert_haining
+recruit_character = ENG_james_marshalcornwall
+recruit_character = ENG_thomas_eastwood
+recruit_character = ENG_william_bartholomew
+recruit_character = ENG_edwin_morris
+recruit_character = ENG_robert_gordon_finlayson
+recruit_character = ENG_colville_wemyss
+recruit_character = ENG_clive_liddell
+recruit_character = ENG_William_George_Holmes
+recruit_character = ENG_andrew_thorne
+recruit_character = ENG_ronald_adam
+recruit_character = ENG_henry_jackson
+recruit_character = ENG_ronald_scobie
+recruit_character = ENG_Bernard_Paget
+recruit_character = ENG_francis_nosworthy
+recruit_character = ENG_walter_venning
+recruit_character = ENG_harold_carrington
+recruit_character = ENG_thomas_hunton
+recruit_character = ENG_percy_hobart
+recruit_character = ENG_montagu_burrows
+recruit_character = ENG_clarence_bird
+recruit_character = ENG_Clement_Armitage
+recruit_character = ENG_Edmond_Schreiber
+recruit_character = ENG_messervy_frank
+recruit_character = ENG_norrie_charles
+recruit_character = ENG_pyman_harold
+recruit_character = ENG_robertson_brian
+# recruit_character = ENG_templer_gerald
+### NAVY
+recruit_character = ENG_rawlings_bernard
+recruit_character = ENG_cunningham_john
+recruit_character = ENG_forbes_charles
+recruit_character = ENG_willis_algernon
+recruit_character = ENG_power_arthur
+#recruit_character = ENG_blagrove_henry
+recruit_character = ENG_lumley_lyster
+recruit_character = ENG_boyd_denis
+recruit_character = ENG_william_boyle
+recruit_character = ENG_pridham_wippell
+recruit_character = ENG_geoffrey_arbuthnot
+recruit_character = ENG_frank_pegram
+recruit_character = ENG_claud_barry
+recruit_character = ENG_alexander_ramsay
+recruit_character = ENG_charles_little
+recruit_character = ENG_crutchley_victor
+recruit_character = ENG_doyly_lyon_arthur
+recruit_character = ENG_dunbarnasmith_martin
+recruit_character = ENG_evans_edward
+recruit_character = ENG_robert_oliver
+recruit_character = ENG_edmund_anstice
+recruit_character = ENG_layton_geoffrey
+#recruit_character = ENG_leatham_ralph
+recruit_character = ENG_moore_henry
+recruit_character = ENG_noble_percy
+recruit_character = ENG_phillips_tom
+recruit_character = ENG_pizey_charles
+recruit_character = ENG_ramsay_bertram
+recruit_character = ENG_vian_phillip
+recruit_character = ENG_wakewalker_frederic
+recruit_character = ENG_william_whitworth
+recruit_character = ENG_william_agnew
+recruit_character = ENG_mcgrigor_roderick
+recruit_character = ENG_luce_david
+recruit_character = ENG_ashmore_edward
+recruit_character = ENG_Arthur_Palliser
+recruit_character = ENG_william_campbell_tait
+recruit_character = ENG_Anthony_Pugsley
+recruit_character = ENG_john_cockcroft
+recruit_character = ENG_charles_goodeve
+recruit_character = ENG_nevil_shute
+recruit_character = ENG_robert_watson_watt
+recruit_character = ENG_albert_gerald_stern
+
+activate_advisor = ENG_george_v_head_of_state
+activate_advisor = ENG_anthony_eden_foreign_minister
+activate_advisor = ENG_sir_samuel_hoare_interior_minister
+activate_advisor = ENG_stewart_menzies_political_advisor
+activate_advisor = ENG_neville_chamberlain_economic_minister
+activate_advisor = ENG_cyril_deverell_army_chief
+activate_advisor = ENG_ernle_chatfield_navy_chief
+activate_advisor = ENG_edward_ellington_air_chief
+activate_advisor = ENG_James_Thomas_domestic_minister
+
+### HTD Start ###
+set_country_flag = HTD_ENG_trm_tankette_tank_chassis_eng_cardenloyd_1_a
+set_country_flag = HTD_ENG_trm_light_tank_chassis_eng_vickers_light_1_c
+set_country_flag = HTD_ENG_trm_light_tank_chassis_eng_vickers_light_1_b
+set_country_flag = HTD_ENG_trm_light_tank_chassis_eng_vickers_light_1_a
+set_country_flag = HTD_ENG_trm_light_tank_chassis_eng_vickers_light_2_a
+set_country_flag = HTD_ENG_trm_light_tank_chassis_eng_vickers_light_3_a
+set_country_flag = HTD_ENG_trm_light_tank_chassis_eng_vickers_e_1_b
+set_country_flag = HTD_ENG_trm_light_tank_chassis_eng_vickers_e_1_a
+set_country_flag = HTD_ENG_trm_infantry_tank_chassis_eng_vickers_medium_1_b
+set_country_flag = HTD_ENG_trm_infantry_tank_chassis_eng_vickers_medium_1_a
+set_country_flag = HTD_ENG_trm_heavy_tank_chassis_eng_independent_1_a
+
+### Tank Variants ###
+create_equipment_variant = {
+	name = "Tankette Mk.VI"
+	type = trm_tankette_tank_chassis_eng_cardenloyd_1
+	parent_version = 0
+	show_position = no
+	modules = {
+		fixed_trm_tank_turret_slot = trm_tankette_tank_eng_cardenloyd_casemate_1
+		fixed_trm_tank_main_gun_slot = trm_weapon_mg_eng_vickers
+		fixed_trm_tank_ammunition_slot = empty
+		fixed_trm_tank_coax_gun_slot = empty
+		fixed_trm_tank_hull_gun_slot = empty
+		fixed_trm_tank_engine_slot = trm_engine_G1_0030
+		fixed_trm_tank_transmission_slot = trm_transmission_brake_front
+		fixed_trm_tank_gearbox_slot = trm_gearbox_simple
+		fixed_trm_tank_suspension_slot = trm_suspension_spring_leaf
+		fixed_trm_tank_armor_thickness_slot = trm_armour_009
+		fixed_trm_tank_armor_design_slot = trm_armour_design_light_partial_sloped
+		fixed_trm_tank_armor_distribution_slot = trm_armour_distribution_mixed
+		fixed_trm_tank_armor_construction_slot = trm_armour_construction_riveted
+		fixed_trm_tank_armor_construction_turret_slot = trm_turret_construction_opentop_riveted
+		fixed_trm_tank_radio_slot = empty
+		fixed_trm_tank_ergonomics_slot = trm_ergonomics_light_standard
+		fixed_trm_tank_construction_slot = trm_tank_construction_standard
+		special_type_slot_1 = empty
+		special_type_slot_2 = empty
+		special_type_slot_3 = empty
+		special_type_slot_4 = empty
+	}
+	design_team = mio:ENG_vickers_armstrong_eng_organization
+	
+	obsolete = yes
+}
+CZE = {
+	add_equipment_to_stockpile = {
+		type = trm_tankette_tank_chassis_eng_cardenloyd_1
+		amount = 7
+		producer = ENG
+	}
+}
+POL = {
+	add_equipment_to_stockpile = {
+		type = trm_tankette_tank_chassis_eng_cardenloyd_1
+		amount = 10
+		producer = ENG
+	}
+}
+CAN = {
+	add_equipment_to_stockpile = {
+		type = trm_tankette_tank_chassis_eng_cardenloyd_1
+		amount = 12
+		producer = ENG
+	}
+}
+SIA = {
+	add_equipment_to_stockpile = {
+		type = trm_tankette_tank_chassis_eng_cardenloyd_1
+		amount = 10
+		producer = ENG
+	}
+}
+create_equipment_variant = {
+	name = "Vickers L1E2"
+	type = trm_amph_tank_chassis_eng_vickers_l1e2_1
+	parent_version = 0
+	show_position = no
+	modules = {
+		fixed_trm_tank_turret_slot = trm_amph_tank_eng_vickers_l1e2_turret_1
+		fixed_trm_tank_main_gun_slot = trm_weapon_mg_eng_vickers
+		fixed_trm_tank_ammunition_slot = empty
+		fixed_trm_tank_coax_gun_slot = empty
+		fixed_trm_tank_hull_gun_slot = empty
+		fixed_trm_tank_engine_slot = trm_engine_G1_0080
+		fixed_trm_tank_transmission_slot = trm_transmission_brake_front
+		fixed_trm_tank_gearbox_slot = trm_gearbox_simple
+		fixed_trm_tank_suspension_slot = trm_suspension_horstmann
+		fixed_trm_tank_armor_thickness_slot = trm_armour_009
+		fixed_trm_tank_armor_design_slot = trm_armour_design_light_partial_sloped
+		fixed_trm_tank_armor_distribution_slot = trm_armour_distribution_front
+		fixed_trm_tank_armor_construction_slot = trm_armour_construction_riveted
+		fixed_trm_tank_armor_construction_turret_slot = trm_turret_construction_enclosed_riveted
+		fixed_trm_tank_radio_slot = empty
+		fixed_trm_tank_ergonomics_slot = trm_ergonomics_light_standard
+		fixed_trm_tank_construction_slot = trm_tank_construction_standard
+		special_type_slot_1 = empty
+		special_type_slot_2 = empty
+		special_type_slot_3 = empty
+		special_type_slot_4 = empty
+		special_type_slot_5 = empty
+	}
+	design_team = mio:ENG_vickers_armstrong_eng_organization
+	
+	icon = "GFX_trm_amph_tank_chassis_eng_vickers_l1e2_1_a"
+	
+	obsolete = yes
+}
+CHI = {
+	add_equipment_to_stockpile = {
+		type = trm_amph_tank_chassis_eng_vickers_l1e2_1
+		amount = 48
+		producer = ENG
+	}
+}
+create_equipment_variant = {
+	name = "Vickers L1E3"
+	type = trm_amph_tank_chassis_eng_vickers_l1e3_1
+	parent_version = 0
+	show_position = no
+	modules = {
+		fixed_trm_tank_turret_slot = trm_amph_tank_eng_vickers_l1e3_turret_1
+		fixed_trm_tank_main_gun_slot = trm_weapon_mg_eng_vickers
+		fixed_trm_tank_ammunition_slot = empty
+		fixed_trm_tank_coax_gun_slot = empty
+		fixed_trm_tank_hull_gun_slot = empty
+		fixed_trm_tank_engine_slot = trm_engine_G1_0080
+		fixed_trm_tank_transmission_slot = trm_transmission_brake_front
+		fixed_trm_tank_gearbox_slot = trm_gearbox_simple
+		fixed_trm_tank_suspension_slot = trm_suspension_horstmann
+		fixed_trm_tank_armor_thickness_slot = trm_armour_012
+		fixed_trm_tank_armor_design_slot = trm_armour_design_light_partial_sloped
+		fixed_trm_tank_armor_distribution_slot = trm_armour_distribution_front
+		fixed_trm_tank_armor_construction_slot = trm_armour_construction_riveted
+		fixed_trm_tank_armor_construction_turret_slot = trm_turret_construction_enclosed_riveted
+		fixed_trm_tank_radio_slot = empty
+		fixed_trm_tank_ergonomics_slot = trm_ergonomics_light_standard
+		fixed_trm_tank_construction_slot = trm_tank_construction_standard
+		special_type_slot_1 = empty
+		special_type_slot_2 = empty
+		special_type_slot_3 = empty
+		special_type_slot_4 = empty
+		special_type_slot_5 = empty
+	}
+	design_team = mio:ENG_vickers_armstrong_eng_organization
+	
+	icon = "GFX_trm_amph_tank_chassis_eng_vickers_l1e2_1_a"
+	
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Light Mk.I"
+	type = trm_light_tank_chassis_eng_vickers_light_1
+	parent_version = 0
+	show_position = no
+	modules = {
+		fixed_trm_tank_turret_slot = trm_light_tank_eng_vickers_light_turret_1
+		fixed_trm_tank_main_gun_slot = trm_weapon_mg_eng_vickers
+		fixed_trm_tank_ammunition_slot = empty
+		fixed_trm_tank_coax_gun_slot = empty
+		fixed_trm_tank_hull_gun_slot = empty
+		fixed_trm_tank_engine_slot = trm_engine_G1_0050
+		fixed_trm_tank_transmission_slot = trm_transmission_brake_front
+		fixed_trm_tank_gearbox_slot = trm_gearbox_simple
+		fixed_trm_tank_suspension_slot = trm_suspension_spring_leaf
+		fixed_trm_tank_armor_thickness_slot = trm_armour_012
+		fixed_trm_tank_armor_design_slot = trm_armour_design_light_partial_sloped
+		fixed_trm_tank_armor_distribution_slot = trm_armour_distribution_front
+		fixed_trm_tank_armor_construction_slot = trm_armour_construction_riveted
+		fixed_trm_tank_armor_construction_turret_slot = trm_turret_construction_enclosed_riveted
+		fixed_trm_tank_radio_slot = empty
+		fixed_trm_tank_ergonomics_slot = trm_ergonomics_light_standard
+		fixed_trm_tank_construction_slot = trm_tank_construction_standard
+		special_type_slot_1 = empty
+		special_type_slot_2 = empty
+		special_type_slot_3 = empty
+		special_type_slot_4 = empty
+		special_type_slot_5 = empty
+	}
+	design_team = mio:ENG_vickers_armstrong_eng_organization
+	
+	icon = "GFX_trm_light_tank_chassis_eng_vickers_light_1_b"
+	
+	obsolete = yes
+}
+add_equipment_to_stockpile = {
+	type = trm_light_tank_chassis_eng_vickers_light_1
+	amount = 9
+	producer = ENG
+}
+SIA = {
+	add_equipment_to_stockpile = {
+		type = trm_light_tank_chassis_eng_vickers_light_1
+		amount = 10
+		producer = ENG
+	}
+}
+create_equipment_variant = {
+	name = "Light Mk.II"
+	type = trm_light_tank_chassis_eng_vickers_light_1
+	parent_version = 0
+	show_position = no
+	modules = {
+		fixed_trm_tank_turret_slot = trm_light_tank_eng_vickers_light_turret_1
+		fixed_trm_tank_main_gun_slot = trm_weapon_mg_eng_vickers
+		fixed_trm_tank_ammunition_slot = empty
+		fixed_trm_tank_coax_gun_slot = empty
+		fixed_trm_tank_hull_gun_slot = empty
+		fixed_trm_tank_engine_slot = trm_engine_G1_0060
+		fixed_trm_tank_transmission_slot = trm_transmission_brake_front
+		fixed_trm_tank_gearbox_slot = trm_gearbox_simple
+		fixed_trm_tank_suspension_slot = trm_suspension_horstmann
+		fixed_trm_tank_armor_thickness_slot = trm_armour_009
+		fixed_trm_tank_armor_design_slot = trm_armour_design_light_partial_sloped
+		fixed_trm_tank_armor_distribution_slot = trm_armour_distribution_front
+		fixed_trm_tank_armor_construction_slot = trm_armour_construction_riveted
+		fixed_trm_tank_armor_construction_turret_slot = trm_turret_construction_enclosed_riveted
+		fixed_trm_tank_radio_slot = empty
+		fixed_trm_tank_ergonomics_slot = trm_ergonomics_light_standard
+		fixed_trm_tank_construction_slot = trm_tank_construction_standard
+		special_type_slot_1 = empty
+		special_type_slot_2 = empty
+		special_type_slot_3 = empty
+		special_type_slot_4 = empty
+		special_type_slot_5 = empty
+	}
+	design_team = mio:ENG_vickers_armstrong_eng_organization
+	
+	icon = "GFX_trm_light_tank_chassis_eng_vickers_light_1_b"
+	
+	obsolete = yes
+}
+add_equipment_to_stockpile = {
+	type = trm_light_tank_chassis_eng_vickers_light_1
+	amount = 6
+	producer = ENG
+}
+create_equipment_variant = {
+	name = "Light Mk.III"
+	type = trm_light_tank_chassis_eng_vickers_light_1
+	parent_version = 0
+	show_position = no
+	modules = {
+		fixed_trm_tank_turret_slot = trm_light_tank_eng_vickers_light_turret_1
+		fixed_trm_tank_main_gun_slot = trm_weapon_mg_eng_vickers
+		fixed_trm_tank_ammunition_slot = empty
+		fixed_trm_tank_coax_gun_slot = empty
+		fixed_trm_tank_hull_gun_slot = empty
+		fixed_trm_tank_engine_slot = trm_engine_G1_0060
+		fixed_trm_tank_transmission_slot = trm_transmission_brake_front
+		fixed_trm_tank_gearbox_slot = trm_gearbox_simple
+		fixed_trm_tank_suspension_slot = trm_suspension_horstmann
+		fixed_trm_tank_armor_thickness_slot = trm_armour_012
+		fixed_trm_tank_armor_design_slot = trm_armour_design_light_partial_sloped
+		fixed_trm_tank_armor_distribution_slot = trm_armour_distribution_front
+		fixed_trm_tank_armor_construction_slot = trm_armour_construction_riveted
+		fixed_trm_tank_armor_construction_turret_slot = trm_turret_construction_enclosed_riveted
+		fixed_trm_tank_radio_slot = empty
+		fixed_trm_tank_ergonomics_slot = trm_ergonomics_light_standard
+		fixed_trm_tank_construction_slot = trm_tank_construction_standard
+		special_type_slot_1 = empty
+		special_type_slot_2 = empty
+		special_type_slot_3 = empty
+		special_type_slot_4 = empty
+		special_type_slot_5 = empty
+	}
+	design_team = mio:ENG_vickers_armstrong_eng_organization
+	
+	icon = "GFX_trm_light_tank_chassis_eng_vickers_light_1_a"
+	
+	obsolete = yes
+}
+add_equipment_to_stockpile = {
+	type = trm_light_tank_chassis_eng_vickers_light_1
+	amount = 18
+	producer = ENG
+}
+create_equipment_variant = {
+	name = "Light Mk.IV"
+	type = trm_light_tank_chassis_eng_vickers_light_2
+	parent_version = 0
+	show_position = no
+	modules = {
+		fixed_trm_tank_turret_slot = trm_light_tank_eng_vickers_light_turret_1
+		fixed_trm_tank_main_gun_slot = trm_weapon_mg_eng_vickers
+		fixed_trm_tank_ammunition_slot = empty
+		fixed_trm_tank_coax_gun_slot = empty
+		fixed_trm_tank_hull_gun_slot = empty
+		fixed_trm_tank_engine_slot = trm_engine_G1_0090
+		fixed_trm_tank_transmission_slot = trm_transmission_brake_front
+		fixed_trm_tank_gearbox_slot = trm_gearbox_simple
+		fixed_trm_tank_suspension_slot = trm_suspension_horstmann
+		fixed_trm_tank_armor_thickness_slot = trm_armour_012
+		fixed_trm_tank_armor_design_slot = trm_armour_design_light_partial_sloped
+		fixed_trm_tank_armor_distribution_slot = trm_armour_distribution_front
+		fixed_trm_tank_armor_construction_slot = trm_armour_construction_riveted
+		fixed_trm_tank_armor_construction_turret_slot = trm_turret_construction_enclosed_riveted
+		fixed_trm_tank_radio_slot = empty
+		fixed_trm_tank_ergonomics_slot = trm_ergonomics_light_standard
+		fixed_trm_tank_construction_slot = trm_tank_construction_standard
+		special_type_slot_1 = empty
+		special_type_slot_2 = empty
+		special_type_slot_3 = empty
+		special_type_slot_4 = empty
+		special_type_slot_5 = empty
+	}
+	design_team = mio:ENG_vickers_armstrong_eng_organization
+	
+	icon = "GFX_trm_light_tank_chassis_eng_vickers_light_2_b"
+	
+	obsolete = yes
+}
+add_equipment_to_stockpile = {
+	type = trm_light_tank_chassis_eng_vickers_light_2
+	amount = 22
+	producer = ENG
+}
+CHI = {
+	add_equipment_to_stockpile = {
+		type = trm_light_tank_chassis_eng_vickers_light_2
+		amount = 60
+		producer = ENG
+	}
+}
+create_equipment_variant = {
+	name = "Light Mk.V"
+	type = trm_light_tank_chassis_eng_vickers_light_3
+	parent_version = 0
+	show_position = no
+	modules = {
+		fixed_trm_tank_turret_slot = trm_light_tank_eng_vickers_light_turret_2
+		fixed_trm_tank_main_gun_slot = trm_weapon_mg_eng_vickers_heavy
+		fixed_trm_tank_ammunition_slot = empty
+		fixed_trm_tank_coax_gun_slot = trm_weapon_coax_mg_eng_vickers
+		fixed_trm_tank_hull_gun_slot = empty
+		fixed_trm_tank_engine_slot = trm_engine_G1_0090
+		fixed_trm_tank_transmission_slot = trm_transmission_brake_front
+		fixed_trm_tank_gearbox_slot = trm_gearbox_simple
+		fixed_trm_tank_suspension_slot = trm_suspension_horstmann
+		fixed_trm_tank_armor_thickness_slot = trm_armour_012
+		fixed_trm_tank_armor_design_slot = trm_armour_design_light_partial_sloped
+		fixed_trm_tank_armor_distribution_slot = trm_armour_distribution_front
+		fixed_trm_tank_armor_construction_slot = trm_armour_construction_riveted
+		fixed_trm_tank_armor_construction_turret_slot = trm_turret_construction_enclosed_riveted
+		fixed_trm_tank_radio_slot = empty
+		fixed_trm_tank_ergonomics_slot = trm_ergonomics_light_standard
+		fixed_trm_tank_construction_slot = trm_tank_construction_standard
+		special_type_slot_1 = empty
+		special_type_slot_2 = empty
+		special_type_slot_3 = empty
+		special_type_slot_4 = empty
+		special_type_slot_5 = empty
+	}
+	design_team = mio:ENG_vickers_armstrong_eng_organization
+}
+add_equipment_to_stockpile = {
+	type = trm_light_tank_chassis_eng_vickers_light_3
+	amount = 2
+	producer = ENG
+}
+create_equipment_variant = {
+	name = "Vickers Mk.E Type A"
+	type = trm_light_tank_chassis_eng_vickers_e_1
+	parent_version = 0
+	show_position = no
+	modules = {
+		fixed_trm_tank_turret_slot = trm_light_tank_eng_vickers_e_turret_1
+		fixed_trm_tank_main_gun_slot = trm_weapon_mg_eng_vickers
+		fixed_trm_tank_ammunition_slot = empty
+		fixed_trm_tank_coax_gun_slot = trm_weapon_coax_mg_eng_vickers
+		fixed_trm_tank_hull_gun_slot = empty
+		fixed_trm_tank_engine_slot = trm_engine_G1_0090
+		fixed_trm_tank_transmission_slot = trm_transmission_brake_front
+		fixed_trm_tank_gearbox_slot = trm_gearbox_simple
+		fixed_trm_tank_suspension_slot = trm_suspension_spring_leaf
+		fixed_trm_tank_armor_thickness_slot = trm_armour_015
+		fixed_trm_tank_armor_design_slot = trm_armour_design_light_basic
+		fixed_trm_tank_armor_distribution_slot = trm_armour_distribution_rounded
+		fixed_trm_tank_armor_construction_slot = trm_armour_construction_riveted
+		fixed_trm_tank_armor_construction_turret_slot = trm_turret_construction_enclosed_riveted
+		fixed_trm_tank_radio_slot = empty
+		fixed_trm_tank_ergonomics_slot = trm_ergonomics_light_standard
+		fixed_trm_tank_construction_slot = trm_tank_construction_standard
+		special_type_slot_1 = empty
+		special_type_slot_2 = empty
+		special_type_slot_3 = empty
+		special_type_slot_4 = empty
+		special_type_slot_5 = empty
+	}
+	design_team = mio:ENG_vickers_armstrong_eng_organization
+	
+	icon = "GFX_trm_light_tank_chassis_eng_vickers_e_1_b"
+	
+	obsolete = yes
+}
+POL = {
+	add_equipment_to_stockpile = {
+		type = trm_light_tank_chassis_eng_vickers_e_1
+		amount = 16
+		producer = ENG
+	}
+}
+create_equipment_variant = {
+	name = "Vickers Mk.E Type B"
+	type = trm_light_tank_chassis_eng_vickers_e_1
+	parent_version = 0
+	show_position = no
+	modules = {
+		fixed_trm_tank_turret_slot = trm_light_tank_eng_vickers_e_turret_2
+		fixed_trm_tank_main_gun_slot = trm_weapon_c_eng_47_3pdr_mk2
+		fixed_trm_tank_ammunition_slot = empty
+		fixed_trm_tank_coax_gun_slot = trm_weapon_coax_mg_eng_vickers
+		fixed_trm_tank_hull_gun_slot = empty
+		fixed_trm_tank_engine_slot = trm_engine_G1_0090
+		fixed_trm_tank_transmission_slot = trm_transmission_brake_front
+		fixed_trm_tank_gearbox_slot = trm_gearbox_simple
+		fixed_trm_tank_suspension_slot = trm_suspension_spring_leaf
+		fixed_trm_tank_armor_thickness_slot = trm_armour_015
+		fixed_trm_tank_armor_design_slot = trm_armour_design_light_basic
+		fixed_trm_tank_armor_distribution_slot = trm_armour_distribution_rounded
+		fixed_trm_tank_armor_construction_slot = trm_armour_construction_riveted
+		fixed_trm_tank_armor_construction_turret_slot = trm_turret_construction_enclosed_riveted
+		fixed_trm_tank_radio_slot = empty
+		fixed_trm_tank_ergonomics_slot = trm_ergonomics_light_standard
+		fixed_trm_tank_construction_slot = trm_tank_construction_standard
+		special_type_slot_1 = empty
+		special_type_slot_2 = empty
+		special_type_slot_3 = empty
+		special_type_slot_4 = empty
+		special_type_slot_5 = empty
+	}
+	design_team = mio:ENG_vickers_armstrong_eng_organization
+	
+	icon = "GFX_trm_light_tank_chassis_eng_vickers_e_1_a"
+	
+	obsolete = yes
+}
+POL = {
+	add_equipment_to_stockpile = {
+		type = trm_light_tank_chassis_eng_vickers_e_1
+		amount = 22
+		producer = ENG
+	}
+}
+CHI = {
+	add_equipment_to_stockpile = {
+		type = trm_light_tank_chassis_eng_vickers_e_1
+		amount = 20
+		producer = ENG
+	}
+}
+create_equipment_variant = {
+	name = "Medium Mk.I"
+	type = trm_infantry_tank_chassis_eng_vickers_medium_1
+	parent_version = 0
+	show_position = no
+	modules = {
+		fixed_trm_tank_turret_slot = trm_infantry_tank_eng_vickers_medium_turret_1
+		fixed_trm_tank_main_gun_slot = trm_weapon_c_eng_47_3pdr_mk1
+		fixed_trm_tank_ammunition_slot = empty
+		fixed_trm_tank_coax_gun_slot = trm_weapon_coax_mg_eng_vickers
+		fixed_trm_tank_hull_gun_slot = empty
+		fixed_trm_tank_engine_slot = trm_engine_G1_0090
+		fixed_trm_tank_transmission_slot = trm_transmission_brake_rear
+		fixed_trm_tank_gearbox_slot = trm_gearbox_simple
+		fixed_trm_tank_suspension_slot = trm_suspension_spring_coil
+		fixed_trm_tank_armor_thickness_slot = trm_armour_006
+		fixed_trm_tank_armor_design_slot = trm_armour_design_partial_sloped
+		fixed_trm_tank_armor_distribution_slot = trm_armour_distribution_rounded
+		fixed_trm_tank_armor_construction_slot = trm_armour_construction_riveted
+		fixed_trm_tank_armor_construction_turret_slot = trm_turret_construction_enclosed_riveted
+		fixed_trm_tank_radio_slot = empty
+		fixed_trm_tank_ergonomics_slot = trm_ergonomics_standard
+		fixed_trm_tank_construction_slot = trm_tank_construction_standard
+		special_type_slot_1 = trm_special_offset_mg_eng_vickers
+		special_type_slot_2 = trm_special_offset_mg_eng_vickers
+		special_type_slot_3 = empty
+		special_type_slot_4 = empty
+		special_type_slot_5 = empty
+		special_type_slot_6 = empty
+	}
+	design_team = mio:ENG_vickers_armstrong_eng_organization
+	
+	icon = "GFX_trm_infantry_tank_cs_chassis_eng_vickers_medium_1_b"
+	
+	obsolete = yes
+}
+add_equipment_to_stockpile = {
+	type = trm_infantry_tank_chassis_eng_vickers_medium_1
+	amount = 50
+	producer = ENG
+}
+create_equipment_variant = {
+	name = "Medium Mk.II"
+	type = trm_infantry_tank_chassis_eng_vickers_medium_1
+	parent_version = 0
+	show_position = no
+	modules = {
+		fixed_trm_tank_turret_slot = trm_infantry_tank_eng_vickers_medium_turret_1
+		fixed_trm_tank_main_gun_slot = trm_weapon_c_eng_47_3pdr_mk2
+		fixed_trm_tank_ammunition_slot = empty
+		fixed_trm_tank_coax_gun_slot = trm_weapon_coax_mg_eng_vickers
+		fixed_trm_tank_hull_gun_slot = empty
+		fixed_trm_tank_engine_slot = trm_engine_G1_0090
+		fixed_trm_tank_transmission_slot = trm_transmission_brake_rear
+		fixed_trm_tank_gearbox_slot = trm_gearbox_simple
+		fixed_trm_tank_suspension_slot = trm_suspension_spring_coil
+		fixed_trm_tank_armor_thickness_slot = trm_armour_009
+		fixed_trm_tank_armor_design_slot = trm_armour_design_partial_sloped
+		fixed_trm_tank_armor_distribution_slot = trm_armour_distribution_rounded
+		fixed_trm_tank_armor_construction_slot = trm_armour_construction_riveted
+		fixed_trm_tank_armor_construction_turret_slot = trm_turret_construction_enclosed_riveted
+		fixed_trm_tank_radio_slot = empty
+		fixed_trm_tank_ergonomics_slot = trm_ergonomics_standard
+		fixed_trm_tank_construction_slot = trm_tank_construction_standard
+		special_type_slot_1 = trm_special_offset_mg_eng_vickers
+		special_type_slot_2 = trm_special_offset_mg_eng_vickers
+		special_type_slot_3 = empty
+		special_type_slot_4 = empty
+		special_type_slot_5 = empty
+		special_type_slot_6 = empty
+	}
+	design_team = mio:ENG_vickers_armstrong_eng_organization
+	
+	icon = "GFX_trm_infantry_tank_cs_chassis_eng_vickers_medium_1_a"
+}
+add_equipment_to_stockpile = {
+	type = trm_infantry_tank_chassis_eng_vickers_medium_1
+	amount = 120
+	producer = ENG
+}
+create_equipment_variant = {
+	name = "Independent"
+	type = trm_heavy_tank_chassis_eng_independent_1
+	parent_version = 0
+	show_position = no
+	modules = {
+		fixed_trm_tank_turret_slot = trm_heavy_tank_eng_independent_turret_1
+		fixed_trm_tank_main_gun_slot = trm_weapon_c_eng_47_3pdr_mk2
+		fixed_trm_tank_ammunition_slot = empty
+		fixed_trm_tank_coax_gun_slot = empty
+		fixed_trm_tank_hull_gun_slot = empty
+		fixed_trm_tank_engine_slot = trm_engine_G1_0375
+		fixed_trm_tank_transmission_slot = trm_transmission_brake_rear
+		fixed_trm_tank_gearbox_slot = trm_gearbox_simple
+		fixed_trm_tank_suspension_slot = trm_suspension_spring_coil
+		fixed_trm_tank_armor_thickness_slot = trm_armour_025
+		fixed_trm_tank_armor_design_slot = trm_armour_design_heavy_basic
+		fixed_trm_tank_armor_distribution_slot = trm_armour_distribution_mixed
+		fixed_trm_tank_armor_construction_slot = trm_armour_construction_riveted
+		fixed_trm_tank_armor_construction_turret_slot = trm_turret_construction_enclosed_riveted
+		fixed_trm_tank_radio_slot = empty
+		fixed_trm_tank_ergonomics_slot = trm_ergonomics_heavy_standard
+		fixed_trm_tank_construction_slot = trm_tank_construction_standard
+		special_type_slot_1 = trm_special_turret_mg_eng_vickers
+		special_type_slot_2 = trm_special_turret_mg_eng_vickers
+		special_type_slot_3 = trm_special_turret_mg_eng_vickers
+		special_type_slot_4 = trm_special_turret_mg_eng_vickers
+		special_type_slot_5 = empty
+		special_type_slot_6 = empty
+	}
+	design_team = mio:ENG_vauxhall_organization
+}
+add_equipment_to_stockpile = {
+	type = trm_heavy_tank_chassis_eng_independent_1
+	amount = 1
+	producer = ENG
+}
+### EOF ###

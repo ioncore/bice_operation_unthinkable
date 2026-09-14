@@ -1,4 +1,4 @@
-SOV_GINF_01 = {
+SOV_GVSD_01 = {
 	name = "Guards Rifle Division"
 
 	for_countries = { SOV }
@@ -17,7 +17,7 @@ SOV_GINF_01 = {
 	}
 }
 
-SOV_INF_01 = {
+SOV_SD_01 = {
 	name = "Rifle Division"
 
 	for_countries = { SOV }
@@ -36,45 +36,88 @@ SOV_INF_01 = {
 	}
 }
 
-SOV_CAV_01 = {
-	name = "Cavalry Division"
+SOV_GVSBR_01 = {
+	name = "Guards Rifle Brigade"
 
 	for_countries = { SOV }
-	
-	division_types = { "cavalry" }
+
+	division_types = { "infantry" "infantry_assault" "light_infantry" }
 
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { SOV_INF_01 }
 
-	fallback_name = "%d-ya KD"
+	fallback_name = "%d-ya Gv.SBR"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered = {
-		1 = { "%d-ya 'Zaporozhskaya' KD" }
-		2 = { "%d-ya 'Chernigovskaya' KD" }
-		3 = { "%d-ya 'Bessarabskaya im.Kotovskogo' KD" }
-		4 = { "%d-ya 'Donskaya im.Voroshilova' KD" }
-		5 = { "%d-ya 'Stavropolskaya im.Blinova' KD" }
-		6 = { "%d-ya 'Kubansko-Terskaya' KD" }
-		7 = { "%d-ya 'Samarskaya' KD" }
-		8 = { "%d-ya 'Dal'ne-Vostochnaya' KD" }
-		9 = { "%d-ya 'Krymskaya im.SNK USSR' KD" }
-		10 = { "%d-ya 'Tersko-Stavropolskaya' KD" }
-		11 = { "%d-ya 'Orenburgskaya im.Morozova' KD" }
-		12 = { "%d-ya 'Kubanskaya' KD" }
-		13 = { "%d-ya 'Donskaya' KD" }
-		14 = { "%d-ya 'Kominterna im.Parkhomenko' KD" }
-		15 = { "%d-ya 'Kubanskaya' KD" }
-		16 = { "%d-ya 'Sibirskaya' KD" }
-		17 = { "%d-ya 'Kavkazskaya' KD" }
-		18 = { "%d-ya 'Turkestanskaya' KD" }
-		19 = { "%d-ya 'Uzbekskaya' KD" }
-		20 = { "%d-ya 'Tadzhikskaya' KD" }
-		21 = { "%d-ya 'Turkestanskaya' KD" }
-		22 = { "%d-ya 'im.Gor'kogo' KD" }
-		25 = { "%d-ya 'Stavropolskaya' KD" }
-		36 = { "%d-ya 'im.Stalina' KD" }
+		1 = { "%d-ya Gv.SBR" }
+	}
+}
+
+SOV_SBR_01 = {
+	name = "Rifle Brigade"
+
+	for_countries = { SOV }
+
+	division_types = { "infantry" "infantry_assault" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { SOV_GSBR_01 }
+
+	fallback_name = "%d-ya SBR"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d-ya SBR" }
+	}
+}
+
+SOV_GSBR_01 = {
+	name = "Mountain Rifle Brigade"
+	for_countries = { SOV }
+	division_types = { "light_infantry" "mountaineers" }
+	link_numbering_with = { SOV_SBR_01 }
+	fallback_name = "%d-ya GSBR"
+	ordered = {
+		31 = { "%d-ya GSBR" }
+		32 = { "%d-ya GSBR" }
+		72 = { "%d-ya GSBR" }
+	}
+}
+
+SOV_MSD_01 = {
+	name = "Motor Rifle Division"
+	for_countries = { SOV }
+	division_types = { "motorized" }
+	fallback_name = "%d-ya MSD"
+	ordered =
+	{
+		36 = { "%d-ya 'Zabaykalskaya' MSD" }
+		57 = { "%d-ya 'Uralskaya' MSD" }
+	}
+}
+
+SOV_GVTBR_01 = {
+	name = "Guards Tank Brigade"
+	for_countries = { SOV }
+	division_types = { "trm_light_armor" "trm_medium_armor" "trm_medium_cs_armor" "trm_medium_advanced_armor" "trm_heavy_armor" "trm_cavalry_armor" "trm_superheavy_armor" }
+	fallback_name = "%d-ya Gv.TBR"
+	ordered =
+	{
+		1 = { "%d-ya Gv.TBR" }
+	}
+}
+
+SOV_TBR_01 = {
+	name = "Tank Brigade"
+	for_countries = { SOV }
+	division_types = { "trm_light_armor" "trm_medium_armor" "trm_medium_cs_armor" "trm_medium_advanced_armor" "trm_heavy_armor" "trm_cavalry_armor" "trm_superheavy_armor" }
+	fallback_name = "%d-ya TBR"
+	ordered =
+	{
+		1 = { "%d-ya TBR" }
 	}
 }
 
@@ -89,7 +132,7 @@ SOV_TD_01 = {
 	}
 }
 
-SOV_GTD_01 = {
+SOV_GVTD_01 = {
 	name = "Guards Tank Division"
 	for_countries = { SOV }
 	division_types = { "trm_light_armor" "trm_medium_armor" "trm_medium_cs_armor" "trm_medium_advanced_armor" "trm_heavy_armor" "trm_cavalry_armor" "trm_superheavy_armor" }
@@ -97,6 +140,28 @@ SOV_GTD_01 = {
 	ordered =
 	{
 		1 = { "%d-ya Gv.TD" }
+	}
+}
+
+SOV_GVMBR_01 = {
+	name = "Guards Mech Brigade"
+	for_countries = { SOV }
+	division_types = { "motorized" }
+	fallback_name = "%d-ya Gv.MBR"
+	ordered =
+	{
+		1 = { "%d-ya Gv.MBR" }
+	}
+}
+
+SOV_MBR_01 = {
+	name = "Mech Brigade"
+	for_countries = { SOV }
+	division_types = { "motorized" }
+	fallback_name = "%d-ya MBR"
+	ordered =
+	{
+		1 = { "%d-ya MBR" }
 	}
 }
 
@@ -111,7 +176,7 @@ SOV_MD_01 = {
 	}
 }
 
-SOV_GMD_01 = {
+SOV_GVMD_01 = {
 	name = "Guards Mech Division"
 	for_countries = { SOV }
 	division_types = { "trm_light_armor" "trm_medium_armor" "trm_medium_cs_armor" "trm_medium_advanced_armor" "trm_heavy_armor" "trm_cavalry_armor" "trm_superheavy_armor" }
@@ -122,7 +187,7 @@ SOV_GMD_01 = {
 	}
 }
 
-SOV_CD_01 = {
+SOV_KD_01 = {
 	name = "Cavalry Division"
 	for_countries = { SOV }
 	division_types = { "cavalry" }
@@ -133,7 +198,7 @@ SOV_CD_01 = {
 	}
 }
 
-SOV_GCD_01 = {
+SOV_GVKD_01 = {
 	name = "Guards Cavalry Division"
 	for_countries = { SOV }
 	division_types = { "cavalry" }
@@ -144,7 +209,7 @@ SOV_GCD_01 = {
 	}
 }
 
-SOV_GABR_01 = {
+SOV_GVVDBR_01 = {
 	name = "Guards Airborne Brigade"
 	for_countries = { SOV }
 	division_types = { "paratrooper" }
@@ -155,7 +220,7 @@ SOV_GABR_01 = {
 	}
 }
 
-SOV_GAD_01 = {
+SOV_GVVDD_01 = {
 	name = "Guards Airborne Division"
 	for_countries = { SOV }
 	division_types = { "paratrooper" }
@@ -166,7 +231,7 @@ SOV_GAD_01 = {
 	}
 }
 
-SOV_NID_01 = {
+SOV_DMP_01 = {
 	name = "Naval Infantry Division"
 	for_countries = { SOV }
 	division_types = { "marine" }
@@ -177,7 +242,7 @@ SOV_NID_01 = {
 	}
 }
 
-SOV_NIBR_01 = {
+SOV_BRMP_01 = {
 	name = "Naval Infantry Brigade"
 	for_countries = { SOV }
 	division_types = { "marine" }
@@ -186,6 +251,47 @@ SOV_NIBR_01 = {
 	{
 		12 = { "%d-ya 'Pechengskaya' BrMP" }
 		63 = { "%d-ya 'Kirkinesskaya' BrMP" }
+	}
+}
+
+SOV_SHISBR_01 = {
+	name = "Assault Engineer Brigade"
+	for_countries = { SOV }
+	division_types = { "infantry" }
+	fallback_name = "%d-ya ShISBR"
+	link_numbering_with = { SOV_MSHISBR_01 }
+	ordered =
+	{
+		1 = { "%d-ya 'Smolenskaya' ShISBR" }
+		2 = { "%d-ya 'Rogachevskaya' ShISBR" }
+		3 = { "%d-ya 'Nemanskaya' ShISBR" }
+		5 = { "%d-ya 'Vitebskaya' ShISBR" }
+		9 = { "%d-ya 'Novgorodskaya' ShISBR" }
+		10 = { "%d-ya 'Vitebskaya' ShISBR" }
+		11 = { "%d-ya 'Zaporozhsko-Budapeshtskaya' ShISBR" }
+		12 = { "%d-ya 'Melitopolskaya' ShISBR" }
+		13 = { "%d-ya 'Novosokolnicheskaya' ShISBR" }
+		14 = { "%d-ya 'Aleksandriyskaya' ShISBR" }
+		15 = { "%d-ya 'Vinnitskaya' ShISBR" }
+		16 = { "%d-ya 'Rava-Russkaya' ShISBR" }
+		17 = { "%d-ya 'Gatchinskaya' ShISBR" }
+		19 = { "%d-ya 'Dvinskaya' ShISBR" }
+	}
+}
+
+SOV_MSHISBR_01 = {
+	name = "Mot Assault Engineer Brigade"
+	for_countries = { SOV }
+	division_types = { "infantry" }
+	fallback_name = "%d-ya MShISBR"
+	link_numbering_with = { SOV_SHISBR_01 }
+	ordered =
+	{
+		7 = { "%d-ya MShISBR" }
+		20 = { "%d-ya 'Svirskaya' MShISBR" }
+		21 = { "%d-ya 'Klaypedskaya' MShISBR" }
+		22 = { "%d-ya 'Berlinsko-Krakovskaya' Gv.MShISBR" }
+		23 = { "%d-ya 'Perekopskaya' MShISBR" }
 	}
 }
 

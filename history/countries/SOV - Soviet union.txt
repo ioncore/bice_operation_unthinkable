@@ -30,7 +30,10 @@ capital = 845
 		communism = 95
     }
 
-	set_conscription = service_by_requirement
+	add_ideas = {
+		age_11
+		tot_economic_mobilisation
+	}
 	add_manpower = 5000000
 
     # Black Sea

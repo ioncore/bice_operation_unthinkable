@@ -23,7 +23,7 @@ sub_units = {
 		combat_width = 2
 
 		need = {
-			trm_medium_tank_chassis = 40
+			trm_medium_tank_chassis = 35
 			#recon_equipment = 60
 		}
 		manpower = 500

@@ -7,8 +7,8 @@
         # ========================================================
         #
         # 17 CD
-        # - 1st Guards Cav Division       - Kecskem�t (684)
-        # - 2nd Guards Cav Division       - Kecskem�t (684)
+        # - 1st Guards Cav Division       - Kecskemet (684)
+        # - 2nd Guards Cav Division       - Kecskemet (684)
         # - 3rd Guards Cav Division       - GOSVG (3535)
         # - 5th Guards Cav Division       - Lublin (11399)
         # - 6th Guards Cav Division       - Lublin (11399)
@@ -22,68 +22,9 @@
         # - 1st Cav Division              - Iran (10837)
         # - 23rd Cav Division             - Iran (10837)
         # - 39th Cav Division             - Iran (10837)
-        # - 59th Cav Division             - Chengde (881)
-        # - 84th Cav Division             - Voroshilov? (6989)
+        # - 59th Cav Division (KMG)       - Chengde (881)
+        # - 84th Cav Division (1st Front) - Hamgyong (6944)
         #
-
-division_template = {
-    name = "Guards Cavalry Division 1945"
-    priority = 2
-    template_counter = 210
-    division_names_group = SOV_GCD_01
-
-    regiments = {
-        trm_medium_armor = { x = 0 y = 0 }
-
-        cavalry = { x = 1 y = 0 }
-        cavalry = { x = 1 y = 1 }
-
-        cavalry = { x = 2 y = 0 }
-        cavalry = { x = 2 y = 1 }
-
-        cavalry = { x = 3 y = 0 }
-        cavalry = { x = 3 y = 1 }
-                
-        artillery_brigade = { x = 4 y = 0 }
-        artillery_brigade_med = { x = 4 y = 1 }
-        motorized_rocket_brigade = { x = 4 y = 2 }
-    }
-    support = {
-        DIV_HQ = { x = 0 y = 0 }
-
-        anti_air = { x = 1 y = 0 }
-        anti_tank = { x = 1 y = 1 }
-    }
-}
-
-division_template = {
-    name = "Cavalry Division 1945"
-    template_counter = 210
-    division_names_group = SOV_CD_01
-
-    regiments = {
-        trm_medium_armor = { x = 0 y = 0 }
-
-        cavalry = { x = 1 y = 0 }
-        cavalry = { x = 1 y = 1 }
-
-        cavalry = { x = 2 y = 0 }
-        cavalry = { x = 2 y = 1 }
-
-        cavalry = { x = 3 y = 0 }
-        cavalry = { x = 3 y = 1 }
-                
-        artillery_brigade = { x = 4 y = 0 }
-        artillery_brigade_med = { x = 4 y = 1 }
-        motorized_rocket_brigade = { x = 4 y = 2 }
-    }
-    support = {
-        DIV_HQ = { x = 0 y = 0 }
-
-        anti_air = { x = 1 y = 0 }
-        anti_tank = { x = 1 y = 1 }
-    }
-}
 
 units = {
     division = {

@@ -3,6 +3,314 @@
 #############################
 
         # ========================================================
+        # Guards Tank Brigades & Tank Brigades
+        # ========================================================
+        #
+        # - 32nd Guards Tank Brigade (2nd Army)     - Qiqihar (7582)
+        # - 43rd Tank Brigade (KMG)                 - Chengde (9768)
+        # - 44th Tank Brigade (36th Army)           - Liaoyuan (6951)
+        # - 72nd Tank Brigade (25th Army)           - Hamhung (3981)
+        # - 73rd Tank Brigade (2nd Army)            - Qiqihar (4506)
+        # - 74th Tank Brigade (2nd Army)            - Qiqihar (4506)
+        # - 75th Tank Brigade (1st Army)            - Hsinking (9913)
+        # - 76th Tank Brigade (5th Army)            - Liaoyuan (9831)
+        # - 77th Tank Brigade (1st Army)            - Kirin (946)
+        # - 125th Tank Brigade (35th Army)          - Yilan (7670)
+        # - 165th Tank Brigade (15th Army)          - Harbin (7652)
+        # - 171st Tank Brigade (15th Army)          - Harbin (7652)
+        # - 172nd Tank Brigade (15th Army)          - Harbin (7523)
+        # - 201st Tank Brigade (Transbaykal Front)  - Yingkou (9835)
+        # - 203rd Tank Brigade (15th Army)          - Harbin (7523)
+        # - 205th Tank Brigade (36th Army)          - Qiqihar (930)
+        # - 206th Tank Brigade (39th Army)          - Liaoyuan (9831)
+        # - 208th Tank Brigade (5th Army)           - Shenyang (11771)
+        # - 209th Tank Brigade (25th Army)          - Pyeongyang (4052)
+        # - 210th Tank Brigade (5th Army)           - Liaoyuan (887)
+        # - 214th Tank Brigade (16th Army)          - Sakhalin (12446)
+        # - 218th Tank Brigade (5th Army)           - Liaoyuan (887)
+        # - 257th Tank Brigade (1st Army)           - Kirin (11850)
+        # - 258th Tank Brigade (2nd Army)           - Qiqihar (7582)
+        # - 259th Tank Brigade (25th Army)          - Singisiu (11835)
+
+units = {
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 32
+        }
+        location = 7582
+        division_template = "Guards Tank Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 43
+        }
+        location = 9768
+        division_template = "Tank Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 44
+        }
+        location = 6951
+        division_template = "Tank Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 72
+        }
+        location = 3981
+        division_template = "Tank Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 73
+        }
+        location = 4506
+        division_template = "Tank Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 74
+        }
+        location = 4506
+        division_template = "Tank Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 75
+        }
+        location = 9913
+        division_template = "Tank Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 76
+        }
+        location = 9831
+        division_template = "Tank Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 77
+        }
+        location = 946
+        division_template = "Tank Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 125
+        }
+        location = 7670
+        division_template = "Tank Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 165
+        }
+        location = 7652
+        division_template = "Tank Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 171
+        }
+        location = 7652
+        division_template = "Tank Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 172
+        }
+        location = 7523
+        division_template = "Tank Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 201
+        }
+        location = 9835
+        division_template = "Tank Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 203
+        }
+        location = 7523
+        division_template = "Tank Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 205
+        }
+        location = 930
+        division_template = "Tank Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 206
+        }
+        location = 9831
+        division_template = "Tank Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 208
+        }
+        location = 11771
+        division_template = "Tank Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }    
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 209
+        }
+        location = 4052
+        division_template = "Tank Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 210
+        }
+        location = 887
+        division_template = "Tank Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 214
+        }
+        location = 12446
+        division_template = "Tank Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 218
+        }
+        location = 887
+        division_template = "Tank Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 257
+        }
+        location = 11850
+        division_template = "Tank Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 258
+        }
+        location = 7582
+        division_template = "Tank Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 259
+        }
+        location = 11835
+        division_template = "Tank Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+}
+
+        # ========================================================
         # Guards Tank Divisions & Tank Divisions
         # ========================================================
         #
@@ -39,99 +347,6 @@
         #
         # 3rd Batch (directives from Apr 1946):
         # - 3rd Tank Division              - (ex 300th RD) PrimVO
-
-# Tank Regiment 010/571        - 3x Med Tank Bn (65), 1x Aslt Inf Bn, 1x AAMG Coy
-# Heavy Tank Regiment 010/572  - 3x Hvy Tank Bn (65), 1x Aslt Inf Bn, 1x Recon AC Coy, 1x AAA Coy
-# Motorized Regiment 010/573   - 3x Mot Rfl Bn, 1x Mortar Bn (12 82, 6 120), 1x Arty Bn (12 76), 1x Recon Coy, 1x SMG Coy, 1x AAMG Coy, 1x Eng Coy
-# Howitzer Regiment 010/574    - 2x Art Bn (24 122)
-# Mortar Regiment 010/575      - 2x Art Bn (36 120)
-# Mechanized Regiment 010/593  - 3x Mot Rfl Bn, 1x Tank Bn (35), 1x Mortar Bn (12 82, 6 120), 1x Arty Bn (12 76), 1x Recon Coy, 1x AAMG Coy
-
-division_template = {
-    name = "Guards Tank Division 1945"
-        priority = 2
-    template_counter = 242
-    division_names_group = SOV_GTD_01
-
-    regiments = {
-        trm_medium_armor = { x = 0 y = 0 }
-        trm_medium_armor = { x = 0 y = 1 }
-        trm_heavy_armor = { x = 0 y = 2 }
-        motorized_assault = { x = 0 y = 3 }
-
-        trm_medium_armor = { x = 1 y = 0 }
-        trm_medium_armor = { x = 1 y = 1 }
-        trm_heavy_armor = { x = 1 y = 2 }
-        motorized_assault = { x = 1 y = 3 }
-
-        trm_medium_armor = { x = 2 y = 0 }
-        trm_medium_armor = { x = 2 y = 1 }
-        trm_heavy_armor = { x = 2 y = 2 }
-        motorized_assault = { x = 2 y = 3 }
-
-        motorized = { x = 3 y = 0 }
-        motorized = { x = 3 y = 1 }
-        motorized = { x = 3 y = 2 }
-        motorized_assault = { x = 3 y = 3 }        
-        artillery_brigade_mot = { x = 3 y = 4 }
-
-        artillery_brigade_mot_med = { x = 4 y = 0 }
-        artillery_brigade_mot_med = { x = 4 y = 1 }
-        motorized_rocket_brigade = { x = 4 y = 2 }
-        trm_heavy_assault_gun = { x = 4 y = 3 }
-        trm_heavy_tank_destroyer = { x = 4 y = 4 }
-    }
-    support = {
-        DIV_HQ_mech = { x = 0 y = 0 }
-        engineer_mot = { x = 0 y = 1 }
-        recon_mot = { x = 0 y = 2 }
-
-        anti_air_car = { x = 1 y = 0 }
-    }
-}
-
-division_template = {
-    name = "Tank Division 1945"
-    template_counter = 242
-    division_names_group = SOV_TD_01
-
-    regiments = {
-        trm_medium_armor = { x = 0 y = 0 }
-        trm_medium_armor = { x = 0 y = 1 }
-        trm_heavy_armor = { x = 0 y = 2 }
-        motorized_assault = { x = 0 y = 3 }
-
-        trm_medium_armor = { x = 1 y = 0 }
-        trm_medium_armor = { x = 1 y = 1 }
-        trm_heavy_armor = { x = 1 y = 2 }
-        motorized_assault = { x = 1 y = 3 }
-
-        trm_medium_armor = { x = 2 y = 0 }
-        trm_medium_armor = { x = 2 y = 1 }
-        trm_heavy_armor = { x = 2 y = 2 }
-        motorized_assault = { x = 2 y = 3 }
-
-        motorized = { x = 3 y = 0 }
-        motorized = { x = 3 y = 1 }
-        motorized = { x = 3 y = 2 }        
-        motorized_assault = { x = 3 y = 3 }
-        artillery_brigade_mot = { x = 3 y = 4 }
-                
-        artillery_brigade_mot_med = { x = 4 y = 0 }
-        artillery_brigade_mot_med = { x = 4 y = 1 }
-        motorized_rocket_brigade = { x = 4 y = 2 }
-        trm_heavy_assault_gun = { x = 4 y = 3 }
-        trm_heavy_tank_destroyer = { x = 4 y = 4 }
-    }
-    support = {
-        DIV_HQ_mech = { x = 0 y = 0 }
-        engineer_mot = { x = 0 y = 1 }
-        recon_mot = { x = 0 y = 2 }
-
-        anti_air_car = { x = 1 y = 0 }
-    }
-}
-
 
 units = {
     division = {

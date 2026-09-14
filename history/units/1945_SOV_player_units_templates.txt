@@ -1,0 +1,601 @@
+#############################
+##### SOVIET PLAYER OOB #####
+#############################
+
+# Tank Regiment 010/571        - 3x Med Tank Bn (65), 1x Aslt Inf Bn, 1x AAMG Coy
+# Heavy Tank Regiment 010/572  - 3x Hvy Tank Bn (65), 1x Aslt Inf Bn, 1x Recon AC Coy, 1x AAA Coy
+# Motorized Regiment 010/573   - 3x Mot Rfl Bn, 1x Mortar Bn (12 82, 6 120), 1x Arty Bn (12 76), 1x Recon Coy, 1x SMG Coy, 1x AAMG Coy, 1x Eng Coy
+# Howitzer Regiment 010/574    - 2x Art Bn (24 122)
+# Mortar Regiment 010/575      - 2x Art Bn (36 120)
+# Mechanized Regiment 010/593  - 3x Mot Rfl Bn, 1x Tank Bn (35), 1x Mortar Bn (12 82, 6 120), 1x Arty Bn (12 76), 1x Recon Coy, 1x AAMG Coy
+
+division_template = {
+    name = "Guards Tank Division 1945"
+        priority = 2
+    template_counter = 266
+    division_names_group = SOV_GVTD_01
+
+    regiments = {
+        trm_medium_armor = { x = 0 y = 0 }
+        trm_medium_armor = { x = 0 y = 1 }
+        trm_heavy_armor = { x = 0 y = 2 }
+        motorized_assault = { x = 0 y = 3 }
+
+        trm_medium_armor = { x = 1 y = 0 }
+        trm_medium_armor = { x = 1 y = 1 }
+        trm_heavy_armor = { x = 1 y = 2 }
+        motorized_assault = { x = 1 y = 3 }
+
+        trm_medium_armor = { x = 2 y = 0 }
+        trm_medium_armor = { x = 2 y = 1 }
+        trm_heavy_armor = { x = 2 y = 2 }
+        motorized_assault = { x = 2 y = 3 }
+
+        motorized = { x = 3 y = 0 }
+        motorized = { x = 3 y = 1 }
+        motorized = { x = 3 y = 2 }
+        motorized_assault = { x = 3 y = 3 }        
+        artillery_brigade_mot = { x = 3 y = 4 }
+
+        artillery_brigade_mot_med = { x = 4 y = 0 }
+        artillery_brigade_mot_med = { x = 4 y = 1 }
+        motorized_rocket_brigade = { x = 4 y = 2 }
+        trm_heavy_assault_gun = { x = 4 y = 3 }
+        trm_heavy_tank_destroyer = { x = 4 y = 4 }
+    }
+    support = {
+        DIV_HQ_car = { x = 0 y = 0 }
+        engineer_mot = { x = 0 y = 1 }
+        trm_light_armor_recon = { x = 0 y = 2 }
+
+        anti_air_car = { x = 1 y = 0 }
+    }
+}
+
+division_template = {
+    name = "Tank Division 1945"
+    template_counter = 266
+    division_names_group = SOV_TD_01
+
+    regiments = {
+        trm_medium_armor = { x = 0 y = 0 }
+        trm_medium_armor = { x = 0 y = 1 }
+        trm_heavy_armor = { x = 0 y = 2 }
+        motorized_assault = { x = 0 y = 3 }
+
+        trm_medium_armor = { x = 1 y = 0 }
+        trm_medium_armor = { x = 1 y = 1 }
+        trm_heavy_armor = { x = 1 y = 2 }
+        motorized_assault = { x = 1 y = 3 }
+
+        trm_medium_armor = { x = 2 y = 0 }
+        trm_medium_armor = { x = 2 y = 1 }
+        trm_heavy_armor = { x = 2 y = 2 }
+        motorized_assault = { x = 2 y = 3 }
+
+        motorized = { x = 3 y = 0 }
+        motorized = { x = 3 y = 1 }
+        motorized = { x = 3 y = 2 }        
+        motorized_assault = { x = 3 y = 3 }
+        artillery_brigade_mot = { x = 3 y = 4 }
+                
+        artillery_brigade_mot_med = { x = 4 y = 0 }
+        artillery_brigade_mot_med = { x = 4 y = 1 }
+        motorized_rocket_brigade = { x = 4 y = 2 }
+        trm_heavy_assault_gun = { x = 4 y = 3 }
+        trm_heavy_tank_destroyer = { x = 4 y = 4 }
+    }
+    support = {
+        DIV_HQ_car = { x = 0 y = 0 }
+        engineer_mot = { x = 0 y = 1 }
+        trm_light_armor_recon = { x = 0 y = 2 }
+
+        anti_air_car = { x = 1 y = 0 }
+    }
+}
+
+division_template = {
+    name = "Guards Tank Brigade 1943"
+    template_counter = 265
+    division_names_group = SOV_GVTBR_01
+
+    regiments = {
+        trm_medium_armor = { x = 0 y = 0 }
+        trm_medium_armor = { x = 0 y = 1 }
+
+        motorized = { x = 1 y = 0 }
+        motorized_assault = { x = 1 y = 1 }
+    }
+    support = {
+        DIV_HQ_car = { x = 0 y = 0 }
+    }
+}
+
+division_template = {
+    name = "Tank Brigade 1943"
+    template_counter = 265
+    division_names_group = SOV_TBR_01
+
+    regiments = {
+        trm_medium_armor = { x = 0 y = 0 }
+        trm_medium_armor = { x = 0 y = 1 }
+
+        motorized = { x = 1 y = 0 }
+        motorized_assault = { x = 1 y = 1 }
+    }
+    #support = {
+    #    DIV_HQ_car = { x = 0 y = 0 }
+    #}
+}
+
+division_template = {
+    name = "Guards Mech Division 1945"
+        priority = 2
+    template_counter = 186
+    division_names_group = SOV_GVMD_01
+
+    regiments = {
+        trm_medium_armor = { x = 0 y = 0 }
+        trm_medium_armor = { x = 0 y = 1 }
+        trm_heavy_armor = { x = 0 y = 2 }
+        motorized_assault = { x = 0 y = 3 }
+        motorized_assault = { x = 0 y = 4 }
+
+        motorized = { x = 1 y = 0 }
+        motorized = { x = 1 y = 1 }
+        motorized = { x = 1 y = 2 }
+        trm_medium_armor = { x = 1 y = 3 }
+        artillery_brigade_mot = { x = 1 y = 4 }
+
+        motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+        motorized = { x = 2 y = 2 }
+        trm_medium_armor = { x = 2 y = 3 }
+        artillery_brigade_mot = { x = 2 y = 4 }        
+
+        motorized = { x = 3 y = 0 }
+        motorized = { x = 3 y = 1 }
+        motorized = { x = 3 y = 2 }
+        trm_medium_armor = { x = 3 y = 3 }        
+        artillery_brigade_mot = { x = 3 y = 4 }
+               
+        artillery_brigade_mot_med = { x = 4 y = 0 }
+        artillery_brigade_mot_med = { x = 4 y = 1 }
+        motorized_rocket_brigade = { x = 4 y = 2 }
+        trm_medium_tank_destroyer = { x = 4 y = 3 }
+        trm_medium_tank_destroyer = { x = 4 y = 4 }
+    }
+    support = {
+        DIV_HQ_car = { x = 0 y = 0 }
+        engineer_mot = { x = 0 y = 1 }
+        trm_light_armor_recon = { x = 0 y = 2 }
+
+        anti_air_car = { x = 1 y = 0 }
+    }
+}
+
+division_template = {
+    name = "Mech Division 1945"
+    template_counter = 186
+    division_names_group = SOV_MD_01
+
+    regiments = {
+        trm_medium_armor = { x = 0 y = 0 }
+        trm_medium_armor = { x = 0 y = 1 }
+        trm_heavy_armor = { x = 0 y = 2 }
+        motorized_assault = { x = 0 y = 3 }
+        motorized_assault = { x = 0 y = 4 }
+
+        motorized = { x = 1 y = 0 }
+        motorized = { x = 1 y = 1 }
+        motorized = { x = 1 y = 2 }
+        trm_medium_armor = { x = 1 y = 3 }
+        artillery_brigade_mot = { x = 1 y = 4 }
+
+        motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+        motorized = { x = 2 y = 2 }
+        trm_medium_armor = { x = 2 y = 3 }
+        artillery_brigade_mot = { x = 2 y = 4 }
+
+        motorized = { x = 3 y = 0 }
+        motorized = { x = 3 y = 1 }
+        motorized = { x = 3 y = 2 }
+        trm_medium_armor = { x = 3 y = 3 }        
+        artillery_brigade_mot = { x = 3 y = 4 }
+                
+        artillery_brigade_mot_med = { x = 4 y = 0 }
+        artillery_brigade_mot_med = { x = 4 y = 1 }
+        motorized_rocket_brigade = { x = 4 y = 2 }
+        trm_medium_tank_destroyer = { x = 4 y = 3 }
+        trm_medium_tank_destroyer = { x = 4 y = 4 }
+    }
+    support = {
+        DIV_HQ_car = { x = 0 y = 0 }
+        engineer_mot = { x = 0 y = 1 }
+        trm_light_armor_recon = { x = 0 y = 2 }
+
+        anti_air_car = { x = 1 y = 0 }
+    }
+}
+
+division_template = {
+    name = "Mech Brigade 1943"
+    template_counter = 185
+    division_names_group = SOV_MBR_01
+
+    regiments = {
+        trm_medium_armor = { x = 0 y = 0 }
+        motorized_assault = { x = 0 y = 1 }
+
+        motorized = { x = 1 y = 0 }
+        motorized = { x = 1 y = 1 }
+        motorized = { x = 1 y = 2 }
+
+        artillery_brigade_mot = { x = 2 y = 0 }
+        anti_tank_brigade_mot = { x = 2 y = 1 }
+    }
+    #support = {
+    #    DIV_HQ_car = { x = 0 y = 0 }
+    #}
+}
+
+division_template = {
+    name = "Motorized Rifle Division 1945"
+    template_counter = 170
+    division_names_group = SOV_MSD_01
+
+    regiments = {
+        motorized = { x = 0 y = 0 }
+        motorized = { x = 0 y = 1 }
+        motorized = { x = 0 y = 2 }
+
+        motorized = { x = 1 y = 0 }
+        motorized = { x = 1 y = 1 }
+        motorized = { x = 1 y = 2 }
+
+        motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+        motorized = { x = 2 y = 2 }
+
+        artillery_brigade_mot = { x = 4 y = 0 }
+        artillery_brigade_mot = { x = 4 y = 1 }
+        artillery_brigade_mot_med = { x = 4 y = 2 }
+        anti_tank_brigade_mot = { x = 4 y = 3 }
+        trm_light_tank_destroyer = { x = 4 y = 4 }
+    }
+    support = {
+        DIV_HQ_car = { x = 0 y = 0 }
+        engineer_mot = { x = 0 y = 1 }
+        trm_light_armor_recon = { x = 0 y = 2 }
+
+        anti_air_car = { x = 1 y = 0 }
+    }
+}
+
+division_template = {
+    name = "Guards Rifle Division 1945"
+    priority = 2
+    template_counter = 114
+    division_names_group = SOV_GVSD_01
+
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 1 y = 2 }
+
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 2 y = 1 }
+        infantry = { x = 2 y = 2 }                
+
+        artillery_brigade_mot = { x = 3 y = 0 }
+        artillery_brigade_mot = { x = 3 y = 1 }        
+        artillery_brigade_mot_med = { x = 3 y = 2 }
+        artillery_brigade_mot_med = { x = 3 y = 3 }
+
+        trm_light_tank_destroyer = { x = 4 y = 0 }
+        trm_light_tank_destroyer = { x = 4 y = 1 }
+        anti_tank_brigade_mot_med = { x = 4 y = 2 }
+        motorized_rocket_brigade = { x = 4 y = 3 }
+    }
+    support = {
+        DIV_HQ = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        recon = { x = 0 y = 2 }        
+
+        anti_air_car = { x = 1 y = 0 }
+    }
+}        
+
+division_template = {
+    name = "Rifle Division 1945"
+    template_counter = 114
+    division_names_group = SOV_SD_01
+
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 1 y = 2 }
+
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 2 y = 1 }
+        infantry = { x = 2 y = 2 }                
+
+        artillery_brigade_mot = { x = 3 y = 0 }
+        artillery_brigade_mot = { x = 3 y = 1 }        
+        artillery_brigade_mot_med = { x = 3 y = 2 }
+        artillery_brigade_mot_med = { x = 3 y = 3 }
+
+        trm_light_tank_destroyer = { x = 4 y = 0 }
+        anti_tank_brigade_mot_med = { x = 4 y = 1 }
+        motorized_rocket_brigade = { x = 4 y = 2 }
+    }
+    support = {
+        DIV_HQ = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        recon = { x = 0 y = 2 }        
+
+        anti_air_car = { x = 1 y = 0 }
+    }
+}
+
+division_template = {
+    name = "Rifle Brigade 1943"
+    template_counter = 113
+    division_names_group = SOV_SBR_01
+
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+        infantry_assault = { x = 0 y = 3 }
+
+        artillery_brigade = { x = 1 y = 0 }
+        artillery_brigade = { x = 1 y = 1 }
+        anti_tank_brigade = { x = 1 y = 2 }
+    }
+    #support = {
+    #    DIV_HQ = { x = 0 y = 0 }
+    #}
+}
+
+division_template = {
+    name = "Mountain Rifle Brigade 1945"
+    template_counter = 3007
+    division_names_group = SOV_GSBR_01
+
+    regiments = {
+        light_infantry = { x = 0 y = 0 }
+        light_infantry = { x = 0 y = 1 }
+        light_infantry = { x = 0 y = 2 }
+        infantry_assault = { x = 0 y = 4 }
+
+        mountain_artillery_brigade = { x = 1 y = 0 }
+        mountain_artillery_brigade = { x = 1 y = 1 }
+        anti_tank_brigade = { x = 1 y = 2 }        
+    }
+    support = {
+        #DIV_HQ = { x = 0 y = 0 }
+        mount_support = { x = 0 y = 1 }
+    }
+}
+
+division_template = {
+    name = "Assault Engineer Brigade 1944"
+    template_counter = 401
+    division_names_group = SOV_SHISBR_01
+
+    regiments = {
+        infantry_assault = { x = 0 y = 0 }
+        infantry_assault = { x = 0 y = 1 }
+        infantry_assault = { x = 0 y = 2 }
+        infantry_assault = { x = 0 y = 3 }
+        infantry_assault = { x = 0 y = 4 }
+
+        trm_medium_armor = { x = 1 y = 0 }
+        trm_medium_armor = { x = 1 y = 1 }
+    }
+    support = {
+        #DIV_HQ = { x = 0 y = 0 }
+        combat_engineer = { x = 0 y = 1 }
+    }
+}
+
+
+division_template = {
+    name = "Mot Assault Engineer Brigade 1944"
+    template_counter = 409
+    division_names_group = SOV_MSHISBR_01
+
+    regiments = {
+        semi_motorized_assault = { x = 0 y = 0 }
+        semi_motorized_assault = { x = 0 y = 1 }
+        semi_motorized_assault = { x = 0 y = 2 }
+        semi_motorized_assault = { x = 0 y = 3 }
+        semi_motorized_assault = { x = 0 y = 4 }
+
+        trm_medium_armor = { x = 1 y = 0 }
+        trm_medium_armor = { x = 1 y = 1 }        
+    }
+    support = {
+        #DIV_HQ_car = { x = 0 y = 0 }
+        combat_engineer_mot = { x = 0 y = 1 }
+    }
+}
+
+division_template = {
+    name = "Guards Airborne Brigade 1945"
+        priority = 2
+    template_counter = 3012
+    division_names_group = SOV_GVVDBR_01
+
+    regiments = {
+        paratrooper = { x = 0 y = 0 }
+        paratrooper = { x = 0 y = 1 }
+        paratrooper = { x = 0 y = 2 }
+        paratrooper = { x = 0 y = 3 }
+                
+        airborne_anti_tank_brigade = { x = 1 y = 0 }
+    }
+    support = {
+        #DIV_HQ_airborne = { x = 0 y = 0 }
+
+        anti_air_car = { x = 1 y = 0 }
+        recon = { x = 1 y = 0 }
+    }
+}
+
+#division_template = {
+#	name = "Guards Airborne Division 1946"
+#       priority = 2
+#	template_counter = 3012
+#	division_names_group = SOV_GVVDD_01
+#
+#	regiments = {
+#		paratrooper = { x = 0 y = 0 }
+#		paratrooper = { x = 0 y = 1 }
+#		paratrooper = { x = 0 y = 2 }
+#
+#		paratrooper = { x = 1 y = 0 }
+#		paratrooper = { x = 1 y = 1 }
+#		paratrooper = { x = 1 y = 2 }
+#                
+#       airborne_artillery_brigade = { x = 2 y = 0 }
+#       airborne_artillery_brigade = { x = 2 y = 1 }
+#       airborne_anti_tank_brigade = { x = 2 y = 2 }
+#       trm_airborne_tank_destroyer = { x = 2 y = 3 }
+#	}
+#	support = {
+#		DIV_HQ_airborne = { x = 0 y = 0 }
+#
+#		anti_air_car = { x = 1 y = 0 }
+#		eng_abn = { x = 1 y = 1 }
+#		recon = { x = 1 y = 2 }
+#	}
+#}
+
+
+division_template = {
+    name = "Naval Infantry Division 1945"
+    template_counter = 970
+    division_names_group = SOV_DMP_01
+
+    regiments = {
+        marine = { x = 0 y = 0 }
+        marine = { x = 0 y = 1 }
+        marine = { x = 0 y = 2 }
+
+        marine = { x = 1 y = 0 }
+        marine = { x = 1 y = 1 }
+        marine = { x = 1 y = 2 }
+
+        marine = { x = 2 y = 0 }
+        marine = { x = 2 y = 1 }
+        marine = { x = 2 y = 2 }
+
+        trm_medium_armor = { x = 3 y = 0 }
+                
+        artillery_brigade = { x = 4 y = 0 }
+        artillery_brigade = { x = 4 y = 1 }
+        artillery_brigade_med = { x = 4 y = 2 }
+        anti_tank_brigade_med = { x = 4 y = 3 }
+    }
+    support = {
+        DIV_HQ = { x = 0 y = 0 }
+
+        anti_air = { x = 1 y = 0 }
+        recon = { x = 1 y = 0 }
+        anti_tank = { x = 1 y = 1 }
+    }
+}
+
+division_template = {
+    name = "Naval Infantry Brigade 1945"
+    template_counter = 969
+    division_names_group = SOV_BRMP_01
+
+    regiments = {
+        marine = { x = 0 y = 0 }
+        marine = { x = 0 y = 1 }
+        marine = { x = 0 y = 2 }
+                
+        artillery_brigade = { x = 1 y = 0 }
+    }
+    support = {
+        #DIV_HQ = { x = 0 y = 0 }
+
+        anti_air = { x = 1 y = 0 }
+        recon = { x = 1 y = 0 }
+        anti_tank = { x = 1 y = 1 }
+    }
+}
+
+
+division_template = {
+    name = "Guards Cavalry Division 1945"
+    priority = 2
+    template_counter = 210
+    division_names_group = SOV_GVKD_01
+
+    regiments = {
+        trm_medium_armor = { x = 0 y = 0 }
+
+        cavalry = { x = 1 y = 0 }
+        cavalry = { x = 1 y = 1 }
+
+        cavalry = { x = 2 y = 0 }
+        cavalry = { x = 2 y = 1 }
+
+        cavalry = { x = 3 y = 0 }
+        cavalry = { x = 3 y = 1 }
+                
+        artillery_brigade = { x = 4 y = 0 }
+        artillery_brigade_med = { x = 4 y = 1 }
+        motorized_rocket_brigade = { x = 4 y = 2 }
+    }
+    support = {
+        DIV_HQ = { x = 0 y = 0 }
+
+        anti_air = { x = 1 y = 0 }
+        anti_tank = { x = 1 y = 1 }
+    }
+}
+
+division_template = {
+    name = "Cavalry Division 1945"
+    template_counter = 210
+    division_names_group = SOV_KD_01
+
+    regiments = {
+        trm_medium_armor = { x = 0 y = 0 }
+
+        cavalry = { x = 1 y = 0 }
+        cavalry = { x = 1 y = 1 }
+
+        cavalry = { x = 2 y = 0 }
+        cavalry = { x = 2 y = 1 }
+
+        cavalry = { x = 3 y = 0 }
+        cavalry = { x = 3 y = 1 }
+                
+        artillery_brigade = { x = 4 y = 0 }
+        artillery_brigade_med = { x = 4 y = 1 }
+        motorized_rocket_brigade = { x = 4 y = 2 }
+    }
+    support = {
+        DIV_HQ = { x = 0 y = 0 }
+
+        anti_air = { x = 1 y = 0 }
+        anti_tank = { x = 1 y = 1 }
+    }
+}
+
+### EOF ###

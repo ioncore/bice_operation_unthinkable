@@ -1,6 +1,27 @@
 #############################
 ##### SOVIET PLAYER OOB #####
 #############################
+
+        # ========================================================
+        # Guards Mech Brigades & Mech Brigades
+        # ========================================================
+        #
+        # - 25th Tank Brigade (KMG) - Chengde (9768)
+
+units = {
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 25
+        }
+        location = 9768
+        division_template = "Mech Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+}
+
         # ========================================================
         # Guards Mech Divisions & Mech Divisions
         # ========================================================
@@ -20,7 +41,7 @@
         # - 9th Guards Mech Division       - Dalian (1150), 6 GTA
         # - 9th Mech Division              - Pardubitz (583), 3rd GTA
         # - 10th Guards Mech Division      - (ex 8th GCD) - PrikVO (462)
-        # - 10th Mech Division             - Girin (6947), 1 DVF
+        # - 10th Mech Division             - Pyeongyang (4052), 1 DVF
         # - 11th Guards Mech Division      - (ex 13th GCD) - PrikVO (462)
         # - 11th Mech Division             - (ex 30th CD) - PrikVO (9548)
         # - 12th Guards Mech Division      - (ex 15th GCD) - PrikVO (462)
@@ -70,97 +91,6 @@
         # - 28th Mech Division             - (ex 126th RD)
         # - 36th Guards Mech Division      - (ex 29th GRD)
         # - 37th Guards Mech Division      - (ex 63rd GRD)
-
-division_template = {
-    name = "Guards Mech Division 1945"
-        priority = 2
-    template_counter = 178
-    division_names_group = SOV_GMD_01
-
-    regiments = {
-        trm_medium_armor = { x = 0 y = 0 }
-        trm_medium_armor = { x = 0 y = 1 }
-        trm_heavy_armor = { x = 0 y = 2 }
-        motorized_assault = { x = 0 y = 3 }
-        motorized_assault = { x = 0 y = 4 }
-
-        motorized = { x = 1 y = 0 }
-        motorized = { x = 1 y = 1 }
-        motorized = { x = 1 y = 2 }
-        trm_medium_armor = { x = 1 y = 3 }
-        artillery_brigade_mot = { x = 1 y = 4 }
-
-        motorized = { x = 2 y = 0 }
-        motorized = { x = 2 y = 1 }
-        motorized = { x = 2 y = 2 }
-        trm_medium_armor = { x = 2 y = 3 }
-        artillery_brigade_mot = { x = 2 y = 4 }        
-
-        motorized = { x = 3 y = 0 }
-        motorized = { x = 3 y = 1 }
-        motorized = { x = 3 y = 2 }
-        trm_medium_armor = { x = 3 y = 3 }        
-        artillery_brigade_mot = { x = 3 y = 4 }
-               
-        artillery_brigade_mot_med = { x = 4 y = 0 }
-        artillery_brigade_mot_med = { x = 4 y = 1 }
-        motorized_rocket_brigade = { x = 4 y = 2 }
-        trm_medium_tank_destroyer = { x = 4 y = 3 }
-        trm_medium_tank_destroyer = { x = 4 y = 4 }
-    }
-    support = {
-        DIV_HQ_mech = { x = 0 y = 0 }
-        engineer_mot = { x = 0 y = 1 }
-        recon_mot = { x = 0 y = 2 }
-
-        anti_air_car = { x = 1 y = 0 }
-    }
-}
-
-division_template = {
-    name = "Mech Division 1945"
-    template_counter = 178
-    division_names_group = SOV_MD_01
-
-    regiments = {
-        trm_medium_armor = { x = 0 y = 0 }
-        trm_medium_armor = { x = 0 y = 1 }
-        trm_heavy_armor = { x = 0 y = 2 }
-        motorized_assault = { x = 0 y = 3 }
-        motorized_assault = { x = 0 y = 4 }
-
-        motorized = { x = 1 y = 0 }
-        motorized = { x = 1 y = 1 }
-        motorized = { x = 1 y = 2 }
-        trm_medium_armor = { x = 1 y = 3 }
-        artillery_brigade_mot = { x = 1 y = 4 }
-
-        motorized = { x = 2 y = 0 }
-        motorized = { x = 2 y = 1 }
-        motorized = { x = 2 y = 2 }
-        trm_medium_armor = { x = 2 y = 3 }
-        artillery_brigade_mot = { x = 2 y = 4 }        
-
-        motorized = { x = 3 y = 0 }
-        motorized = { x = 3 y = 1 }
-        motorized = { x = 3 y = 2 }
-        trm_medium_armor = { x = 3 y = 3 }        
-        artillery_brigade_mot = { x = 3 y = 4 }
-                
-        artillery_brigade_mot_med = { x = 4 y = 0 }
-        artillery_brigade_mot_med = { x = 4 y = 1 }
-        motorized_rocket_brigade = { x = 4 y = 2 }
-        trm_medium_tank_destroyer = { x = 4 y = 3 }
-        trm_medium_tank_destroyer = { x = 4 y = 4 }
-    }
-    support = {
-        DIV_HQ_mech = { x = 0 y = 0 }
-        engineer_mot = { x = 0 y = 1 }
-        recon_mot = { x = 0 y = 2 }
-
-        anti_air_car = { x = 1 y = 0 }
-    }
-}
 
 units = {
     division = {
@@ -322,7 +252,7 @@ units = {
                 is_name_ordered = yes
                 name_order = 10
         }
-        location = 6947
+        location = 4052
         division_template = "Mech Division 1945"
         start_experience_factor = 0.8
         start_equipment_factor = 0.8

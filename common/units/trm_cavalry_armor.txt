@@ -1,16 +1,16 @@
 sub_units = {
 
-	trm_light_armor = {
+	trm_cavalry_armor = {
 		sprite = light_armor
 		map_icon_category = armored
-		priority = 2502
+		priority = 2503
 		active = yes
 		#cavalry = yes
 		type = {
 			armor
 		}
 		
-		group = combined_arms
+		group = armor
 		
 		categories = {
 			category_tanks
@@ -23,7 +23,7 @@ sub_units = {
 		combat_width = 2
 
 		need = {
-			trm_light_tank_chassis = 35
+			trm_cavalry_tank_chassis = 35
 			#recon_equipment = 60
 		}
 		manpower = 400
@@ -32,11 +32,11 @@ sub_units = {
 		training_time = 210
 		max_strength = 10
 		weight = 2
-		supply_consumption = 0.32
+		supply_consumption = 0.36
 		own_equipment_fuel_consumption_mult = 2.0 #Fuel use standardized for 25 Tanks, plus some extra for mobility
 		fuel_capacity = 0.6
 		
-		#transport = trm_light_tank_chassis
+		#transport = trm_cavalry_tank_chassis
 		
 		suppression = 1.0
 
@@ -48,17 +48,17 @@ sub_units = {
 
 	}
 	
-	trm_light_cs_armor = {
+	trm_cavalry_cs_armor = {
 		sprite = light_armor
 		map_icon_category = armored
-		priority = 2512
+		priority = 2513
 		active = yes
 		#cavalry = yes
 		type = {
 			armor
 		}
 		
-		group = combined_arms
+		group = armor
 		
 		categories = {
 			category_tanks
@@ -71,7 +71,7 @@ sub_units = {
 		combat_width = 2
 
 		need = {
-			trm_light_tank_cs_chassis = 40
+			trm_cavalry_tank_cs_chassis = 40
 			#recon_equipment = 60
 		}
 		manpower = 400
@@ -80,11 +80,11 @@ sub_units = {
 		training_time = 210
 		max_strength = 10
 		weight = 2
-		supply_consumption = 0.32
+		supply_consumption = 0.36
 		own_equipment_fuel_consumption_mult = 2.0 #Fuel use standardized for 25 Tanks, plus some extra for mobility
 		fuel_capacity = 0.6
 		
-		#transport = trm_light_tank_cs_chassis
+		#transport = trm_cavalry_tank_cs_chassis
 		
 		suppression = 1.0
 
@@ -96,10 +96,10 @@ sub_units = {
 
 	}
 	
-	trm_light_assault_gun = {
+	trm_cavalry_assault_gun = {
 		sprite = light_armor
 		map_icon_category = armored
-		priority = 2522
+		priority = 2523
 		active = yes
 		
 		type = {
@@ -107,7 +107,7 @@ sub_units = {
 			artillery
 		}
 		
-		group = combined_arms
+		group = artillery
 		
 		categories = {
 			category_front_line
@@ -121,7 +121,7 @@ sub_units = {
 		combat_width = 1.5
 
 		need = {
-			trm_light_tank_assault_gun_chassis = 25
+			trm_cavalry_tank_assault_gun_chassis = 25
 		}
 		manpower = 240
 		max_organisation = 0
@@ -129,11 +129,11 @@ sub_units = {
 		max_strength = 6
 		training_time = 210
 		weight = 1.2
-		supply_consumption = 0.192
+		supply_consumption = 0.216
 		
 		armor_value = -0.1
 		
-		#transport = trm_light_tank_assault_gun_chassis
+		#transport = trm_cavalry_tank_assault_gun_chassis
 		
 		suppression = 0.5
 		
@@ -159,10 +159,10 @@ sub_units = {
 		}
 	}
 	
-	trm_light_tank_destroyer = {
+	trm_cavalry_tank_destroyer = {
 		sprite = light_armor
 		map_icon_category = armored
-		priority = 2532
+		priority = 2533
 		active = yes
 		
 		type = {
@@ -170,7 +170,7 @@ sub_units = {
 			anti_tank
 		}
 		
-		group = combined_arms
+		group = artillery
 		
 		categories = {
 			category_front_line
@@ -184,7 +184,7 @@ sub_units = {
 		combat_width = 1.5
 
 		need = {
-			trm_light_tank_destroyer_chassis = 25
+			trm_cavalry_tank_destroyer_chassis = 25
 		}
 		manpower = 240
 		max_organisation = 0
@@ -192,19 +192,19 @@ sub_units = {
 		max_strength = 6
 		training_time = 210
 		weight = 1.2
-		supply_consumption = 0.192
+		supply_consumption = 0.216
 		
 		armor_value = -0.1
 		
-		#transport = trm_light_tank_destroyer_chassis
+		#transport = trm_cavalry_tank_destroyer_chassis
 		
 		suppression = 0.5
 	}
 	
-	trm_light_sp_artillery = {
+	trm_cavalry_sp_artillery = {
 		sprite = light_armor
 		map_icon_category = armored
-		priority = 2542
+		priority = 2543
 		active = yes
 		
 		type = {
@@ -212,7 +212,7 @@ sub_units = {
 			artillery
 		}
 		
-		group = combined_arms
+		group = artillery
 		
 		categories = {
 			category_all_armor
@@ -225,7 +225,7 @@ sub_units = {
 		combat_width = 1.5
 
 		need = {
-			trm_light_tank_artillery_chassis = 25
+			trm_cavalry_tank_artillery_chassis = 25
 		}
 		manpower = 240
 		max_organisation = -2
@@ -233,19 +233,19 @@ sub_units = {
 		max_strength = 4
 		training_time = 210
 		weight = 1.2
-		supply_consumption = 0.32
+		supply_consumption = 0.36
 		
 		armor_value = -0.1
 		
-		#transport = trm_light_tank_artillery_chassis
+		#transport = trm_cavalry_tank_artillery_chassis
 		
 		suppression = 0.5
 	}
 	
-	trm_light_sp_anti_air_support = {
+	trm_cavalry_sp_anti_air_support = {
 		sprite = light_armor
 		map_icon_category = armored
-		priority = 2552
+		priority = 2553
 		active = yes
 		affects_speed = yes
 		
@@ -265,7 +265,7 @@ sub_units = {
 		}
 
 		need = {
-			trm_light_tank_aa_chassis = 20
+			trm_cavalry_tank_aa_chassis = 20
 		}
 		manpower = 240
 		max_organisation = 0
@@ -273,7 +273,7 @@ sub_units = {
 		max_strength = 4
 		training_time = 150
 		weight = 1
-		supply_consumption = 0.128
+		supply_consumption = 0.144
 		
 		##COMBAT stats
 		soft_attack = -0.2
@@ -283,7 +283,7 @@ sub_units = {
 		breakthrough = -0.2
 		combat_width = 0
 		
-		#transport = trm_light_tank_aa_chassis
+		#transport = trm_cavalry_tank_aa_chassis
 		
 		desert = {
 			movement = -0.01
@@ -312,17 +312,17 @@ sub_units = {
 		}
 	}
 	
-	trm_light_amphibious_armor = {
+	trm_cavalry_amphibious_armor = {
 		sprite = light_armor
 		map_icon_category = armored
-		priority = 2562
+		priority = 2563
 		active = yes
 		#cavalry = yes
 		type = {
 			armor
 		}
 		
-		group = combined_arms
+		group = armor
 		
 		categories = {
 			category_tanks
@@ -335,7 +335,7 @@ sub_units = {
 		combat_width = 2
 
 		need = {
-			trm_light_tank_amphibious_chassis = 40
+			trm_cavalry_tank_amphibious_chassis = 40
 			#recon_equipment = 60
 		}
 		manpower = 400
@@ -344,11 +344,11 @@ sub_units = {
 		training_time = 210
 		max_strength = 10
 		weight = 2
-		supply_consumption = 0.32
+		supply_consumption = 0.36
 		own_equipment_fuel_consumption_mult = 2.0 #Fuel use standardized for 25 Tanks, plus some extra for mobility
 		fuel_capacity = 0.6
 		
-		#transport = trm_light_tank_amphibious_chassis
+		#transport = trm_cavalry_tank_amphibious_chassis
 		
 		suppression = 1.0
 
@@ -368,7 +368,7 @@ sub_units = {
 		}
 	}
 	
-	trm_light_armor_recon = {
+	trm_cavalry_armor_recon = {
 		sprite = light_armor
 		map_icon_category = armored
 		priority = 2572
@@ -391,7 +391,7 @@ sub_units = {
 		combat_width = 0.5
 
 		need = {
-			trm_light_tank_chassis = 25
+			trm_cavalry_tank_chassis = 25
 			infantry_uniforms = 30
 			infantry_equipment = 30
 			recon_equipment = 200
@@ -402,7 +402,7 @@ sub_units = {
 		max_strength = 5
 		training_time = 210
 		weight = 1.2
-		supply_consumption = 0.192
+		supply_consumption = 0.144
 		recon = 2.0
 		
 		own_equipment_fuel_consumption_mult = 1.2 #Fuel use standardized for 25 Tanks, Recon uses some extra for mobility
@@ -415,7 +415,7 @@ sub_units = {
 		soft_attack = -0.4
 		hard_attack = -0.5
 		
-		#transport = trm_light_tank_chassis
+		#transport = trm_cavalry_tank_chassis
 		
 		suppression = 0.5
 		
@@ -489,7 +489,7 @@ sub_units = {
 		}
 	}
 	
-	trm_light_amphibious_armor_recon = {
+	trm_cavalry_amphibious_armor_recon = {
 		sprite = light_armor
 		map_icon_category = armored
 		priority = 2582
@@ -512,7 +512,7 @@ sub_units = {
 		combat_width = 0.5
 
 		need = {
-			trm_light_tank_amphibious_chassis = 25
+			trm_cavalry_tank_amphibious_chassis = 25
 			infantry_uniforms = 30
 			infantry_equipment = 30
 			recon_equipment = 200
@@ -523,7 +523,7 @@ sub_units = {
 		max_strength = 5
 		training_time = 210
 		weight = 1.2
-		supply_consumption = 0.192
+		supply_consumption = 0.144
 		recon = 2.0
 		
 		own_equipment_fuel_consumption_mult = 1.2 #Fuel use standardized for 25 Tanks, Recon uses some extra for mobility
@@ -536,7 +536,7 @@ sub_units = {
 		soft_attack = -0.4
 		hard_attack = -0.5
 		
-		#transport = trm_light_tank_amphibious_chassis
+		#transport = trm_cavalry_tank_amphibious_chassis
 		
 		suppression = 0.5
 		

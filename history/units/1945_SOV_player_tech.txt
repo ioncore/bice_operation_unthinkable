@@ -7,6 +7,8 @@ instant_effect = {
 		######### setup techs ##########		
 		building_tech = 1
 		tech_basic_train = 1
+		tech_armored_train = 1
+		tech_wartime_train = 1
 
 		################## infantry #############
 		infantry_weapons = 1 # Mosin M91
@@ -17,6 +19,20 @@ instant_effect = {
 		improved_infantry_weapons_2 = 1
 		advanced_infantry_weapons2 = 1 # SKS-45
 		# assault_rifle = 1
+
+		mechanised_infantry = 1
+		# mechanised_infantry2 = 1
+		# mechanised_infantry3 = 1
+		# amphibious_mechanized_infantry = 1
+		# amphibious_mechanized_infantry_2 = 1
+		# mechanized_hmg_tech = 1
+		# mechanized_mortar_tech = 1
+		# mechanized_at_tech = 1
+		# mechanized_aa_tech = 1
+		# mechanized_hmg_mobile_group_tech
+		# mechanized_mortar_mobile_group_tech
+		# mechanized_at_mobile_group_tech
+		# mechanized_aa_mobile_group_tech
 
 		hmg = 1
 		hmg_2 = 1
@@ -89,13 +105,42 @@ instant_effect = {
 		arctic_equipment = 1
 		
         ########### Support ########
-		tech_recon = 1
 		tech_support = 1
+		
+		tech_recon = 1
 		subtech_recon_cav_1 = 1
 		subtech_recon_mot_1 = 1
+		subtech_recon_mech_1 = 1
+		tech_trm_tank_recon = 1
+		tech_trm_tank_recon_early = 1
+		tech_recon2 = 1
+		tech_recon3 = 1
+		tech_recon4 = 1
+		tech_recon5 = 1
+		tech_mot_recon3 = 1
+		tech_mot_recon4 = 1
+		tech_mot_recon5 = 1
+
 		tech_engineers = 1
+		tech_engineers = 1
+		tech_engineers2 = 1
+		tech_engineers3 = 1
+		tech_engineers4 = 1
+		tech_combat_engineers = 1
+		tech_combat_engineers2 = 1
+		explosives_team = 1
+		tech_airborne_engineers = 1
+
 		tech_military_police = 1
+		tech_military_police2 = 1
+		tech_military_police3 = 1
+		tech_improved_suppression = 1
+		tech_military_police4 = 1
+
 		tech_maintenance_company = 1
+		tech_maintenance_company2 = 1
+		# tech_maintenance_company3 = 1
+		# tech_maintenance_company4 = 1
 		
         tech_field_hospital = 1
         tech_field_hospita2 = 1
@@ -184,6 +229,9 @@ instant_effect = {
 		electronic_mechanical_engineering = 1
 		consumer_electronics = 1
 		consumer_tv = 1 # ???
+
+		mechanical_computing = 1
+		# electronic_computing_machine = 1
 		
 		HQ_communications = 1
 		
@@ -212,8 +260,6 @@ instant_effect = {
 		hfdf_tech2_lar = 1
 		hfdf_tech3_lar = 1
 
-		mechanical_computing = 1
-
 		basic_land_launched_rockets = 1
 		basic_missile_concepts = 1
 		ballistic_missile_concepts = 1
@@ -221,15 +267,24 @@ instant_effect = {
 
 		improved_turbine_engines = 1
 		advanced_turbine_engines = 1
-		# jet_engines = 1
+		jet_engines = 1
 		# tech_air_engine_jet = 1
 		# tech_air_engine_motorjet = 1
 		# jet_engine_improvements = 1
-		# jet_aircraft_prototype = 1
+		jet_aircraft_prototype = 1
 		# jet_aircraft_airframes = 1
 
 		atomic_research = 1
 		basic_particle_accelerators = 1
+		# improved_particle_sources = 1
+		# improved_particle_detectors = 1
+		# synchrotron_particle_accelerators = 1
+		fission_experiments = 1
+		nuclear_fission = 1
+		# nuclear_reactor = 1
+		# nuclear_weapons_production = 1
+		# nukes = 1
+		# research_reactors = 1
 
 		#tech_air_engine_early = 1
 

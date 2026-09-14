@@ -27,6 +27,12 @@ instant_effect = {
 	#	country_event = { id = AI_techs.1 days = 50 random_days = 7 }
 	#}
 
+    set_technology = {
+        tech_liaison_cars = 1
+        tech_ac_recon = 1
+		gw_artillery = 1
+	}
+
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_0
