@@ -1,0 +1,31 @@
+
+state={
+	resources = {
+		food = 5
+	}
+	id=416
+	name="STATE_416"
+	manpower = 1059739
+	local_supplies=0.0
+	state_category = rural
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+		}
+
+		set_variable = { vp_value = 2 } 
+		set_variable = { highest_vp = 2 } 
+
+		victory_points = {
+			5029 2
+		}
+		add_core_of = PER
+	}
+
+	provinces={
+		1521 2000 5029 7573 10351 
+	}
+}

@@ -36,6 +36,17 @@ SOV_SD_01 = {
 	}
 }
 
+SOV_GSD_01 = {
+	name = "Mountain Rifle Division"
+	for_countries = { SOV }
+	division_types = { "light_infantry" "mountaineers" }
+	#link_numbering_with = { SOV_SBR_01 }
+	fallback_name = "%d-ya GSD"
+	ordered = {
+		68 = { "%d-ya 'Turkestanskaya' GSD" }
+	}
+}
+
 SOV_GVSBR_01 = {
 	name = "Guards Rifle Brigade"
 
@@ -209,6 +220,17 @@ SOV_GVKD_01 = {
 	}
 }
 
+SOV_KP_01 = {
+	name = "Cavalry Regiment"
+	for_countries = { SOV }
+	division_types = { "cavalry" }
+	fallback_name = "%d-y KP"
+	ordered =
+	{
+		7 = { "%d-y 'Tuvinskiy' OKP" }
+	}
+}
+
 SOV_GVVDBR_01 = {
 	name = "Guards Airborne Brigade"
 	for_countries = { SOV }
@@ -292,6 +314,17 @@ SOV_MSHISBR_01 = {
 		21 = { "%d-ya 'Klaypedskaya' MShISBR" }
 		22 = { "%d-ya 'Berlinsko-Krakovskaya' Gv.MShISBR" }
 		23 = { "%d-ya 'Perekopskaya' MShISBR" }
+	}
+}
+
+SOV_UR_01 = {
+	name = "Fortified Region"
+	for_countries = { SOV }
+	division_types = { "garrison" }
+	fallback_name = "%d-y UR"
+	ordered =
+	{
+		51 = { "%d-y 'Batumskiy' UR" }
 	}
 }
 

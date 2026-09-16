@@ -1,44 +1,119 @@
 #############################################
 ##### SOVIET PLAYER AIR TRANSBAYKAL OOB #####
 #############################################
-instant_effect = {
-    enable_equipments = {
-        r_6_scout_equipment_1
-        r_5_scout_equipment_1
-        r_5_scout_equipment_2
-        r_10_scout_equipment_1
-        pe_2_scout_equipment_1 # Pe-2R
-        tu_2_scout_equipment_1 # Tu-2F
-        tu_2_scout_equipment_2 # Tu-2R
-    }
-}
 
-        # ========================================================
-        # Transbaykal Front 03.09.45
-        # ========================================================
-        #
-        # - 12th Recon Rgt (Pe-2R?) - Chita (563)
-        # - 117th Recon-Spotter Rgt (Su-2) - Choibalsan (860)
-        #
+# ========================================================
+# Transbaykal Front 03.09.45
+# ========================================================
 
 air_wings = {
-    563 = { 
-        # TODO Su-2 recon
+
+# Odessa MD
+# - 49th Guards Recon Regiment              - Odessa (192)
+#
+
+    192 = { 
+        pe_2_scout_equipment_1 = {
+            owner = "SOV" 
+            amount = 25
+        }
+        name="48-y Gv.RAP"
+        start_experience_factor = 0.16           
+    }
+
+# Transcaucasian Front
+# - 149th Recon Squadron
+# - 335th LR Recon Squadron
+#
+# Middle Asian MD
+# - 15th Recon Squadron
+#
+
+230 = { 
+        pe_2_scout_equipment_1 = {
+            owner = "SOV" 
+            amount = 25
+        }
+        name="335-ya DRAE"
+        start_experience_factor = 0.16           
+    }
+
+# 9th Air Army:
+# - 6th Recon Rgt (Pe-2R)                   - Khorol (408)
+# - 464th Recon-Spotter Rgt (Il-2K)         - Primorye (408)
+# - 799th Recon Rgt (La-7)                  - Novorossiya (408)
+
+    408 = { 
+        pe_2_scout_equipment_1 = {
+            owner = "SOV" 
+            amount = 25
+        }
+        name="6-y RAP"
+        start_experience_factor = 0.16           
+    }
+    408 = { 
+        # TODO Il-2K recon
         r_10_scout_equipment_1 = {
+            owner = "SOV" 
+            amount = 25
+        }
+        name="464-y KRAP"
+        start_experience_factor = 0.16           
+    }    
+    408 = { 
+        # TODO La-7 recon
+        r_10_scout_equipment_1 = {
+            owner = "SOV" 
+            amount = 25
+        }
+        name="799-y RAP"
+        start_experience_factor = 0.16           
+    }
+
+# 10th Air Army:
+# - 7th Recon Rgt (Pe-2R?)                  - Birobidzhan (657)
+# - 411th Recon-Spotter Rgt (Il-2K?)        - Birobidzhan (657)
+#
+
+    657 = { 
+        pe_2_scout_equipment_1 = {
+            owner = "SOV" 
+            amount = 25
+        }
+        name="7-y RAP"
+        start_experience_factor = 0.16           
+    }
+    657 = { 
+        # TODO Il-2K recon
+        r_10_scout_equipment_1 = {
+            owner = "SOV" 
+            amount = 25
+        }
+        name="411-y KRAP"
+        start_experience_factor = 0.16           
+    }
+
+# 12th Air Army:
+# - 12th Recon Rgt (Pe-2R?)                 - Chita (563)
+# - 117th Recon-Spotter Rgt (Il-2K?)        - Choibalsan (860)
+#
+
+    563 = { 
+        pe_2_scout_equipment_1 = {
             owner = "SOV" 
             amount = 25
         }
         name="12-y RAP"
         start_experience_factor = 0.16           
-        }
-
-    860 = { 
-        pe_2_scout_equipment_1 = {
+    }
+    860 = {
+        # TODO Il-2K recon
+        r_10_scout_equipment_1 = {
             owner = "SOV" 
             amount = 25
         }
         name="117-y KRAP"
         start_experience_factor = 0.16           
-        }
+    }
 }
 

@@ -16,7 +16,7 @@ state={
 		owner = SOV
 		buildings = {
 			infrastructure = 3
-			air_base = 4
+			air_base = 5
 		}
 
 		set_variable = { vp_value = 2 } 

@@ -1,0 +1,41 @@
+state = {
+	resources = {
+		food = 21
+	}
+	id=839
+	name="STATE_839"
+	
+	manpower = 1178108
+	local_supplies=0.0
+	state_category = large_city
+	
+	
+	history = {
+		owner = SOV
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 2
+			anti_air_building = 2
+			air_base = 3
+		}
+
+		set_variable = { vp_value = 7 } 
+		set_variable = { highest_vp = 5 } 
+
+		controller = GER
+		add_core_of = GER
+		
+		
+		
+		victory_points = { 266 5 }
+		victory_points = { 3380 1 }
+		victory_points = { 6375 1 }
+	}
+	
+	provinces={
+		266 3351 3380 6375 6402 9327 9346 9372 9398 11245 11386 
+	}
+
+	buildings_max_level_factor=1.000
+}

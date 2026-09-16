@@ -1,0 +1,432 @@
+﻿capital = 111
+
+#oob = "FIN_1936"
+history_initialisation = yes
+
+set_research_slots = 2
+
+set_war_support = 0.15
+set_country_flag = league_member
+set_country_flag = olympic_attendee
+set_convoys = 25
+country_event = { id = finland.37 days = 183 }
+country_event = { id = finland.39 days = 80 }
+
+set_technology = {
+	basic_naval_mines = 1
+	submarine_mine_laying = 1
+	early_ship_hull_light = 1
+	basic_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	basic_ship_hull_submarine = 1
+	early_ship_hull_cruiser = 1
+	basic_ship_hull_cruiser = 1
+	nrm_battery_basic = 1
+	nrm_battery_early_6 = 1
+	nrm_battery_early_11 = 1
+	nrm_battery_improved_4 = 1
+	nrm_early_antiair = 1
+	nrm_basic_antiair = 1
+	nrm_early_heavy_antiair = 1
+	basic_torpedo = 1
+	early_fire_control_system = 1
+	improved_ship_torpedo_launcher = 1
+	improved_sub_torpedo_launcher = 1
+	coastal_defense_ships = 1
+	coastal_defense_ship_early = 1
+	coastal_defense_ship_basic = 1
+	sonar = 1
+	early_engine = 1
+	early_diesel = 1
+	early_sub_diesel = 1
+	#early_ship_hull_coastal_submarine = 1
+	#basic_ship_hull_coastal_submarine = 1
+	#basic_ship_hull_lr_submarine = 1
+}
+#set_naval_oob = "FIN_1936_naval"
+
+set_technology = {
+	
+	#BICE_airrange_balance = 1
+	building_tech = 1
+	tech_basic_train = 1
+	###################### infantry #########
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	SMG_team = 1
+	SMG_team1 = 1
+	hmg = 1
+	HMG_equipment_infantry_group_tech = 1
+	HMG_equipment_mobile_group_tech = 1
+	HMG_equipment_special_forces_group_tech = 1
+	sniper_team = 1
+	tech_infantry_uniforms = 1
+	tech_Garrison = 1
+	tech_Headquarters = 1
+	############## artillery ############
+	gw_artillery = 1	
+	interwar_artillery = 1
+	interwar_antiair = 1
+	############## support ############
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	subtech_recon_cav_1 = 1
+	############## economy ################
+	environmental_recognition = 1
+	improved_glass_optics = 1
+	############### aircraft #############
+	#generic_fighter = 1
+	early_fighter = 1
+	#generic_bomber = 1
+	#generic_strategic_bomber = 1
+	early_CAS = 1
+	############### ww1 doctrines #############
+	ww1_infantry = 1
+	infantry_charge = 1
+	small_unit_raids = 1
+	night_patrols = 1
+	dispersed_infantry_attacks = 1
+	infiltration_attacks = 1
+	
+	complex_trench_systems = 1
+	offensive_trenches = 1
+	defensive_trenches = 1
+	reserve_trenches = 1
+	communication_trenches = 1
+	logistics_trenches = 1
+	barbed_wire = 1
+	pillboxes = 1
+	sniper_pits = 1
+	nomans_land_saps = 1
+
+	basic_MG_defences = 1
+	multiple_MG_nests = 1
+	enfilade_MG_fire_fields = 1
+	infantry_MG_coordination = 1
+	
+	ww1_artillery = 1
+	artillery_concentration = 1
+	offensive_prep_fire = 1
+	continuous_fire = 1
+	harassment_fire = 1
+	rear_area_bombardment = 1
+	dummy_barrage = 1
+	standing_barrage = 1
+	box_barrage = 1
+	block_barrage = 1
+	creeping_barrage = 1
+	rolling_barrage = 1
+	
+	artillery_observers = 1
+	balloon_observers = 1
+	aircraft_observers = 1
+	
+	foot_runners = 1
+	carrier_pidgeons = 1
+	telephone_communications = 1
+	
+	mobile_doctrines = 1
+	cavalry_charges = 1
+	cavalry_dismounting = 1
+	cavalry_exploitation = 1
+	armored_car_recon = 1
+	motorcycle_liaison = 1
+	staff_officer_vehicles = 1
+	
+	
+	ww1_battlefield_support = 1
+	battlefield_commissions = 1
+	weather_reporting = 1
+	terrain_mapping = 1	
+	camouflage_positions = 1
+	first_aid_stations = 1
+	
+	WW1_air_power = 1
+	WW1_air_survey = 1
+	WW1_air_control = 1
+	WW1_air_bomb = 1
+	############### naval doctrines ##################
+	nrm_pre_ww1_naval_doctrine = 1
+	nrm_mahanian_concepts = 1
+	nrm_jeune_ecole_concepts = 1
+	nrm_commerce_warfare = 1
+	nrm_battlefleet_concentration = 1
+	nrm_cruiser_warfare = 1
+	nrm_cruiser_battleline_support = 1
+	nrm_cruiser_flotilla_leader = 1
+	nrm_independent_cruiser_operation = 1
+	nrm_destroyer_support = 1
+	nrm_destroyer_screen = 1
+	nrm_destroyer_torpedo_tactics = 1
+	nrm_submarine_tactics_early = 1
+	nrm_submarine_raiding = 1
+	nrm_submarine_torpedo_tactics = 1
+}
+
+add_ideas = { 	
+	export_focus
+	tax_average
+	tariffs_average
+	
+	civilian_economy
+	press_free
+	private_control
+	labor_allowed
+	fdi_regulated
+	
+	cons_volunteer
+	foreign_volunteers
+	mob_reserve
+	train_medium
+	age_19
+	officer_train_low
+	security_liberty_first
+	edu_high
+	foreign_neutral
+	
+	FIN_communism_banned
+	sisu
+	EST_military_cooperation
+	basic_diet
+}
+give_military_access = EST
+add_opinion_modifier = { target = SWE modifier = SWE_aland_convention }
+add_manpower = 25000
+
+recruit_character = FIN_vilho_annala
+recruit_character = FIN_vaino_tanner
+recruit_character = FIN_juho_kusti_paasikivi
+recruit_character = FIN_kyosti_kallio
+recruit_character = FIN_aimo_aaltonen
+recruit_character = FIN_toivo_kivimaki
+recruit_character = FIN_aimo_cajander
+recruit_character = FIN_risto_ryti
+recruit_character = FIN_carl_gustaf_mannerheim
+recruit_character = FIN_erik_heinrichs
+recruit_character = FIN_vilho_petter_nenonen
+recruit_character = FIN_karl_oesch
+recruit_character = FIN_hugo_osterman
+recruit_character = FIN_heiskanen_ka
+#recruit_character = FIN_ignatius
+#recruit_character = FIN_laatikainen
+#recruit_character = FIN_harald_ohquist
+#recruit_character = FIN_martinwetzer
+#recruit_character = FIN_martola
+#recruit_character = FIN_lauri_tiainen
+recruit_character = FIN_lauri_malmberg
+recruit_character = FIN_talvela
+recruit_character = FIN_tapola
+recruit_character = FIN_eero_rahola
+recruit_character = FIN_olavi_arho
+recruit_character = FIN_mikko_jarvinen
+recruit_character = FIN_ahti_helminen
+recruit_character = FIN_pehr_evind
+recruit_character = FIN_rudolf_holsti
+recruit_character = FIN_vaino_voionmaa
+recruit_character = FIN_urho_kekkonen
+recruit_character = FIN_bruno_salmiala
+recruit_character = FIN_ernst_born
+recruit_character = FIN_kaarlo_hillila
+recruit_character = FIN_hannes_ryoma
+recruit_character = FIN_juho_niukkanen
+recruit_character = FIN_rainer_fieandt
+recruit_character = FIN_heikki_niskanen
+recruit_character = FIN_ilmari_killinen
+recruit_character = FIN_jaakko_keto
+recruit_character = FIN_pekka_heikkinen
+recruit_character = FIN_pietari_salmenoja
+recruit_character = FIN_oskari_mantere
+recruit_character = FIN_uuno_hannula
+recruit_character = FIN_karl_fagerholm
+recruit_character = FIN_paavo_susitaival
+recruit_character = FIN_antti_hackzell
+recruit_character = FIN_akseli_anttila
+recruit_character = FIN_vaino_valve
+recruit_character = FIN_jarl_lundqvist
+recruit_character = FIN_olavi_sarko
+recruit_character = FIN_valio_porvari
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1933.7.1"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+	conservatism = 10.4
+	agrarianism = 22.4
+	fascism = 8.4
+	communism = 0.2
+	neutrality = 2.5
+	monarchism = 0
+	socialism = 38.6
+	liberalism = 17.5
+}
+
+activate_advisor = FIN_pehr_evind_head_of_state
+###################################################
+## DNM Variants
+###################################################
+
+# Submarines #
+create_equipment_variant = {
+	name = "Vetehinen Class"
+	type = nrm_ship_hull_submarine_small_2
+	name_group = FIN_SS_HISTORICAL
+	parent_version = 0
+	show_position = no
+	role_icon_index = 115
+	modules = {
+		fixed_ship_sub_hull_slot = nrm_submarine_hull_small_2
+		fixed_ship_engine_slot = nrm_submarine_engine_D1_012
+		fixed_ship_sonar_slot = nrm_submarine_sonar_1
+		fixed_ship_noise_slot = nrm_submarine_noise_0
+		fixed_ship_subdivision_slot = nrm_subdivision_1
+		fixed_ship_damagecontrol_slot = nrm_damagecontrol_1
+		fixed_ship_range_slot = nrm_range_submarine_small_0h
+		fixed_ship_radar_slot = empty
+		fixed_ship_battery_slot = nrm_submarine_deckgun_3
+		fixed_ship_anti_air_slot = empty
+		fixed_ship_torpedo_slot = nrm_submarine_TRP_21_1_x4
+		fixed_ship_torpedo_2_slot = empty
+		custom_slot_1 = nrm_submarine_ML_1
+	}
+	design_team = mio:FIN_crichton_vulcan_organization
+}
+create_equipment_variant = {
+	name = "Vesikko Class"
+	type = nrm_ship_hull_submarine_small_2
+	name_group = FIN_SS_HISTORICAL
+	parent_version = 0
+	show_position = no
+	role_icon_index = 120
+	modules = {
+		fixed_ship_sub_hull_slot = nrm_submarine_hull_small_2
+		fixed_ship_engine_slot = nrm_submarine_engine_D1_008
+		fixed_ship_sonar_slot = nrm_submarine_sonar_1
+		fixed_ship_noise_slot = nrm_submarine_noise_0
+		fixed_ship_subdivision_slot = nrm_subdivision_1
+		fixed_ship_damagecontrol_slot = nrm_damagecontrol_1
+		fixed_ship_range_slot = nrm_range_submarine_small_0h
+		fixed_ship_radar_slot = empty
+		fixed_ship_battery_slot = empty
+		fixed_ship_anti_air_slot = empty
+		fixed_ship_torpedo_slot = nrm_submarine_TRP_18_1_x3
+		fixed_ship_torpedo_2_slot = nrm_submarine_TRP_18_1_x2
+		custom_slot_1 = empty
+	}
+	design_team = mio:FIN_crichton_vulcan_organization
+}
+# Escorts
+create_equipment_variant = {
+	name = "Karjala Class"
+	type = nrm_ship_hull_light_1
+	name_group = FIN_PC_HISTORICAL
+	parent_version = 0
+	show_position = no
+	role_icon_index = 21
+	modules = {
+		fixed_ship_hullform_slot = nrm_ship_hullform_light_1
+		fixed_ship_engine_slot = nrm_destroyer_engine_S0_001
+		fixed_ship_sonar_slot = empty
+		fixed_ship_battery_slot = nrm_destroyer_battery_3_1_x2
+		fixed_ship_subdivision_slot = nrm_subdivision_1
+		fixed_ship_damagecontrol_slot = nrm_damagecontrol_1
+		fixed_ship_range_slot = nrm_range_light_0h
+		fixed_ship_radar_slot = empty
+		fixed_ship_fire_control_system_slot = nrm_fire_control_1
+		fixed_ship_fire_control_system_aa_slot = empty
+		custom_slot_1 = nrm_support_destroyer_ML_1
+		custom_slot_2 = empty
+		custom_slot_3 = nrm_support_destroyer_HAA_1
+		custom_slot_5 = empty
+		custom_slot_6 = empty
+	}
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Hämeenmaa Class"
+	type = nrm_ship_hull_light_1
+	name_group = FIN_PC_HISTORICAL
+	parent_version = 0
+	show_position = no
+	role_icon_index = 21
+	modules = {
+		fixed_ship_hullform_slot = nrm_ship_hullform_light_1
+		fixed_ship_engine_slot = nrm_destroyer_engine_S0_001
+		fixed_ship_sonar_slot = empty
+		fixed_ship_battery_slot = nrm_destroyer_battery_4_1_x2
+		fixed_ship_subdivision_slot = nrm_subdivision_1
+		fixed_ship_damagecontrol_slot = nrm_damagecontrol_1
+		fixed_ship_range_slot = nrm_range_light_0h
+		fixed_ship_radar_slot = empty
+		fixed_ship_fire_control_system_slot = nrm_fire_control_1
+		fixed_ship_fire_control_system_aa_slot = empty
+		custom_slot_1 = empty
+		custom_slot_2 = empty
+		custom_slot_3 = nrm_support_destroyer_HAA_1
+		custom_slot_5 = empty
+		custom_slot_6 = empty
+	}
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Louhi Class"
+	type = nrm_ship_hull_light_2
+	name_group = FIN_MINELAYERS_HISTORICAL
+	parent_version = 0
+	show_position = no
+	role_icon_index = 113
+	modules = {
+		fixed_ship_hullform_slot = nrm_ship_hullform_light_2
+		fixed_ship_engine_slot = nrm_destroyer_engine_S0_001
+		fixed_ship_sonar_slot = empty
+		fixed_ship_battery_slot = nrm_destroyer_battery_3_1_x2
+		fixed_ship_subdivision_slot = nrm_subdivision_1
+		fixed_ship_damagecontrol_slot = nrm_damagecontrol_1
+		fixed_ship_range_slot = nrm_range_light_0h
+		fixed_ship_radar_slot = empty
+		fixed_ship_fire_control_system_slot = nrm_fire_control_1
+		fixed_ship_fire_control_system_aa_slot = empty
+		custom_slot_1 = nrm_support_destroyer_ML_1
+		custom_slot_2 = nrm_support_destroyer_ML_1
+		custom_slot_3 = empty
+		custom_slot_5 = empty
+		custom_slot_6 = empty
+	}
+}
+# Heavy Cruisers #
+create_equipment_variant = {
+	name = "Väinämöinen Class"
+	type = nrm_ship_hull_cruiser_coastal_2
+	name_group = FIN_CA_HISTORICAL
+	parent_version = 0
+	show_position = no
+	role_icon_index = 50
+	modules = {
+		fixed_ship_hullform_slot = nrm_ship_hullform_cruiser_2
+		fixed_ship_engine_slot = nrm_cruiser_engine_D1_005
+		fixed_ship_armor_layout_slot = nrm_armour_layout_2
+		fixed_ship_armor_slot = nrm_cruiser_armour_02_1
+		fixed_ship_subdivision_slot = nrm_subdivision_1
+		fixed_ship_damagecontrol_slot = nrm_damagecontrol_1
+		fixed_ship_range_slot = nrm_range_cruiser_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_fire_control_system_slot = nrm_fire_control_3
+		fixed_ship_fire_control_system_aa_slot = empty
+		fixed_ship_battery_slot = nrm_cruiser_battery_PB_11_1_2x2
+		fixed_ship_tertiary_slot = nrm_cruiser_tertiary_HA_4_2_x08
+		custom_slot_1 = empty
+		custom_slot_2 = empty
+		custom_slot_3 = nrm_support_cruiser_HAA_1
+		custom_slot_5 = nrm_support_cruiser_AA_2
+		custom_slot_6 = empty
+	}
+	design_team = mio:FIN_crichton_vulcan_organization
+}
+add_opinion_modifier = {
+    target = HUN
+    modifier = old_friend
+}
+### EOF ###

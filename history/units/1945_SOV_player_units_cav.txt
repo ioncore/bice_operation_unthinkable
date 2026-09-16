@@ -19,11 +19,13 @@
         # - 14th Guards Cav Division      - Brest (3392)
         # - 16th Guards Cav Division      - Brest (3392)
         # - 17th Guards Cav Division      - GOSVG (3535)
-        # - 1st Cav Division              - Iran (10837)
-        # - 23rd Cav Division             - Iran (10837)
-        # - 39th Cav Division             - Iran (10837)
+        # - 1st Cav Division              - Tabriz (1896)
+        # - 23rd Cav Division             - Khoy (1636)
+        # - 39th Cav Division             - ? (7604)
         # - 59th Cav Division (KMG)       - Chengde (881)
         # - 84th Cav Division (1st Front) - Hamgyong (6944)
+        #
+        # - 7th Cavalry Regiment          - Kyzyl (10627)
         #
 
 units = {
@@ -164,7 +166,7 @@ units = {
             is_name_ordered = yes
             name_order = 1
         }
-        location = 10837
+        location = 1896
         division_template = "Cavalry Division 1945"
         start_experience_factor = 0.8
         start_equipment_factor = 0.8
@@ -175,7 +177,7 @@ units = {
             is_name_ordered = yes
             name_order = 23
         }
-        location = 10837
+        location = 7604
         division_template = "Cavalry Division 1945"
         start_experience_factor = 0.8
         start_equipment_factor = 0.8
@@ -186,7 +188,7 @@ units = {
             is_name_ordered = yes
             name_order = 39
         }
-        location = 10837
+        location = 7602
         division_template = "Cavalry Division 1945"
         start_experience_factor = 0.8
         start_equipment_factor = 0.8
@@ -210,6 +212,18 @@ units = {
         }
         location = 6989
         division_template = "Cavalry Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 7
+        }
+        location = 10627
+        division_template = "Cavalry Regiment 1945"
         start_experience_factor = 0.8
         start_equipment_factor = 0.8
         start_manpower_factor = 0.8

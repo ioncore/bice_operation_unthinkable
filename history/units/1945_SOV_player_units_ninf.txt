@@ -8,9 +8,9 @@
         #
         # 1 Marine Division + 4 Marine Brigades
         # - 1st Marine Division              - Porkkala-Udd (11105), should be Hanko (11211) for exclave reasons
-        # - 12th Marine Brigade              - Petsamo? (9116)
+        # - 12th Marine Brigade              - Murmansk? (3134)
         # - 13th Guards Marine Brigade       - Kurils? (1399)
-        # - 63rd Marine Brigade              - Petsamo? (9116)
+        # - 63rd Marine Brigade              - Murmansk? (3134)
         # - 260th Marine Brigade             - Sevastopol (3686)
         #
         # Directives from 11.1945 - 1.1946 3 MBr:
@@ -35,7 +35,7 @@ units = {
             is_name_ordered = yes
             name_order = 12
         }
-        location = 9116
+        location = 3134
         division_template = "Naval Infantry Brigade 1945"
         start_experience_factor = 0.8
         start_equipment_factor = 0.8
@@ -54,7 +54,7 @@ units = {
             is_name_ordered = yes
             name_order = 63
         }
-        location = 9116
+        location = 3134
         division_template = "Naval Infantry Brigade 1945"
         start_experience_factor = 0.8
         start_equipment_factor = 0.8

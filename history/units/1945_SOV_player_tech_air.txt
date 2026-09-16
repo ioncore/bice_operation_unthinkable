@@ -4,7 +4,19 @@
 
 # TODO
 # - fix Yak-3k and Su-6Tk mixed up
+# - rename Tu-2F in Tu-6?
 # - Su-2 based recon
+# - Il-2KR based recon
+# - Yak-9R recon
+# - Su-12 recon
+# - Tu-78 recon (Tu-14-based)
+# - Il-28R
+# - MiG-15Rbis
+# - MiG-17R
+# - Yak-25R
+# - Yak-27R
+# - Tu-16R
+# - Yak-25RV
 # - multiple Il-10 variants
 
 instant_effect = {
@@ -123,10 +135,10 @@ instant_effect = {
             tech_r_5_scout_equipment_2 = 1
             tech_r_10_scout_equipment_1 = 1
             tech_pe_2_scout_equipment_1 = 1
-            tech_tu_2_scout_equipment_1 = 1
-            tech_tu_2_scout_equipment_2 = 1
+            #tech_tu_2_scout_equipment_1 = 1 # Tu-2R
+            #tech_tu_2_scout_equipment_2 = 1 # Tu-2F
         }
-   # }
+   }
 
 #    enable_equipments = {
 #        # Light Fighters

@@ -24,21 +24,20 @@ instant_effect = {
     SLOT:ww1_land_doctrine_folder = yes
     SLOT:land_doctrine_folder = yes
     
-    add_tech_bonus = {
-        name = SOV_mortar_prototype
-        bonus = 1.25
-        uses = 1
-        technology = mortars
-    }
+    SOV = {
+            load_oob = "1945_SOV_player_tech"                
+            load_oob = "1945_SOV_player_tech_armor"
+            load_oob = "1945_SOV_player_tech_air"
+    }    
 
 	add_equipment_to_stockpile = {
-		type = "mechanized_equipment"
+		type = "mechanized_equipment_1"
 		amount = 1000
 		producer = ENG
         owner = ENG
 	}
 	add_equipment_to_stockpile = {
-		type = "mechanized_equipment"
+		type = "mechanized_equipment_1"
 		amount = 1000
 		producer = USA
         owner = USA
@@ -47,24 +46,7 @@ instant_effect = {
 ######################################################
 ##### 	  PLAYER AND AI HAVE SEPERATE  OOBS 	 #####
 ######################################################
-#	if = {
-#		limit = {
-#			SOV = { is_ai = yes }
-#		}
-#		SOV = {
-#			#set_country_flag = SOV_AI
-#			load_oob = "1945_SOV_AI"
-#		}
-#	}
-#    if = {
-#        limit = {
-#            SOV = { is_ai = no }
-#        }
-        SOV = {
-            load_oob = "1945_SOV_player_tech"                
-            load_oob = "1945_SOV_player_tech_armor"
-            load_oob = "1945_SOV_player_tech_air"
-
+    SOV = {
             load_oob = "1945_SOV_player_units_templates"
             load_oob = "1945_SOV_player_units_tank"
             load_oob = "1945_SOV_player_units_mech"
@@ -74,14 +56,14 @@ instant_effect = {
             load_oob = "1945_SOV_player_units_aslt"
             load_oob = "1945_SOV_player_units_far_east"
 
-            load_oob = "1945_SOV_player_air_transbaykal"
+            load_oob = "1945_SOV_player_air_far_east"
             load_oob = "1945_SOV_player_air_pvo"
-        }
-#    }
-#    if = {
-#        limit = { has_dlc = "La Resistance" }
-#        SOV = { load_oob = "1945_SOV_player_air_recon" }
-#    }  
+            load_oob = "1945_SOV_player_air_internal"
+    }
+    if = {
+        limit = { has_dlc = "La Resistance" }
+        SOV = { load_oob = "1945_SOV_player_air_recon" }
+    }  
 }
 
 ### EOF ###

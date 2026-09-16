@@ -1,0 +1,367 @@
+##########################################
+##### SOVIET PLAYER AIR FAR EAST OOB #####
+##########################################
+
+# Baku      - 229
+# Yerevan   - 230
+# Tbilisi   - 231
+# Grozny    - 232
+# Caucasus  - 233
+# Krasnodar - 234
+# Stavropol - 235
+
+# Tabriz    - 419
+# Hamadan   - 266
+
+# Turkmenistan - 584
+# Tashkent     - 405
+# Tajikistan   - 742
+# Kyrgyzstan   - 732
+# Bishkek      - 586
+
+air_wings = {
+
+# White Sea MD:
+#
+# - 17/261th Guards Assault Rgt (Il-2)  - Petrozavodsk (216)
+# - 668/261th Assault Rgt (Il-2)        - Afrikanda (945)
+# - 694/261th Assault Rgt (Il-2)        - Petrozavodsk? (216)
+#
+# - 19/16th Guards Fighter Rgt (P-39)   - Petrozavodsk (216)
+# - 20/16th Guards Fighter Rgt (P-39)   - Petrozavodsk (216)
+# - 152/16th Fighter Rgt (P-40)         - Derevyannoye (216)
+# - 773/16th Fighter Rgt (P-39)         - Derevyannoye (216)
+#
+
+    216 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="17-y Gv.ShAP"
+        start_experience_factor = 0.16
+    }
+    945 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="668-y ShAP"
+        start_experience_factor = 0.16
+    }
+    216 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="694-y ShAP"
+        start_experience_factor = 0.16
+    }
+
+    216 = { 
+        bell_p39_equipment_2 = {
+            owner = "SOV"
+            creator = "USA"
+            amount = 32
+        }
+        name="19-y Gv.IAP"
+        start_experience_factor = 0.16
+    }
+    216 = { 
+        bell_p39_equipment_2 = {
+            owner = "SOV"
+            creator = "USA"
+            amount = 32
+        }
+        name="20-y Gv.IAP"
+        start_experience_factor = 0.16
+    }
+    216 = { 
+        curtiss_p40_equipment_2 = {
+            owner = "SOV"
+            creator = "USA"
+            amount = 32
+        }
+        name="152-y IAP"
+        start_experience_factor = 0.16
+    }
+    216 = { 
+        bell_p39_equipment_2 = {
+            owner = "SOV"
+            creator = "USA"
+            amount = 32
+        }
+        name="773-y IAP"
+        start_experience_factor = 0.16
+    }
+
+# Belarussian-Lithuanian MD:
+#
+# - 272nd Fighter Rgt (La-5)    - Minsk? (206)
+
+206 = { 
+        lagg_5_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="272-y IAP"
+        start_experience_factor = 0.16
+    }
+
+# Kiev MD:
+#
+# - 25/15th Guards Assault Rgt (Il-2)    - Kirovograd (226)
+# - 60/15th Guards Assault Rgt (Il-2)    - Kirovograd (226)
+# - 61/15th Guards Assault Rgt (Il-2)    - Kirovograd (226)
+# - 77/15th Guards Assault Rgt (Il-2)    - Kirovograd (226)
+#
+# - 245th Assault Rgt (Il-2)            - Boryspol? (202)
+# - 51st Fighter Rgt (La-5)             - Boryspol? (202)
+# - 3rd Transport Rgt (Li-2)            - Boryspol? (202)
+    
+    226 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="25-y 'Moskovskiy' Gv.ShAP"
+        start_experience_factor = 0.16
+    }
+    226 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="60-y 'Stalingradskiy' Gv.ShAP"
+        start_experience_factor = 0.16
+    }
+    226 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="61-y 'Donskoy' Gv.ShAP"
+        start_experience_factor = 0.16
+    }
+    226 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="71-y 'Sevastopolskiy' Gv.ShAP"
+        start_experience_factor = 0.16
+    }
+
+    202 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="245-y ShAP"
+        start_experience_factor = 0.16
+    }
+    202 = { 
+        lagg_5_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="51-y IAP"
+        start_experience_factor = 0.16
+    }
+    202 = { 
+        li_2_transport_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="3-y TRAP"
+        start_experience_factor = 0.16
+    }
+
+# Orel MD:
+#
+# - 1000th Assault Rgt (Il-2)    - Orel? (222)
+
+    222 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="1000-y ShAP"
+        start_experience_factor = 0.16
+    }
+
+# Kharkov MD:
+#
+# - 620th Assault Rgt (Il-2)        - Kharkov? (221)
+# - 254th Fighter Rgt (La-5)        - Kharkov? (221)
+# - 896th Fighter Rgt (Yak-9)       - Kharkov? (221)
+# - 926th Fighter Rgt (La-5)        - Kharkov? (221)
+#
+
+    221 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="620-y ShAP"
+        start_experience_factor = 0.16
+    }
+    221 = { 
+        lagg_5_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="254-y IAP"
+        start_experience_factor = 0.16
+    }
+    221 = { 
+        yak_9_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="896-y 'Kurskiy' IAP"
+        start_experience_factor = 0.16
+    }
+    221 = { 
+        lagg_5_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="926-y IAP"
+        start_experience_factor = 0.16
+    }
+
+# Volga MD:
+#
+# - 217th Assault Rgt (Il-2)    - Kuybyshev? (251)
+# - 220th Mixed Rgt (Yak-7)     - Kuybyshev? (251)
+#
+
+    251 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="217-y ShAP"
+        start_experience_factor = 0.16
+    }
+    251 = { 
+        yak_7_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="220-y SAP"
+        start_experience_factor = 0.16
+    }
+
+# Transcaucasian Front:
+#
+# - 25th Fighter Rgt (P-39)     - Yerevan (230)
+# - 167th Fighter Rgt (Yak-7)   - Gorgan (266)
+# - 492nd Assault Rgt (Il-2)    - ? (266)
+
+    230 = { 
+        bell_p39_equipment_2 = {
+            owner = "SOV"
+            creator = "USA" 
+            amount = 32
+        }
+        name="25-y IAP"
+        start_experience_factor = 0.16
+    }
+    266 = { 
+        yak_7_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="167-y IAP"
+        start_experience_factor = 0.16
+    }
+    266 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="492-y ShAP"
+        start_experience_factor = 0.16
+    }
+
+# Middle Asian MD:
+#
+# - 167/238th Fighter Rgt (Yak-7)   - Gorgan (266)
+# - 364/238th Fighter Rgt (Yak-9)   - Ashkhabad (584)
+# - 379/238th Fighter Rgt (Yak-7)   - Ashkhabad (584)
+# - 380/238th Fighter Rgt (Yak-7)   - Ashkhabad (584)
+#
+# - 381/333rd Assault Rgt (Il-2)    - Frunze (586)
+# - 905/333rd Assault Rgt (Il-2)    - Frunze (586)
+# - 944/333rd Assault Rgt (Il-2)    - Frunze (586)
+# - 954/333rd Assault Rgt (Il-2)    - Frunze (586)
+
+    266 = { 
+        yak_7_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="167-y IAP"
+        start_experience_factor = 0.16
+    }
+    584 = { 
+        yak_9_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="364-y IAP"
+        start_experience_factor = 0.16
+    }
+    584 = { 
+        yak_7_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="379-y IAP"
+        start_experience_factor = 0.16
+    }
+    584 = { 
+        yak_7_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="380-y IAP"
+        start_experience_factor = 0.16
+    }
+
+    586 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="381-y ShAP"
+        start_experience_factor = 0.16
+    }
+    586 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="905-y ShAP"
+        start_experience_factor = 0.16
+    }
+    586 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="944-y ShAP"
+        start_experience_factor = 0.16
+    }
+    586 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="954-y ShAP"
+        start_experience_factor = 0.16
+    }
+
+}

@@ -1,0 +1,40 @@
+
+state={
+	resources = {
+		food = 10
+	}
+
+
+	id=189
+	name="STATE_189"
+	
+	manpower = 697100
+	
+	local_supplies=0.0
+	state_category = town
+	
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 5
+			air_base = 1
+			steel_refinery = 2
+			6314 = {
+				naval_base = 1
+			}			
+		}
+
+		set_variable = { vp_value = 1 } 
+		set_variable = { highest_vp = 1 } 
+
+		add_core_of = LIT
+		
+		
+		victory_points = { 9483 1 }
+	}
+
+	provinces={
+		530 3337 3354 6229 6314 6360 6376 9483 9499 9731 
+	}
+}

@@ -1,0 +1,875 @@
+﻿capital = 896
+
+#oob = "GER_1936"
+history_initialisation = yes
+
+set_research_slots = 2
+
+set_convoys = 540
+
+set_stability = 0.8
+
+set_war_support = 0.4
+
+set_country_flag = GER_armor
+set_country_flag = GER_armor_techs
+set_country_flag = GER_armor_actual
+set_country_flag = GER_air
+
+set_country_flag = party_banned@communism
+add_to_array = { party_banned = token:communism }
+
+country_event = { id = news.2237 days = 5}
+country_event = { id = germany.279 days = 762 } #Germany.txt
+country_event = { id = wtt_germany.27 days = 3000 random_days = 1000 }
+country_event = { id = blackiceevents.2 days = 1826 } #failsafe for HUN to join axis
+country_event = { id = blackiceevents.4 days = 1830 } #failsafe for ROM to join axis
+country_event = { id = germany.280 days = 778 } #280 Replace Goering by Funk
+country_event = { id = germany.300 days = 1978 } #Wilhelm II dies
+country_event = { id = germany.30 days = 761 random_days = 25 } #Focke Wolf Fw-61 flight
+country_event = { id = blackiceairevents.1 days = 154 }
+
+news_event = { id = news.2241 days = 670}
+news_event = { id = news.2263 days = 1981 }
+news_event = { id = news.51 days = 490 random_days = 500 }
+news_event = { id = news.66 days = 213 }
+
+
+set_variable = { allowed_MR = 1 }
+set_variable = { 
+	var = allied_anger 
+	value = 0
+}
+set_variable = { var = atlantikwall_construction_time value = 56 }
+set_variable = { var = ostwall_construction_time value = 35 }
+set_variable = { var = westwall_construction_time value = 28 }
+
+add_breakthrough_progress = {
+	specialization = specialization_land
+	value = 0.4
+}
+
+add_breakthrough_progress = {
+	specialization = specialization_air
+	value = 0.4
+}
+
+add_breakthrough_progress = {
+	specialization = specialization_naval
+	value = 0.1
+}
+
+add_breakthrough_progress = {
+	specialization = specialization_electronics
+	value = 0.2
+}
+
+add_ideas = tank_design_tech
+add_equipment_bonus = {
+	name = tank_design_tech
+		
+	bonus = {
+		armor = {
+			build_cost_ic = -0.01 instant = yes
+		}
+	}
+}
+
+set_technology = {
+	### SUBS and SHIPS ###
+	mtg_transport = 1
+	### Submarines ###
+	early_ship_hull_submarine = 1
+	basic_ship_hull_submarine = 1
+	improved_ship_hull_submarine = 1
+	### Destroyer DD ###
+	early_ship_hull_light = 1
+	basic_ship_hull_light = 1
+	### Cruisers CL/CA ###
+	early_ship_hull_cruiser = 1
+	basic_ship_hull_cruiser = 1
+	improved_ship_hull_cruiser = 1
+	### Smoke generator
+	smoke_generator = 1
+	### Depth Charges
+	basic_depth_charges = 1
+	improved_depth_charges = 1
+	### Sonar
+	sonar = 1
+	improved_sonar = 1
+	improved_sonar_2 = 1
+	### Cruiser Armor schemes ###
+	basic_cruiser_armor_scheme = 1
+	improved_cruiser_armor_scheme = 1
+	### Capital ships ###
+	early_ship_hull_heavy = 1
+	basic_ship_hull_heavy = 1
+	improved_ship_hull_heavy = 1
+	### Capital ship Armor schemes ###
+	basic_heavy_armor_scheme = 1
+	### Carriers ###
+	### Country specfic ships ###
+	panzerschiffe = 1
+	panzerschiffe_improved = 1
+	pre_dreadnoughts = 1
+	### Naval techs ###
+	basic_naval_mines = 1
+	submarine_mine_laying = 1
+	early_fire_control_system = 1
+	basic_fire_control_system = 1
+	nrm_battery_basic = 1
+	nrm_battery_early_6 = 1
+	nrm_battery_early_8 = 1
+	nrm_battery_early_11 = 1
+	nrm_battery_early_12 = 1
+	nrm_battery_early_14 = 1
+	nrm_battery_early_15 = 1
+	nrm_battery_early_16 = 1 #L20a Guns
+	nrm_battery_improved_4 = 1
+	nrm_battery_improved_5 = 1
+	nrm_battery_improved_6 = 1
+	nrm_battery_improved_8 = 1
+	nrm_battery_improved_11 = 1
+	nrm_battery_improved_12 = 1
+	nrm_battery_improved_15 = 1
+	nrm_battery_advanced_11 = 1
+	nrm_early_antiair = 1
+	nrm_basic_antiair = 1
+	nrm_early_heavy_antiair = 1
+	nrm_basic_heavy_antiair = 1
+	basic_torpedo = 1
+	airplane_launcher = 1
+	improved_ship_torpedo_launcher = 1
+	improved_sub_torpedo_launcher = 1
+	advanced_ship_torpedo_launcher = 1
+	advanced_sub_torpedo_launcher = 1
+	early_engine = 1
+	improved_engine = 1
+	early_diesel = 1
+	large_diesel = 1
+	early_sub_diesel = 1
+	damage_control_1 = 1
+	damage_control_2 = 1
+	fire_control_methods_1 = 1
+	fire_control_methods_2 = 1
+	basic_light_shell = 1
+	basic_medium_shell = 1
+	basic_heavy_shell = 1
+	improved_heavy_shell = 1
+}
+set_naval_oob = "GER_1936_naval"
+add_tech_bonus = {
+	name = Akagi_Blueprints
+	bonus = 1.0
+	uses = 1
+	category = cv_tech
+}
+activate_mission = GER_mefo_bills_mission
+
+add_tech_bonus = {
+	name = tech_trm_special_smoke_discharger
+	ahead_reduction = 3
+	uses = 1
+	technology = tech_trm_special_smoke_discharger
+}
+add_tech_bonus = {
+	name = tech_trm_special_stabilizer
+	ahead_reduction = 1
+	uses = 1
+	technology = tech_trm_special_stabilizer
+}
+add_tech_bonus = {
+	name = tank_radio2
+	ahead_reduction = 2
+	uses = 1
+	technology = tank_radio2
+}
+
+unlock_tactic = tactic_breakthrough #from blitzkrieg tech
+
+# Starting tech
+set_technology = {
+	
+	building_tech = 1
+	tech_basic_train = 1
+	######### infantry ##########
+	tech_mountaineers = 1
+	semi_motorised_infantry = 1
+	motorcycle_infantry_unit = 1
+	hmg = 1
+	HMG_equipment_infantry_group_tech = 1
+	HMG_equipment_mobile_group_tech = 1
+	HMG_equipment_special_forces_group_tech = 1
+	hmg_2 = 1
+	mortars = 1
+	mortar_equipment_infantry_group_tech = 1
+	mortar_equipment_mobile_group_tech = 1
+	mortar_equipment_special_forces_group_tech = 1
+	infantry_guns = 1
+	infantrygun_equipment_infantry_group_tech = 1
+	infantrygun_equipment_mobile_group_tech = 1
+	motorised_infantry = 1
+	tech_infantry_uniforms = 1
+	marines = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	SMG_team = 1
+	tech_Garrison = 1
+	tech_Headquarters = 1
+	########## SS #############
+	#Acitvated by event/decisions
+	ss_infantry_uniforms_tech = 1
+	########### Support ########
+	tech_recon = 1
+	subtech_recon_mot_1 = 1
+	subtech_recon_cav_1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_maintenance_company = 1
+	tech_field_hospital = 1
+	tech_military_police = 1
+	tech_logistics_company = 1
+	############## artillery #######
+	gw_artillery = 1
+	interwar_artillery = 1
+	interwar_medartillery = 1
+	interwar_Hvartillery = 1
+	artillery1 = 1
+	medartillery1 = 1
+	Hvartillery1 = 1
+	#superartillery1 = 1
+	interwar_antiair = 1
+	HVantiair2 = 1
+	interwar_antitank = 1
+	############## economic ###########
+	basic_machine_tools = 1
+	sub_industry = 1
+	Ltaircraft_industry = 1
+	synth_oil_experiments = 1
+	construction1 = 1
+	defence_works = 1
+	civ_works = 1
+	housing_work = 1
+	hospital_work = 1
+	schools_work = 1
+	schools_work2 = 1
+	infra_works = 1
+	rail_infra = 1
+	rail_infra2 = 1
+	road_infra = 1
+	road_infra2 = 1
+	air_infra = 1
+	port_infra = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	environmental_recognition = 1
+	polymerization_theories = 1
+	plastics_i = 1
+	improved_glass_optics = 1
+	modern_microscopes = 1
+	excavation1 = 1
+	direct_chill_casting = 1
+	rubber_processing = 1
+	################ electronic ################
+	electronic_mechanical_engineering = 1
+	HQ_communications = 1
+	tank_radio = 1
+	mechanical_computing = 1
+	#early_turbojet_theories = 1
+	#tech_air_engine_early = 1
+	################ Armor-techs ###########
+	tech_ac_recon = 1
+	tech_ac_recon2 = 1
+	tech_liaison_cars = 1
+	
+	tech_trm_tank_design = 1
+	tech_trm_armour_basic = 1
+	tech_trm_armour_interwar = 1
+	tech_trm_special_improved_optics = 1
+	tech_trm_engine_gasoline_basic_ger = 1
+	tech_trm_engine_gasoline_interwar_ger = 1
+	tech_trm_engine_diesel_basic_ger = 1
+	################ Armor ###########
+	tech_trm_german_armour = 1
+	tech_trm_weapon_c_ger_75_kwk37 = 1
+	tech_trm_light_tank_chassis_ger_panzer1_2 = 1
+	tech_trm_heavy_tank_chassis_ger_neubaufahrzeug_1 = 1
+	################ WW1 doctrines ###########
+	ww1_infantry = 1
+	infantry_charge = 1
+	small_unit_raids = 1
+	night_patrols = 1
+	dispersed_infantry_attacks = 1
+	infiltration_attacks = 1
+	stormtroopers = 1
+	complex_trench_systems = 1
+	offensive_trenches = 1
+	defensive_trenches = 1
+	reserve_trenches = 1
+	communication_trenches = 1
+	logistics_trenches = 1
+	barbed_wire = 1
+	pillboxes = 1
+	sniper_pits = 1
+	nomans_land_saps = 1
+	tunnel_mines = 1
+	fortress_trenches  = 1
+	basic_MG_defences = 1
+	multiple_MG_nests = 1
+	enfilade_MG_fire_fields = 1
+	infantry_MG_coordination = 1
+	Infantry_support_MG_doctrine = 1
+	
+	ww1_artillery = 1
+	artillery_concentration = 1
+	offensive_prep_fire = 1
+	continuous_fire = 1
+	harassment_fire = 1
+	rear_area_bombardment = 1
+	dummy_barrage = 1
+	standing_barrage = 1
+	box_barrage = 1
+	block_barrage = 1
+	creeping_barrage = 1
+	rolling_barrage = 1
+	artillery_observers = 1
+	balloon_observers = 1
+	aircraft_observers = 1
+	foot_runners = 1
+	carrier_pidgeons = 1
+	telephone_communications = 1
+	
+	mobile_doctrines = 1
+	cavalry_charges = 1
+	cavalry_dismounting = 1
+	cavalry_exploitation = 1
+	armor_support = 1
+	infantry_tank_coordination = 1
+	infantry_tank_artillery_coordination = 1
+	anti_tank_traps = 1
+	infantry_AT_defences = 1
+	armored_car_recon = 1
+	motorcycle_liaison = 1
+	staff_officer_vehicles = 1
+	
+	ww1_battlefield_support = 1
+	battlefield_commissions = 1
+	weather_reporting = 1
+	terrain_mapping = 1
+	camouflage_positions = 1
+	AA_positions = 1	
+	first_aid_stations = 1
+	
+	WW1_air_power = 1
+	WW1_air_survey = 1
+	WW1_air_control = 1
+	WW1_air_bomb = 1
+	WW1_air_ground =1
+	WW1_air_naval = 1
+	################ doctrines ###########
+	blitzkrieg = 1
+	formation_flying = 1
+	############### naval doctrines ##################
+	nrm_pre_ww1_naval_doctrine = 1
+	nrm_mahanian_concepts = 1
+	nrm_jeune_ecole_concepts = 1
+	nrm_commerce_warfare = 1
+	nrm_battlefleet_concentration = 1
+	nrm_scouting_force = 1
+	nrm_fleet_formation = 1
+	nrm_cruiser_warfare = 1
+	nrm_cruiser_battleline_support = 1
+	nrm_cruiser_flotilla_leader = 1
+	nrm_independent_cruiser_operation = 1
+	nrm_cruiser_patrols = 1
+	nrm_destroyer_support = 1
+	nrm_destroyer_screen = 1
+	nrm_destroyer_torpedo_tactics = 1
+	nrm_independent_destroyer_operation = 1
+	nrm_trade_protection = 1
+	nrm_submarine_tactics_early = 1
+	nrm_submarine_raiding = 1
+	nrm_submarine_torpedo_tactics = 1
+	nrm_submarine_offensive_operations = 1
+	nrm_submarine_raiding_improved = 1
+	nrm_mine_warfare = 1
+	nrm_naval_aviation = 1
+}
+
+#mio:GER_mauser_organization = {
+#	complete_mio_trait = generic_mio_trait_quality
+#	complete_mio_trait = generic_mio_trait_rof
+#}
+
+#unlock_national_focus = GER_algemeine_ss -switch to enable SS and upgradeable units
+
+add_opinion_modifier = {
+    target = CHI
+    modifier = aided_industry
+}
+add_opinion_modifier = {
+    target = PER
+    modifier = aided_industry
+}
+reverse_add_opinion_modifier = {
+    target = CHI
+    modifier = aided_industry
+}
+#Faction
+create_faction_from_template = faction_template_axis
+add_to_faction = GER
+
+#activate_decision = ban_communist_party
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	conservatism = 4.5
+	agrarianism = 0.5
+	liberalism = 2
+	socialism = 7
+	fascism = 83
+	communism = 3
+}
+##### Intel Agency #####
+if = {
+	limit = { has_dlc = "La Resistance" }
+	create_intelligence_agency = yes
+	upgrade_intelligence_agency = upgrade_form_operations
+	upgrade_intelligence_agency = upgrade_economy_civilian
+	upgrade_intelligence_agency = upgrade_army_department
+	upgrade_intelligence_agency = upgrade_passive_defense
+	upgrade_intelligence_agency = upgrade_form_department
+	upgrade_intelligence_agency = upgrade_crypto_strength
+	create_operative_leader = {
+		name = "Otto Skorzeny"
+		GFX = GFX_portrait_otto_skorenzy
+		traits = { operative_commando }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GER }
+		skill = 2
+	}
+	create_operative_leader = {
+		name = "Nikolaus Ritter"
+		GFX = GFX_portrait_nikolaus_ritter
+		traits = { operative_safe_cracker }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GER }
+		skill = 2
+	}
+	create_operative_leader = {
+		name = "Eleysa Bazna"
+		GFX = GFX_portrait_eleysa_bazna
+		traits = { operative_infiltrator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GER }
+		skill = 2
+	}	
+}
+### country leader ###
+recruit_character = GER_adolf_hitler
+recruit_character = GER_konrad_adenauer
+recruit_character = GER_otto_wels
+recruit_character = GER_wilhelm_iii
+recruit_character = GER_wilhelm_ii
+recruit_character = GER_ernst_thalmann
+### head of state (hos) ###
+recruit_character = GER_franz_von_papen
+#recruit_character = GER_paul_von_lettow_vorbeck
+#recruit_character = GER_hans_jurgen_von_blumenthal
+recruit_character = GER_ludwig_beck
+#recruit_character = GER_heinrich_bruening
+#### Foreign Ministers ###
+recruit_character = GER_joachim_von_ribbentrop
+recruit_character = GER_konstantin_von_neurath
+#### Security Ministers ###
+recruit_character = GER_heinrich_himmler
+recruit_character = GER_reinhard_heydrich
+recruit_character = GER_ernst_kaltenbrunner
+recruit_character = GER_heinrich_muller
+recruit_character = GER_wilhelm_frick
+#recruit_character = GER_karl_arnold
+#recruit_character = GER_helmuth_j_von_moltke
+#recruit_character = GER_robert_lehr
+#recruit_character = GER_rudolf_diels
+#recruit_character = GER_wilhelm_von_gayl
+#### Intell Ministers ###
+recruit_character = GER_wilhelm_canaris
+#recruit_character = GER_hans_dohnanyi
+recruit_character = GER_otto_ohlendorf
+recruit_character = GER_alfred_naujocks
+recruit_character = GER_friedrich_jeckeln
+#### Economic Ministers ###
+recruit_character = GER_hjalmar_schacht
+recruit_character = GER_hermann_goering
+recruit_character = GER_walther_funk
+recruit_character = GER_alfried_krupp
+recruit_character = GER_fritz_todt
+recruit_character = GER_albert_speer
+recruit_character = GER_konstantin_hierl
+recruit_character = GER_georg_thomas
+#### Domestic Ministers ###
+recruit_character = GER_richard_darre
+recruit_character = GER_herbert_backe
+recruit_character = GER_franz_schlegelberger
+recruit_character = GER_hans_kerrl
+recruit_character = GER_bernhard_rust
+recruit_character = GER_wilhelm_ohnesorge
+#### Propaganda Ministers ###
+recruit_character = GER_joseph_goebbels
+#### Political Advisor ###
+recruit_character = GER_rudolf_hess
+recruit_character = GER_martin_bormann
+recruit_character = GER_roland_freisler
+#### Theorist ###
+recruit_character = GER_werner_von_braun
+recruit_character = GER_werner_heisenberg
+recruit_character = GER_walther_wever
+recruit_character = GER_ernst_udet
+recruit_character = GER_otto_ciliax
+
+### SUPREME COMMANDER ###
+recruit_character = GER_werner_von_fritsch
+recruit_character = GER_walther_von_brauchitsch
+
+### CHIEF of ARMY ###
+recruit_character = GER_franz_halder
+#recruit_character = GER_kurt_zeitler
+
+### CHIEF of AIRFORCE ###
+recruit_character = GER_robert_ritter_von_greim
+recruit_character = GER_albert_kesselring
+
+### CHIEF of NAVY ###
+recruit_character = GER_erich_raeder
+recruit_character = GER_karl_donitz
+
+### HIGH COMMAND ###
+recruit_character = GER_hans_georg_von_friedeburg
+recruit_character = GER_oskar_kummetz
+recruit_character = GER_otto_schniewind
+recruit_character = GER_martin_harlinghausen
+
+### corps commanders/advisor
+recruit_character = GER_erich_von_manstein
+recruit_character = GER_heinz_guderian
+recruit_character = GER_walter_model
+recruit_character = GER_fedor_von_bock
+recruit_character = GER_gotthard_heinrici
+recruit_character = GER_schorner_ferdinand
+recruit_character = GER_erwin_rommel
+recruit_character = GER_gerd_von_rundstedt
+# recruit_character = GER_walther_von_seydlitz
+recruit_character = GER_alfred_jodl
+recruit_character = GER_keitel_wilhelm
+
+### air commanders/advisors
+recruit_character = GER_wolfram_freiherr_von_richthofen
+recruit_character = GER_hugo_sperrle
+recruit_character = GER_erhard_milch
+recruit_character = GER_kurt_student
+
+### naval commanders/advisors
+recruit_character = GER_alfred_saalwachter
+recruit_character = GER_gunther_lutjens
+
+### field marshal
+recruit_character = GER_blomberg_werner_e_f_von
+
+### corps commanders
+recruit_character = GER_arnim_hansjurgen_von
+recruit_character = GER_balck_georg_otto_hermann
+# recruit_character = GER_bayerlein_fritz
+recruit_character = GER_blaskowitz_johannes
+recruit_character = GER_brandenberger_erich
+recruit_character = GER_busch_ernst_wilhelm
+# recruit_character = GER_buschenhagen_erich
+recruit_character = GER_bohme_franz
+recruit_character = GER_dietl_eduard
+# recruit_character = GER_dollmann_friedrich
+# recruit_character = GER_esebeck_hanskarl_von
+recruit_character = GER_falkenhorst_nikolaus_von
+# recruit_character = GER_friessner_johannes
+# recruit_character = GER_funck_hans_von
+# recruit_character = GER_haase_curt
+recruit_character = GER_harpe_josef
+recruit_character = GER_hell_ernsteberhard
+recruit_character = GER_hoepner_erich
+recruit_character = GER_hoth_hermann
+recruit_character = GER_hube_hansvalentin
+recruit_character = GER_kleist_paul_ludwig_ewald_von
+recruit_character = GER_kluge_gunther_von
+recruit_character = GER_kuchler_georg_von
+recruit_character = GER_leeb_wilhelm_ritter_von
+# recruit_character = GER_lehmann_rudolf
+# recruit_character = GER_liebmann_curt
+recruit_character = GER_lindemann_georg
+recruit_character = GER_list_wilhelm
+# recruit_character = GER_lucht_walther
+recruit_character = GER_manteuffel_hasso_von
+recruit_character = GER_nehring_walther
+recruit_character = GER_obstfelder_hans_von
+recruit_character = GER_theodor_eicke
+recruit_character = GER_paulus_friedrich
+recruit_character = GER_herman_priess
+recruit_character = GER_raus_erhard
+# recruit_character = GER_recknagel_hermann
+recruit_character = GER_august_meyszner
+recruit_character = GER_fritz_witt
+recruit_character = GER_kurt_meyer
+recruit_character = GER_max_simon
+recruit_character = GER_joachim_peiper
+recruit_character = GER_herberternst_vahl
+recruit_character = GER_oskar_dirlewanger
+recruit_character = GER_reichenau_walter_von
+recruit_character = GER_reinhardt_georghans
+recruit_character = GER_salmuth_hans_eberhard_von
+recruit_character = GER_schmidt_rudolf
+recruit_character = GER_schweppenburg_leo_geyr_von
+recruit_character = GER_heinz_lammerding
+recruit_character = GER_straube_erich
+recruit_character = GER_strauss_adolf
+recruit_character = GER_michael_lippert
+# recruit_character = GER_tippelskirch_kurt_von
+recruit_character = GER_herbert_otto_gille
+recruit_character = GER_vietinghoff_heinrich_von
+recruit_character = GER_weichs_maximilian_von
+# recruit_character = GER_weidling_helmuth
+recruit_character = GER_wenck_walter
+recruit_character = GER_witzleben_erwin_von
+recruit_character = GER_wilhelm_ritter_von_thoma
+recruit_character = GER_valentine_feuerstein
+
+### ss commanders
+recruit_character = GER_kurt_daluege
+recruit_character = GER_demelhuber_karl_maria
+recruit_character = GER_dietrich_sepp
+# recruit_character = GER_fegelein_hermann
+recruit_character = GER_hausser_paul
+# recruit_character = GER_heissmeyer_august
+recruit_character = GER_kruger_walter
+# recruit_character = GER_phleps_artur_martin
+# recruit_character = GER_schulz_friedrich
+recruit_character = GER_steiner_felix_martin_julius
+# recruit_character = GER_waldeck_und_pyrmon_prinz_zu
+
+# recruit_character = GER_SS_arthur_mulverstedt
+recruit_character = GER_SS_wilhelm_bittrich
+recruit_character = GER_SS_matthias_kleinheisterkamp
+recruit_character = GER_SS_erich_bach_zelewski
+# recruit_character = GER_SS_otto_baum
+# recruit_character = GER_SS_alfred_bernhard_wunnenberg
+recruit_character = GER_SS_otto_skorzeny
+
+### air commanders
+# recruit_character = GER_ramcke_hermannbernhard
+
+### naval commanders
+recruit_character = GER_boehm_hermann
+recruit_character = GER_marschall_wilhelm
+recruit_character = GER_loycke_otto
+recruit_character = GER_godt_eberhard_friedrich_clemens
+recruit_character = GER_hartmann_werner
+recruit_character = GER_scheer_werner
+
+recruit_character = GER_peter_adolf_thiessen
+recruit_character = GER_gustav_ludwig_hertz
+recruit_character = GER_eduard_grote
+recruit_character = GER_karl_heinrich_emil_becker
+recruit_character = GER_ferdinand_porsche
+recruit_character = GER_erwin_aders
+recruit_character = GER_hermann_burkhardt
+recruit_character = GER_ulrich_gabler
+recruit_character = GER_hellmuth_walter
+recruit_character = GER_hans_von_ohain
+recruit_character = GER_max_kramer
+recruit_character = GER_kurt_tank
+recruit_character = GER_henrich_focke
+recruit_character = GER_manfred_von_ardenne
+recruit_character = GER_konrad_zuse
+
+activate_advisor = GER_adolf_hitler_head_of_state				#HOS
+activate_advisor = GER_konstantin_von_neurath_foreign_minister 	#FM
+activate_advisor = GER_heinrich_himmler_interior_minister     	#interior
+activate_advisor = GER_wilhelm_canaris_political_advisor      	#intel
+activate_advisor = GER_hjalmar_schacht_economic_minister      	#econ
+activate_advisor = GER_hermann_goering_political_minister      	#poli
+activate_advisor = GER_rudolf_hess_domestic_minister          	#poli
+activate_advisor = GER_werner_von_fritsch_supreme_commander   	#SUPCOM
+activate_advisor = GER_ludwig_beck_army_chief			#ARMYCOM
+activate_advisor = GER_hermann_goering_air_chief	#AIRCOM
+activate_advisor = GER_erich_raeder_navy_chief			#NAVYCOM
+
+
+add_ideas = {
+	sour_loser
+	#general_staff
+	GER_mefo_bills_1
+	GER_CHI_friend	
+	GER_idea_ship_penalty	
+	GER_enabling_act
+	
+	#Laws
+	limited_exports
+	partial_economic_mobilisation
+	labor_allowed
+	foreign_interventionism
+	press_state
+	security_police_state 
+	tax_high
+	edu_high
+	cons_two
+	mob_standing
+	age_18
+	train_high
+	officer_train_high
+
+	major_industries
+	fdi_banned
+	tariffs_high
+	modern_diet
+}
+### HTD Start ###
+set_country_flag = HTD_GER_trm_light_tank_chassis_ger_panzer1_1_a
+set_country_flag = HTD_GER_trm_light_tank_chassis_ger_panzer1_2_a
+set_country_flag = HTD_GER_trm_heavy_tank_chassis_ger_neubaufahrzeug_1_a
+
+### MIO Variants ### - #TESTING
+
+#create_equipment_variant = {
+#	name = "K98k (M)"
+#	type = infantry_equipment_1
+#	design_team = mio:GER_mauser_organization # Optional. accepts mio:token, variable or keyword
+#}
+#create_equipment_variant = {
+#	name = "MG34 (M)"
+#	type = HMG_equipment_1
+#	design_team = mio:GER_mauser_organization # Optional. accepts mio:token, variable or keyword
+#}
+
+
+
+
+### Tank Variants ###
+create_equipment_variant = {
+	name = "PzKpfw I A"
+	type = trm_light_tank_chassis_ger_panzer1_1
+	parent_version = 0
+	show_position = no
+	modules = {
+		fixed_trm_tank_turret_slot = trm_light_tank_ger_panzer1_turret_1
+		fixed_trm_tank_main_gun_slot = trm_weapon_mg_ger_mg13_x2
+		fixed_trm_tank_ammunition_slot = empty
+		fixed_trm_tank_coax_gun_slot = empty
+		fixed_trm_tank_hull_gun_slot = empty
+		fixed_trm_tank_engine_slot = trm_engine_G1_0060
+		fixed_trm_tank_transmission_slot = trm_transmission_brake_front
+		fixed_trm_tank_gearbox_slot = trm_gearbox_simple
+		fixed_trm_tank_suspension_slot = trm_suspension_spring_leaf
+		fixed_trm_tank_armor_thickness_slot = trm_armour_012
+		fixed_trm_tank_armor_design_slot = trm_armour_design_light_basic
+		fixed_trm_tank_armor_distribution_slot = trm_armour_distribution_rounded
+		fixed_trm_tank_armor_construction_slot = trm_armour_construction_welded
+		fixed_trm_tank_armor_construction_turret_slot = trm_turret_construction_enclosed_welded
+		fixed_trm_tank_radio_slot = trm_radio_1
+		fixed_trm_tank_ergonomics_slot = trm_ergonomics_light_standard
+		fixed_trm_tank_construction_slot = trm_tank_construction_quality
+		special_type_slot_1 = empty
+		special_type_slot_2 = empty
+		special_type_slot_3 = empty
+		special_type_slot_4 = empty
+		special_type_slot_5 = empty
+	}
+	design_team = mio:GER_man_organization
+	
+	obsolete = yes
+}
+add_equipment_to_stockpile = {
+	type = trm_light_tank_chassis_ger_panzer1_1
+	amount = 40
+	producer = GER
+}
+create_equipment_variant = {
+	name = "PzKpfw I B"
+	type = trm_light_tank_chassis_ger_panzer1_2
+	parent_version = 0
+	show_position = no
+	modules = {
+		fixed_trm_tank_turret_slot = trm_light_tank_ger_panzer1_turret_1
+		fixed_trm_tank_main_gun_slot = trm_weapon_mg_ger_mg13_x2
+		fixed_trm_tank_ammunition_slot = empty
+		fixed_trm_tank_coax_gun_slot = empty
+		fixed_trm_tank_hull_gun_slot = empty
+		fixed_trm_tank_engine_slot = trm_engine_G1_0100
+		fixed_trm_tank_transmission_slot = trm_transmission_brake_front
+		fixed_trm_tank_gearbox_slot = trm_gearbox_simple
+		fixed_trm_tank_suspension_slot = trm_suspension_spring_leaf
+		fixed_trm_tank_armor_thickness_slot = trm_armour_012
+		fixed_trm_tank_armor_design_slot = trm_armour_design_light_basic
+		fixed_trm_tank_armor_distribution_slot = trm_armour_distribution_rounded
+		fixed_trm_tank_armor_construction_slot = trm_armour_construction_welded
+		fixed_trm_tank_armor_construction_turret_slot = trm_turret_construction_enclosed_welded
+		fixed_trm_tank_radio_slot = trm_radio_1
+		fixed_trm_tank_ergonomics_slot = trm_ergonomics_light_standard
+		fixed_trm_tank_construction_slot = trm_tank_construction_quality
+		special_type_slot_1 = empty
+		special_type_slot_2 = empty
+		special_type_slot_3 = empty
+		special_type_slot_4 = empty
+		special_type_slot_5 = empty
+	}
+	design_team = mio:GER_man_organization
+}
+add_equipment_to_stockpile = {
+	type = trm_light_tank_chassis_ger_panzer1_2
+	amount = 100
+	producer = GER
+}
+create_equipment_variant = {
+	name = "Neubaufahrzeug"
+	type = trm_heavy_tank_chassis_ger_neubaufahrzeug_1
+	parent_version = 0
+	show_position = no
+	modules = {
+		fixed_trm_tank_turret_slot = trm_heavy_tank_ger_neubaufahrzeug_turret_1
+		fixed_trm_tank_main_gun_slot = trm_weapon_c_ger_75_kwk37
+		fixed_trm_tank_ammunition_slot = empty
+		fixed_trm_tank_coax_gun_slot = trm_weapon_coax_c_ger_37_kwk36
+		fixed_trm_tank_hull_gun_slot = trm_weapon_hull_mg_ger_mg13
+		fixed_trm_tank_engine_slot = trm_engine_G1_0275
+		fixed_trm_tank_transmission_slot = trm_transmission_brake_rear
+		fixed_trm_tank_gearbox_slot = trm_gearbox_simple
+		fixed_trm_tank_suspension_slot = trm_suspension_spring_coil
+		fixed_trm_tank_armor_thickness_slot = trm_armour_020
+		fixed_trm_tank_armor_design_slot = trm_armour_design_heavy_basic
+		fixed_trm_tank_armor_distribution_slot = trm_armour_distribution_rounded
+		fixed_trm_tank_armor_construction_slot = trm_armour_construction_welded
+		fixed_trm_tank_armor_construction_turret_slot = trm_turret_construction_enclosed_welded
+		fixed_trm_tank_radio_slot = trm_radio_1
+		fixed_trm_tank_ergonomics_slot = trm_ergonomics_heavy_standard
+		fixed_trm_tank_construction_slot = trm_tank_construction_quality
+		special_type_slot_1 = trm_special_cupola
+		special_type_slot_2 = trm_special_turret_mg_ger_mg13
+		special_type_slot_3 = trm_special_turret_mg_ger_mg13
+		special_type_slot_4 = empty
+		special_type_slot_5 = empty
+		special_type_slot_6 = empty
+	}
+	design_team = mio:GER_krupp_organization
+}
+add_equipment_to_stockpile = {
+	type = trm_heavy_tank_chassis_ger_neubaufahrzeug_1
+	amount = 5
+	producer = GER
+}
+################### BICE Variants ##################
+#Are in GER_1936_player
+### EOF ###

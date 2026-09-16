@@ -209,6 +209,47 @@ set_technology = {
 	mechanised_infantry = 1
 	mechanised_infantry2 = 1
 	mechanised_infantry3 = 1
+
+	tech_raf = 1
+	tech_english_aircraft1 = 1
+	tech_hawker_demon_equipment_1 = 1 
+	tech_armstrong_scimitar_equipment_1 = 1
+	tech_gauntlet_fighter_equipment_1 = 1
+	tech_hawker_hind_equipment_1 = 1 
+	tech_vickers_valentia_equipment_1 = 1 
+	tech_hawker_osprey_fighter_equipment_2 = 1
+	tech_hendon_equipment_1 = 1 
+	tech_supermarine_scapa_equipment_1 = 1
+	tech_saro_london_equipment_1 = 1
+	tech_vickers_valentia_transport_equipment_1 = 1
+
+	tech_defiant_fighter_equipment_1 = 1
+	tech_westland_whirlwind_equipment_1 = 1
+	tech_martinbaker_fighter_equipment_1 = 1
+	tech_spitfire_equipment_1 = 1
+	tech_spitfire_equipment_2 = 1
+	tech_mid_spitfire_equipment_1 = 1
+	tech_late_spitfire_equipment_1 = 1
+	tech_griffon_fighter_equipment_1 = 1
+	tech_griffon_spitfire_equipment_1 = 1
+	tech_griffon_spitfire_equipment_2 = 1
+	tech_spitfire_24_equipment_1 = 1
+	tech_hawker_hurricane_equipment_1 = 1
+	tech_hawker_hurricane_equipment_2 = 1
+	tech_hawker_typhoon_equipment_1 = 1
+	tech_hawker_typhoon1b_equipment_1 = 1
+	tech_hawker_typhoon1b_equipment_2 = 1
+	tech_hawker_tempest_equipment_1 = 1
+	tech_hawker_monofury_equipment_1 = 1
+
+	# Air Recon for LaR only
+	if = {
+		limit = { has_dlc = "La Resistance" }
+		set_technology = {
+			tech_hawker_audax_scout_equipment_1 = 1
+			tech_hawker_hector_scout_equipment_1 = 1
+		}
+	}
 }
 set_naval_oob = "ENG_1936_Naval"
 add_ideas = MTG_naval_treaty_adherent

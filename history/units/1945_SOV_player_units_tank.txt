@@ -6,31 +6,32 @@
         # Guards Tank Brigades & Tank Brigades
         # ========================================================
         #
-        # - 32nd Guards Tank Brigade (2nd Army)     - Qiqihar (7582)
-        # - 43rd Tank Brigade (KMG)                 - Chengde (9768)
-        # - 44th Tank Brigade (36th Army)           - Liaoyuan (6951)
-        # - 72nd Tank Brigade (25th Army)           - Hamhung (3981)
-        # - 73rd Tank Brigade (2nd Army)            - Qiqihar (4506)
-        # - 74th Tank Brigade (2nd Army)            - Qiqihar (4506)
-        # - 75th Tank Brigade (1st Army)            - Hsinking (9913)
-        # - 76th Tank Brigade (5th Army)            - Liaoyuan (9831)
-        # - 77th Tank Brigade (1st Army)            - Kirin (946)
-        # - 125th Tank Brigade (35th Army)          - Yilan (7670)
-        # - 165th Tank Brigade (15th Army)          - Harbin (7652)
-        # - 171st Tank Brigade (15th Army)          - Harbin (7652)
-        # - 172nd Tank Brigade (15th Army)          - Harbin (7523)
-        # - 201st Tank Brigade (Transbaykal Front)  - Yingkou (9835)
-        # - 203rd Tank Brigade (15th Army)          - Harbin (7523)
-        # - 205th Tank Brigade (36th Army)          - Qiqihar (930)
-        # - 206th Tank Brigade (39th Army)          - Liaoyuan (9831)
-        # - 208th Tank Brigade (5th Army)           - Shenyang (11771)
-        # - 209th Tank Brigade (25th Army)          - Pyeongyang (4052)
-        # - 210th Tank Brigade (5th Army)           - Liaoyuan (887)
-        # - 214th Tank Brigade (16th Army)          - Sakhalin (12446)
-        # - 218th Tank Brigade (5th Army)           - Liaoyuan (887)
-        # - 257th Tank Brigade (1st Army)           - Kirin (11850)
-        # - 258th Tank Brigade (2nd Army)           - Qiqihar (7582)
-        # - 259th Tank Brigade (25th Army)          - Singisiu (11835)
+        # - 32nd Guards Tank Brigade (2nd Army)         - Qiqihar (7582)
+        # - 43rd Tank Brigade (KMG)                     - Chengde (9768)
+        # - 44th Tank Brigade (36th Army)               - Liaoyuan (6951)
+        # - 72nd Tank Brigade (25th Army)               - Hamhung (3981)
+        # - 73rd Tank Brigade (2nd Army)                - Qiqihar (4506)
+        # - 74th Tank Brigade (2nd Army)                - Qiqihar (4506)
+        # - 75th Tank Brigade (1st Army)                - Hsinking (9913)
+        # - 76th Tank Brigade (5th Army)                - Liaoyuan (9831)
+        # - 77th Tank Brigade (1st Army)                - Kirin (946)
+        # - 125th Tank Brigade (35th Army)              - Yilan (7670)
+        # - 165th Tank Brigade (15th Army)              - Harbin (7652)
+        # - 171st Tank Brigade (15th Army)              - Harbin (7652)
+        # - 172nd Tank Brigade (15th Army)              - Harbin (7523)
+        # - 201st Tank Brigade (Transbaykal Front)      - Yingkou (9835)
+        # - 203rd Tank Brigade (15th Army)              - Harbin (7523)
+        # - 205th Tank Brigade (36th Army)              - Qiqihar (930)
+        # - 206th Tank Brigade (39th Army)              - Liaoyuan (9831)
+        # - 208th Tank Brigade (5th Army)               - Shenyang (11771)
+        # - 209th Tank Brigade (25th Army)              - Pyeongyang (4052)
+        # - 210th Tank Brigade (5th Army)               - Liaoyuan (887)
+        # - 214th Tank Brigade (16th Army)              - Sakhalin (12446)
+        # - 218th Tank Brigade (5th Army)               - Liaoyuan (887)
+        # - 230th Tank Brigade (Transcaucasian Front)   - Tbilisi? (1599)
+        # - 257th Tank Brigade (1st Army)               - Kirin (11850)
+        # - 258th Tank Brigade (2nd Army)               - Qiqihar (7582)
+        # - 259th Tank Brigade (25th Army)              - Singisiu (11835)
 
 units = {
     division = {
@@ -270,6 +271,17 @@ units = {
             name_order = 218
         }
         location = 887
+        division_template = "Tank Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 230
+        }
+        location = 1599
         division_template = "Tank Brigade 1943"
         start_experience_factor = 0.8
         start_equipment_factor = 0.8

@@ -1,8 +1,53 @@
 #############################
 ##### SOVIET PLAYER OOB #####
 #############################
+
         # ========================================================
-        # Rifle Units
+        # Transcaucasian Front
+        # ========================================================
+        #
+        # 4th Army:
+        # - 1st Cav Division (15th CC/4th Army)                 - Tebriz (1896)
+        # - 23rd Cav Division (15th CC/4th Army)                - Urmiya (7604)
+        # - 39th Cav Division (15th CC/4th Army)                - Shakhrud / Gorgan (7602)
+        # - 68th Mountain Rifle Division (4th Army)             - Tehran (10837)
+        # - 75th Rifle Division (4th Army)                      - Khoy (1636)
+        # - 89th Rifle Brigade (4th Army)                       - Bojnord (7573)
+        # - 90th Rifle Brigade (4th Army)                       - Mashhad (5029)
+        #
+        # 45th Army:
+        # - 261st Rifle Division (45th Army)                    - Yerevan (12320)
+        # - 349th Rifle Division (45th Army)                    - Batumi (3653)
+        # - 133rd Rifle Brigade (45th Army)                     - Black Sea coast (3698)
+        # - 55th UR (45th Army)                                 - Leninakan (3564)
+        # - 69th UR (45th Army)                                 - Gyumri (12441)
+        # - 116th UR (45th Army)                                - Araks northern bank (12320)
+        #
+        # Transcaucasian Front:
+        # - 296th Rifle Division (12th RC)                       - Poti (3656)
+        # - 392nd Rifle Division (13th RC)                       - Poti (3656)
+        # - 402nd Rifle Division                                 - Nakhichevan / Grozny (Baku 7661)
+        # - 406th Rifle Division (12th RC)                       - Akhalkalaki (6669)
+        # - 94th Rifle Brigade (13th RC)                         - Resht (4637)
+        # - 51st UR                                              - Batumi? (3656)
+        # - 78th UR                                              - Batumi? (3653)
+        # - 151st UR                                             - Akhaltsikhe? (6669)
+        # - 230th Tank Brigade                                   - Tbilisi? (1599)
+        #
+        # ========================================================
+        # Middle Asian MD
+        # ========================================================
+        #
+        # - 93rd Rifle Brigade                                  - Bukhara (10470)
+        #
+        # ========================================================
+        # Siberian MD
+        # ========================================================
+        #
+        # - 7th Cavalry Regiment                                - Kyzyl (10627)
+        #        
+        # ========================================================
+        # Transbaykal Front
         # ========================================================
         #
         # 17th Army:
@@ -47,6 +92,10 @@
         # - 227th Rifle Division (Transbaykal Front)            - Dalian (1150)
         # - 317th Rifle Division (Transbaykal Front)            - Dalian (1150)
         #
+        # ========================================================
+        # 1st Far Eastern Front
+        # ========================================================
+        #        
         # 1st Army:
         # - 22nd Rifle Division (26th RC 1st Army)              - Hsinking (9913)
         # - 59th Rifle Division (26th RC 1st Army)              - Hsinking (9913)
@@ -87,6 +136,13 @@
         # - 355th Rifle Division (87th RC 1st FE Front)         - Yanji (11862)
         # - 190th Rifle Division (1st FE Front)                 - Binjiang (10433)
         # - 345th Rifle Division (1st FE Front)                 - Binjiang (10433)
+        # - 31st Mountain Rifle Brigade (126th LMRC)            - E of Chengde (11886)
+        # - 32nd Mountain Rifle Brigade (126th LMRC)            - E of Chengde (11886)
+        # - 72nd Mountain Rifle Brigade (126th LMRC)            - E of Chengde (11886)
+        #
+        # ========================================================
+        # 2nd Far Eastern Front
+        # ========================================================
         #
         # 2nd Army:
         # - 3rd Rifle Division (2nd Army)                       - Qiqihar (4506)
@@ -102,11 +158,19 @@
         #
         # 16th Army:
         # - 79th Rifle Division (56th RC / 16th Army)           - Southern Sakhalin (12446)
+        # - 2nd Rifle Brigade (56th RC / 16th Army)             - Southern Sakhalin (12446)
+        # - 5th Rifle Brigade (16th Army)                       - Northern Sakhalin (1755)
+        # - 113th Rifle Brigade (16th Army)                     - Southern Sakhalin (1820)
         #
         # 2nd Far Eastern Front:
         # - 101th Rifle Division (2nd Far Eastern Front)        - Petropavlovsk (4728)
         # - 255th Rifle Division (2nd Far Eastern Front)        - Suihua (4592)
+        # - 88th Rifle Brigade (2nd Far Eastern Front)          - Vyatskoe (7266)        
         #
+
+###########################
+# Rifle Divisions
+###########################
 
 units = {
     division = {
@@ -329,6 +393,28 @@ units = {
     division = {
         division_name = {
                 is_name_ordered = yes
+                name_order = 68
+        }
+        location = 10837
+        division_template = "Mountain Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 75
+        }
+        location = 1636
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
                 name_order = 79
         }
         location = 12446
@@ -538,6 +624,17 @@ units = {
     division = {
         division_name = {
                 is_name_ordered = yes
+                name_order = 231
+        }
+        location = 946
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
                 name_order = 243
         }
         location = 1150
@@ -573,7 +670,7 @@ units = {
                 is_name_ordered = yes
                 name_order = 261
         }
-        location = 946
+        location = 12320
         division_template = "Rifle Division 1945"
         start_experience_factor = 0.8
         start_equipment_factor = 0.8
@@ -659,6 +756,17 @@ units = {
     division = {
         division_name = {
                 is_name_ordered = yes
+                name_order = 296
+        }
+        location = 3656
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
                 name_order = 298
         }
         location = 930
@@ -717,6 +825,17 @@ units = {
                 name_order = 345
         }
         location = 10433
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 349
+        }
+        location = 3653
         division_template = "Rifle Division 1945"
         start_experience_factor = 0.8
         start_equipment_factor = 0.8
@@ -815,7 +934,7 @@ units = {
                 is_name_ordered = yes
                 name_order = 386
         }
-        location = 1835
+        location = 11835
         division_template = "Rifle Division 1945"
         start_experience_factor = 0.8
         start_equipment_factor = 0.8
@@ -865,20 +984,33 @@ units = {
         start_equipment_factor = 0.8
         start_manpower_factor = 0.8
     }
-}
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 402
+        }
+        location = 7661
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }    
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 406
+        }
+        location = 6669
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
 
-# ========================================================
+###########################
 # Rifle Brigades
-# ========================================================
-#
-# Rifle Brigades:
-# - 2nd Rifle Brigade (56th RC / 16th Army)                    - Southern Sakhalin (12446)
-# - 5th Rifle Brigade (16th Army)                              - Northern Sakhalin (1755)
-# - 88th Rifle Brigade (2nd Far Eastern Front)                 - Vyatskoe (7266)
-# - 113 Rifle Brigade (16th Army)                              - Southern Sakhalin (1820)
-#
+###########################
 
-units = {
     division = {
         division_name = {
                 is_name_ordered = yes
@@ -901,41 +1033,6 @@ units = {
         start_equipment_factor = 0.8
         start_manpower_factor = 0.8
     }
-    division = {
-        division_name = {
-                is_name_ordered = yes
-                name_order = 88
-        }
-        location = 7266
-        division_template = "Rifle Brigade 1943"
-        start_experience_factor = 0.8
-        start_equipment_factor = 0.8
-        start_manpower_factor = 0.8
-    }
-    division = {
-        division_name = {
-                is_name_ordered = yes
-                name_order = 113
-        }
-        location = 1820
-        division_template = "Rifle Brigade 1943"
-        start_experience_factor = 0.8
-        start_equipment_factor = 0.8
-        start_manpower_factor = 0.8
-    }        
-}
-
-# ========================================================
-# Mountain Rifle Units
-# ========================================================
-#
-# Mountain Rifle Brigades:
-# - 31st Mountain Rifle Brigade (126th Light Mountain Rifle Corps)       - E of Chengde (11886)
-# - 32nd Mountain Rifle Brigade (126th Light Mountain Rifle Corps)       - E of Chengde (11886)
-# - 72nd Mountain Rifle Brigade (126th Light Mountain Rifle Corps)       - E of Chengde (11886)
-#
-
-units = {
     division = {
         division_name = {
                 is_name_ordered = yes
@@ -968,6 +1065,155 @@ units = {
         start_experience_factor = 0.8
         start_equipment_factor = 0.8
         start_manpower_factor = 0.8
-    }    
+    } 
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 88
+        }
+        location = 7266
+        division_template = "Rifle Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 89
+        }
+        location = 7573
+        division_template = "Rifle Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 90
+        }
+        location = 5029
+        division_template = "Rifle Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 93
+        }
+        location = 10470
+        division_template = "Rifle Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 94
+        }
+        location = 4637
+        division_template = "Rifle Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 113
+        }
+        location = 1820
+        division_template = "Rifle Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 133
+        }
+        location = 3698
+        division_template = "Rifle Brigade 1943"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+
+###########################
+# Fortified Regions
+###########################
+
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 51
+        }
+        location = 3656
+        division_template = "Fortified Region 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 55
+        }
+        location = 3564
+        division_template = "Fortified Region 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 69
+        }
+        location = 12441
+        division_template = "Fortified Region 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 78
+        }
+        location = 3653
+        division_template = "Fortified Region 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 116
+        }
+        location = 12320
+        division_template = "Fortified Region 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 151
+        }
+        location = 6669
+        division_template = "Fortified Region 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
 }
+
 ### EOF ###

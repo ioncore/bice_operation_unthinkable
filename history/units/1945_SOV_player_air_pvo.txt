@@ -5,6 +5,16 @@
         # ========================================================
         # PVO 03.09.45
         #
+        # - 35/298th Interceptor Rgt (Spit IX) - Novoalekseevka (231)
+        # - 982/298th Interceptor Rgt (Hurr) - Vaziani (231)
+        # - 983/298th Interceptor Rgt (Spit IX) - Novoalekseevka (231)
+        #
+        # - 82/8th Interceptor Rgt (Yak-9) - Nasosnaya (229)
+        # - 480/8th Interceptor Rgt (Yak-9) - Nasosnaya (229)
+        # - 481/8th Interceptor Rgt (Yak-9) - Baku (229)
+        # - 922/8th Interceptor Rgt (Yak-7) - Baku (229)
+        # - 962/8th Interceptor Rgt (Yak-9) - Baku (229)
+        #
         # - 34/147th Interceptor Rgt (La-7) - Spassk (408)
         # - 404/147th Interceptor Rgt (Yak-9M) - Spassk (408)
         # - 429/147th Interceptor Rgt (Yak-9M) - Kommuna Lenina (408)
@@ -21,6 +31,76 @@
         #
 
 air_wings = {
+
+    231 = { 
+        late_spitfire_equipment_1 = {
+            owner = "SOV"
+            creator = "ENG"
+            amount = 32
+        }
+        name="35-y IAP PVO"
+        start_experience_factor = 0.16
+    }
+    231 = { 
+        hawker_hurricane_equipment_2 = {
+            owner = "SOV"
+            creator = "ENG"
+            amount = 32
+        }
+        name="982-y IAP PVO"
+        start_experience_factor = 0.16
+    }
+    231 = { 
+        late_spitfire_equipment_1 = {
+            owner = "SOV"
+            creator = "ENG"
+            amount = 32
+        }
+        name="983-y IAP PVO"
+        start_experience_factor = 0.16
+    }    
+
+    229 = { 
+        yak_9_equipment_1 = {
+            owner = "SOV"
+            amount = 32
+        }
+        name="82-y IAP PVO"
+        start_experience_factor = 0.16
+    }
+    229 = { 
+        yak_9_equipment_1 = {
+            owner = "SOV"
+            amount = 32
+        }
+        name="480-y IAP PVO"
+        start_experience_factor = 0.16
+    }
+    229 = { 
+        yak_9_equipment_1 = {
+            owner = "SOV"
+            amount = 32
+        }
+        name="481-y IAP PVO"
+        start_experience_factor = 0.16
+    }
+    229 = { 
+        yak_9_equipment_1 = {
+            owner = "SOV"
+            amount = 32
+        }
+        name="922-y IAP PVO"
+        start_experience_factor = 0.16
+    }
+    229 = { 
+        yak_9_equipment_1 = {
+            owner = "SOV"
+            amount = 32
+        }
+        name="962-y IAP"
+        start_experience_factor = 0.16
+    }
+
 #	408 = { 
 #		yak_9_equipment_1 = {
 #			owner = "SOV" 
@@ -53,7 +133,7 @@ air_wings = {
         name="429-y IAP PVO"
         start_experience_factor = 0.16
     }
-        408 = { 
+    408 = { 
         lagg_7_equipment_1 = {
             owner = "SOV" 
             amount = 32
@@ -61,6 +141,7 @@ air_wings = {
         name="564-y IAP PVO"
         start_experience_factor = 0.16
     }
+
 #	408 = { 
 #		yak_9_equipment_1 = {
 #			owner = "SOV" 
@@ -93,7 +174,7 @@ air_wings = {
         name="60-y IAP PVO"
         start_experience_factor = 0.16
     }
-        408 = { 
+    408 = { 
         lagg_7_equipment_1 = {
             owner = "SOV" 
             amount = 32
@@ -101,6 +182,7 @@ air_wings = {
         name="400-y IAP PVO"
         start_experience_factor = 0.16
     }
+
 #	408 = { 
 #		yak_9_equipment_1 = {
 #			owner = "SOV" 

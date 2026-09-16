@@ -1,0 +1,32 @@
+
+state = {
+	id = 96
+	name = "STATE_96"
+
+	manpower = 1226000
+	local_supplies=0.0
+	state_category = rural
+	
+	history = {
+		owner = SOV
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			air_base = 5
+		}
+
+		set_variable = { vp_value = 1 } 
+		set_variable = { highest_vp = 1 } 
+
+		add_core_of = POL
+		
+		
+		victory_points = { 406 1 }
+	}
+
+	provinces = {
+		233 277 358 406 6340 9341
+	}
+	
+	buildings_max_level_factor=1.000
+}

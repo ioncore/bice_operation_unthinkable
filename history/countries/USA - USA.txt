@@ -24,7 +24,12 @@ capital = 847
     }
 
     set_technology = {
+        tech_bell_p39_equipment_1 = 1
+        tech_bell_p39_equipment_2 = 1
         tech_bell_p63_equipment_1 = 1
+        tech_curtiss_p40_equipment_1 = 1
+        tech_curtiss_p40_equipment_2 = 1
+        tech_curtiss_p40f_equipment_1 = 1
     }    
 
     set_popularities = {

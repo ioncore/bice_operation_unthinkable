@@ -1,0 +1,37 @@
+
+state={
+	resources = {
+		chromium = 4
+		food = 1
+	}
+	id=329
+	name="STATE_329"
+
+	
+	manpower = 85000
+	local_supplies=0.0
+	state_category=town
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 2
+		}
+
+		set_variable = { vp_value = 5 } 
+		set_variable = { highest_vp = 3 } 
+
+		add_core_of = SOV
+		#add_core_of = CHI		
+		
+		victory_points = { 10627 3 }
+		victory_points = { 1877 1 }
+		victory_points = { 1676 1 }
+	}
+
+	provinces={
+		1676 1877 4680 7703 7731 7804 7819 10597 10627 10646 12610 12625 
+	}
+}
