@@ -18,6 +18,8 @@
 # - Tu-16R
 # - Yak-25RV
 # - multiple Il-10 variants
+# - A-20G-1 night fighter
+# - Tu-2 with Gneis-5 radar (1947) night fighter
 
 instant_effect = {
     set_technology = {

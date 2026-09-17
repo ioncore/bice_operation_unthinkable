@@ -21,6 +21,960 @@
 
 air_wings = {
 
+# Long Range Aviation
+#
+# - 2/11th Guards Bomber Regiment (Il-4)                    - Priluki (193)
+# - 5/11th Guards Bomber Regiment (Il-4)                    - Novozybkov (224)
+# - 16/11th Guards Bomber Regiment (Il-4)                   - Shatalovo (224)
+# - 208/11th Guards Bomber Regiment (Il-4)                  - Sescha (224)
+#
+# - 6/16th Guards Bomber Regiment (Il-4)                    - Minsk-Mazowiecki (10)
+# - 17/16th Guards Bomber Regiment (Il-4)                   - Minsk-Mazowiecki (10)
+# - 326/16th Bomber Regiment (Yer-2)                        - Minsk-Mazowiecki (10)
+#
+# - 28/36th Guards Bomber Regiment (Il-4)                   - Biala-Podlaska (92) - Ostrov? (209)
+# - 240/36th Guards Bomber Regiment (Il-4)                  - Biala-Podlaska (92)
+# - 108/36th Bomber Regiment (Il-4)                         - Biala-Podlaska (92)
+#
+# - 30/48th Guards Bomber Regiment (Il-4)                   - Biala-Podlaska (92) - Bobruisk? (206)
+# - 109/48th Bomber Regiment (Il-4)                         - Biala-Podlaska (92)
+# - 330/48th Bomber Regiment (Yer-2/B-25)                   - Biala-Podlaska (92)
+#
+# - 3/2nd Guards Bomber Regiment (Il-4)                     - Uzin (202)
+# - 18/2nd Guards Bomber Regiment (Il-4)                    - Priluki (193) -> 202
+# - 327/2nd Bomber Regiment (Yer-2/Tu-2)                    - ? (202)
+#
+# - 9/7th Guards Bomber Regiment (Il-4)                     - Priluki (193) -> 259
+# - 21/7th Guards Bomber Regiment (Il-4/B-25)               - Poltava (259)
+# - 328/7th Bomber Regiment (Yer-2)                         - Belaya Tserkov (202) -> 259
+#
+# - 20/13th Guards Bomber Regiment (Il-4)                   - Priluki (193) -> 259
+# - 226/13th Guards Bomber Regiment (Il-4)                  - Poltava (259)
+# - 332/13th Bomber Regiment (Yer-2)                        - Belaya Tserkov (202) -> 259
+#
+# - 19/18th Guards Bomber Regiment (Il-4)                   - ? (259)
+# - 224/18th Guards Bomber Regiment (Il-4)                  - Poltava (259)
+# - 329/18th Bomber Regiment (Yer-2)                        - ? (259)
+#
+# - 11/18th Guards Long Range Regiment (Li-2)               - Bobruysk (204)
+# - 220/18th Guards Long Range Regiment (Li-2)              - Bobruysk (204)
+# - 339/18th Long Range Regiment (Li-2)                     - Bobruysk (204)
+
+# - 31/1st Guards Long Range Regiment (Li-2)                - Schuchin? (95)
+# - 32/1st Guards Long Range Regiment (Li-2)                - Schuchin? (95)
+# - 334/1st Long Range Regiment (Li-2)                      - Schuchin? (95)
+
+# - 12/12th Guards Long Range Regiment (Li-2)               - Beltsy? (78)
+# - 33/12th Guards Long Range Regiment (Li-2)               - Beltsy? (78)
+# - 338/12th Long Range Regiment (Li-2)                     - Beltsy? (78)
+#
+# - 26/50th Bomber Regiment (B-25)                          - Bobruysk? (204)
+# - 111/50th Bomber Regiment (B-25)                         - Bobruysk (204)
+# - 333/50th Bomber Regiment (B-25)                         - Bobruysk? (204)
+#
+# - 15/50th Guards Bomber Regiment (B-25)                   - Kirovograd (203)
+# - 27/50th Guards Bomber Regiment (B-25)                   - Kirovograd (203)
+# - 229/50th Guards Bomber Regiment (B-25)                  - Kirovograd (203)
+# - 250/50th Guards Bomber Regiment (B-25)                  - Kirovograd (203)
+#
+# - 1/53rd Guards Long Range Regiment (Li-2)                - ? (88)
+# - 239/53rd Guards Long Range Regiment (Li-2)              - Wola Ociecka (88)
+# - 336/53rd Long Range Regiment (Li-2)                     - Mielec (88)
+#
+# - 203/45th Guards Bomber Regiment (B-24)                  - Balbasovo (207) 
+# - 52/45th Guards Bomber Regiment (B-25)                   - Migalovo (247)
+# - 362/45th Bomber Regiment (B-25)                         - Balbasovo (207)
+# - 890/45th Bomber Regiment (B-17)                         - Balbasovo (207)
+#
+# - 45/56th Long Range Fighter Rgt (A-20G-1)                - Czestochowa (90)
+# - 173/56th Long Range Fighter Rgt (A-20G-1)               - Czestochowa (90)
+#
+    193 = { 
+        il_4_bomber_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="2-y Gv.BAP"
+        start_experience_factor = 0.16
+    }
+    224 = { 
+        il_4_bomber_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="5-y Gv.BAP"
+        start_experience_factor = 0.16
+    }
+    224 = { 
+        il_4_bomber_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="16-y Gv.BAP"
+        start_experience_factor = 0.16
+    }
+    224 = { 
+        il_4_bomber_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="208-y Gv.BAP"
+        start_experience_factor = 0.16
+    }
+
+    10 = { 
+        il_4_bomber_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="6-y Gv.BAP"
+        start_experience_factor = 0.16
+    }
+    10 = { 
+        il_4_bomber_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="17-y Gv.BAP"
+        start_experience_factor = 0.16
+    }
+    10 = { 
+        yer_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="326-y BAP"
+        start_experience_factor = 0.16
+    }
+
+    92 = { 
+        il_4_bomber_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="28-y Gv.BAP"
+        start_experience_factor = 0.16
+    }
+    92 = { 
+        il_4_bomber_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="240-y Gv.BAP"
+        start_experience_factor = 0.16
+    }
+    92 = { 
+        il_4_bomber_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="108-y BAP"
+        start_experience_factor = 0.16
+    }
+
+    92 = { 
+        il_4_bomber_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="30-y Gv.BAP"
+        start_experience_factor = 0.16
+    }
+    92 = { 
+        il_4_bomber_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="109-y BAP"
+        start_experience_factor = 0.16
+    }
+    92 = { 
+        northamerican_b25_equipment_3 = {
+            owner = "USA" 
+            creator = "USA"
+            amount = 32
+        }
+        name="330-y BAP"
+        start_experience_factor = 0.16
+    }
+
+    202 = { 
+        il_4_bomber_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="3-y Gv.BAP"
+        start_experience_factor = 0.16
+    }
+    202 = { 
+        il_4_bomber_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="18-y Gv.BAP"
+        start_experience_factor = 0.16
+    }
+    202 = { 
+        tu_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="327-y BAP"
+        start_experience_factor = 0.16
+    }
+
+    259 = { 
+        il_4_bomber_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="9-y Gv.BAP"
+        start_experience_factor = 0.16
+    }
+    259 = { 
+        northamerican_b25_equipment_3 = {
+            owner = "USA" 
+            creator = "USA"
+            amount = 32
+        }
+        name="21-y Gv.BAP"
+        start_experience_factor = 0.16
+    }
+    259 = { 
+        yer_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="328-y BAP"
+        start_experience_factor = 0.16
+    }
+
+    259 = { 
+        il_4_bomber_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="20-y Gv.BAP"
+        start_experience_factor = 0.16
+    }
+    259 = { 
+        il_4_bomber_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="226-y Gv.BAP"
+        start_experience_factor = 0.16
+    }
+    259 = { 
+        yer_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="332-y BAP"
+        start_experience_factor = 0.16
+    }
+
+    259 = { 
+        il_4_bomber_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="19-y Gv.BAP"
+        start_experience_factor = 0.16
+    }
+    259 = { 
+        il_4_bomber_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="224-y Gv.BAP"
+        start_experience_factor = 0.16
+    }
+    259 = { 
+        yer_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="329-y BAP"
+        start_experience_factor = 0.16
+    }
+
+    204 = { 
+        li_2_transport_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="11-y Gv.BAP"
+        start_experience_factor = 0.16
+    }
+    204 = { 
+        li_2_transport_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="220-y Gv.BAP"
+        start_experience_factor = 0.16
+    }
+    204 = { 
+        li_2_transport_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="339-y BAP"
+        start_experience_factor = 0.16
+    }
+
+    95 = { 
+        li_2_transport_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="31-y Gv.AP"
+        start_experience_factor = 0.16
+    }
+    95 = { 
+        li_2_transport_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="32-y Gv.AP"
+        start_experience_factor = 0.16
+    }
+    95 = { 
+        li_2_transport_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="334-y AP"
+        start_experience_factor = 0.16
+    }
+
+    78 = { 
+        li_2_transport_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="12-y Gv.AP"
+        start_experience_factor = 0.16
+    }
+    78 = { 
+        li_2_transport_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="33-y Gv.AP"
+        start_experience_factor = 0.16
+    }
+    78 = { 
+        li_2_transport_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="338-y AP"
+        start_experience_factor = 0.16
+    }
+
+    204 = { 
+        northamerican_b25_equipment_3 = {
+            owner = "USA"
+            creator = "USA"
+            amount = 32
+        }
+        name="26-y BAP"
+        start_experience_factor = 0.50
+    }
+    204 = { 
+        northamerican_b25_equipment_3 = {
+            owner = "USA"
+            creator = "USA"
+            amount = 32
+        }
+        name="111-y BAP"
+        start_experience_factor = 0.50
+    }
+    204 = { 
+        northamerican_b25_equipment_3 = {
+            owner = "USA"
+            creator = "USA"
+            amount = 32
+        }
+        name="333-y BAP"
+        start_experience_factor = 0.50
+    }
+
+    203 = { 
+        northamerican_b25_equipment_3 = {
+            owner = "USA"
+            creator = "USA"
+            amount = 32
+        }
+        name="15-y Gv.BAP"
+        start_experience_factor = 0.50
+    }
+    203 = { 
+        northamerican_b25_equipment_3 = {
+            owner = "USA"
+            creator = "USA"
+            amount = 32
+        }
+        name="27-y Gv.BAP"
+        start_experience_factor = 0.50
+    }
+    203 = { 
+        northamerican_b25_equipment_3 = {
+            owner = "USA"
+            creator = "USA"
+            amount = 32
+        }
+        name="229-y Gv.BAP"
+        start_experience_factor = 0.50
+    }
+    203 = { 
+        northamerican_b25_equipment_3 = {
+            owner = "USA"
+            creator = "USA"
+            amount = 32
+        }
+        name="250-y Gv.BAP"
+        start_experience_factor = 0.50
+    }
+
+    88 = { 
+        li_2_transport_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="1-y Gv.AP"
+        start_experience_factor = 0.16
+    }
+    88 = { 
+        li_2_transport_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="239-y Gv.AP"
+        start_experience_factor = 0.16
+    }
+    88 = { 
+        li_2_transport_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="336-y AP"
+        start_experience_factor = 0.16
+    }
+
+    207 = { 
+        consolidated_b24_equipment_2 = {
+            owner = "USA"
+            creator = "USA"
+            amount = 21
+        }
+        name="203-y 'Orlovskiy' Gv.BAP"
+        start_experience_factor = 0.50
+    }
+    247 = { 
+        northamerican_b25_equipment_3 = {
+            owner = "USA"
+            creator = "USA"
+            amount = 32
+        }
+        name="52-y Gv.BAP"
+        start_experience_factor = 0.50
+    }    
+    207 = { 
+        northamerican_b25_equipment_3 = {
+            owner = "USA"
+            creator = "USA"
+            amount = 32
+        }
+        name="362-y 'Rizhskiy' BAP"
+        start_experience_factor = 0.50
+    }
+    207 = { 
+        boeing_b17_equipment_4 = {
+            owner = "USA"
+            creator = "USA"
+            amount = 16
+        }
+        name="890-y 'Bryanskiy' BAP"
+        start_experience_factor = 0.50
+    }
+
+    845 = { 
+        # TODO Soviet A-20G-1
+        douglas_p70_equipment_1 = {
+            owner = "USA"
+            creator = "USA"
+            amount = 32
+        }
+        name="45-y API DD"
+        start_experience_factor = 0.50
+    }
+    845 = { 
+        douglas_p70_equipment_1 = {
+            owner = "USA"
+            creator = "USA"
+            amount = 32
+        }
+        name="173-y API DD"
+        start_experience_factor = 0.50
+    }
+
+# Leningrad Front:
+#
+# 13th Air Army:
+#
+# - 14/275th Guards Fighter Rgt (Yak-9)         - Haapsalu (13)
+# - 159/275th Fighter Rgt (Yak-9)               - Haapsalu (13)
+# - 283/275th Fighter Rgt (Yak-9)               - Kuressaare (13)
+#
+# - 448/281st Assault Rgt (Il-2)                - Riga? (12)
+# - 703/281st Assault Rgt (Il-2)                - Riga? (12)
+# - 872/281st Assault Rgt (Il-2)                - Riga? (12)
+
+    13 = { 
+        yak_9_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="14-y Gv.ShAP"
+        start_experience_factor = 0.16
+    }
+    13 = { 
+        yak_9_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="159-y ShAP"
+        start_experience_factor = 0.16
+    }
+    13 = { 
+        yak_9_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="283-y ShAP"
+        start_experience_factor = 0.16
+    }
+
+    12 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="448-y ShAP"
+        start_experience_factor = 0.16
+    }
+    12 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="703-y ShAP"
+        start_experience_factor = 0.16
+    }
+    12 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="872-y ShAP"
+        start_experience_factor = 0.16
+    }
+
+# 15th Air Army:
+#
+# - 4/185th Fighter Rgt (Yak-9)                     - Yelgava (840?)
+# - 148/185th Fighter Rgt (Yak-9)                   - Yelgava (840?)
+# - 293/185th Fighter Rgt (Yak-9)                   - Yelgava (840?)
+#
+# - 50/315th Fighter Rgt (La-7)                     - Yelgava (840?)
+# - 171/315th Fighter Rgt (La-7)                    - Yelgava (840?)
+# - 431/315th Fighter Rgt (Yak-9U)                  - Yelgava (840?)
+#
+# - 163/336th Fighter Rgt (Yak-9)                   - Yelgava (840?)
+# - 265/336th Fighter Rgt (Yak-9)                   - Yelgava (840?)
+# - 483/336th Fighter Rgt (Yak-9)                   - Yelgava (840?)
+#
+# - 1/284th 'Latyshskiy' Night Bomber Rgt (Po-2)    - Vilnius? (96)
+# - 371/284th Night Bomber Rgt (Po-2)               - Vilnius? (96)
+# - 638/284th Night Bomber Rgt (Po-2)               - Vilnius? (96)
+# - 701/284th Night Bomber Rgt (Po-2)               - Vilnius? (96)
+#
+# - 4/313th Night Bomber Rgt (Po-2)                 - Vilnius? (96)
+# - 690/313th Night Bomber Rgt (Po-2)               - Vilnius? (96)
+# - 990/313th Night Bomber Rgt (Po-2)               - Vilnius? (96)
+# - 998/313th Night Bomber Rgt (Po-2)               - Vilnius? (96)
+#
+# - 13/4th Guards Bomber Rgt (Pe-2)                 - Vilnius? (96)
+# - 124/4th Guards Bomber Rgt (Pe-2)                - Vilnius? (96)
+# - 125/4th Guards Bomber Rgt (Pe-2)                - Vilnius? (96)
+#
+# - 35/5th Guards Bomber Rgt (Pe-2)                 - Vilnius? (96)
+# - 127/5th Guards Bomber Rgt (Pe-2)                - Vilnius? (96)
+# - 128/5th Guards Bomber Rgt (Pe-2)                - Vilnius? (96)
+#
+# - 190/214th Assault Rgt (Il-2)                    - Lielvarde (12)
+# - 502/214th Assault Rgt (Il-2)                    - Lielvarde (12)
+# - 622/214th Assault Rgt (Il-2)                    - Lielvarde (12)
+#
+# - 118/225th Guards Assault Rgt (Il-2)             - Tukums (190)
+# - 819/225th Assault Rgt (Il-2)                    - Tukums (190)
+# - 825/225th Assault Rgt (Il-2)                    - Tukums (190)
+#
+# - 175/305th Assault Rgt (Il-2)                    - Taurage (11)
+# - 237/305th Assault Rgt (Il-2)                    - Taurage (11)
+# - 955/305th Assault Rgt (Il-2)                    - Taurage (11)
+#
+# - 699th Transport Rgt (Po-2)                      - Vilnius? (96)
+# - 97th Transport Air Rgt (Po-2)                   - Vilnius? (96)
+
+    840 = { 
+        yak_9_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="4-y IAP"
+        start_experience_factor = 0.16
+    }
+    840 = { 
+        yak_9_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="148-y IAP"
+        start_experience_factor = 0.16
+    }
+    840 = { 
+        yak_9_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="293-y IAP"
+        start_experience_factor = 0.16
+    }
+
+    840 = { 
+        lagg_7_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="50-y IAP"
+        start_experience_factor = 0.16
+    }
+    840 = { 
+        lagg_7_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="171-y IAP"
+        start_experience_factor = 0.16
+    }
+    840 = { 
+        yak_9_equipment_3 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="431-y IAP"
+        start_experience_factor = 0.16
+    }
+
+    840 = { 
+        yak_9_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="163-y IAP"
+        start_experience_factor = 0.16
+    }
+    840 = { 
+        yak_9_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="265-y IAP"
+        start_experience_factor = 0.16
+    }
+    840 = { 
+        yak_9_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="483-y IAP"
+        start_experience_factor = 0.16
+    }
+
+    96 = { 
+        po_2_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="1-y 'Latyshskiy' NBAP"
+        start_experience_factor = 0.16
+    }
+    96 = { 
+        po_2_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="371-y NBAP"
+        start_experience_factor = 0.16
+    }
+    96 = { 
+        po_2_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="638-y NBAP"
+        start_experience_factor = 0.16
+    }
+    96 = { 
+        po_2_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="701-y NBAP"
+        start_experience_factor = 0.16
+    }
+
+    96 = { 
+        po_2_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="4-y NBAP"
+        start_experience_factor = 0.16
+    }
+    96 = { 
+        po_2_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="690-y NBAP"
+        start_experience_factor = 0.16
+    }
+    96 = { 
+        po_2_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="990-y NBAP"
+        start_experience_factor = 0.16
+    }
+    96 = { 
+        po_2_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="998-y NBAP"
+        start_experience_factor = 0.16
+    }
+
+    96 = { 
+        pe_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="13-y Gv.BAP"
+        start_experience_factor = 0.16
+    }
+    96 = { 
+        pe_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="124-y Gv.BAP"
+        start_experience_factor = 0.16
+    }
+    96 = { 
+        pe_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="125-y Gv.BAP"
+        start_experience_factor = 0.16
+    }
+
+    96 = { 
+        pe_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="35-y Gv.BAP"
+        start_experience_factor = 0.16
+    }
+    96 = { 
+        pe_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="127-y Gv.BAP"
+        start_experience_factor = 0.16
+    }
+    96 = { 
+        pe_2_bomber_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="128-y Gv.BAP"
+        start_experience_factor = 0.16
+    }
+
+    12 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="190-y ShAP"
+        start_experience_factor = 0.16
+    }
+    12 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="502-y ShAP"
+        start_experience_factor = 0.16
+    }
+    12 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="622-y ShAP"
+        start_experience_factor = 0.16
+    }
+
+    190 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="118-y Gv.ShAP"
+        start_experience_factor = 0.16
+    }
+    190 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="819-y ShAP"
+        start_experience_factor = 0.16
+    }
+    190 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="825-y ShAP"
+        start_experience_factor = 0.16
+    }
+
+    11 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="175-y ShAP"
+        start_experience_factor = 0.16
+    }
+    11 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="237-y ShAP"
+        start_experience_factor = 0.16
+    }
+    11 = { 
+        il_2_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="955-y ShAP"
+        start_experience_factor = 0.16
+    }
+
+    96 = {
+        # TODO transport Po-2
+        li_2_transport_equipment_1 = {
+            owner = "SOV" 
+            amount = 25
+        }
+        name="699-y TRAP"
+        start_experience_factor = 0.16
+    }
+    96 = {
+        # TODO transport Po-2
+        li_2_transport_equipment_1 = {
+            owner = "SOV" 
+            amount = 25
+        }
+        name="97-y AP GVF"
+        start_experience_factor = 0.16
+    }
+
+# Moscow MD:
+#
+# - 1/2th Special Purpose Air Rgt (Li-2)    - Moscow (845)
+# - 2/2th Special Purpose Air Rgt (Li-2)    - Moscow (845)
+# - 3/2th Special Purpose Air Rgt (Li-2)    - Moscow (845)
+#
+# - 9/4th Leader Air Rgt (Pe-3bis)          - Moscow (845)
+# - 229/4th Special Purpose Air Rgt (Li-2)  - Moscow (845)
+# - 600/4th Special Purpose Air Rgt (Li-2)  - Moscow (845)
+
+    845 = { 
+        li_2_transport_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="1-y TRAP ON"
+        start_experience_factor = 0.16
+    }
+    845 = { 
+        li_2_transport_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="2-y TRAP ON"
+        start_experience_factor = 0.16
+    }
+    845 = { 
+        li_2_transport_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="3-y TRAP ON"
+        start_experience_factor = 0.16
+    }
+    
+    845 = { 
+        pe_3_fighter_equipment_2 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="9-y APL"
+        start_experience_factor = 0.16
+    }
+    845 = { 
+        li_2_transport_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="229-y TRAP ON"
+        start_experience_factor = 0.16
+    }
+    845 = { 
+        li_2_transport_equipment_1 = {
+            owner = "SOV" 
+            amount = 32
+        }
+        name="600-y TRAP ON"
+        start_experience_factor = 0.16
+    }
+
 # White Sea MD:
 #
 # - 17/261th Guards Assault Rgt (Il-2)  - Petrozavodsk (216)
@@ -60,7 +1014,7 @@ air_wings = {
 
     216 = { 
         bell_p39_equipment_2 = {
-            owner = "SOV"
+            owner = "USA"
             creator = "USA"
             amount = 32
         }
@@ -69,7 +1023,7 @@ air_wings = {
     }
     216 = { 
         bell_p39_equipment_2 = {
-            owner = "SOV"
+            owner = "USA"
             creator = "USA"
             amount = 32
         }
@@ -78,7 +1032,7 @@ air_wings = {
     }
     216 = { 
         curtiss_p40_equipment_2 = {
-            owner = "SOV"
+            owner = "USA"
             creator = "USA"
             amount = 32
         }
@@ -87,7 +1041,7 @@ air_wings = {
     }
     216 = { 
         bell_p39_equipment_2 = {
-            owner = "SOV"
+            owner = "USA"
             creator = "USA"
             amount = 32
         }
@@ -262,7 +1216,7 @@ air_wings = {
 
     230 = { 
         bell_p39_equipment_2 = {
-            owner = "SOV"
+            owner = "USA"
             creator = "USA" 
             amount = 32
         }

@@ -24,12 +24,29 @@ capital = 847
     }
 
     set_technology = {
-        tech_bell_p39_equipment_1 = 1
-        tech_bell_p39_equipment_2 = 1
+        tech_bell_p39_equipment_1 = 1 # P-39
+        tech_bell_p39_equipment_2 = 1 # P-39N
         tech_bell_p63_equipment_1 = 1
-        tech_curtiss_p40_equipment_1 = 1
-        tech_curtiss_p40_equipment_2 = 1
+        tech_curtiss_p40_equipment_1 = 1 # P-40B
+        tech_curtiss_p40_equipment_2 = 1 # P-40E
         tech_curtiss_p40f_equipment_1 = 1
+        tech_douglas_p70_equipment_1 = 1
+        tech_douglas_a20_equipment_1 = 1 # A-20 FB
+        tech_douglas_a20_equipment_2 = 1 # A-20C FB
+        tech_douglas_a20_equipment_3 = 1 # A-20G HCAS
+        tech_douglas_a20_scout_equipment_1 = 1 # Douglas F-3A
+        tech_northamerican_b25_equipment_1 = 1 # B-25
+        tech_northamerican_b25_equipment_2 = 1 # B-25C
+        tech_northamerican_b25_equipment_3 = 1 # B-25J
+        tech_douglas_c47_transport_equipment_1 = 1
+        tech_consolidated_pby_equipment_1 = 1 # PBY
+        tech_consolidated_pby_equipment_2 = 1 # PBY-3
+        tech_boeing_b17_equipment_1 = 1 # B-17
+        tech_boeing_b17_equipment_2 = 1 # B-17E
+        tech_boeing_b17_equipment_3 = 1 # B-17F
+        tech_boeing_b17_equipment_4 = 1 # B-17G
+        tech_consolidated_b24_equipment_1 = 1 # B-24
+        tech_consolidated_b24_equipment_2 = 1 # B-24J
     }    
 
     set_popularities = {

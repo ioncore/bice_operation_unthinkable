@@ -1,0 +1,227 @@
+﻿SOV = {
+	fleet_names_template = FLEET_NAME_SOV
+	air_wing_names_template = AIR_WING_NAME_SOV_FALLBACK
+	
+	fighter_equipment = {
+		prefix = ""
+		generic = { "IAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	fighter_alt_equipment = {
+		prefix = ""
+		generic = { "IAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	interceptor_equipment = {
+		prefix = ""
+		generic = { "IAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	mr_fighter_equipment = {
+		prefix = ""
+		generic = { "IAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	interceptor_navy_equipment = {
+		prefix = ""
+		generic = { "MIAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	fighter_navy_equipment = {
+		prefix = ""
+		generic = { "MIAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	jet_fighter_equipment = {
+		prefix = ""
+		generic = { "IAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	jet_mr_fighter_equipment = {
+		prefix = ""
+		generic = { "MIAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	CAS_equipment = {
+		prefix = ""
+		generic = { "ShAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	twin_cas_equipment = {
+		prefix = ""
+		generic = { "ShAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	jet_cas_equipment = {
+		prefix = ""
+		generic = { "ShAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	nav_bomber_equipment = {
+		prefix = ""
+		generic = { "MTAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	heavy_nav_bomber_equipment = {
+		prefix = ""
+		generic = { "MTAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	nav_bomber_gb_equipment = {
+		prefix = ""
+		generic = { "MTAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	flying_boat_equipment = {
+		prefix = ""
+		generic = { "MRAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	rocket_interceptor_equipment = {
+		prefix = ""
+		generic = { "IAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	light_bomber_equipment = {
+		prefix = ""
+		generic = { "BAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	fast_bomber_equipment = {
+		prefix = ""
+		generic = { "BAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	tac_bomber_equipment = {
+		prefix = ""
+		generic = { "BAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	jet_tac_bomber_equipment = {
+		prefix = ""
+		generic = { "BAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	heavy_fighter_equipment = {
+		prefix = ""
+		generic = { "TIAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	night_fighter_equipment = {
+		prefix = ""
+		generic = { "NIAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	quad_engine_bomber_equipment = {
+		prefix = ""
+		generic = { "TBAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	jet_strat_bomber_equipment = {
+		prefix = ""
+		generic = { "TBAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	scout_plane_equipment = {
+		prefix = ""
+		generic = { "RAP" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	transport_plane_equipment = {
+		prefix = ""
+		generic = { "TAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	
+	cv_fighter_equipment = {
+		prefix = ""
+		generic = { "MIAP" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	cv_mr_fighter_equipment = {
+		prefix = ""
+		generic = { "MIAP" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	cv_CAS_equipment = {
+		prefix = ""
+		generic = { "MShAP" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+	cv_nav_bomber_equipment = {
+		prefix = ""
+		generic = { "MTAP" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = { 
+		}
+	}
+
+	support_ship = {
+		prefix = ""
+		generic = { "KKS-" }
+		unique = { "Tagonrog" "Elbrus" "Krasnaya Armia" "Donbass III" "Emba II" }
+	}
+	repair_ship = {
+		prefix = ""
+		generic = { "PM-" }
+		unique = { "DM-10" "Kamchatka" "Kronstadt" }
+	}
+}

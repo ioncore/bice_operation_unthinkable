@@ -94,6 +94,40 @@ capital = 845
 	set_autonomy = {
 		target = PRK
 		autonomous_state = autonomy_puppet
+    }
+
+	add_to_faction = BUL	
+	set_autonomy = {
+		target = BUL
+		autonomous_state = autonomy_supervised_state
+    }
+
+	add_to_faction = ROM	
+	set_autonomy = {
+		target = ROM
+		autonomous_state = autonomy_supervised_state
     }	
+
+	add_to_faction = HUN	
+	set_autonomy = {
+		target = HUN
+		autonomous_state = autonomy_supervised_state
+    }
+
+	add_to_faction = POL	
+	set_autonomy = {
+		target = POL
+		autonomous_state = autonomy_supervised_state
+    }
+
+	add_to_faction = CZE
+	set_autonomy = {
+		target = CZE
+		autonomous_state = autonomy_supervised_state
+    }
+
+	add_to_faction = YUG
+	add_to_faction = ALB
+	add_to_faction = PRC
 }
 ### EOF ###

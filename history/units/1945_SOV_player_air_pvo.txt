@@ -34,7 +34,7 @@ air_wings = {
 
     231 = { 
         late_spitfire_equipment_1 = {
-            owner = "SOV"
+            owner = "ENG"
             creator = "ENG"
             amount = 32
         }
@@ -43,7 +43,7 @@ air_wings = {
     }
     231 = { 
         hawker_hurricane_equipment_2 = {
-            owner = "SOV"
+            owner = "ENG"
             creator = "ENG"
             amount = 32
         }
@@ -52,7 +52,7 @@ air_wings = {
     }
     231 = { 
         late_spitfire_equipment_1 = {
-            owner = "SOV"
+            owner = "ENG"
             creator = "ENG"
             amount = 32
         }
@@ -97,7 +97,7 @@ air_wings = {
             owner = "SOV"
             amount = 32
         }
-        name="962-y IAP"
+        name="962-y IAP PVO"
         start_experience_factor = 0.16
     }
 

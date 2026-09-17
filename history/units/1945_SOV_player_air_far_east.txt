@@ -215,7 +215,7 @@ air_wings = {
     408 = { 
         pe_2_bomber_equipment_2 = {
             owner = "SOV" 
-            amount = 34
+            amount = 32 #34
         }
         name="36-y BAP"
         start_experience_factor = 0.16
@@ -223,7 +223,7 @@ air_wings = {
     408 = { 
         pe_2_bomber_equipment_2 = {
             owner = "SOV" 
-            amount = 35
+            amount = 32 #35
         }
         name="59-y BAP"
         start_experience_factor = 0.16
@@ -231,7 +231,7 @@ air_wings = {
     408 = { 
         pe_2_bomber_equipment_2 = {
             owner = "SOV" 
-            amount = 35
+            amount = 32 #35
         }
         name="538-y BAP"
         start_experience_factor = 0.16
@@ -258,7 +258,7 @@ air_wings = {
             owner = "SOV" 
             amount = 23
         }
-        name="24430-y BAP"
+        name="443-y BAP"
         start_experience_factor = 0.16
     }
     408 = { 
@@ -692,8 +692,7 @@ air_wings = {
 #	}
     860 = { 
         bell_p63_equipment_1 = {
-            # owner = "USA" 
-            owner = "SOV"
+            owner = "USA"
             creator = "USA"
             amount = 32
         }
@@ -702,8 +701,7 @@ air_wings = {
     }
     860 = { 
         bell_p63_equipment_1 = {
-            # owner = "USA" 
-            owner = "SOV"
+            owner = "USA"
             creator = "USA"
             amount = 32
         }
@@ -712,8 +710,7 @@ air_wings = {
     }
     860 = { 
         bell_p63_equipment_1 = {
-            # owner = "USA" 
-            owner = "SOV"
+            owner = "USA"
             creator = "USA"
             amount = 32
         }

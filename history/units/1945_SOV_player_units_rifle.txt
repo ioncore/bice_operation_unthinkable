@@ -3,7 +3,76 @@
 #############################
 
         # ========================================================
-        # Transcaucasian Front
+        # Leningrad Front 1.05.1945
+        # ========================================================
+        #
+        # 8th Army:
+        # - 10th Rifle Division (6th RC/8th Army)               - Kretinga (3288)
+        # - 109th Rifle Division (109th RC/8th Army)            - Piarnu (3174)
+        # - 131st Rifle Division (109th RC/8th Army)            - Piarnu (83)
+        # - 327th Rifle Division (6th RC/8th Army)              - Kretinga (13262)
+        # - 14th UR                                             - Narva (4640)
+        # - 79th UR                                             - Saaremaa (185)
+        #        
+        # 23rd Army:
+        # - 177th Rifle Division (97th RC/23th Army)            - Libava (9262)
+        # - 178th Rifle Division (97th RC/23th Army)            - Libava (11246)
+        # - 224th Rifle Division (97th RC/23th Army)            - Libava (6314)
+        # - 9th UR                                              - Johvi (11127)
+        # - 16th UR                                             - N of Vyborg (9206)
+        # - 17th UR                                             - E at Vuoksa at Priozersk (11162)
+        #
+        # 67th Army:
+        # - 51st Guards Rifle Division (23rd GRC/67th Army)     - Priekule (3354)
+        # - 67th Guards Rifle Division (23rd GRC/67th Army)     - Priekule (3354)
+        # - 44th Rifle Division (112th RC/67th Army)            - Riga (9340)
+        # - 123rd Rifle Division (112th RC/67th Army)           - Riga (9340)
+        # - 189th Rifle Division (111th RC/67th Army)           - Saulkraste (9317)
+        # - 196th Rifle Division (111th RC/67th Army)           - Yurmala (6222)
+        # - 332nd Rifle Division (23rd GRC/67th Army)           - Saldus (11246)
+        # - 377th Rifle Division (112th RC/67th Army)           - Tukums (6342)
+        # - 382nd Rifle Division (111th RC/67th Army)           - deep peninsula (3194)
+        # - 155th UR                                            - delta Daugava (6222)
+        #
+        # - 22nd UR                                             - Karelia (3151)
+        #
+        # ========================================================
+        # Southern Army Group MD 1.05.1945
+        # ========================================================
+        #
+        # 37th Army:
+        # - 28th Guards Rifle Division (82nd RC/37th Army)      - Yambol/Varna (9783)
+        # - 92nd Guards Rifle Division (82nd RC/37th Army)      - Burgas (9902)
+        # - 188th Rifle Division (82nd RC/37th Army)            - Sliven (6967)
+        # - 195th Rifle Division (66th RC/37th Army)            - Nova/Stara-Zagora (6814)
+        # - 244th Rifle Division (66th RC/37th Army)            - Stara-Zagora, Kazanlyk (6952)
+        # - 259th Rifle Division (34th RC/37th Army)            - Stara-Zagora, Kazanlyk (6952)
+        # - 333rd Rifle Division (66th RC/37th Army)            - Shumen/Razgrad (9769)
+        # - 353rd Rifle Division (34th RC/37th Army)            - Sofia (949)
+        # - 394th Rifle Division (34th RC/37th Army)            - Eastern Bulgaria (9610)
+        # - DISBANDED 255th Naval Infantry Brigade
+        #
+        # ========================================================
+        # White Sea MD 1.05.1945
+        # ========================================================
+        #
+        # 14th Army:
+        # - 45th Rifle Division (131st RC/14th Army)            - Salla? (197)
+        # - 67th Rifle Division (131st RC/14th Army)            - Salla? (9158)
+        # - 83rd Rifle Division (31st RC/14th Army)             - Petsamo? (6183)
+        # - 114th Rifle Division (31st RC/14th Army)            - Murmansk? (3134)
+        # - 367th Rifle Division (31st RC/14th Army)            - Petsamo? (11142)
+        # - 2nd UR                                              - Murmansk? (9140)
+        #
+        # White Sea MD:
+        # - 25th Rifle Division (4th RC/White Sea MD)           - Segezha? (11212)
+        # - 289th Rifle Division (4th RC/White Sea MD)          - Belomorsk (94)
+        # - 341st Rifle Division (White Sea MD)                 - Kandalaksha (6181)
+        # - 368th Rifle Division (White Sea MD)                 - Kem' (9195)
+        #
+        #
+        # ========================================================
+        # Transcaucasian Front 1.05.1945
         # ========================================================
         #
         # 4th Army:
@@ -21,11 +90,11 @@
         # - 133rd Rifle Brigade (45th Army)                     - Black Sea coast (3698)
         # - 55th UR (45th Army)                                 - Leninakan (3564)
         # - 69th UR (45th Army)                                 - Gyumri (12441)
-        # - 116th UR (45th Army)                                - Araks northern bank (12320)
+        # - 116th UR (45th Army)                                - Araks northern bank (3564)
         #
         # Transcaucasian Front:
         # - 296th Rifle Division (12th RC)                       - Poti (3656)
-        # - 392nd Rifle Division (13th RC)                       - Poti (3656)
+        # - 392nd Rifle Division (13th RC)                       - Poti (12441)
         # - 402nd Rifle Division                                 - Nakhichevan / Grozny (Baku 7661)
         # - 406th Rifle Division (12th RC)                       - Akhalkalaki (6669)
         # - 94th Rifle Brigade (13th RC)                         - Resht (4637)
@@ -34,20 +103,21 @@
         # - 151st UR                                             - Akhaltsikhe? (6669)
         # - 230th Tank Brigade                                   - Tbilisi? (1599)
         #
+        #
         # ========================================================
-        # Middle Asian MD
+        # Middle Asian MD 1.05.1945
         # ========================================================
         #
         # - 93rd Rifle Brigade                                  - Bukhara (10470)
         #
         # ========================================================
-        # Siberian MD
+        # Siberian MD 1.05.1945
         # ========================================================
         #
         # - 7th Cavalry Regiment                                - Kyzyl (10627)
         #        
         # ========================================================
-        # Transbaykal Front
+        # Transbaykal Front 3.09.1945
         # ========================================================
         #
         # 17th Army:
@@ -93,7 +163,7 @@
         # - 317th Rifle Division (Transbaykal Front)            - Dalian (1150)
         #
         # ========================================================
-        # 1st Far Eastern Front
+        # 1st Far Eastern Front 3.09.1945
         # ========================================================
         #        
         # 1st Army:
@@ -141,7 +211,7 @@
         # - 72nd Mountain Rifle Brigade (126th LMRC)            - E of Chengde (11886)
         #
         # ========================================================
-        # 2nd Far Eastern Front
+        # 2nd Far Eastern Front 3.09.1945
         # ========================================================
         #
         # 2nd Army:
@@ -206,9 +276,53 @@ units = {
     division = {
         division_name = {
                 is_name_ordered = yes
+                name_order = 28
+        }
+        location = 9783
+        division_template = "Guards Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 51
+        }
+        location = 3354
+        division_template = "Guards Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 67
+        }
+        location = 3354
+        division_template = "Guards Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
                 name_order = 91
         }
         location = 9831
+        division_template = "Guards Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 92
+        }
+        location = 9902
         division_template = "Guards Rifle Division 1945"
         start_experience_factor = 0.8
         start_equipment_factor = 0.8
@@ -261,6 +375,18 @@ units = {
     division = {
         division_name = {
                 is_name_ordered = yes
+                name_order = 10
+        }
+        location = 3288
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    
+    division = {
+        division_name = {
+                is_name_ordered = yes
                 name_order = 12
         }
         location = 4506
@@ -275,6 +401,17 @@ units = {
                 name_order = 22
         }
         location = 9913
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 25
+        }
+        location = 11212
         division_template = "Rifle Division 1945"
         start_experience_factor = 0.8
         start_equipment_factor = 0.8
@@ -338,6 +475,29 @@ units = {
     division = {
         division_name = {
                 is_name_ordered = yes
+                name_order = 44
+        }
+        location = 9340
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 45
+        }
+        location = 197
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
                 name_order = 52
         }
         location = 1150
@@ -393,6 +553,17 @@ units = {
     division = {
         division_name = {
                 is_name_ordered = yes
+                name_order = 67
+        }
+        location = 9158
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
                 name_order = 68
         }
         location = 10837
@@ -418,6 +589,17 @@ units = {
                 name_order = 79
         }
         location = 12446
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 83
+        }
+        location = 6183
         division_template = "Rifle Division 1945"
         start_experience_factor = 0.8
         start_equipment_factor = 0.8
@@ -481,9 +663,54 @@ units = {
     division = {
         division_name = {
                 is_name_ordered = yes
+                name_order = 109
+        }
+        location = 3174
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 114
+        }
+        location = 3134
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 123
+        }
+        location = 9340
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
                 name_order = 124
         }
         location = 846
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 131
+        }
+        location = 83
         division_template = "Rifle Division 1945"
         start_experience_factor = 0.8
         start_equipment_factor = 0.8
@@ -525,6 +752,29 @@ units = {
     division = {
         division_name = {
                 is_name_ordered = yes
+                name_order = 177
+        }
+        location = 9262
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 178
+        }
+        location = 11246
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    
+    division = {
+        division_name = {
+                is_name_ordered = yes
                 name_order = 184
         }
         location = 9831
@@ -547,9 +797,54 @@ units = {
     division = {
         division_name = {
                 is_name_ordered = yes
+                name_order = 188
+        }
+        location = 6967
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 189
+        }
+        location = 9317
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    
+    division = {
+        division_name = {
+                is_name_ordered = yes
                 name_order = 190
         }
         location = 10433
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 195
+        }
+        location = 6814
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 196
+        }
+        location = 6222
         division_template = "Rifle Division 1945"
         start_experience_factor = 0.8
         start_equipment_factor = 0.8
@@ -613,6 +908,18 @@ units = {
     division = {
         division_name = {
                 is_name_ordered = yes
+                name_order = 224
+        }
+        location = 6314
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    
+    division = {
+        division_name = {
+                is_name_ordered = yes
                 name_order = 227
         }
         location = 1150
@@ -646,6 +953,17 @@ units = {
     division = {
         division_name = {
                 is_name_ordered = yes
+                name_order = 244
+        }
+        location = 6952
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
                 name_order = 255
         }
         location = 4592
@@ -660,6 +978,17 @@ units = {
                 name_order = 258
         }
         location = 815
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 259
+        }
+        location = 6952
         division_template = "Rifle Division 1945"
         start_experience_factor = 0.8
         start_equipment_factor = 0.8
@@ -734,6 +1063,17 @@ units = {
     division = {
         division_name = {
                 is_name_ordered = yes
+                name_order = 289
+        }
+        location = 94
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
                 name_order = 292
         }
         location = 1638
@@ -800,6 +1140,40 @@ units = {
     division = {
         division_name = {
                 is_name_ordered = yes
+                name_order = 327
+        }
+        location = 13262
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 332
+        }
+        location = 11246
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 333
+        }
+        location = 9769
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
                 name_order = 335
         }
         location = 7070
@@ -808,7 +1182,18 @@ units = {
         start_equipment_factor = 0.8
         start_manpower_factor = 0.8
     }
-     division = {
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 341
+        }
+        location = 6181
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
         division_name = {
                 is_name_ordered = yes
                 name_order = 342
@@ -836,6 +1221,17 @@ units = {
                 name_order = 349
         }
         location = 3653
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 353
+        }
+        location = 949
         division_template = "Rifle Division 1945"
         start_experience_factor = 0.8
         start_equipment_factor = 0.8
@@ -910,9 +1306,53 @@ units = {
     division = {
         division_name = {
                 is_name_ordered = yes
+                name_order = 367
+        }
+        location = 11142
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 368
+        }
+        location = 9195
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
                 name_order = 371
         }
         location = 11771
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 377
+        }
+        location = 6342
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 382
+        }
+        location = 3194
         division_template = "Rifle Division 1945"
         start_experience_factor = 0.8
         start_equipment_factor = 0.8
@@ -965,9 +1405,31 @@ units = {
     division = {
         division_name = {
                 is_name_ordered = yes
+                name_order = 392
+        }
+        location = 12441
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
                 name_order = 393
         }
         location = 12040
+        division_template = "Rifle Division 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 394
+        }
+        location = 9610
         division_template = "Rifle Division 1945"
         start_experience_factor = 0.8
         start_equipment_factor = 0.8
@@ -1147,7 +1609,73 @@ units = {
 ###########################
 # Fortified Regions
 ###########################
-
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 2
+        }
+        location = 9140
+        division_template = "Fortified Region 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 9
+        }
+        location = 11127
+        division_template = "Fortified Region 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 14
+        }
+        location = 4640
+        division_template = "Fortified Region 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 16
+        }
+        location = 9206
+        division_template = "Fortified Region 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 17
+        }
+        location = 11162
+        division_template = "Fortified Region 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 22
+        }
+        location = 3151
+        division_template = "Fortified Region 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
     division = {
         division_name = {
                 is_name_ordered = yes
@@ -1195,9 +1723,20 @@ units = {
     division = {
         division_name = {
                 is_name_ordered = yes
+                name_order = 79
+        }
+        location = 185
+        division_template = "Fortified Region 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
                 name_order = 116
         }
-        location = 12320
+        location = 3564
         division_template = "Fortified Region 1945"
         start_experience_factor = 0.8
         start_equipment_factor = 0.8
@@ -1209,6 +1748,17 @@ units = {
                 name_order = 151
         }
         location = 6669
+        division_template = "Fortified Region 1945"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.8
+    }
+    division = {
+        division_name = {
+                is_name_ordered = yes
+                name_order = 155
+        }
+        location = 6222
         division_template = "Fortified Region 1945"
         start_experience_factor = 0.8
         start_equipment_factor = 0.8

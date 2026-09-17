@@ -372,7 +372,7 @@ division_template = {
         mount_support = { x = 0 y = 2 }
 
         anti_air_car = { x = 1 y = 0 }
-        anti_tank_car = { x = 1 y = 1 }
+        anti_tank_mot = { x = 1 y = 1 }
     }
 }
 
@@ -657,7 +657,7 @@ division_template = {
         artillery_brigade = { x = 4 y = 0 }
     }
     support = {
-        eng = { x = 1 y = 0 }
+        engineer = { x = 1 y = 0 }
         anti_tank = { x = 1 y = 1 }
     }
 }

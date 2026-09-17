@@ -8,6 +8,41 @@
 
 air_wings = {
 
+# Leningrad Front
+# 13th Air Army:
+# - 13th Recon Regiment                     - Riga? (12)
+#
+# 15th Air Army:
+# - 99th Guards Recon Regiment              - Kaunas? (11)
+# - 187th Recon-Spotter Regiment            - Kaunas? (11)
+
+    12 = { 
+        pe_2_scout_equipment_1 = {
+            owner = "SOV" 
+            amount = 25
+        }
+        name="13-y 'Leningradskiy' RAP"
+        start_experience_factor = 0.16           
+    }
+
+    11 = { 
+        pe_2_scout_equipment_1 = {
+            owner = "SOV" 
+            amount = 25
+        }
+        name="99-y Gv.RAP"
+        start_experience_factor = 0.16           
+    }
+    11 = { 
+        # TODO Il-2K recon
+        r_10_scout_equipment_1 = {
+            owner = "SOV" 
+            amount = 25
+        }
+        name="187-y KRAP"
+        start_experience_factor = 0.16           
+    }
+
 # Odessa MD
 # - 49th Guards Recon Regiment              - Odessa (192)
 #
@@ -23,7 +58,7 @@ air_wings = {
 
 # Transcaucasian Front
 # - 149th Recon Squadron
-# - 335th LR Recon Squadron
+# - 335th LR Recon Squadron                 - 
 #
 # Middle Asian MD
 # - 15th Recon Squadron

@@ -339,7 +339,7 @@ sub_units = {
 		type = strategic_bomber
 		need = { quad_engine_bomber_equipment = 1 }
 		categories = { category_strat_bomber category_all_air }
-		land_air_wing_size = 32 # 50
+		land_air_wing_size = 25 # 50
 		#mega_carrier_air_wing_size = 10
 	}
 
@@ -350,7 +350,7 @@ sub_units = {
 		type = strategic_bomber
 		need = { jet_strat_bomber_equipment = 1 }
 		categories = { category_jet category_strat_bomber category_all_air }
-		land_air_wing_size = 32 # 50
+		land_air_wing_size = 15 # 50
 		#mega_carrier_air_wing_size = 10
 	}
 	
